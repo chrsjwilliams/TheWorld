@@ -1,0 +1,158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e7c74ca1b5a5134c975789afc37d7c2, type: 3}
+  m_Name: bar_arc1_sce1_1
+  m_EditorClassIdentifier: 
+  isNPCBar: 1
+  Words:
+  - IsBlank: 0
+    Text: '{player}'
+    BeatsForWord: 2
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: get
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: ya
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: hype
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: up!
+    BeatsForWord: 2
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: Don't
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: play
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: like
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: you
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 0
+    Text: not
+    BeatsForWord: 1
+    RhymeSounds: []
+    Valences: []
+    syllableCount: 1
+    WordCard: {fileID: 0}
+    Inflection: 0
+    PartOfSpeech: 0
+    Punctuation: 0
+    isFilled: 0
+    TimeToWaitAtBlank: 0
+  - IsBlank: 1
+    Text: '[BLANK]'
+    BeatsForWord: 2
+    RhymeSounds:
+    - Sound: 10
+      PercentMatch: 1
+    Valences:
+    - Name: positivity
+      Intensity: 1
+    - Name: appearance
+      Intensity: 1
+    - Name: person
+      Intensity: 1
+    syllableCount: 2
+    WordCard: {fileID: 0}
+    Inflection: 1
+    PartOfSpeech: 1
+    Punctuation: 1
+    isFilled: 0
+    TimeToWaitAtBlank: 2
+  Valences: []
+  JustCreated: 1
