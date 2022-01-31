@@ -76,6 +76,11 @@ public class DialogGraphGenerator : ScriptableObject
                 LinkInfo linkInfo = CreateLinkInfo(line);
                 newNode.nextNodes.Add(linkInfo.personality, linkInfo.node);
             }
+            else
+            {
+                DialogLine dialogLine = GetDialogLine(line);
+                newNode.speakingLines.Add(dialogLine);
+            }
         }
 
     }
