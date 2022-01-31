@@ -18,5 +18,6 @@ public class DialogGraph : SerializedScriptableObject
 [System.Serializable]
 public class DialogNodeList
 {
+    [SerializeField] public string name;
     [SerializeField] public List<DialogNodeJSON> passages;
 }

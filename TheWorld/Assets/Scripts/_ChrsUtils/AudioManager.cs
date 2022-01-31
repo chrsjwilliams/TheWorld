@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum Clips { CLICK }
+public enum SFX { CLICK }
+
+public enum BGM { SILENCE }
 
 public class AudioManager : MonoBehaviour
 {
-    public Dictionary<Clips, AudioClip> audioLibrary { get; private set; }
+    public Dictionary<SFX, AudioClip> audioLibrary { get; private set; }
     private AudioSource audioSource;
     private AudioClip audioClip;
 
@@ -16,28 +18,33 @@ public class AudioManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        audioLibrary = new Dictionary<Clips, AudioClip>();
+        audioLibrary = new Dictionary<SFX, AudioClip>();
         audioSource = GetComponent<AudioSource>();
         LoadLibrary();
 	}
 
     private void LoadLibrary()
     {
-        audioLibrary.Add(Clips.CLICK, Resources.Load<AudioClip>("Audio/Click"));
+        audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("Audio/Click"));
     }
 
-    public void PlayClipVaryPitch(Clips clip)
+    public void PlayClipVaryPitch(SFX clip)
     {
         float pitch = Random.Range(0.8f, 1.2f);
         PlayClip(clip, 1.0f, pitch);
     }
 
-    public void PlayClip(Clips clip)
+    public void PlayClip(SFX clip)
     {
         PlayClip(clip, 1.0f, 1.0f);
     }
 
-    public void PlayClip(Clips clip, float volume, float pitch)
+    // TODO: Implement playing BGM
+    public void PlayBGM(BGM bgm)
+    {
+    }
+
+    public void PlayClip(SFX clip, float volume, float pitch)
     {
         audioClip = audioLibrary[clip];
         audioSource.pitch = pitch;

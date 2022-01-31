@@ -15,15 +15,55 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 6324acf76000142038c0e07f77d684d4, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
     - Name: nextNodes
-      Entry: 6
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
       Data: 
   NodeTitle: 
-  prevLines: []
-  speakingLines: []
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: I told you not to be scared.
+    playerChoice: 0
+    Notes: 

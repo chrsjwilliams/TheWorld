@@ -25,5 +25,14 @@ MonoBehaviour:
       Entry: 6
       Data: 
   NodeTitle: 
-  prevLines: []
-  speakingLines: []
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: What is something that you get to keep after you give it to someone?
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: Take your time because if you fail, there will be consequences
+    playerChoice: 0
+    Notes: 

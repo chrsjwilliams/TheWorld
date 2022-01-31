@@ -1,6 +1,7 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 using Sirenix.OdinInspector;
 
 [System.Serializable]
@@ -8,13 +9,28 @@ public class DialogLine
 {
     
     public CharacterData speaker;
-    public Emote emotion;
     [TextArea]
     public string line;
-    public bool playerChoice;
+    List<TagAction> lineActions = new List<TagAction>();
+
     [Space(50)]
     [SerializeField, TextArea]
     string Notes;
-}
 
-public enum Emote { NUETRAL, HAPPY, SAD, ANGRY, CONFUSED}
+    public void AddTagAction(TagAction action)
+    {
+        lineActions.Add(action);
+    }
+
+    public void ExecuteLineActions(Action callback)
+    {
+        foreach(TagAction lineAction in lineActions)
+        {
+            lineAction.ExecuteAction();
+        }
+
+        callback?.Invoke();
+    }
+
+    
+}

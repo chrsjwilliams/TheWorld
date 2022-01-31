@@ -62,7 +62,7 @@ using UnityEngine.Assertions;
 public class Main : MonoBehaviour
 {
     [SerializeField] private bool DEBUG_MODE;
-
+    [SerializeField] CastList castList;
     private void Awake()
     {
         Assert.raiseExceptions = true;
@@ -85,6 +85,6 @@ public class Main : MonoBehaviour
         Services.GameManager.Init();
         Services.AudioManager = GetComponent<AudioManager>();
         Services.Scenes = new GameSceneManager<TransitionData>(gameObject, Services.Prefabs.Scenes);
-        
+        Services.CastList = castList;
     }
 }

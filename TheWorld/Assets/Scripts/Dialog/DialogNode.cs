@@ -8,9 +8,12 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogNode : SerializedScriptableObject
 {
-    public string NodeTitle;
+    [SerializeField] public string NodeTitle;
     [SerializeField] public List<DialogLine> speakingLines;
     [SerializeField] public Dictionary<PersonalityChoice, DialogNode> nextNodes;
+
+    [TextArea]
+    [SerializeField] public string Notes;
 
 }
 

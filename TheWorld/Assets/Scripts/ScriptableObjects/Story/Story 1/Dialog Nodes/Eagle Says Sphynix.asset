@@ -15,15 +15,83 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 99ed6a24cb3594457951b25d7b7db76a, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
     - Name: nextNodes
-      Entry: 6
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
       Data: 
   NodeTitle: 
-  prevLines: []
-  speakingLines: []
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    emotion: 0
+    line: You are a Sphynix, master of riddle and father of terror.
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: I have to admit, no one called me by that name in a very long time. You
+      impressed me girl.
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    emotion: 0
+    line: And I guess you'll eat me if I guess incorrectly?
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: No, not aymore. I developed acid reflux over the years, but I have other
+      methods of terror.
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: Anyway, as you know by now there is no other option for you to answer my
+      riddle. Are you ready?
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    emotion: 0
+    line: Fine.
+    playerChoice: 0
+    Notes: 

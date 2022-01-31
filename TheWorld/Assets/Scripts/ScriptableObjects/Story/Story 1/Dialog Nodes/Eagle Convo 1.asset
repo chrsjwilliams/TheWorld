@@ -15,15 +15,96 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: c92657648f5e8429b84543475a1bc3ba, type: 2}
+    - {fileID: 11400000, guid: 5257a268073ba413590ebf3096ab381a, type: 2}
+    - {fileID: 11400000, guid: 4106334fbe7e344af9e590bb6d19c062, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
     - Name: nextNodes
-      Entry: 6
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
       Data: 
-  NodeTitle: 
-  prevLines: []
-  speakingLines: []
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 2
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  NodeTitle: Eagle Convo 1
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    emotion: 0
+    line: Why do you talk to me like that? What do you want?
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: I have a riddle for you. I want you to make a guess.
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    emotion: 0
+    line: ...
+    playerChoice: 0
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    emotion: 0
+    line: If you guess right, you'll be fine. If not, there will be consequences.
+    playerChoice: 0
+    Notes: 

@@ -60,7 +60,7 @@ public class TitleSceneScript : Scene<TransitionData>
         _tm.Update();
         if (Input.GetKeyDown(startGame) || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
-            Services.AudioManager.PlayClip(Clips.CLICK);
+            Services.AudioManager.PlayClip(SFX.CLICK);
         }
     }
 }

@@ -55,7 +55,7 @@ public class InstructionSceneScript : Scene<TransitionData>
         _tm.Update();
         if (Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
-            Services.AudioManager.PlayClip(Clips.CLICK);
+            Services.AudioManager.PlayClip(SFX.CLICK);
             StartGame();
         }
     }
