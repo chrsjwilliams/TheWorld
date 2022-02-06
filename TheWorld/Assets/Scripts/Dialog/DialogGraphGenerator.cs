@@ -16,6 +16,7 @@ public class DialogGraphGenerator : ScriptableObject
     const string COMMENT_SYMBOL = "//";
     const string LINK_SYMBOL = "[[";
     const string TAG_SYMBOL = "##";
+    const char ACTION_SYMBOL = '@';
     // ##Eon_picture_ad
     // ##Stranger_anim_laugh
 
@@ -68,6 +69,11 @@ public class DialogGraphGenerator : ScriptableObject
             else if(CommentCheck(line))
             {
                 newNode.Notes += line;
+            }
+            else if (ActionCheck(line))
+            {
+                TagAction newAction = GenerateTagAction(line);
+                newNode.AddTagAction(newAction);
             }
             //  If a line is a link, create the link info and add them to the newNode's
             //  nextNodes
@@ -169,17 +175,19 @@ public class DialogGraphGenerator : ScriptableObject
 
         Tags type = GetTagType(rawType);
 
-        switch(type)
+        CharacterData character;
+        switch (type)
         {
             case Tags.ANIM:
-                CharacterData character = GetCharacter(rawLineInfo[1]);
+                character = GetCharacter(rawLineInfo[1]);
                 return new AnimationAction(character, rawLineInfo[2]);
             case Tags.SFX:
                 return new PlaySFXAction(rawLineInfo[1]);
             case Tags.BGM:
                 return new PlayBGMAction(rawLineInfo[1]);
             case Tags.PROFILE:
-                break;
+                character = GetCharacter(rawLineInfo[1]);
+                return new ChangeProfilePictureAction(character, rawLineInfo[2]);
             case Tags.SET_VALUE:
                 break;
             default:
@@ -208,6 +216,11 @@ public class DialogGraphGenerator : ScriptableObject
     {
         string tagCheck = line.Substring(0, 2);
         return tagCheck == TAG_SYMBOL;
+    }
+
+    bool ActionCheck(string line)
+    {
+        return line[0] == ACTION_SYMBOL;
     }
 
     Tags GetTagType(string value)

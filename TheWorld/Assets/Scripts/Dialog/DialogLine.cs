@@ -5,7 +5,7 @@ using UnityEditor;
 using Sirenix.OdinInspector;
 
 [System.Serializable]
-public class DialogLine
+public class DialogLine: IAction
 {
     
     public CharacterData speaker;
@@ -22,7 +22,7 @@ public class DialogLine
         lineActions.Add(action);
     }
 
-    public void ExecuteLineActions(Action callback)
+    public void ExecuteTagActions(Action callback)
     {
         foreach(TagAction lineAction in lineActions)
         {

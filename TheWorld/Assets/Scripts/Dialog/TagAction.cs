@@ -76,3 +76,37 @@ public class PlayBGMAction : TagAction
         Services.AudioManager.PlayBGM(bgm);
     }
 }
+
+public class ChangeProfilePictureAction : TagAction
+{
+    CharacterData character;
+    Emote emotion;
+    public ChangeProfilePictureAction(CharacterData c, Emote e)
+    {
+        character = c;
+        emotion = e;
+    }
+
+    public ChangeProfilePictureAction(CharacterData c, string e)
+    {
+        character = c;
+        emotion = GetEmote(e);
+    }
+
+    Emote GetEmote(string str)
+    {
+        foreach(Emote emote in Enum.GetValues(typeof(Emote)))
+        {
+            if(emote.ToString().ToUpper() == str.ToUpper())
+            {
+                return emote;
+            }
+        }
+        return Emote.NEUTRAL;
+    }
+
+    public override void ExecuteAction()
+    {
+        character.SetProfilePicture(emotion);
+    }
+}
