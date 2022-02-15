@@ -6,13 +6,27 @@ using UnityEditor;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
+
+/*
+ *      Problem Nodes: 
+ *                      Eagle Answer water
+ *                      Human Guess 1
+ *                      Human Guess 2
+ *                      Human Riddle 1 
+ *                      Human What's a riddle
+ *                      Lion Convo 2
+ *                      Ox Asks the riddle
+ *                      Ox Exit Door
+ *                      Ox Hello
+ */
+
 [CreateAssetMenu(fileName = "New Dialog Graph Generator"
                 , menuName = "Dialog/Graph Generator")]
 [System.Serializable]
 public class DialogGraphGenerator : ScriptableObject
 {
     [SerializeField] CastList castList;
-    string DialogStoryPath = "Assets/Scripts/ScriptableObjects/Story/";
+    [SerializeField, TextArea] string DialogStoryPath = "Assets/Scripts/ScriptableObjects/Story/";
     const string COMMENT_SYMBOL = "//";
     const string LINK_SYMBOL = "[[";
     const string TAG_SYMBOL = "##";
@@ -20,7 +34,7 @@ public class DialogGraphGenerator : ScriptableObject
     // ##Eon_picture_ad
     // ##Stranger_anim_laugh
 
-
+    [SerializeField] string folderName;
     [Button("Generate Dialog Graph")]
     void GenerateDialogGraph(TextAsset file)
     {
@@ -30,17 +44,19 @@ public class DialogGraphGenerator : ScriptableObject
             return;
         }
         DialogNodeList newGraph = JsonUtility.FromJson<DialogNodeList>(file.text);
-        DialogStoryPath = DialogStoryPath + newGraph.name;
+        
+        DialogGraph asset = ScriptableObject.CreateInstance<DialogGraph>();
 
+        asset.name = newGraph.name;
         foreach (DialogNodeJSON node in newGraph.passages)
         {
-            Debug.Log(node.links);
-            //foreach(string link in node.links)
-            //{
-            //    Debug.Log(link);
-            //}
+            DialogNode dialogNode = ConvertJSONNodeToDialogNode(node);
+            asset.nodes.Add(dialogNode);
         }
+        AssetDatabase.CreateAsset(asset, DialogStoryPath + folderName + "/" + newGraph.name + ".asset");
 
+        Debug.Log("Dialog Graphh " + newGraph + " was created.");
+        Debug.Log("File Path: " + DialogStoryPath + folderName);
     }
 
 
@@ -48,11 +64,11 @@ public class DialogGraphGenerator : ScriptableObject
     // tag_profile_Sad
     // tag_animation_Animationname
 
-    void ConvertJSONNodeToDialogNode(DialogNodeJSON JSONnode, bool isLink)
+    DialogNode ConvertJSONNodeToDialogNode(DialogNodeJSON JSONnode)
     {
        
         DialogNode newNode = ScriptableObject.CreateInstance<DialogNode>();
-        newNode.name = newNode.NodeTitle = JSONnode.name;
+        newNode.name = newNode.NodeTitle = JSONnode.name.Trim();
 
         // parse text
         // ignore lines that start with double slashes
@@ -89,6 +105,10 @@ public class DialogGraphGenerator : ScriptableObject
             }
         }
 
+        AssetDatabase.CreateAsset(newNode, DialogStoryPath + folderName + "/"  + "Nodes/" + newNode.name + ".asset");
+
+        return newNode;
+
     }
 
     LinkInfo CreateLinkInfo(string rawLine)
@@ -121,15 +141,23 @@ public class DialogGraphGenerator : ScriptableObject
         }
         //  The name of the link should always be the last string in the sanitized info
         int nodeNameIndex = rawLinkInfo.Length - 1;
-        //  Create instance of dialog node
-        DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
-        //  Set the name of the file and not title to the name
-        node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex];
-        //  Create aset and save it to its path
-        AssetDatabase.CreateAsset(node, DialogStoryPath);
 
-        linkInfo.node = node;
+        DialogNode existingNode = (DialogNode)AssetDatabase.LoadAssetAtPath(DialogStoryPath + folderName + "/" + "Nodes/" + rawLinkInfo[nodeNameIndex].Trim() + ".asset", typeof(DialogNode));
+        if (existingNode)
+        {
+            linkInfo.node = existingNode;
+        }
+        else
+        {
+            //  Create instance of dialog node
+            DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
+            //  Set the name of the file and not title to the name
+            node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
 
+            //  Create aset and save it to its path
+            AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
+            linkInfo.node = node;
+        }
         return linkInfo;
     }
 
@@ -138,8 +166,10 @@ public class DialogGraphGenerator : ScriptableObject
         string c_text = text;
         List<string> lineData = new List<string>();
         int speakerSplitIndex = c_text.IndexOf(":");
-        string charatcer = c_text.Substring(0, speakerSplitIndex);
-        c_text = c_text.Substring(speakerSplitIndex, c_text.Length);
+        string[] rawTextInfo = c_text.Split(':');
+        string charatcer = rawTextInfo[0];
+
+        c_text = rawTextInfo[1];
         lineData.Add(charatcer);
         string[] dialogAndTags = c_text.Split('@');
 

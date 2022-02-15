@@ -10,6 +10,7 @@ public class CharacterData : SerializedScriptableObject
     [SerializeField] public string characterName;
     [SerializeField] Sprite currentProfilePicture;
     [SerializeField] Dictionary<Emote, Sprite> characterProfiles;
+    [SerializeField] GameObject model;
     [SerializeField] Animator animator;
 
     public Sprite GetCharacterProfile(Emote emote)

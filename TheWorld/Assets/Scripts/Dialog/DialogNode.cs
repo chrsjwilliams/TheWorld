@@ -10,18 +10,13 @@ using Sirenix.OdinInspector;
 public class DialogNode : SerializedScriptableObject, IAction
 {
     [SerializeField] public string NodeTitle;
-    [SerializeField] public List<DialogLine> speakingLines;
-    [SerializeField] public Dictionary<PersonalityChoice, DialogNode> nextNodes;
+    [SerializeField] public List<DialogLine> speakingLines = new List<DialogLine>();
+    [SerializeField] public Dictionary<PersonalityChoice, DialogNode> nextNodes = new Dictionary<PersonalityChoice, DialogNode>();
 
     [TextArea]
     [SerializeField] public string Notes;
 
-    List<TagAction> lineActions = new List<TagAction>();
-
-    public void DisplayDialogLine()
-    {
-
-    }
+    [SerializeField] List<TagAction> lineActions = new List<TagAction>();
 
     public void AddTagAction(TagAction action)
     {
@@ -38,9 +33,14 @@ public class DialogNode : SerializedScriptableObject, IAction
         callback?.Invoke();
     }
 
+    public bool HasPersonalityChoice(PersonalityChoice choice)
+    {
+        return nextNodes.ContainsKey(choice);
+    }
+
 }
 
-public enum PersonalityChoice { HUMAN, EAGLE, LION, OX, NEUTRAL}
+public enum PersonalityChoice { NEUTRAL, HUMAN, EAGLE, LION, OX}
 
 [System.Serializable]
 public class DialogNodeJSON

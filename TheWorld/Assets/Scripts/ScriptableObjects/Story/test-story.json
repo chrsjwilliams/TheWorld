@@ -1,0 +1,840 @@
+{
+    "passages": [
+        {
+            "text": "Narrator: (Eon waits at the train station.) \nNarrator: There is noone but Eon at the station. \nNarrator: It is chilly, gloomy and dark.\n[[Ox|Intro 2 (Ox)]]",
+            "links": [
+                {
+                    "name": "Ox|Intro 2 (Ox)",
+                    "link": "Ox|Intro 2 (Ox)",
+                    "broken": true
+                }
+            ],
+            "name": "Intro (Ox)",
+            "pid": "1",
+            "position": {
+                "x": "418",
+                "y": "93"
+            }
+        },
+        {
+            "text": "Narrator: She looks towards where the sound is approaching. A silhouette approaching her.\nNarrator: She turns her head away. Stranger doesn't stop. Footsteps coming closer.\n[[Stranger2]]",
+            "links": [
+                {
+                    "name": "Stranger2",
+                    "link": "Stranger2",
+                    "pid": "3"
+                }
+            ],
+            "name": "Stranger",
+            "pid": "2",
+            "position": {
+                "x": "412",
+                "y": "386"
+            }
+        },
+        {
+            "text": "Narrator: She looks again towards the stranger. They are wearing a dark jacket, jeans and sneakers. face still in shadows.\nNarrator: Casual she thinks. Stranger keeps walking towards her. She looks away.\n[[Hello stranger]]",
+            "links": [
+                {
+                    "name": "Hello stranger",
+                    "link": "Hello stranger",
+                    "pid": "4"
+                }
+            ],
+            "name": "Stranger2",
+            "pid": "3",
+            "position": {
+                "x": "398",
+                "y": "520"
+            }
+        },
+        {
+            "text": "// The footsteps stops next to her. \n// With the corner of her eye, she sees the torn out sneakers and the\n// jeans.\n// The stranger sits down next to her.\nStranger: Hello stranger.\n[[Eagle|Eagle Hello]]\n[[Ox|Ox Hello]]",
+            "links": [
+                {
+                    "name": "Eagle|Eagle Hello",
+                    "link": "Eagle|Eagle Hello",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox Hello",
+                    "link": "Ox|Ox Hello",
+                    "broken": true
+                }
+            ],
+            "name": "Hello stranger",
+            "pid": "4",
+            "position": {
+                "x": "406",
+                "y": "639"
+            }
+        },
+        {
+            "text": "Eon: Hello? Can I help you?\nStranger: You can help yourself\n// Replies the stranger, with a big alligator smile on his face.\n[[Eagle|Eagle Convo 1]]\n[[Ox|Ox Hello]]",
+            "links": [
+                {
+                    "name": "Eagle|Eagle Convo 1",
+                    "link": "Eagle|Eagle Convo 1",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox Hello",
+                    "link": "Ox|Ox Hello",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Hello",
+            "pid": "5",
+            "position": {
+                "x": "128",
+                "y": "715"
+            }
+        },
+        {
+            "text": "Eon: uhmmm...\n[[Ox|Ox Convo 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Convo 1",
+                    "link": "Ox|Ox Convo 1",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Hello",
+            "pid": "6",
+            "position": {
+                "x": "445",
+                "y": "785"
+            }
+        },
+        {
+            "text": "//As she is walking away, she hears the deep voice again.\nStranger: There is no reason to be scared, it says. As long as you prove to be sharp.\n// At that point she starts running towards the exit.\n[[Ox|Ox Exit Door]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Exit Door",
+                    "link": "Ox|Ox Exit Door",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Convo 1",
+            "pid": "7",
+            "position": {
+                "x": "614",
+                "y": "796"
+            }
+        },
+        {
+            "text": "//The stranger is suddenly at the exit door. \nStranger: I told you not to be scared.\n[[Ox|Ox Run]]\n[[Lion|Lion Convo 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Run",
+                    "link": "Ox|Ox Run",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Lion Convo 1",
+                    "link": "Lion|Lion Convo 1",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Exit Door",
+            "pid": "8",
+            "position": {
+                "x": "751",
+                "y": "881"
+            }
+        },
+        {
+            "text": "Eon: Ah!\n[[Ox|Ox Exit Door]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Exit Door",
+                    "link": "Ox|Ox Exit Door",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Run",
+            "pid": "9",
+            "position": {
+                "x": "485",
+                "y": "908"
+            }
+        },
+        {
+            "text": "Eon: Just fucking let me go!\nStranger: If I were you, I'd listen to me. Or there would be consequences.\n[[Ox|Ox Run]]\n[[Lion|Lion Convo 2]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Run",
+                    "link": "Ox|Ox Run",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Lion Convo 2",
+                    "link": "Lion|Lion Convo 2",
+                    "broken": true
+                }
+            ],
+            "name": "Lion Convo 1",
+            "pid": "10",
+            "position": {
+                "x": "790",
+                "y": "1004"
+            }
+        },
+        {
+            "text": "Narrator: Eon gets chills. She doesn't like being alone.\nNarrator: I wish there was someone waiting with me.\nNarrator: Then she hears footsteps.\n[[Stranger]]",
+            "links": [
+                {
+                    "name": "Stranger",
+                    "link": "Stranger",
+                    "pid": "2"
+                }
+            ],
+            "name": "Intro 2 (Ox)",
+            "pid": "11",
+            "position": {
+                "x": "436",
+                "y": "233"
+            }
+        },
+        {
+            "text": "Eon: What the fuck you want?\nStranger: I have a riddle for you.\nEon: What?\nStranger: A riddle\n[[Human|Human What's a riddle]]\n[[Ox|Ox Ask the riddle]]",
+            "links": [
+                {
+                    "name": "Human|Human What's a riddle",
+                    "link": "Human|Human What's a riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox Ask the riddle",
+                    "link": "Ox|Ox Ask the riddle",
+                    "broken": true
+                }
+            ],
+            "name": "Lion Convo 2",
+            "pid": "12",
+            "position": {
+                "x": "812",
+                "y": "1217"
+            }
+        },
+        {
+            "text": "Eon: I don't know what riddle means\nStranger: Are you from fucking Mars? How do you not know what riddles are?\nEon: I just don't man. Sorry.\nStranger: Oh man...\nStranger: Okay, I'll just explain then. It's like a puzzle you solve.\n[[Human|Human What's a puzzle]]\n[[Ox|Ox Run]]",
+            "links": [
+                {
+                    "name": "Human|Human What's a puzzle",
+                    "link": "Human|Human What's a puzzle",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox Run",
+                    "link": "Ox|Ox Run",
+                    "broken": true
+                }
+            ],
+            "name": "Human What's a riddle",
+            "pid": "13",
+            "position": {
+                "x": "419",
+                "y": "1057"
+            }
+        },
+        {
+            "text": "Eon: Okay, tell me.\n// The Alligator smile grows bigger.\nStranger: Okay here it comes...\n[[Ox|Riddle asked]]",
+            "links": [
+                {
+                    "name": "Ox|Riddle asked",
+                    "link": "Ox|Riddle asked",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Ask the riddle",
+            "pid": "14",
+            "position": {
+                "x": "598",
+                "y": "1377"
+            }
+        },
+        {
+            "text": "// This is a comment\nEon: Okay but what's a puzzle?\nStranger: What? @anim_stranger_confused\nEon: I don't know what that means.\nStranger: Are you fucking kidding me? @sfx_sigh\nEon: Why would I do that?\nStranger: I'll tell you something and you'll try to guess what I mean!\nEon: Oh okay, it's a guessing game. But...\nStranger: QUIET NOW!\n[[Human|Riddle asked]]",
+            "links": [
+                {
+                    "name": "Human|Riddle asked",
+                    "link": "Human|Riddle asked",
+                    "broken": true
+                }
+            ],
+            "name": "Human What's a puzzle",
+            "pid": "15",
+            "position": {
+                "x": "357",
+                "y": "1308"
+            }
+        },
+        {
+            "text": "Stranger: Yes it is. So here it comes... \nStranger: What is something that you get to keep after you give it to someone? Take you time because if you fail, there will be consequences. @anim_Eon_thinking\n[[Human|Human thinks]]\n[[Ox|Ox thinks]]\n[[Eagle|Eagle Thinks]]",
+            "links": [
+                {
+                    "name": "Human|Human thinks",
+                    "link": "Human|Human thinks",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox thinks",
+                    "link": "Ox|Ox thinks",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Thinks",
+                    "link": "Eagle|Eagle Thinks",
+                    "broken": true
+                }
+            ],
+            "name": "Riddle asked",
+            "pid": "16",
+            "position": {
+                "x": "404",
+                "y": "1506"
+            }
+        },
+        {
+            "text": "Eon: <i>Hmm, It can be multiple things</i>\n[[Ox|Ox Riddle 1]]\n[[ Human| Human Riddle 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Riddle 1",
+                    "link": "Ox|Ox Riddle 1",
+                    "broken": true
+                },
+                {
+                    "name": " Human| Human Riddle 1",
+                    "link": " Human| Human Riddle 1",
+                    "broken": true
+                }
+            ],
+            "name": "Human thinks",
+            "pid": "17",
+            "position": {
+                "x": "453",
+                "y": "1745"
+            }
+        },
+        {
+            "text": "Eon: Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now!\nStranger: You?\nEon: Yes, it's your turn to guess now.\n[[Human|Human asks riddle]]\n[[Eagle|Eagle guess queen]]",
+            "links": [
+                {
+                    "name": "Human|Human asks riddle",
+                    "link": "Human|Human asks riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle guess queen",
+                    "link": "Eagle|Eagle guess queen",
+                    "broken": true
+                }
+            ],
+            "name": "Human Guess 2",
+            "pid": "18",
+            "position": {
+                "x": "292",
+                "y": "2198"
+            }
+        },
+        {
+            "text": "Eon: Queen",
+            "name": "Eagle guess queen",
+            "pid": "19",
+            "position": {
+                "x": "387",
+                "y": "2332"
+            }
+        },
+        {
+            "text": "Eon: <i>What is something that you get to keep after giving it?...</i>\nEon: I'm sorry, do you mind repeating the riddle again?\n[[Ox|Ox Riddle 2]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Riddle 2",
+                    "link": "Ox|Ox Riddle 2",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Riddle 1",
+            "pid": "20",
+            "position": {
+                "x": "745",
+                "y": "1878"
+            }
+        },
+        {
+            "text": "Eon: Water",
+            "name": "Eagle Answer water",
+            "pid": "21",
+            "position": {
+                "x": "1035",
+                "y": "1888"
+            }
+        },
+        {
+            "text": "Stranges: What is something that you get to keep after you give it to someone?\nEon: Yes yes...I just need to think a little.\nEon: <i>It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...</i>\n[[Ox|Ox Answer Love 1]]\n[[Human| Human Riddle 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Answer Love 1",
+                    "link": "Ox|Ox Answer Love 1",
+                    "broken": true
+                },
+                {
+                    "name": "Human| Human Riddle 1",
+                    "link": "Human| Human Riddle 1",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Riddle 2",
+            "pid": "22",
+            "position": {
+                "x": "799",
+                "y": "2034"
+            }
+        },
+        {
+            "text": "Eon: <i>But what if it is not? There will be consequences he said.</i>\n//She looks at the stranger. He is playing with his phone. He looks\n//impatient tapping on the floor with this foot.\nEon: <i> What can the consequence be? I guess something bad.</i>\nEon: <i>It looks like he is just checking his messages.He looks like a normal person. Hmm. But this is definitely not a normal situation or act...</i>\nStranger: Ehem! You still there? It's getting late\"\nEon: Yes, just one more minute.\n[[Ox|Ox Answer Love 2]]\n[[Eagle|Eagle Answer Water 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Answer Love 2",
+                    "link": "Ox|Ox Answer Love 2",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Answer Water 1",
+                    "link": "Eagle|Eagle Answer Water 1",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Answer Love 1",
+            "pid": "23",
+            "position": {
+                "x": "810",
+                "y": "2183"
+            }
+        },
+        {
+            "text": "Eon: <i>It has to be love, she thinks, or at least nothing else comes to mind.</i>\nEon: Okay, I'd guess it's love.\n[[Ox|Ox Answer Love 3]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Answer Love 3",
+                    "link": "Ox|Ox Answer Love 3",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Answer Love 2",
+            "pid": "24",
+            "position": {
+                "x": "717",
+                "y": "2341"
+            }
+        },
+        {
+            "text": "Eon: Water",
+            "name": "Eagle Answer Water 1",
+            "pid": "25",
+            "position": {
+                "x": "910",
+                "y": "2343"
+            }
+        },
+        {
+            "text": "Eon: <i>What kind of consequences she asks with a whisper.</i>\nEon: <i>It is useless to discuss it at this point. Just think.</i>\n[[Ox|Ox Riddle 1]]\n[[Eagle|Eagle Answer water]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Riddle 1",
+                    "link": "Ox|Ox Riddle 1",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Answer water",
+                    "link": "Eagle|Eagle Answer water",
+                    "broken": true
+                }
+            ],
+            "name": "Ox thinks",
+            "pid": "26",
+            "position": {
+                "x": "785",
+                "y": "1499"
+            }
+        },
+        {
+            "text": "Eon: What is it that given one, you'll have either two or none?\n//Stranger looks extremly bitter. No more smile.\nEon: Think carefully. Remember, there will be consequences.\n[[Human|Human Escape 1]]",
+            "links": [
+                {
+                    "name": "Human|Human Escape 1",
+                    "link": "Human|Human Escape 1",
+                    "broken": true
+                }
+            ],
+            "name": "Human asks riddle",
+            "pid": "27",
+            "position": {
+                "x": "196",
+                "y": "2338"
+            }
+        },
+        {
+            "text": "//The alligator face is murmuring. Thinking very deep, it seems like. \n//Eon walks to the Exit door slowly.\n//The moment she steps by the door step, sirens break out.\n[[Human|Human Escape 2]]",
+            "links": [
+                {
+                    "name": "Human|Human Escape 2",
+                    "link": "Human|Human Escape 2",
+                    "broken": true
+                }
+            ],
+            "name": "Human Escape 1",
+            "pid": "28",
+            "position": {
+                "x": "195",
+                "y": "2461"
+            }
+        },
+        {
+            "text": "//Alligator dude turns towards Eon. His eyes are burning flames. He looks\n//scary.\nStranger: YOU THINK YOU CAN FOOL ME? ME?\nEon: Oh shit!\n[[Ox|Empty]]\n[[Eagle|Oh Shit]]",
+            "links": [
+                {
+                    "name": "Ox|Empty",
+                    "link": "Ox|Empty",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Oh Shit",
+                    "link": "Eagle|Oh Shit",
+                    "broken": true
+                }
+            ],
+            "name": "Human Escape 2",
+            "pid": "29",
+            "position": {
+                "x": "196",
+                "y": "2594"
+            }
+        },
+        {
+            "text": "Eon: <i>Sounds like STD's fits this definition perfectly. You still keep them after you give it to someone.</i>\n[[Human |Human Guess 1]]\n[[Ox |Ox Riddle 1]]",
+            "links": [
+                {
+                    "name": "Human |Human Guess 1",
+                    "link": "Human |Human Guess 1",
+                    "broken": true
+                },
+                {
+                    "name": "Ox |Ox Riddle 1",
+                    "link": "Ox |Ox Riddle 1",
+                    "broken": true
+                }
+            ],
+            "name": " Human Riddle 1",
+            "pid": "30",
+            "position": {
+                "x": "431",
+                "y": "1994"
+            }
+        },
+        {
+            "text": "Eon: Okay, I think it's STD's.\nStranger: Ehmm...\nEon: What? You give them and still keep them.\nStranger: I guess that's true, but that was not the answer I expected. So, I'll ask another now.\n[[Human|Human Guess 2]]",
+            "links": [
+                {
+                    "name": "Human|Human Guess 2",
+                    "link": "Human|Human Guess 2",
+                    "broken": true
+                }
+            ],
+            "name": "Human Guess 1",
+            "pid": "31",
+            "position": {
+                "x": "295",
+                "y": "2067"
+            }
+        },
+        {
+            "text": "Stranger: Oooh, aren't you a sweetheart...\nStranger: But that's not correct unfortunately.You can totally love and then open up to someone. And lose it afterwards because they are actually a piece of shit!\nEon: Argh, sounds like you have some shit going on.\nStranger: Anyway, you failed! You'll face the consequences.\n//And the stranger disappears, boom!\n[[Ox|Ox Announcement]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Announcement",
+                    "link": "Ox|Ox Announcement",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Answer Love 3",
+            "pid": "32",
+            "position": {
+                "x": "699",
+                "y": "2482"
+            }
+        },
+        {
+            "text": "Eon: Holy shit, what's gonna happen now?\n//Then she hears speakers turned on. \nStranger: TO GET OUT YOU GOTTA EAT THE EXIT WHOLE DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.\nEon: The door?\n[[Ox|Ox Turnip 1]]\n[[Eagle|Eagle Turnip 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Turnip 1",
+                    "link": "Ox|Ox Turnip 1",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Turnip 1",
+                    "link": "Eagle|Eagle Turnip 1",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Announcement",
+            "pid": "33",
+            "position": {
+                "x": "697",
+                "y": "2632"
+            }
+        },
+        {
+            "text": "//And that's not what she expected.\n//She sees a giant turnip covering the exit door.\nEon: Holy shit, that's definitely not what I expected.\nStranger: AND IT'S A BITTER ONE. HAHAHA.\n[[Ox|Ox Turnip 2]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Turnip 2",
+                    "link": "Ox|Ox Turnip 2",
+                    "broken": true
+                }
+            ],
+            "name": "Ox Turnip 1",
+            "pid": "34",
+            "position": {
+                "x": "619",
+                "y": "2781"
+            }
+        },
+        {
+            "text": "Eon: Okay, I can eat turnip. Whatever.\nNarrator: Eon bites the turnip. It is hard, and bitter just like he said.\n[[Empty]]",
+            "links": [
+                {
+                    "name": "Empty",
+                    "link": "Empty",
+                    "pid": "46"
+                }
+            ],
+            "name": "Ox Turnip 2",
+            "pid": "35",
+            "position": {
+                "x": "614",
+                "y": "2931"
+            }
+        },
+        {
+            "text": "Eon: <i>This is really stupid. I am not trying to get out. I'm waiting to get on my train!</i>\nEon: <i>I should just pretend to eat it until my train arrives, which can be any minute.</i>\nStranger: GO AHEAD!\n[[Eagle|Eagle Turnip 2]]",
+            "links": [
+                {
+                    "name": "Eagle|Eagle Turnip 2",
+                    "link": "Eagle|Eagle Turnip 2",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Turnip 1",
+            "pid": "36",
+            "position": {
+                "x": "799",
+                "y": "2785"
+            }
+        },
+        {
+            "text": "Narrator: Eon takes a very small bite of the turnip.\nStranger: WOW YOU ARE A SLOW EATER\nEon: Wow I am so full, I think I need a break.\n[[Eagle|Eagle Turnip 3]]",
+            "links": [
+                {
+                    "name": "Eagle|Eagle Turnip 3",
+                    "link": "Eagle|Eagle Turnip 3",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Turnip 2",
+            "pid": "37",
+            "position": {
+                "x": "799",
+                "y": "2935"
+            }
+        },
+        {
+            "text": "Narrator: As she hears the train approaching, she gets back to eating again.\nStranger: GOTTA EAT FASTER",
+            "name": "Eagle Turnip 3",
+            "pid": "38",
+            "position": {
+                "x": "799",
+                "y": "3084"
+            }
+        },
+        {
+            "text": "Eon: Why do you talk to me like that? What do you want?\nStranger: I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.\n[[Eagle |Eagle Convo 2]]\n[[Ox |Ox Hello]]\n[[Human |Human What's a riddle]]",
+            "links": [
+                {
+                    "name": "Eagle |Eagle Convo 2",
+                    "link": "Eagle |Eagle Convo 2",
+                    "broken": true
+                },
+                {
+                    "name": "Ox |Ox Hello",
+                    "link": "Ox |Ox Hello",
+                    "broken": true
+                },
+                {
+                    "name": "Human |Human What's a riddle",
+                    "link": "Human |Human What's a riddle",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Convo 1",
+            "pid": "39",
+            "position": {
+                "x": "187",
+                "y": "940"
+            }
+        },
+        {
+            "text": "Eon: What if I say no?\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise.\n[[Ox|Ox Ask the riddle]]\n[[Human|Human What's a riddle]]\n[[Eagle|Eagle Convo 3]]\n[[Lion|Lion Convo 2]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Ask the riddle",
+                    "link": "Ox|Ox Ask the riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Human What's a riddle",
+                    "link": "Human|Human What's a riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Convo 3",
+                    "link": "Eagle|Eagle Convo 3",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Lion Convo 2",
+                    "link": "Lion|Lion Convo 2",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Convo 2",
+            "pid": "40",
+            "position": {
+                "x": "176",
+                "y": "1106"
+            }
+        },
+        {
+            "text": "Eon: And may I ask who you are?\n//Strangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!\n[[Eagle|Eagle Convo 4]]",
+            "links": [
+                {
+                    "name": "Eagle|Eagle Convo 4",
+                    "link": "Eagle|Eagle Convo 4",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Convo 3",
+            "pid": "41",
+            "position": {
+                "x": "127",
+                "y": "1275"
+            }
+        },
+        {
+            "text": "Eon: You are Syphinx, master of riddles and father of terror.\nStranger: I have to admit, no one called me by that in a very long time. You impressed me girl. \nEon: And I guess you'll eat me if I guess incorrectly?\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\n[[Eagle |Riddle asked]]",
+            "links": [
+                {
+                    "name": "Eagle |Riddle asked",
+                    "link": "Eagle |Riddle asked",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Convo 4",
+            "pid": "42",
+            "position": {
+                "x": "109",
+                "y": "1426"
+            },
+            "tags": [
+                "flower"
+            ]
+        },
+        {
+            "text": "Eon: Interesting... Multiple things come to mind.\n[[Ox|Ox Riddle 1]]\n[[Human| Human Riddle 1]]\n[[Eagle|Eagle Riddle 1]]",
+            "links": [
+                {
+                    "name": "Ox|Ox Riddle 1",
+                    "link": "Ox|Ox Riddle 1",
+                    "broken": true
+                },
+                {
+                    "name": "Human| Human Riddle 1",
+                    "link": "Human| Human Riddle 1",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Riddle 1",
+                    "link": "Eagle|Eagle Riddle 1",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Thinks",
+            "pid": "43",
+            "position": {
+                "x": "191",
+                "y": "1603"
+            }
+        },
+        {
+            "text": "Eon: <i>This dude must be super old. It might be a lame word play.</i>\nEon: <i>So it can be an advise or word. But technically you don't need to keep any of those after giving them.</i>\n[[Human|Human Guess 1]]\n[[Ox|Ox Riddle 1]]\n[[Eagle|Eagle Guess 1]]",
+            "links": [
+                {
+                    "name": "Human|Human Guess 1",
+                    "link": "Human|Human Guess 1",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ox Riddle 1",
+                    "link": "Ox|Ox Riddle 1",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Eagle Guess 1",
+                    "link": "Eagle|Eagle Guess 1",
+                    "broken": true
+                }
+            ],
+            "name": "Eagle Riddle 1",
+            "pid": "44",
+            "position": {
+                "x": "127",
+                "y": "1762"
+            }
+        },
+        {
+            "text": "Eon: <i>I guess you are expected to keep your word after you give it.</i>\nEon: <i>Considering this dude's age, it's probably something old fashioned like that. I'll go for it, at least I won't get eaten.</i>\nEon: My guess is \"word\"",
+            "name": "Eagle Guess 1",
+            "pid": "45",
+            "position": {
+                "x": "87",
+                "y": "1917"
+            }
+        },
+        {
+            "text": "// Empty",
+            "name": "Empty",
+            "pid": "46",
+            "position": {
+                "x": "615",
+                "y": "3082"
+            }
+        },
+        {
+            "text": "Eon: Oh shit!",
+            "name": "Oh Shit",
+            "pid": "47",
+            "position": {
+                "x": "196",
+                "y": "2744"
+            }
+        }
+    ],
+    "name": "TWC-Story",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.15",
+    "ifid": "68506661-01CD-49B1-A5CA-7E110D032F91"
+}

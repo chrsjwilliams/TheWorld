@@ -12,6 +12,8 @@ public class DialogGraph : SerializedScriptableObject
 
     public DialogNode previoslyVisitedNode;
 
+    public List<DialogNode> nodes = new List<DialogNode>();
+
     public DialogNodeList passages;
 }
 

@@ -12,3 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1ee20d7ff1494acbaad2997135303a5, type: 3}
   m_Name: Dialog Graph Generator
   m_EditorClassIdentifier: 
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
+  DialogStoryPath: Assets/Scripts/ScriptableObjects/Story/
+  folderName: TWC-Story

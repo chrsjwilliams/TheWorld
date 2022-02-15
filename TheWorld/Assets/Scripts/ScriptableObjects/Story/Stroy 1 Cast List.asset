@@ -9,8 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9b520727ad8d2470f847a821698db1fd, type: 3}
-  m_Name: Story 1
+  m_Script: {fileID: 11500000, guid: c79e766c1ed7f4d6093a407be6b09cd0, type: 3}
+  m_Name: Stroy 1 Cast List
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,5 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
-  startingNode: {fileID: 0}
-  NodesInStory: []
+  characters:
+  - {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+  - {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+  - {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+  player: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
