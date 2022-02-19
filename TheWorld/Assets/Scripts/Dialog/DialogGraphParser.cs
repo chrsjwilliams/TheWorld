@@ -22,10 +22,16 @@ public class DialogGraphParser : MonoBehaviour
 
 
     [SerializeField] PersonalityChoice currentDialogChoice;
+    [SerializeField] DialogButton selectedButton;
+    [SerializeField] List<DialogButton> unselectedButtons;
+
 
     int dialogLineIndex = 0;
     bool madeNodeSelection = false;
 
+
+    // Choices we have not selected
+    // last choice selected
 
     public void NextButtonPressed()
     {
@@ -39,7 +45,7 @@ public class DialogGraphParser : MonoBehaviour
         }
     }
 
-    public void PreviousButtonPRessed()
+    public void PreviousButtonPressed()
     {
 
     }
@@ -117,10 +123,35 @@ public class DialogGraphParser : MonoBehaviour
         return dialogLineIndex == currentNode.speakingLines.Count - 1;
     }
 
+    void ChangeSelectedButtonIcon(PersonalityChoice newChoice)
+    {
+        // Get the previoius personality choice
+        PersonalityChoice oldChoice = selectedButton.PersonalityChoice;
+
+        // If the choices are the same or if the choice is neutral, exit
+        if (newChoice == oldChoice || newChoice == PersonalityChoice.NEUTRAL) return;
+
+        // Find the button that has our current choice
+        // we are going to swap its sprite wiht our old choice
+        DialogButton oldButton = null;
+        foreach(DialogButton button in unselectedButtons)
+        {
+            if(button.PersonalityChoice == newChoice)
+            {
+                oldButton = button;
+            }
+        }
+
+        // Swap the image sprites
+        oldButton.SetPersonalityChoice(oldChoice);
+        selectedButton.SetPersonalityChoice(newChoice);
+
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        DialogButton.DialogButtonPressed += ChangeSelectedButtonIcon;
     }
 
     // Update is called once per frame

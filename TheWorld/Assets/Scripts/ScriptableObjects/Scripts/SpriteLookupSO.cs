@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
-//using Sirenix.OdinInspector;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Sprite Lookup"
                 , menuName = "Data/Sprite Lookup")]
-public class SpriteLookupSO : ScriptableObject
+public class SpriteLookupSO : SerializedScriptableObject
 {
 
-    public Sprite fallbackSprite;
-    public Dictionary<string, Sprite> sprites = new Dictionary<string, Sprite>();
+    [SerializeField] public Sprite fallbackSprite;
+    [SerializeField] public Dictionary<string, Sprite> sprites = new Dictionary<string, Sprite>();
 
     public bool TryGetSprite(string key, out Sprite sprite)
     {
