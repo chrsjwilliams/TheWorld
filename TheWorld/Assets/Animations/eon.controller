@@ -1,13 +1,21 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< HEAD
 --- !u!1102 &-8524263272320331725
+=======
+--- !u!1102 &-8735775880580463171
+>>>>>>> eda2
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: eon_idle_lion
+=======
+  m_Name: eon_idle_eagle
+>>>>>>> eda2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -20,7 +28,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: 0fdcc65030f0b4d548b3f4192246d07a, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: 14f90617db2884d7fa1ac04ac22b07d9, type: 2}
+>>>>>>> eda2
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -78,14 +90,22 @@ AnimatorState:
   m_MirrorParameter: 
   m_CycleOffsetParameter: 
   m_TimeParameter: 
+<<<<<<< HEAD
 --- !u!1102 &-1777329473693810747
+=======
+--- !u!1102 &-3273418198880645781
+>>>>>>> eda2
 AnimatorState:
   serializedVersion: 6
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_Name: eon_idle_eagle
+=======
+  m_Name: eon_idle_lion
+>>>>>>> eda2
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -98,7 +118,11 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
+<<<<<<< HEAD
   m_Motion: {fileID: 7400000, guid: 1edee953259474a779938f793afbf4b9, type: 2}
+=======
+  m_Motion: {fileID: 7400000, guid: 795dbd79ab6a8479c83799f8d55a48a1, type: 2}
+>>>>>>> eda2
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -142,10 +166,17 @@ AnimatorStateMachine:
     m_State: {fileID: -6081942255468114229}
     m_Position: {x: 315, y: 25, z: 0}
   - serializedVersion: 1
+<<<<<<< HEAD
     m_State: {fileID: -1777329473693810747}
     m_Position: {x: 350, y: 90, z: 0}
   - serializedVersion: 1
     m_State: {fileID: -8524263272320331725}
+=======
+    m_State: {fileID: -8735775880580463171}
+    m_Position: {x: 350, y: 90, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: -3273418198880645781}
+>>>>>>> eda2
     m_Position: {x: 385, y: 155, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
