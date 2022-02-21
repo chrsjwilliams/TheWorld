@@ -10,11 +10,16 @@ public class DialogGraph : SerializedScriptableObject
 {
     public DialogNode startingNode;
 
-    public DialogNode previoslyVisitedNode;
+    public DialogNode previouslyVisitedNode;
 
     public List<DialogNode> nodes = new List<DialogNode>();
 
     public DialogNodeList passages;
+
+    public void Init()
+    {
+        startingNode = nodes[0];
+    }
 }
 
 [System.Serializable]

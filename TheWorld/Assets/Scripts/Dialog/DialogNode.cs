@@ -35,7 +35,12 @@ public class DialogNode : SerializedScriptableObject, IAction
 
     public bool HasPersonalityChoice(PersonalityChoice choice)
     {
-        return nextNodes.ContainsKey(choice);
+        return nextNodes.ContainsKey(choice) || IsNeutralNode();
+    }
+
+    public bool IsNeutralNode()
+    {
+        return nextNodes.ContainsKey(PersonalityChoice.NEUTRAL);
     }
 
 }
