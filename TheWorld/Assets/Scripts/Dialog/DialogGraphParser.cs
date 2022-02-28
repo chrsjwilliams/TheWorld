@@ -7,6 +7,10 @@ using Sirenix.OdinInspector;
 
 public class DialogGraphParser : MonoBehaviour
 {
+    [Header("Display all lines is not working yet, leave false for now")]
+    public bool displayAllLines;
+
+    [Space(25)]
     [SerializeField] CharacterData player;
     [SerializeField] CharacterData narrator;
     [SerializeField] DialogGraph dialogGraph;
@@ -15,7 +19,9 @@ public class DialogGraphParser : MonoBehaviour
 
     [SerializeField] Stack<DialogNode> visitedNodes = new Stack<DialogNode>();
 
+    [SerializeField] TextMeshProUGUI nodeNameText;
     [SerializeField] TextMeshProUGUI dialogText;
+    [SerializeField] HorizontalLayoutGroup horizontalLayoutGroup;
 
     [SerializeField] Image playerProfile;
     [SerializeField] Image npcProfile;
@@ -37,7 +43,7 @@ public class DialogGraphParser : MonoBehaviour
 
     public void NextButtonPressed()
     {
-        if (dialogLineIndex == currentNode.speakingLines.Count)
+        if (AtLastLineOfDialog() || displayAllLines)
         {
             DisplayDialogChoices();
             MoveToNextNode();
@@ -64,17 +70,27 @@ public class DialogGraphParser : MonoBehaviour
 
         dialogGraph.Init();
         currentNode = dialogGraph.startingNode;
+        nodeNameText.text = currentNode.NodeTitle;
         visitedNodes.Clear();
         visitedNodes.Push(currentNode);
         currentNode.ExecuteTagActions(() => { });
         dialogLineIndex = 0;
-        DisplayNextDialogLine();
+        if (!displayAllLines)
+        {
+            DisplayNextDialogLine();
+        }
+        else
+        {
+            DisplayAllNodeText();
+        }
+        DisplayDialogChoices();
+        HideAllDialogButtons();
 
     }
 
     void MoveToNextNode()
     {
-        if (!madeNodeSelection) return;
+        if (!madeNodeSelection && !displayAllLines) return;
         
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
@@ -88,11 +104,11 @@ public class DialogGraphParser : MonoBehaviour
                 Debug.Log("Making Choice: " + selectedButton.PersonalityChoice);
                 currentNode = currentNode.nextNodes[selectedButton.PersonalityChoice];
             }
-
+            nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
             visitedNodes.Push(currentNode);
             // execute actions on the node
-            currentNode.ExecuteTagActions(() => { });
+            //currentNode.ExecuteTagActions(() => { });
             //  reset dialog line index
             dialogLineIndex = 0;
             //  display dialog line
@@ -133,7 +149,9 @@ public class DialogGraphParser : MonoBehaviour
             npcProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
         }
 
-        dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
+        //dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
+        dialogText.text = GetAllNodeText();
+        RefreshLayoutGroup();
         currentLine.ExecuteTagActions(() =>{ });
         dialogLineIndex++;
     }
@@ -181,9 +199,19 @@ public class DialogGraphParser : MonoBehaviour
         }
     }
 
+    private void HideAllDialogButtons()
+    {
+        foreach (DialogButton button in unselectedButtons)
+        {
+
+            button.gameObject.SetActive(false);
+        }
+    }
+
     bool AtLastLineOfDialog()
     {
-        return dialogLineIndex == currentNode.speakingLines.Count - 1;
+        return true;
+        //return dialogLineIndex == currentNode.speakingLines.Count - 1;
     }
 
     void ChangeSelectedButtonIcon(PersonalityChoice newChoice)
@@ -217,6 +245,33 @@ public class DialogGraphParser : MonoBehaviour
 
     }
 
+    void DisplayAllNodeText()
+    {
+        string nodetext = "";
+        foreach(DialogLine line in currentNode.speakingLines)
+        {
+            nodetext += line.line + "\n";
+        }
+        dialogText.text = nodetext;
+
+    }
+
+    string GetAllNodeText()
+    {
+        string nodetext = "";
+        foreach (DialogLine line in currentNode.speakingLines)
+        {
+            nodetext += line.line + "\n";
+        }
+        return nodetext;
+    }
+
+    void RefreshLayoutGroup()
+    {
+        Canvas.ForceUpdateCanvases();
+        horizontalLayoutGroup.enabled = false;
+        horizontalLayoutGroup.enabled = true;
+    }
     // Start is called before the first frame update
     void Start()
     {

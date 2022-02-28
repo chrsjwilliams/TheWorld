@@ -311,6 +311,14 @@ PrefabInstance:
       propertyPath: narrator
       value: 
       objectReference: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    - target: {fileID: 35741022, guid: 6adcbe37463034d2fbf8052ef838ae1b, type: 3}
+      propertyPath: dialogGraph
+      value: 
+      objectReference: {fileID: 11400000, guid: a80d110ad1ac346478ebf36538485c4f, type: 2}
+    - target: {fileID: 35741022, guid: 6adcbe37463034d2fbf8052ef838ae1b, type: 3}
+      propertyPath: displayAllLines
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 448424324, guid: 6adcbe37463034d2fbf8052ef838ae1b, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

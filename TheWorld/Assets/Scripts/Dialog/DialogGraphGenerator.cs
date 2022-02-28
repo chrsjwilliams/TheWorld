@@ -5,20 +5,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 using Sirenix.OdinInspector;
-
-
-/*
- *      Problem Nodes: 
- *                      Eagle Answer water
- *                      Human Guess 1
- *                      Human Guess 2
- *                      Human Riddle 1 
- *                      Human What's a riddle
- *                      Lion Convo 2
- *                      Ox Asks the riddle
- *                      Ox Exit Door
- *                      Ox Hello
- */
+using System.Text.RegularExpressions;
 
 [CreateAssetMenu(fileName = "New Dialog Graph Generator"
                 , menuName = "Dialog/Graph Generator")]
@@ -66,7 +53,7 @@ public class DialogGraphGenerator : ScriptableObject
 
     DialogNode ConvertJSONNodeToDialogNode(DialogNodeJSON JSONnode)
     {
-       
+
         DialogNode newNode = ScriptableObject.CreateInstance<DialogNode>();
         newNode.name = newNode.NodeTitle = JSONnode.name.Trim();
 
@@ -76,8 +63,9 @@ public class DialogGraphGenerator : ScriptableObject
         // the end of the line has tags
         List<string> dialogLines = new List<string>();
         //  Split at new line character
-        string[] nodeText = JSONnode.text.Split('\n');
-        foreach(string line in nodeText)
+        List<string> nodeText = new List<string>();
+        nodeText = new List<string>(JSONnode.text.Split('\n'));
+        foreach (string line in nodeText)
         {
             //  Skip lines with less that 2 characters
             if (line.Length < 2) continue;
@@ -163,18 +151,28 @@ public class DialogGraphGenerator : ScriptableObject
 
     public DialogLine GetDialogLine(string text)
     {
+        string character = "Narrator";
         string c_text = text;
+
         List<string> lineData = new List<string>();
         int speakerSplitIndex = c_text.IndexOf(":");
-        string[] rawTextInfo = c_text.Split(':');
-        string charatcer = rawTextInfo[0];
+        if (c_text.Contains(":"))
+        {
+            string[] rawTextInfo = c_text.Split(new[] { ':' }, 2);
+            character = rawTextInfo[0];
 
-        c_text = rawTextInfo[1];
-        lineData.Add(charatcer);
-        string[] dialogAndTags = c_text.Split('@');
+            c_text = rawTextInfo[1];
+            lineData.Add(character);
+        }
+        else
+        {
+            character = "Narrator";
+        }
+
 
         DialogLine dialogLine = new DialogLine();
-        dialogLine.speaker = castList.GetCharacter(charatcer);
+        dialogLine.speaker = castList.GetCharacter(character);
+        string[] dialogAndTags = Regex.Split(c_text, @"(?=[@])");
 
         foreach (string line in dialogAndTags)
         {
@@ -191,6 +189,8 @@ public class DialogGraphGenerator : ScriptableObject
 
         return dialogLine;
     }
+
+
 
     TagAction GenerateTagAction(string line)
     {
