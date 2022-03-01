@@ -37,7 +37,7 @@ public class TitleSceneScript : Scene<TransitionData>
 
     public void PressedStartGame()
     {
-        Services.Scenes.Swap<GameSceneScript>();
+        Services.Scenes.Swap<MainMenuSceneScript>();
     }
 
     public void PressedOptions()
@@ -48,11 +48,6 @@ public class TitleSceneScript : Scene<TransitionData>
     private void TitleTransition()
     {
 
-    }
-
-    private void ChangeScene()
-    {
-        Services.Scenes.Swap<GameSceneScript>();
     }
 
     private void Update()
