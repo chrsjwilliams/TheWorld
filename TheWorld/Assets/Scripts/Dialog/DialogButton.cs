@@ -13,6 +13,7 @@ public class DialogButton : MonoBehaviour
     [SerializeField] SpriteLookupSO spriteLookUp;
     [SerializeField] Button button;
     [SerializeField] Image buttonIcon;
+    [SerializeField] CanvasGroup canvasGroup;
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,13 @@ public class DialogButton : MonoBehaviour
     public void OnSelected()
     {
         DialogButtonPressed?.Invoke(personalityChoice);   
+    }
+
+    public void ShowDialogButton(bool shouldShow)
+    {
+        canvasGroup.alpha = shouldShow ? 1 : 0;
+        canvasGroup.interactable = shouldShow;
+        canvasGroup.blocksRaycasts = shouldShow;
     }
 
     public void SetPersonalityChoice(PersonalityChoice choice)

@@ -210,8 +210,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayAllLines: 0
-  player: {fileID: 0}
-  narrator: {fileID: 0}
+  player: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+  narrator: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
   dialogGraph: {fileID: 11400000, guid: 34c9b45c7aa144022bfba3a72e7e3816, type: 2}
   currentNode: {fileID: 0}
   nodeNameText: {fileID: 7698787581915133516}
@@ -525,6 +525,7 @@ GameObject:
   - component: {fileID: 448424325}
   - component: {fileID: 448424328}
   - component: {fileID: 448424327}
+  - component: {fileID: 6984113518036502422}
   m_Layer: 0
   m_Name: Avatar Background (1)
   m_TagString: Untagged
@@ -663,6 +664,19 @@ MonoBehaviour:
   spriteLookUp: {fileID: 11400000, guid: 13a273a484a2c4d7cae0c40a9398f310, type: 2}
   button: {fileID: 448424328}
   buttonIcon: {fileID: 785227935}
+  canvasGroup: {fileID: 6984113518036502422}
+--- !u!225 &6984113518036502422
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 448424323}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &523432288
 GameObject:
   m_ObjectHideFlags: 0
@@ -934,6 +948,7 @@ GameObject:
   - component: {fileID: 738723814}
   - component: {fileID: 738723817}
   - component: {fileID: 738723816}
+  - component: {fileID: 1679237641191494068}
   m_Layer: 0
   m_Name: Avatar Background (3)
   m_TagString: Untagged
@@ -1072,6 +1087,19 @@ MonoBehaviour:
   spriteLookUp: {fileID: 11400000, guid: 13a273a484a2c4d7cae0c40a9398f310, type: 2}
   button: {fileID: 738723817}
   buttonIcon: {fileID: 1760022561}
+  canvasGroup: {fileID: 1679237641191494068}
+--- !u!225 &1679237641191494068
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738723812}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &765946766
 GameObject:
   m_ObjectHideFlags: 0
@@ -1487,6 +1515,7 @@ MonoBehaviour:
   spriteLookUp: {fileID: 11400000, guid: 13a273a484a2c4d7cae0c40a9398f310, type: 2}
   button: {fileID: 1163182320}
   buttonIcon: {fileID: 627955376}
+  canvasGroup: {fileID: 0}
 --- !u!114 &1163182320
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2379,6 +2408,7 @@ GameObject:
   - component: {fileID: 1916912883}
   - component: {fileID: 1916912886}
   - component: {fileID: 1916912885}
+  - component: {fileID: 2783363722684670093}
   m_Layer: 0
   m_Name: Avatar Background (2)
   m_TagString: Untagged
@@ -2517,6 +2547,19 @@ MonoBehaviour:
   spriteLookUp: {fileID: 11400000, guid: 13a273a484a2c4d7cae0c40a9398f310, type: 2}
   button: {fileID: 1916912886}
   buttonIcon: {fileID: 1323475951}
+  canvasGroup: {fileID: 2783363722684670093}
+--- !u!225 &2783363722684670093
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916912881}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2014036654
 GameObject:
   m_ObjectHideFlags: 0
@@ -3074,6 +3117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   endGame: 0
+  storyReader: {fileID: 35741022}
 --- !u!1001 &98187786
 PrefabInstance:
   m_ObjectHideFlags: 0

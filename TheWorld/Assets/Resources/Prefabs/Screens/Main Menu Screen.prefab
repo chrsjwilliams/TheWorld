@@ -876,7 +876,19 @@ MonoBehaviour:
       m_Calls: []
   OnComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6629491285394505603}
+        m_TargetAssemblyTypeName: StorySelectButtons, Assembly-CSharp
+        m_MethodName: OnPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnKill:
     m_PersistentCalls:
       m_Calls: []
@@ -950,7 +962,19 @@ MonoBehaviour:
       m_Calls: []
   OnComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5349728803227071196}
+        m_TargetAssemblyTypeName: StorySelectButtons, Assembly-CSharp
+        m_MethodName: OnPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnKill:
     m_PersistentCalls:
       m_Calls: []
@@ -1260,7 +1284,19 @@ MonoBehaviour:
       m_Calls: []
   OnComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461827199732108633}
+        m_TargetAssemblyTypeName: StorySelectButtons, Assembly-CSharp
+        m_MethodName: OnPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnKill:
     m_PersistentCalls:
       m_Calls: []
@@ -1381,7 +1417,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1278, y: -210}
+  m_AnchoredPosition: {x: 1354, y: -210}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2853679140331267648
@@ -1490,7 +1526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  story: {fileID: 0}
+  story: {fileID: 11400000, guid: a80d110ad1ac346478ebf36538485c4f, type: 2}
   canvasGroup: {fileID: 4698028200399432149}
 --- !u!225 &4698028200399432149
 CanvasGroup:
@@ -1737,7 +1773,7 @@ CanvasGroup:
   m_GameObject: {fileID: 5608180843844903318}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
+  m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &5638199109917983616
@@ -1955,7 +1991,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 1278, y: -663}
+  m_AnchoredPosition: {x: 1354, y: -663}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1052056117243170056
@@ -2075,7 +2111,7 @@ CanvasGroup:
   m_GameObject: {fileID: 6285343555447483071}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
+  m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &6432636536545421185
@@ -2321,7 +2357,19 @@ MonoBehaviour:
       m_Calls: []
   OnComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2626821946315306197}
+        m_TargetAssemblyTypeName: StorySelectButtons, Assembly-CSharp
+        m_MethodName: OnPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnKill:
     m_PersistentCalls:
       m_Calls: []
@@ -2540,10 +2588,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1600, y: 900}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -2727,7 +2775,7 @@ CanvasGroup:
   m_GameObject: {fileID: 7373546934481344238}
   m_Enabled: 1
   m_Alpha: 1
-  m_Interactable: 1
+  m_Interactable: 0
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
 --- !u!1 &7647073224118324131

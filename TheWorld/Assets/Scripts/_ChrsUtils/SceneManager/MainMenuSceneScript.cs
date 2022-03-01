@@ -34,6 +34,10 @@ public class MainMenuSceneScript : Scene<TransitionData>
     private void OnStorySelected(StorySelectButtons _selectedStory)
     {
         selectedStory = _selectedStory.Story;
+        TransitionData mainMenuData = new TransitionData();
+        mainMenuData.selectedStory = selectedStory;
+        Services.Scenes.Swap<GameSceneScript>(mainMenuData);
+
     }
 
     internal override void OnExit()
@@ -44,7 +48,6 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     public void PressedStartGame()
     {
-        //Services.Scenes.Swap<GameSceneScript>();
     }
 
     public void PressedOptions()
@@ -67,7 +70,7 @@ public class MainMenuSceneScript : Scene<TransitionData>
         _tm.Update();
         if (Input.GetKeyDown(startGame) || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
         {
-            Services.AudioManager.PlayClip(SFX.CLICK);
+            //Services.AudioManager.PlayClip(SFX.CLICK);
         }
     }
 }

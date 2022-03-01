@@ -59,6 +59,34 @@ public class DialogGraphParser : MonoBehaviour
 
     }
 
+    public void StartStory(DialogGraph story)
+    {
+        dialogGraph = story;
+        if (currentNode != null)
+        {
+            Debug.LogError("Current Node is not empty");
+            return;
+        }
+
+        dialogGraph.Init();
+        currentNode = dialogGraph.startingNode;
+        nodeNameText.text = currentNode.NodeTitle;
+        visitedNodes.Clear();
+        visitedNodes.Push(currentNode);
+        currentNode.ExecuteTagActions(() => { });
+        dialogLineIndex = 0;
+        if (!displayAllLines)
+        {
+            DisplayNextDialogLine();
+        }
+        else
+        {
+            DisplayAllNodeText();
+        }
+        DisplayDialogChoices();
+        HideAllDialogButtons();
+    }
+
     [Button]
     public void StartStory()
     {
@@ -163,6 +191,8 @@ public class DialogGraphParser : MonoBehaviour
             madeNodeSelection = true;
         }
 
+        if (currentNode.IsNeutralNode()) return;
+
         //  Check if current node has our current personality choice selected
         //  If it doesn't, then we need to swap to the first available choice
         if (!currentNode.nextNodes.ContainsKey(selectedButton.PersonalityChoice))
@@ -189,11 +219,11 @@ public class DialogGraphParser : MonoBehaviour
         {
             if(!choices.ContainsKey(button.PersonalityChoice))
             {
-                button.gameObject.SetActive(false);
+                button.ShowDialogButton(false);
             }
             else
             {
-                button.gameObject.SetActive(true);
+                button.ShowDialogButton(true);
 
             }
         }
@@ -204,7 +234,7 @@ public class DialogGraphParser : MonoBehaviour
         foreach (DialogButton button in unselectedButtons)
         {
 
-            button.gameObject.SetActive(false);
+            button.ShowDialogButton(false);
         }
     }
 
@@ -224,9 +254,13 @@ public class DialogGraphParser : MonoBehaviour
     {
         // Get the previoius personality choice
         PersonalityChoice oldChoice = selectedButton.PersonalityChoice;
-
+        Debug.Log(oldChoice);
         // If the choices are the same or if the choice is neutral, exit
-        if (newChoice == oldChoice || newChoice == PersonalityChoice.NEUTRAL) return;
+        if (newChoice == oldChoice || newChoice == PersonalityChoice.NEUTRAL)
+        {
+            Debug.Log("NO SWAPS");
+            return;
+        }
 
         // Find the button that has our current choice
         // we are going to swap its sprite wiht our old choice
@@ -238,6 +272,7 @@ public class DialogGraphParser : MonoBehaviour
                 oldButton = button;
             }
         }
+        Debug.Log(oldChoice + " !!!!!");
 
         // Swap the image sprites
         oldButton.SetPersonalityChoice(oldChoice);
@@ -279,7 +314,6 @@ public class DialogGraphParser : MonoBehaviour
         allButtons = new List<DialogButton>();
         allButtons.Add(selectedButton);
         allButtons.AddRange(unselectedButtons);
-        StartStory();
     }
 
     // Update is called once per frame

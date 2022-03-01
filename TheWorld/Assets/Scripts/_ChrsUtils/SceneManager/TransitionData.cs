@@ -16,6 +16,8 @@ public class TransitionData
         set { }
     }
 
+    public DialogGraph selectedStory;
+
     public TitleScreen TITLE;
 
     public struct TitleScreen

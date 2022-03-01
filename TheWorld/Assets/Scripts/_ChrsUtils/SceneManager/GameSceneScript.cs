@@ -4,14 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using System;
 
-/*
- *      TODO:
- *              - player interacting with world
- *              - player interacting with npcs
- * 
- */ 
-
-
 public class GameSceneScript : Scene<TransitionData>
 {
     public bool endGame;
@@ -20,6 +12,8 @@ public class GameSceneScript : Scene<TransitionData>
 
     public const int LEFT_CLICK = 0;
     public const int RIGHT_CLICK = 1;
+
+    [SerializeField] DialogGraphParser storyReader;
 
     TaskManager _tm = new TaskManager();
 
@@ -30,6 +24,7 @@ public class GameSceneScript : Scene<TransitionData>
 
     internal override void OnEnter(TransitionData data)
     {
+        storyReader.StartStory(data.selectedStory);
     }
 
     public void EnterScene()
