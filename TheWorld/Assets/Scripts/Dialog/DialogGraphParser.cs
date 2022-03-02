@@ -84,7 +84,7 @@ public class DialogGraphParser : MonoBehaviour
             DisplayAllNodeText();
         }
         DisplayDialogChoices();
-        HideAllDialogButtons();
+        //HideAllDialogButtons();
     }
 
     [Button]
@@ -186,12 +186,13 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayDialogChoices()
     {
+        Debug.Log("Display CHOICES");
         if(currentNode.nextNodes.Count == 1)
         {
             madeNodeSelection = true;
         }
 
-        if (currentNode.IsNeutralNode()) return;
+        if (currentNode.IsNeutralNode() && currentNode != dialogGraph.startingNode) return;
 
         //  Check if current node has our current personality choice selected
         //  If it doesn't, then we need to swap to the first available choice
@@ -207,6 +208,7 @@ public class DialogGraphParser : MonoBehaviour
                 break;
             }
         }
+
         // hide all unused choices
         HideUnusedDialogButtons(currentNode.nextNodes);
     }
@@ -252,9 +254,12 @@ public class DialogGraphParser : MonoBehaviour
 
     void SwapSelectedButtonIcon(PersonalityChoice newChoice)
     {
+        Debug.Log("NEW CHOICE: " + newChoice);
+        Debug.Log("OLD CHOICE: " + selectedButton.PersonalityChoice);
+
         // Get the previoius personality choice
         PersonalityChoice oldChoice = selectedButton.PersonalityChoice;
-        Debug.Log(oldChoice);
+
         // If the choices are the same or if the choice is neutral, exit
         if (newChoice == oldChoice || newChoice == PersonalityChoice.NEUTRAL)
         {
@@ -272,12 +277,10 @@ public class DialogGraphParser : MonoBehaviour
                 oldButton = button;
             }
         }
-        Debug.Log(oldChoice + " !!!!!");
 
         // Swap the image sprites
         oldButton.SetPersonalityChoice(oldChoice);
         selectedButton.SetPersonalityChoice(newChoice);
-
     }
 
     void DisplayAllNodeText()
