@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49899
+54627
 Successfully changed project path to: /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld
 /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 70.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld/Assets
 GfxDevice: creating device client; threaded=0
-2022-03-04 19:46:11.714 Unity[1208:58784] Color LCD preferred device: Intel Iris Pro Graphics (low power)
-2022-03-04 19:46:11.714 Unity[1208:58784] Metal devices available: 1
-2022-03-04 19:46:11.714 Unity[1208:58784] 0: Intel Iris Pro Graphics (low power)
-2022-03-04 19:46:11.714 Unity[1208:58784] Using device Intel Iris Pro Graphics (low power)
+2022-03-05 21:22:52.190 Unity[3225:248255] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2022-03-05 21:22:52.190 Unity[3225:248255] Metal devices available: 1
+2022-03-05 21:22:52.191 Unity[3225:248255] 0: Intel Iris Pro Graphics (low power)
+2022-03-05 21:22:52.191 Unity[3225:248255] Using device Intel Iris Pro Graphics (low power)
 Initializing Metal device caps: Intel Iris Pro Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000906 seconds.
+Registered in 0.002809 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 65.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 65.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.954 seconds
+- Completed reload, in  0.930 seconds
 Domain Reload Profiling:
-	ReloadAssembly (954ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (930ms)
+		BeginReloadAssembly (63ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (773ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (749ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (287ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
+				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (15ms)
-				ProcessInitializeOnLoadAttributes (157ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004375 seconds.
+Registered in 0.013102 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 70.21 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 63.26 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.944 seconds
+- Completed reload, in  2.846 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2945ms)
-		BeginReloadAssembly (249ms)
+	ReloadAssembly (2849ms)
+		BeginReloadAssembly (231ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (49ms)
-		EndReloadAssembly (2589ms)
-			LoadAssemblies (122ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2522ms)
+			LoadAssemblies (152ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (678ms)
+			SetupTypeCache (596ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (102ms)
-			SetupLoadedEditorAssemblies (1465ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1478ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (70ms)
-				BeforeProcessingInitializeOnLoad (112ms)
-				ProcessInitializeOnLoadAttributes (1201ms)
-				ProcessInitializeOnLoadMethodAttributes (72ms)
+				RefreshPlugins (63ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (1228ms)
+				ProcessInitializeOnLoadMethodAttributes (73ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.011233 seconds.
+Validating Project structure ... 0.007104 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.023381 seconds.
+Upgrading shader files ...0.022418 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -132,14 +132,14 @@ Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2319 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 217.6 MB.
+System memory in use before: 217.5 MB.
 System memory in use after: 216.8 MB.
 
 Unloading 147 unused Assets to reduce memory usage. Loaded Objects now: 2841.
-Total: 35.344055 ms (FindLiveObjects: 0.285519 ms CreateObjectMapping: 0.313904 ms MarkObjects: 34.014735 ms  DeleteObjects: 0.728524 ms)
+Total: 31.751586 ms (FindLiveObjects: 0.244438 ms CreateObjectMapping: 0.181282 ms MarkObjects: 30.662598 ms  DeleteObjects: 0.661945 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,121 +153,82 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+  path: Assets/Animations/eon_panic_ox.anim
+  artifactKey: Guid(d763e5ff7781949ee86dc8a494de27ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/eon_panic_ox.anim using Guid(d763e5ff7781949ee86dc8a494de27ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b171b1f4520584e3c5d3c5120b34c8') in 1.614351 seconds 
+  Import took 1.622777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.923292 seconds.
+  path: Assets/Animations/eon_scared_ox.anim
+  artifactKey: Guid(c0e3db2b161c8473a9b48720e2e5ceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/eon_scared_ox.anim using Guid(c0e3db2b161c8473a9b48720e2e5ceec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c0ad16edda12a40925491c97c333edb') in 0.007930 seconds 
+  Import took 0.012810 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3518.309751 seconds.
   path: Assets/Images/eon.psb
   artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '762fa37cebcd9b45b53b249b1b02df6b') in 0.978622 seconds 
-  Import took 0.988686 seconds .
+Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '282659c69a39c66b28aea8a84080c939') in 0.915137 seconds 
+  Import took 0.946046 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 477.970608 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '534bf6887467113fb5d39dcb7fe894f5') in 0.273339 seconds 
-  Import took 0.279295 seconds .
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.867 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3868ms)
+		BeginReloadAssembly (484ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (338ms)
+		EndReloadAssembly (3220ms)
+			LoadAssemblies (198ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1041ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (138ms)
+			SetupLoadedEditorAssemblies (1532ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (266ms)
+				ProcessInitializeOnLoadAttributes (1194ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2295 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.9 MB.
+System memory in use after: 224.2 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 348.411390 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '620e161d3d5d24aa5b8ea7d4a65d59eb') in 0.276998 seconds 
-  Import took 0.283063 seconds .
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2992.
+Total: 36.132263 ms (FindLiveObjects: 0.333231 ms CreateObjectMapping: 0.217116 ms MarkObjects: 35.531724 ms  DeleteObjects: 0.048782 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 170.151801 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f71a351a2c2161c74eb6adfbcc8fae0') in 0.545605 seconds 
-  Import took 0.552220 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 62.879119 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7971145aba98c14ef1b9de5f746a3edb') in 0.351833 seconds 
-  Import took 0.357650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 385.611730 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '172d3e4a67c32646c909ffe6c2051a7a') in 0.820570 seconds 
-  Import took 0.829823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 577.771586 seconds.
-  path: Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles
-  artifactKey: Guid(72ff92c7229cb4fda98c32661cb74a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles using Guid(72ff92c7229cb4fda98c32661cb74a97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03041fe58ee4d8becbf0f6deac4440e') in 0.004579 seconds 
-  Import took 0.009682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.809041 seconds.
-  path: Assets/StreamingAssets/2DAnimationSampleAssetBundles
-  artifactKey: Guid(1c68550748ede4b81aa95cafa73db737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/2DAnimationSampleAssetBundles using Guid(1c68550748ede4b81aa95cafa73db737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba45c9fd18ed25f54ddbd5a3b902607a') in 0.002687 seconds 
-  Import took 0.009091 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.446988 seconds.
-  path: Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest
-  artifactKey: Guid(30871f2bb257b40eabc45c6ecbc341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/StreamingAssets/2DAnimationSampleAssetBundles/2DAnimationSampleAssetBundles.manifest using Guid(30871f2bb257b40eabc45c6ecbc341d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1042014a75263995f61f70a2477868b6') in 2.104969 seconds 
-  Import took 2.117531 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 917.446692 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6575311a7f2625cd3ba379be7b49b67') in 0.874812 seconds 
-  Import took 0.882167 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 136.109964 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9080052c06c8dbeef061dc94eb404ed0') in 0.563682 seconds 
-  Import took 0.572203 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.739594 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29e6160205f90e875770156f7e8443dd') in 0.335218 seconds 
-  Import took 0.342133 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 473.196318 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '427c7404d0530f22deddb555cd36416c') in 0.521805 seconds 
-  Import took 0.529516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.254417 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30174b3dfea4f37d3cdc2d609554df35') in 0.338981 seconds 
-  Import took 0.345597 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.972515 seconds.
-  path: Assets/Images/eon.psb
-  artifactKey: Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Images/eon.psb using Guid(add66f4fbf9d14636a76319dc2659179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd5f5e2545ac5ea05b88d1cc6d53d596') in 0.547038 seconds 
-  Import took 0.554144 seconds .
-
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
