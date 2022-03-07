@@ -14,6 +14,7 @@ public class DialogGraphGenerator : ScriptableObject
 {
     [SerializeField] CastList castList;
     [SerializeField, TextArea] string DialogStoryPath = "Assets/Scripts/ScriptableObjects/Story/";
+    [SerializeField, TextArea] string TagActionFilePath = "Assets/Scripts/ScriptableObjects/TagActions/";
     const string COMMENT_SYMBOL = "//";
     const string LINK_SYMBOL = "[[";
     const string TAG_SYMBOL = "##";
@@ -190,10 +191,18 @@ public class DialogGraphGenerator : ScriptableObject
         return dialogLine;
     }
 
-
+    /*
+     *      TODO: 
+     *              -   Establish file oath to store all tag actions
+     *              -   create tag action asset and link it to repective node/line
+     *              
+     * 
+     * 
+     */ 
 
     TagAction GenerateTagAction(string line)
     {
+        string fileName = line.Replace("@", "");
         line = line.Replace("@", "");
         string[] rawLineInfo = line.Split('-');
         for(int i = 0; i < rawLineInfo.Length; i++)
@@ -206,24 +215,34 @@ public class DialogGraphGenerator : ScriptableObject
         Tags type = GetTagType(rawType);
 
         CharacterData character;
+
+        TagAction tagAction = ScriptableObject.CreateInstance<TagAction>();
+        tagAction.name = fileName;
+        string typeOfAction = type.ToString();
         switch (type)
         {
             case Tags.ANIM:
                 character = GetCharacter(rawLineInfo[1]);
-                return new AnimationAction(character, rawLineInfo[2]);
+                ((AnimationAction)tagAction).Init(character, rawLineInfo[2]);
+                break;
             case Tags.SFX:
-                return new PlaySFXAction(rawLineInfo[1]);
+                ((PlaySFXAction)tagAction).Init(rawLineInfo[1]);
+                break;
             case Tags.BGM:
-                return new PlayBGMAction(rawLineInfo[1]);
+                ((PlayBGMAction)tagAction).Init(rawLineInfo[1]);
+                break;
             case Tags.PROFILE:
                 character = GetCharacter(rawLineInfo[1]);
-                return new ChangeProfilePictureAction(character, rawLineInfo[2]);
+                ((ChangeProfilePictureAction)tagAction).Init(character, rawLineInfo[2]);
+                break;
             case Tags.SET_VALUE:
                 break;
             default:
-
-                break;
+                return null;
         }
+
+        // TODO: create folders for tagactions
+        AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
 
 
         // switch statement for different tag actions

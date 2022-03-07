@@ -2,11 +2,11 @@ Unity Editor version:    2020.3.26f1 (7298b473bc1a)
 Branch:                  2020.3/staging
 Build type:              Release
 Batch mode:              YES
-macOS version:           Version 11.4 (Build 20F71)
-Darwin version:          20.5.0
+macOS version:           Version 12.3 (Build 21E5206e)
+Darwin version:          21.4.0
 Architecture:            x86_64
 Running under Rosetta:   NO
-Available memory:        16384 MB
+Available memory:        32768 MB
 Using pre-set license
 Pro License: NO
 
@@ -18,7 +18,7 @@ COMMAND LINE ARGUMENTS:
 -name
 AssetImportWorker0
 -projectPath
-/Users/edanurkuntman/Projects/Games/TheWorld/TheWorld
+/Users/chriswilliams/UnityRepo/TheWorld/TheWorld
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
@@ -30,7 +30,7 @@ Refreshing native plugins compatible for Editor in 77.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld/Assets
+[Subsystems] Discovering subsystems at path /Users/chriswilliams/UnityRepo/TheWorld/TheWorld/Assets
 GfxDevice: creating device client; threaded=0
 2022-03-05 21:22:52.190 Unity[3225:248255] Color LCD preferred device: Intel Iris Pro Graphics (low power)
 2022-03-05 21:22:52.190 Unity[3225:248255] Metal devices available: 1
@@ -44,6 +44,7 @@ Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Content
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56225
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.002809 seconds.
@@ -69,7 +70,7 @@ Domain Reload Profiling:
 			RebuildScriptCaches (55ms)
 			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (65ms)
 				BeforeProcessingInitializeOnLoad (15ms)
@@ -93,7 +94,7 @@ Domain Reload Profiling:
 	ReloadAssembly (2849ms)
 		BeginReloadAssembly (231ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (47ms)
@@ -128,8 +129,10 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
+2022-03-05 16:34:06.358 Unity[36234:8513281] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003789810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-03-05 16:34:06.362 Unity[36234:8513281] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000037bdf10 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
 Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.

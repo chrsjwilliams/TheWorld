@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-public abstract class TagAction : MonoBehaviour
+public abstract class TagAction : ScriptableObject
 {
     protected Action callback;
     public abstract void ExecuteAction();
@@ -11,7 +11,7 @@ public class AnimationAction : TagAction
 {
     public CharacterData character;
     string animationName;
-    public AnimationAction(CharacterData _character, string _animationName)
+    public void Init(CharacterData _character, string _animationName)
     {
         character = _character;
         animationName = _animationName;
@@ -26,7 +26,7 @@ public class AnimationAction : TagAction
 public class PlaySFXAction : TagAction
 {
     SFX sfx;
-    public PlaySFXAction(string sfxName)
+    public void Init(string sfxName)
     {
         sfx = GetSFX(sfxName);
     }
@@ -53,7 +53,7 @@ public class PlaySFXAction : TagAction
 public class PlayBGMAction : TagAction
 {
     BGM bgm;
-    public PlayBGMAction(string bgmName)
+    public void Init(string bgmName)
     {
         bgm = GetBGM(bgmName);
     }
@@ -81,13 +81,13 @@ public class ChangeProfilePictureAction : TagAction
 {
     CharacterData character;
     Emote emotion;
-    public ChangeProfilePictureAction(CharacterData c, Emote e)
+    public void Init(CharacterData c, Emote e)
     {
         character = c;
         emotion = e;
     }
 
-    public ChangeProfilePictureAction(CharacterData c, string e)
+    public void Init(CharacterData c, string e)
     {
         character = c;
         emotion = GetEmote(e);
