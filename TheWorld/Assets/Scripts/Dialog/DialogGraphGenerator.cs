@@ -191,62 +191,69 @@ public class DialogGraphGenerator : ScriptableObject
         return dialogLine;
     }
 
-    /*
-     *      TODO: 
-     *              -   Establish file oath to store all tag actions
-     *              -   create tag action asset and link it to repective node/line
-     *              
-     * 
-     * 
-     */ 
-
     TagAction GenerateTagAction(string line)
     {
         string fileName = line.Replace("@", "");
         line = line.Replace("@", "");
-        string[] rawLineInfo = line.Split('-');
+        string[] rawLineInfo = line.Split(new[] { '_'}, 2);
         for(int i = 0; i < rawLineInfo.Length; i++)
         {
             rawLineInfo[i] = rawLineInfo[i].Trim();
             rawLineInfo[i] = rawLineInfo[i].Replace("-", "");
         }
+
         string rawType = rawLineInfo[0];
 
         Tags type = GetTagType(rawType);
-
-        CharacterData character;
-
-        TagAction tagAction = ScriptableObject.CreateInstance<TagAction>();
-        tagAction.name = fileName;
         string typeOfAction = type.ToString();
+
+        // If we already have an scriptable object for this tag action, use that
+        TagAction exisitingAction = (TagAction)AssetDatabase.LoadAssetAtPath(TagActionFilePath + typeOfAction + "/" + fileName + ".asset", typeof(TagAction));
+        if (exisitingAction)
+            return exisitingAction;
+
+        // IF acion doesn't already exist, create a new one
+        CharacterData character;
+        TagAction tagAction;
+        
         switch (type)
         {
             case Tags.ANIM:
-                character = GetCharacter(rawLineInfo[1]);
-                ((AnimationAction)tagAction).Init(character, rawLineInfo[2]);
-                break;
+                tagAction = ScriptableObject.CreateInstance<AnimationAction>();
+                character = GetCharacter(rawLineInfo[0]);
+                ((AnimationAction)tagAction).Init(character, rawLineInfo[1]);
+                tagAction.name = fileName;
+                AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
+
+                return tagAction;
             case Tags.SFX:
+                tagAction = ScriptableObject.CreateInstance<PlaySFXAction>();
                 ((PlaySFXAction)tagAction).Init(rawLineInfo[1]);
-                break;
+                tagAction.name = fileName;
+                AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
+
+                return tagAction;
             case Tags.BGM:
+                tagAction = ScriptableObject.CreateInstance<PlayBGMAction>();
                 ((PlayBGMAction)tagAction).Init(rawLineInfo[1]);
-                break;
+                tagAction.name = fileName;
+                AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
+
+                return tagAction;
             case Tags.PROFILE:
+                tagAction = ScriptableObject.CreateInstance<ChangeProfilePictureAction>();
                 character = GetCharacter(rawLineInfo[1]);
                 ((ChangeProfilePictureAction)tagAction).Init(character, rawLineInfo[2]);
-                break;
+                tagAction.name = fileName;
+                AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
+
+                return tagAction;
             case Tags.SET_VALUE:
-                break;
+                return null;
             default:
                 return null;
         }
 
-        // TODO: create folders for tagactions
-        AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
-
-
-        // switch statement for different tag actions
-        return null;
     }
 
     bool CommentCheck(string line)
@@ -280,6 +287,10 @@ public class DialogGraphGenerator : ScriptableObject
             {
                 return tag;
             }
+            if(value.ToUpper() == "EON")
+            {
+                return Tags.ANIM;
+            }
         }
         LogMessage(LogType.ERROR, "Tag " + value + " not found");
         return Tags.ERROR;
@@ -287,7 +298,7 @@ public class DialogGraphGenerator : ScriptableObject
 
     CharacterData GetCharacter(string name)
     {
-        foreach (CharacterData character in Services.CastList.Characters)
+        foreach (CharacterData character in castList.Characters)
         {
             if (name.ToUpper() == character.characterName.ToString().ToUpper())
             {
@@ -304,7 +315,7 @@ public class DialogGraphGenerator : ScriptableObject
         public DialogNode node;
     }
 
-    public enum Tags { ERROR, ANIM, SFX, BGM, SET_VALUE, PROFILE}
+    public enum Tags { ERROR, ANIM, SFX, BGM, SET_VALUE, PROFILE, END}
 
     public enum LogType { MESSAGE, WARNING, ERROR }
     public void LogMessage(LogType messageType, string message)

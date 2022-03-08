@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum SFX { CLICK }
+public enum SFX { CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN }
 
 public enum BGM { SILENCE }
 

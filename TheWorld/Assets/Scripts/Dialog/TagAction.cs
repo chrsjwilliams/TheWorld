@@ -1,16 +1,20 @@
 using System;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public abstract class TagAction : ScriptableObject
 {
     protected Action callback;
+    [Button]
     public abstract void ExecuteAction();
 }
 
+[CreateAssetMenu(fileName = "New Animation Action"
+                , menuName = "Dialog/Tag Actions/Animation Action")]
 public class AnimationAction : TagAction
 {
     public CharacterData character;
-    string animationName;
+    [SerializeField]string animationName;
     public void Init(CharacterData _character, string _animationName)
     {
         character = _character;
@@ -23,9 +27,11 @@ public class AnimationAction : TagAction
     }
 }
 
+[CreateAssetMenu(fileName = "New SFX Action"
+                , menuName = "Dialog/Tag Actions/SFX Action")]
 public class PlaySFXAction : TagAction
 {
-    SFX sfx;
+    [SerializeField] SFX sfx;
     public void Init(string sfxName)
     {
         sfx = GetSFX(sfxName);
@@ -50,9 +56,11 @@ public class PlaySFXAction : TagAction
     }
 }
 
+[CreateAssetMenu(fileName = "New BGM Action"
+                , menuName = "Dialog/Tag Actions/BGM Action")]
 public class PlayBGMAction : TagAction
 {
-    BGM bgm;
+    [SerializeField] BGM bgm;
     public void Init(string bgmName)
     {
         bgm = GetBGM(bgmName);
@@ -77,10 +85,12 @@ public class PlayBGMAction : TagAction
     }
 }
 
+[CreateAssetMenu(fileName = "New Profile Picture Action"
+                , menuName = "Dialog/Tag Actions/Profile Picture Action")]
 public class ChangeProfilePictureAction : TagAction
 {
-    CharacterData character;
-    Emote emotion;
+    [SerializeField] CharacterData character;
+    [SerializeField] Emote emotion;
     public void Init(CharacterData c, Emote e)
     {
         character = c;

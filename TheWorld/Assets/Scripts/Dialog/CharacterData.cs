@@ -13,6 +13,11 @@ public class CharacterData : SerializedScriptableObject
     [SerializeField] GameObject model;
     [SerializeField] Animator animator;
 
+    private void Awake()
+    {
+        animator = model.GetComponentInChildren<Animator>();
+    }
+
     public Sprite GetCharacterProfile(Emote emote)
     {
         return characterProfiles[emote];
