@@ -16,10 +16,9 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: -3758857174986526896, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
-    - {fileID: 1507389690596456133, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
+    - {fileID: 21300000, guid: 406cae46effcf4d168b01e8403490ddf, type: 3}
     - {fileID: 1033085206872595270, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
-    - {fileID: 4615735545732454877, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
+    - {fileID: 21300000, guid: bcf87818d8fe143a4a0b7ecbe2ffd215, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -46,8 +45,8 @@ MonoBehaviour:
       Entry: 1
       Data: HUMAN
     - Name: $v
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -59,7 +58,7 @@ MonoBehaviour:
       Data: OX
     - Name: $v
       Entry: 10
-      Data: 1
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -71,7 +70,7 @@ MonoBehaviour:
       Data: LION
     - Name: $v
       Entry: 10
-      Data: 2
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -83,7 +82,7 @@ MonoBehaviour:
       Data: EAGLE
     - Name: $v
       Entry: 10
-      Data: 3
+      Data: 2
     - Name: 
       Entry: 8
       Data: 
