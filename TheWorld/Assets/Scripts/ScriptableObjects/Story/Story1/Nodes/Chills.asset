@@ -64,15 +64,20 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' Eon gets chills. '
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' She doesn''t like being alone. '
+    lineActions:
+    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' I wish there was someone waiting with me.'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' Then she hears footsteps. '
+    lineActions: []
     Notes: 
   Notes: 
   lineActions:

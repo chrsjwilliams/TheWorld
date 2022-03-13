@@ -90,10 +90,12 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Why do you talk to me like that? What do you want?'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")[I have a riddle for you. I want you to make a guess.
       If you guess right, you''ll be fine. If not, there will be consequences.]'
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

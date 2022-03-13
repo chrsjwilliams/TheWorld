@@ -11,6 +11,8 @@ public class DialogGraphParser : MonoBehaviour
     public bool displayAllLines;
 
     [Space(25)]
+    [SerializeField] CastList castList;
+    [SerializeField] List<StoryCharacter> characters;
     [SerializeField] CharacterData player;
     [SerializeField] CharacterData narrator;
     [SerializeField] DialogGraph dialogGraph;
@@ -59,9 +61,12 @@ public class DialogGraphParser : MonoBehaviour
 
     }
 
-    public void StartStory(DialogGraph story)
+    public void StartStory(TransitionData data)
     {
-        dialogGraph = story;
+        dialogGraph = data.selectedStory;
+        castList = data.selectedCastList;
+        Services.SetCurrentCast(castList);
+        
         if (currentNode != null)
         {
             Debug.LogError("Current Node is not empty");
@@ -69,6 +74,10 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         dialogGraph.Init();
+        var player = Services.CastList.Player;
+        var character = Instantiate(player.Model);
+        Services.CastList.AddCharacterModel(character);
+
         currentNode = dialogGraph.startingNode;
         nodeNameText.text = currentNode.NodeTitle;
         visitedNodes.Clear();
@@ -129,14 +138,13 @@ public class DialogGraphParser : MonoBehaviour
             }
             else
             {
-                Debug.Log("Making Choice: " + selectedButton.PersonalityChoice);
                 currentNode = currentNode.nextNodes[selectedButton.PersonalityChoice];
             }
             nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
             visitedNodes.Push(currentNode);
             // execute actions on the node
-            //currentNode.ExecuteTagActions(() => { });
+            currentNode.ExecuteTagActions(() => { });
             //  reset dialog line index
             dialogLineIndex = 0;
             //  display dialog line
@@ -158,14 +166,13 @@ public class DialogGraphParser : MonoBehaviour
 
         CharacterData character = currentLine.speaker;
 
-        //if (character == Services.CastList.Player)
-        if(character == player)
+        if(character.IsPlayer)
         {
             playerProfileCanvasGroup.alpha = 1;
             npcProfileCanvasGroup.alpha = 0;
             playerProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
         }
-        else if(character == narrator)
+        else if(character.IsNarrator)
         {
             npcProfileCanvasGroup.alpha = 0;
             playerProfileCanvasGroup.alpha = 0;
@@ -186,7 +193,6 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayDialogChoices()
     {
-        Debug.Log("Display CHOICES");
         if(currentNode.nextNodes.Count == 1)
         {
             madeNodeSelection = true;
@@ -254,16 +260,12 @@ public class DialogGraphParser : MonoBehaviour
 
     void SwapSelectedButtonIcon(PersonalityChoice newChoice)
     {
-        Debug.Log("NEW CHOICE: " + newChoice);
-        Debug.Log("OLD CHOICE: " + selectedButton.PersonalityChoice);
-
         // Get the previoius personality choice
         PersonalityChoice oldChoice = selectedButton.PersonalityChoice;
 
         // If the choices are the same or if the choice is neutral, exit
         if (newChoice == oldChoice || newChoice == PersonalityChoice.NEUTRAL)
         {
-            Debug.Log("NO SWAPS");
             return;
         }
 
@@ -300,6 +302,7 @@ public class DialogGraphParser : MonoBehaviour
         foreach (DialogLine line in currentNode.speakingLines)
         {
             nodetext += line.line + "\n";
+            line.ExecuteTagActions(() => { });
         }
         return nodetext;
     }

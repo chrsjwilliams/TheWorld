@@ -64,12 +64,15 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' I am impressed my friend. Really impressed.'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The train is approaching the station finally. '
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' You are free to go now. It was a pleasure to challenge you my friend.'
+    lineActions: []
     Notes: 
   Notes: 
   lineActions:

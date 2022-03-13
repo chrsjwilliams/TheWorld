@@ -1526,6 +1526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
   story: {fileID: 11400000, guid: a80d110ad1ac346478ebf36538485c4f, type: 2}
   canvasGroup: {fileID: 4698028200399432149}
 --- !u!225 &4698028200399432149
@@ -1762,6 +1763,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castList: {fileID: 0}
   story: {fileID: 0}
   canvasGroup: {fileID: 6149497760329098755}
 --- !u!225 &6149497760329098755
@@ -2100,6 +2102,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castList: {fileID: 0}
   story: {fileID: 0}
   canvasGroup: {fileID: 7667271687856691271}
 --- !u!225 &7667271687856691271
@@ -2764,6 +2767,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  castList: {fileID: 0}
   story: {fileID: 0}
   canvasGroup: {fileID: 1623030557392654441}
 --- !u!225 &1623030557392654441

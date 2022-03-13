@@ -77,18 +77,23 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Stranges looks disappointed. He repeats rolling his eyes
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")[What is something that you get to keep after you
       give it to someone?]'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Yes yes. I just need to think a little. '
+    lineActions:
+    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' It sounds like, hmm, love probably. You gotta have love to be able to
       give it someone. The more you give, the more you have? I mean, that''s what
       they say...'
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

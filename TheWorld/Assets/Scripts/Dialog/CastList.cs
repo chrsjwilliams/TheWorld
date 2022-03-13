@@ -14,6 +14,63 @@ public class CastList : SerializedScriptableObject
     [SerializeField] CharacterData player;
     public CharacterData Player { get { return player; } }
 
+    [SerializeField] List<StoryCharacter> activeCharacters = new List<StoryCharacter>();
+
+    public void ClearActiveCharactersModel()
+    {
+        activeCharacters.Clear();
+    }
+
+    public StoryCharacter GetCharacterModel(StoryCharacter data)
+    {
+        foreach(StoryCharacter d in activeCharacters)
+        {
+            if (d.characterName == data.characterName)
+                return d;
+        }
+
+        Debug.Log("Character " + data + " not found.");
+        return null;
+    }
+
+    public void AddCharacterModel(StoryCharacter data)
+    {
+        if(!activeCharacters.Contains(data))
+        {
+            activeCharacters.Add(data);
+        }
+    }
+
+    public void AddCharactersModel(List<StoryCharacter> data)
+    {
+        foreach (StoryCharacter d in data)
+        {
+            if (!activeCharacters.Contains(d))
+            {
+                activeCharacters.Add(d);
+            }
+        }
+    }
+
+    public void RemoveCharacterModel(StoryCharacter data)
+    {
+        if (activeCharacters.Contains(data))
+        {
+            activeCharacters.Remove(data);
+        }
+    }
+
+    public void RemoveCharactersModel(List<StoryCharacter> data)
+    {
+        foreach (StoryCharacter d in data)
+        {
+            if (activeCharacters.Contains(d))
+            {
+                activeCharacters.Add(d);
+            }
+        }
+    }
+
     public bool Contians(string name)
     {
         foreach(CharacterData charatcer in characters)

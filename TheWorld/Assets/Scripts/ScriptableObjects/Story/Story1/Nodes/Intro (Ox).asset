@@ -64,9 +64,13 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' Eon is waiting at the train station. '
+    lineActions:
+    - {fileID: 11400000, guid: 4d3a5a579b3264791a0c32ae8b96c437, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' It seems like there is no one else around.'
+    lineActions: []
     Notes: 
   Notes: // Eon waits at the train station. // It is gloomy
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 4d3a5a579b3264791a0c32ae8b96c437, type: 2}

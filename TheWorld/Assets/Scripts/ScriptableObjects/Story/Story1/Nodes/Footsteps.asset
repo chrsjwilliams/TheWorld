@@ -64,18 +64,28 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' She looks towards the sound. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' A silhouette is approaching her. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' She turns her head away. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' Stranger doesn''t stop. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' Footsteps coming closer. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   Notes: 
   lineActions: []

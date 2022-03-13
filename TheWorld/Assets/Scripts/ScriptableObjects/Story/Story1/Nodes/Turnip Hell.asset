@@ -64,24 +64,32 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The train stops. Eon hears screams coming from inside. '
+    lineActions:
+    - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: As the doors open, she feels a very intense heat coming from inside.
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The train is on fire. And full of Turnips. '
+    lineActions: []
     Notes: 
   - speaker: {fileID: 0}
     line: ' HELP! HELP IT IS SO HOT IN HERE!'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Oh my God, oh my God, OH MY GOD!'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 0}
     line: ' PLEASE! WE ARE GETTING ROASTED. AND WE ARE TURNIPS!'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' Hmm, delicious!'
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

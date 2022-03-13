@@ -64,12 +64,17 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Okay, I can eat turnip. Whatever.
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'She bites the turnip. '
+    lineActions:
+    - {fileID: 11400000, guid: 29e67a521fa0b4dd19c11706787c6961, type: 2}
+    - {fileID: 11400000, guid: e7f2fa7b27e5a474f91130e4b75b2220, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: It is hard, and bitter just like he said.
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

@@ -16,7 +16,8 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     internal override void OnEnter(TransitionData data)
     {
-
+        // maybe set default cast list to include only the narrator instead of null?
+        Services.SetCurrentCast(null);
         StorySelectButtons.StorySelected += OnStorySelected;
 
         /*
@@ -36,6 +37,7 @@ public class MainMenuSceneScript : Scene<TransitionData>
         selectedStory = _selectedStory.Story;
         TransitionData mainMenuData = new TransitionData();
         mainMenuData.selectedStory = selectedStory;
+        mainMenuData.selectedCastList = _selectedStory.CastList;
         Services.Scenes.Swap<GameSceneScript>(mainMenuData);
 
     }

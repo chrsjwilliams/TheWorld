@@ -17,6 +17,7 @@ public class TransitionData
     }
 
     public DialogGraph selectedStory;
+    public CastList selectedCastList;
 
     public TitleScreen TITLE;
 

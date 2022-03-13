@@ -64,9 +64,11 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")[Anyway, you failed! You''ll face the consequences.]'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: And the stranger disappears, boom!
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

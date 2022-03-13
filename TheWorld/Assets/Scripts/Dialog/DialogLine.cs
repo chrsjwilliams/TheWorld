@@ -11,7 +11,7 @@ public class DialogLine: IAction
     public CharacterData speaker;
     [TextArea]
     public string line;
-    List<TagAction> lineActions = new List<TagAction>();
+    [SerializeField] List<TagAction> lineActions = new List<TagAction>();
 
     [Space(50)]
     [SerializeField, TextArea]

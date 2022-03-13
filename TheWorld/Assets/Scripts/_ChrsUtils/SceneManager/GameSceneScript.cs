@@ -24,7 +24,7 @@ public class GameSceneScript : Scene<TransitionData>
 
     internal override void OnEnter(TransitionData data)
     {
-        storyReader.StartStory(data.selectedStory);
+        storyReader.StartStory(data);
     }
 
     public void EnterScene()

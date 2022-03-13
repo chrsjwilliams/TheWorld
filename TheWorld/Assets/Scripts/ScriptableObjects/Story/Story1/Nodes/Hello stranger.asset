@@ -77,15 +77,21 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The footsteps stops next to her. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: With the corner of her eye, she sees the torn out sneakers and the jeans.
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: The stranger sits down next to her.
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")["Hello stranger."] '
+    lineActions:
+    - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 
   Notes: 
   lineActions: []

@@ -16,7 +16,6 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: -3758857174986526896, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
     - {fileID: 1033085206872595270, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
     - {fileID: 4615735545732454877, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
     SerializedBytesString: 
@@ -43,7 +42,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 4
     - Name: 
       Entry: 7
       Data: 
@@ -51,8 +50,8 @@ MonoBehaviour:
       Entry: 3
       Data: 0
     - Name: $v
-      Entry: 10
-      Data: 0
+      Entry: 6
+      Data: 
     - Name: 
       Entry: 8
       Data: 
@@ -64,7 +63,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 10
-      Data: 1
+      Data: 0
     - Name: 
       Entry: 8
       Data: 
@@ -76,7 +75,19 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
       Data: 2
+    - Name: $v
+      Entry: 10
+      Data: 1
     - Name: 
       Entry: 8
       Data: 
@@ -86,7 +97,8 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  isPlayer: 1
+  isNarrator: 0
   characterName: Eon
   currentProfilePicture: {fileID: 1033085206872595270, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
-  model: {fileID: 0}
-  animator: {fileID: 0}
+  model: {fileID: 2689359464986486912, guid: cc7c3178855fd4f7cbec767dacdbb5dd, type: 3}

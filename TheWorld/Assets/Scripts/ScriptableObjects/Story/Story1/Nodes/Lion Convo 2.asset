@@ -77,15 +77,20 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' What the fuck you want? '
+    lineActions:
+    - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")["I have a riddle for you"]'
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' What? '
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")["A riddle"]'
+    lineActions: []
     Notes: 
   Notes: 
   lineActions:

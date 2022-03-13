@@ -14,4 +14,9 @@ public class Services
     public static GameSceneManager<TransitionData> Scenes { get; set; }
 
     public static CastList CastList { get; set; }
+
+    public static void SetCurrentCast(CastList castList)
+    {
+        CastList = castList;
+    }
 }

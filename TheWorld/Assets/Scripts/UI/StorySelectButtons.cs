@@ -8,6 +8,8 @@ public class StorySelectButtons : MonoBehaviour
 {
     public static event Action<StorySelectButtons> StorySelected;
 
+    [SerializeField] CastList castList;
+    public CastList CastList { get { return castList; } }
     [SerializeField] DialogGraph story;
     public DialogGraph Story { get { return story; } }
     [SerializeField] CanvasGroup canvasGroup;

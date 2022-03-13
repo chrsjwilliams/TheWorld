@@ -7,16 +7,15 @@ using Sirenix.OdinInspector;
                 , menuName = "Dialog/Character")]
 public class CharacterData : SerializedScriptableObject
 {
+    [SerializeField] bool isPlayer;
+    [SerializeField] public bool IsPlayer { get { return isPlayer; } }
+    [SerializeField] bool isNarrator;
+    [SerializeField] public bool IsNarrator { get { return isNarrator; } }
     [SerializeField] public string characterName;
     [SerializeField] Sprite currentProfilePicture;
     [SerializeField] Dictionary<Emote, Sprite> characterProfiles;
-    [SerializeField] GameObject model;
-    [SerializeField] Animator animator;
-
-    private void Awake()
-    {
-        animator = model.GetComponentInChildren<Animator>();
-    }
+    [SerializeField] StoryCharacter model;
+    [SerializeField] public StoryCharacter Model { get { return model; } }
 
     public Sprite GetCharacterProfile(Emote emote)
     {
@@ -25,7 +24,7 @@ public class CharacterData : SerializedScriptableObject
 
     public void PlayAnimation(string animation)
     {
-        animator.Play(animation);
+        Model.PlayAnimation(animation);
     }
 
     public void SetProfilePicture(Emote emote)

@@ -27,7 +27,9 @@ public class DialogNode : SerializedScriptableObject, IAction
     {
         foreach (TagAction lineAction in lineActions)
         {
-            lineAction.ExecuteAction();
+            // Temporarily only doing animation actions
+            if(lineAction is AnimationAction)
+                lineAction.ExecuteAction();
         }
 
         callback?.Invoke();
