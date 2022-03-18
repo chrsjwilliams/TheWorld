@@ -14,6 +14,7 @@ public class DialogButton : MonoBehaviour
     [SerializeField] Button button;
     [SerializeField] Image buttonIcon;
     [SerializeField] CanvasGroup canvasGroup;
+    [SerializeField] BoolVariable CanMakeSelection;
 
     // Start is called before the first frame update
     void Start()
@@ -46,6 +47,6 @@ public class DialogButton : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        button.interactable = CanMakeSelection.value;
     }
 }

@@ -2,15 +2,6 @@ using System;
 using UnityEngine;
 using Sirenix.OdinInspector;
 
-
-/*
- * 
- *      TODO:   -   passing animation action from scriptable objects to models
- *              -   have animation tags remember their animation
- * 
- * 
- */ 
-
 [CreateAssetMenu(fileName = "New Animation Action"
                 , menuName = "Dialog/Tag Actions/Animation Action")]
 public class AnimationAction : TagAction

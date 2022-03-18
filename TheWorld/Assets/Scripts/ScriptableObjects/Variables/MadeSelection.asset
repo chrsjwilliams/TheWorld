@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8b9088fdd284caab9f44dd11e75ae6, type: 3}
+  m_Name: MadeSelection
+  m_EditorClassIdentifier: 
+  notes: Is True when the player has made a selection on a dialog node. When moving
+    to a new node, this is set to false. Toggles in the DialogGraphParser
+  displayName: 
+  icon: {fileID: 0}
+  OnValueChanged: {fileID: 0}
+  _value: 0

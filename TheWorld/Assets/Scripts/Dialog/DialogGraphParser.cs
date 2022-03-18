@@ -37,8 +37,12 @@ public class DialogGraphParser : MonoBehaviour
     List<DialogButton> allButtons;
 
     public int dialogLineIndex = 0;
-    public bool madeNodeSelection = false;
+    [SerializeField] BoolVariable CanMakeSelection;
+    [SerializeField] BoolVariable MadeSelection;
 
+
+    [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
+    [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
 
     // Choices we have not selected
     // last choice selected
@@ -127,8 +131,7 @@ public class DialogGraphParser : MonoBehaviour
 
     void MoveToNextNode()
     {
-        if (!madeNodeSelection && !displayAllLines) return;
-        
+        if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
             //  Set current node to next node
@@ -150,7 +153,9 @@ public class DialogGraphParser : MonoBehaviour
             //  display dialog line
             DisplayNextDialogLine();
 
-            madeNodeSelection = false;
+            MadeSelection.value = false;
+            CanMakeSelection.value = true;
+            AllowPlayerCharacterInteraction?.Raise();
         }
         else
         {
@@ -193,9 +198,11 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayDialogChoices()
     {
-        if(currentNode.nextNodes.Count == 1)
+        if (currentNode.nextNodes.Count == 1)
         {
-            madeNodeSelection = true;
+            MadeSelection.value = true;
+            CanMakeSelection.value = false;
+            BlockPlayerCharacterInteraction?.Raise();
         }
 
         if (currentNode.IsNeutralNode() && currentNode != dialogGraph.startingNode) return;
@@ -254,7 +261,9 @@ public class DialogGraphParser : MonoBehaviour
 
     void ChangeSelectedButtonIcon(PersonalityChoice newChoice)
     {
-        madeNodeSelection = true;
+        MadeSelection.value = true;
+        //CanMakeSelection.value = false;
+        //BlockPlayerCharacterInteraction?.Raise();
         SwapSelectedButtonIcon(newChoice);
     }
 
