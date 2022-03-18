@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /*
- *      TODO:
+ *      ~TODO:
  *              -   Place in the game scene
  *              -   Have reference to cast list
  *              -   When Dialog Parser reaches a node with that character,

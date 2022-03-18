@@ -39,7 +39,7 @@ public class AudioManager : MonoBehaviour
         PlayClip(clip, 1.0f, 1.0f);
     }
 
-    // TODO: Implement playing BGM
+    // ~TODO: Implement playing BGM
     public void PlayBGM(BGM bgm)
     {
     }

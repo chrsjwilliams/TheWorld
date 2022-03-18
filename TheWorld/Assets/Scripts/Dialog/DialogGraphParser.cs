@@ -5,6 +5,23 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
+// ~TODO: implement special abilities
+/*
+ * 
+ * Human    -   can see 3 nodes ahead without moving the story wheel. 
+ *              So the special abilities work only with the corresponding 
+ *              character. Human can foresee human nodes only
+ * 
+ * Eagle    -   can see the node where the special prize is hidden, 
+ *              they also see which character’s node is active on 
+ *              that - we never discussed about this before, I’ll 
+ *              explain later
+ *          
+ * Lion     -   can go back to any node
+ * 
+ * Ox       -   not sure yet
+ * 
+ */
 public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]
@@ -229,7 +246,7 @@ public class DialogGraphParser : MonoBehaviour
     private void HideUnusedDialogButtons(Dictionary<PersonalityChoice, DialogNode> choices)
     {
         // Go through all the unselected buttons and hide them if we cannot use them
-        // TODO: have each button tween away/in before changing their active status
+        // ~TODO: have each button tween away/in before changing their active status
         foreach(DialogButton button in unselectedButtons)
         {
             if(!choices.ContainsKey(button.PersonalityChoice))
