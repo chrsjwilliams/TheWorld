@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 using DG.Tweening;
-//using Sirenix.OdinInspector;
+using Sirenix.OdinInspector;
 
 public class RectTransformAnchoredPositionTweener : RectTransformTweener
 {
@@ -15,16 +15,13 @@ public class RectTransformAnchoredPositionTweener : RectTransformTweener
     [SerializeField] AdjustBy tweenBy;
 
 
-    //[PropertyTooltip("Tween to this position exactly")]
-    //[SerializeField, ShowIf("tweenBy", AdjustBy.Position)]
-    [SerializeField]
+    [PropertyTooltip("Tween to this position exactly")]
+    [SerializeField, ShowIf("tweenBy", AdjustBy.Position)]
     Vector2 position;
 
-    //[PropertyTooltip("Tween to the offset relative to the position it started from")]
-    //[SerializeField, ShowIf("tweenBy", AdjustBy.Offset)]
-    [SerializeField]
+    [PropertyTooltip("Tween to the offset relative to the position it started from")]
+    [SerializeField, ShowIf("tweenBy", AdjustBy.Offset)]
     Vector2 offset;
-    [SerializeField] Ease easing;
 
     protected override Tweener LocalPlay()
     {

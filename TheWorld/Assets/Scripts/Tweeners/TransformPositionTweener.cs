@@ -9,9 +9,6 @@ public class TransformPositionTweener : TransformTweener
     //[SerializeField, ShowIf("hasTarget", true)] GameObjectCollectionSO targetObject;
     [SerializeField] GameObjectCollectionSO targetObject;
 
-
-    [SerializeField] Ease easing;
-
     protected override Tweener LocalPlay()
     {
         if(targetObject.contents.Count < 1)

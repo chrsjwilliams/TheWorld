@@ -7,7 +7,6 @@ public class TransformRotateTweener : TransformTweener
     [EnumToggleButtons] public RotationMode rotationMode;
 
     [SerializeField] Vector3 degrees;
-    [SerializeField] protected Ease easing;
     [SerializeField] protected bool snapping;
     
 

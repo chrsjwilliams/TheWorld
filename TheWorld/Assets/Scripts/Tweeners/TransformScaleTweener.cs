@@ -4,7 +4,6 @@ using DG.Tweening;
 public class TransformScaleTweener : TransformTweener
 {
     [SerializeField] Vector3 scale;
-    [SerializeField] Ease easing;
 
     Vector3 _originalScale;
     protected override Tweener LocalPlay()

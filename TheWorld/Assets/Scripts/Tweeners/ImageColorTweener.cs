@@ -17,7 +17,6 @@ public class ImageColorTweener : MonoTweener
 
     //[SerializeField, ShowIf("colorMode", ColorMode.HSV)] bool hdr;
     [SerializeField] bool hdr;
-    [SerializeField] Ease easing;
 
 
     Color _originalColor;

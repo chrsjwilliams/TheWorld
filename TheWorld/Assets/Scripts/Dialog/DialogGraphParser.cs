@@ -5,23 +5,6 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
-// ~TODO: implement special abilities
-/*
- * 
- * Human    -   can see 3 nodes ahead without moving the story wheel. 
- *              So the special abilities work only with the corresponding 
- *              character. Human can foresee human nodes only
- * 
- * Eagle    -   can see the node where the special prize is hidden, 
- *              they also see which character’s node is active on 
- *              that - we never discussed about this before, I’ll 
- *              explain later
- *          
- * Lion     -   can go back to any node
- * 
- * Ox       -   not sure yet
- * 
- */
 public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]

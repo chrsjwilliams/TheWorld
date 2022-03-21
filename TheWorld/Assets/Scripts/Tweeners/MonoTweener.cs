@@ -42,7 +42,7 @@ public abstract class MonoTweener : MonoBehaviour
 
 
     [SerializeField, FoldoutGroup("Events")] UnityEvent OnKill;
-
+    [SerializeField] protected Ease easing;
 
     public float length { get { return duration + delay; } }
 

@@ -1,7 +1,7 @@
 using DG.Tweening;
 using UnityEngine;
 using System.Collections.Generic;
-//using Sirenix.OdinInspector;
+using Sirenix.OdinInspector;
 
 public class CompositeTweener : MonoTweener
 {
@@ -12,8 +12,7 @@ public class CompositeTweener : MonoTweener
         Simultaneous
     }
 
-    //[SerializeField, EnumToggleButtons] PlayMode mode;
-    [SerializeField] PlayMode mode;
+    [SerializeField, EnumToggleButtons] PlayMode mode;
 
     [SerializeField] List<MonoTweener> tweeners;
 
