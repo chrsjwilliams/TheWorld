@@ -21,4 +21,9 @@ public class TransformScaleTweener : TransformTweener
     {
         target.localScale = scale;
     }
+
+    public void ScaleToOne()
+    {
+        target.localScale = Vector3.one;
+    }
 }

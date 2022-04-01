@@ -21,4 +21,9 @@ public class TransformPunchScaleTweener : TransformTweener
         }
         return tween;
     }
+
+    public void ScaleToOne()
+    {
+        target.localScale = Vector3.one;
+    }
 }

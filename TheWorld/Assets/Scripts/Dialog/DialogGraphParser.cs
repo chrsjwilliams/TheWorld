@@ -27,6 +27,7 @@ public class DialogGraphParser : MonoBehaviour
 
     [SerializeField] Image playerProfile;
     [SerializeField] Image npcProfile;
+    [SerializeField] Image wheelProfile;
 
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
@@ -44,6 +45,9 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
     [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
 
+    const string COLOUR_TAG = " (text-colour: ";
+    const string COLOR_TAG = " (text-color: ";
+
     // Choices we have not selected
     // last choice selected
 
@@ -51,8 +55,9 @@ public class DialogGraphParser : MonoBehaviour
     {
         if (AtLastLineOfDialog() || displayAllLines)
         {
-            DisplayDialogChoices();
+            
             MoveToNextNode();
+            DisplayDialogChoices();
         }
         else
         {
@@ -97,6 +102,8 @@ public class DialogGraphParser : MonoBehaviour
             DisplayAllNodeText();
         }
         DisplayDialogChoices();
+        playerProfile.sprite = wheelProfile.sprite;
+
         //HideAllDialogButtons();
     }
 
@@ -134,6 +141,8 @@ public class DialogGraphParser : MonoBehaviour
         if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
+            npcProfileCanvasGroup.alpha = 0;
+
             //  Set current node to next node
             if (currentNode.IsNeutralNode())
             {
@@ -155,7 +164,10 @@ public class DialogGraphParser : MonoBehaviour
 
             MadeSelection.value = false;
             CanMakeSelection.value = true;
-            AllowPlayerCharacterInteraction?.Raise();
+            if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
+            {
+                AllowPlayerCharacterInteraction?.Raise();
+            }
         }
         else
         {
@@ -175,7 +187,7 @@ public class DialogGraphParser : MonoBehaviour
         {
             playerProfileCanvasGroup.alpha = 1;
             npcProfileCanvasGroup.alpha = 0;
-            playerProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
+            //playerProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
         }
         else if(character.IsNarrator)
         {
@@ -186,7 +198,7 @@ public class DialogGraphParser : MonoBehaviour
         {
             playerProfileCanvasGroup.alpha = 0;
             npcProfileCanvasGroup.alpha = 1;
-            npcProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
+            //npcProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
         }
 
         //dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
@@ -198,6 +210,8 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayDialogChoices()
     {
+        playerProfile.sprite = wheelProfile.sprite;
+
         if (currentNode.nextNodes.Count == 1)
         {
             MadeSelection.value = true;
@@ -265,6 +279,7 @@ public class DialogGraphParser : MonoBehaviour
         //CanMakeSelection.value = false;
         //BlockPlayerCharacterInteraction?.Raise();
         SwapSelectedButtonIcon(newChoice);
+
     }
 
     void SwapSelectedButtonIcon(PersonalityChoice newChoice)
@@ -292,6 +307,9 @@ public class DialogGraphParser : MonoBehaviour
         // Swap the image sprites
         oldButton.SetPersonalityChoice(oldChoice);
         selectedButton.SetPersonalityChoice(newChoice);
+
+        playerProfile.sprite = wheelProfile.sprite;
+
     }
 
     void DisplayAllNodeText()
@@ -310,6 +328,39 @@ public class DialogGraphParser : MonoBehaviour
         string nodetext = "";
         foreach (DialogLine line in currentNode.speakingLines)
         {
+            if(line.speaker != narrator && line.speaker != player)
+            {
+                npcProfileCanvasGroup.alpha = 1;
+            }
+
+            if (line.line.Contains(COLOR_TAG) || line.line.Contains(COLOUR_TAG))
+            {
+                npcProfileCanvasGroup.alpha = 1;
+                //string[] rawTextInfo = c_text.Split(new[] { ':' }, 2);
+                //string[] colorInfo = c_text.Split(new[] { ')' }, 2);
+                //(text-color:
+
+                if (line.line.Contains(COLOR_TAG))
+                {
+                    line.line = line.line.Replace(COLOR_TAG, "<color=");
+                }
+                else
+                {
+                    line.line = line.line.Replace(COLOUR_TAG, "<color=");
+                }
+                line.line = line.line.Replace(")", ">");
+
+                line.line = line.line.Replace("[", "");
+                line.line = line.line.Replace("]", "");
+
+                line.line += "</color>";
+
+            }
+
+            if(line.line.Contains("<color=") && line.line.Contains("</color>"))
+            {
+                line.line += "</color>";
+            }
             nodetext += line.line + "\n";
             line.ExecuteTagActions(() => { });
         }

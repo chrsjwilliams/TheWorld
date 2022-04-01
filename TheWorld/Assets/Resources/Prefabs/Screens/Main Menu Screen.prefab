@@ -82,6 +82,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 273670585355204515}
   scalePercent: 0.5
   vibrato: 10
@@ -644,6 +645,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 9191171648646377963}
@@ -729,6 +731,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 7373546934481344239}
   scalePercent: 0.5
   vibrato: 10
@@ -892,6 +895,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 6121121123155352779}
@@ -978,6 +982,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 7403969815410929142}
@@ -1063,6 +1068,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 2399692566407284868}
   scalePercent: 0.5
   vibrato: 10
@@ -1139,6 +1145,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 6501271018266693292}
@@ -1300,6 +1307,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 7619337749458504242}
@@ -1612,6 +1620,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 3722870633091973471}
@@ -2376,6 +2385,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   mode: 0
   tweeners:
   - {fileID: 9000167921024514445}
@@ -2461,6 +2471,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 6895856716938869062}
   scalePercent: 0.5
   vibrato: 10
@@ -2512,7 +2523,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startGame: 32
   SECONDS_TO_WAIT: 0.1
-  selectedStory: {fileID: 0}
+  selectedStory: {fileID: 11400000, guid: a80d110ad1ac346478ebf36538485c4f, type: 2}
 --- !u!1 &7373546933656505410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2864,6 +2875,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 2161435806190303604}
   scalePercent: 0.5
   vibrato: 10
@@ -3026,6 +3038,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 6185749630784392777}
   scalePercent: 0.5
   vibrato: 10
@@ -3188,6 +3201,7 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
+  easing: 0
   transformToUse: {fileID: 6636897475206451264}
   scalePercent: 0.5
   vibrato: 10

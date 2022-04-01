@@ -28,16 +28,16 @@ RectTransform:
   m_GameObject: {fileID: 25076127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children:
   - {fileID: 602240370}
   m_Father: {fileID: 35741018}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.14123282, y: 0.67860156}
-  m_AnchorMax: {x: 0.30276722, y: 0.957}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.80674994, y: 0.7254813}
+  m_AnchorMax: {x: 0.97588396, y: 0.957}
+  m_AnchoredPosition: {x: 2, y: -10.5}
+  m_SizeDelta: {x: -6, y: 21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &25076130
 CanvasRenderer:
@@ -222,6 +222,7 @@ MonoBehaviour:
   horizontalLayoutGroup: {fileID: 2057670506}
   playerProfile: {fileID: 399377737}
   npcProfile: {fileID: 602240371}
+  wheelProfile: {fileID: 627955376}
   playerProfileCanvasGroup: {fileID: 1205853748}
   npcProfileCanvasGroup: {fileID: 25076131}
   selectedButton: {fileID: 1163182321}
@@ -494,7 +495,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 75, y: 75}
+  m_SizeDelta: {x: 125, y: 125}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &399377738
 CanvasRenderer:
@@ -524,7 +525,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 1033085206872595270, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
+  m_Sprite: {fileID: -1025746827437578847, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -1658,10 +1659,10 @@ RectTransform:
   m_Father: {fileID: 35741018}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.69500005, y: 0.67860156}
-  m_AnchorMax: {x: 0.855, y: 0.957}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.051250003, y: 0.67860156}
+  m_AnchorMax: {x: 0.20675002, y: 0.957}
+  m_AnchoredPosition: {x: -1.5, y: 0}
+  m_SizeDelta: {x: 3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1205853747
 CanvasRenderer:
@@ -2575,8 +2576,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 142, y: 0}
-  m_SizeDelta: {x: 254, y: 0}
+  m_AnchoredPosition: {x: 218.475, y: 0}
+  m_SizeDelta: {x: 406.95, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2014036658
 CanvasRenderer:
@@ -2727,7 +2728,7 @@ RectTransform:
   m_AnchorMin: {x: 0.34423277, y: 0.7254813}
   m_AnchorMax: {x: 0.34423277, y: 0.7254813}
   m_AnchoredPosition: {x: 126.94, y: 41.793}
-  m_SizeDelta: {x: 284, y: 0}
+  m_SizeDelta: {x: 450, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2057670508
 CanvasRenderer:
@@ -2987,7 +2988,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7903783703430772265}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: SetToTargetScale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 20
   transformToUse: {fileID: 785227934}
   scale: {x: 1, y: 1, z: 1}
@@ -3060,7 +3073,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2269087839241378427}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: SetToTargetScale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 20
   transformToUse: {fileID: 1760022560}
   scale: {x: 1, y: 1, z: 1}
@@ -3703,7 +3728,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4666431080639319597}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: ScaleToOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 21
   transformToUse: {fileID: 1323475950}
   scale: {x: 1.33, y: 1.33, z: 1.33}
@@ -3814,7 +3851,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 461488513612707618}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: ScaleToOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 21
   transformToUse: {fileID: 785227934}
   scale: {x: 1.33, y: 1.33, z: 1.33}
@@ -4155,7 +4204,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6014084217703530946}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: ScaleToOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 21
   transformToUse: {fileID: 627955375}
   scale: {x: 1.33, y: 1.33, z: 1.33}
@@ -4301,7 +4362,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6829646877446490615}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: SetToTargetScale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 20
   transformToUse: {fileID: 1323475950}
   scale: {x: 1, y: 1, z: 1}
@@ -4374,7 +4447,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 2916313950723128427}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: SetToTargetScale
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 20
   transformToUse: {fileID: 627955375}
   scale: {x: 1, y: 1, z: 1}
@@ -4447,7 +4532,19 @@ MonoBehaviour:
       m_Calls: []
   OnKill:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1149555811314637336}
+        m_TargetAssemblyTypeName: TransformScaleTweener, Assembly-CSharp
+        m_MethodName: ScaleToOne
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   easing: 21
   transformToUse: {fileID: 1760022560}
   scale: {x: 1.33, y: 1.33, z: 1.33}
@@ -5986,6 +6083,22 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1515993949523263375, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515993949523263375, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515993949523263375, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1515993949523263375, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1664115318332241748, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -6020,11 +6133,11 @@ PrefabInstance:
       objectReference: {fileID: 1747202671226971689}
     - target: {fileID: 3003938861499739387, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3003938861499739387, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3003938861499739387, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6378,6 +6491,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8569954212934753905, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569954212934753905, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8569954212934753905, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8658649791629473570, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -6435,6 +6560,18 @@ PrefabInstance:
     - target: {fileID: 736210787431039318, guid: 3925da7c0d3134fb8bccd9e38f3f4379, type: 3}
       propertyPath: m_Name
       value: ScreenOverlay
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908587750755721554, guid: 3925da7c0d3134fb8bccd9e38f3f4379, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908587750755721554, guid: 3925da7c0d3134fb8bccd9e38f3f4379, type: 3}
+      propertyPath: m_Interactable
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1908587750755721554, guid: 3925da7c0d3134fb8bccd9e38f3f4379, type: 3}
+      propertyPath: m_BlocksRaycasts
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8524953616134583886, guid: 3925da7c0d3134fb8bccd9e38f3f4379, type: 3}
       propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
