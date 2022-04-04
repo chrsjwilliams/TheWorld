@@ -4,6 +4,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using Sirenix.OdinInspector;
 using TMPro;
+using System;
 
 public class SpecialAbilityButton : SerializedMonoBehaviour
 {
@@ -17,6 +18,9 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     }
     [SerializeField] TextMeshProUGUI abilityTitle;
     [SerializeField] TextMeshProUGUI abilityDesctiption;
+    [SerializeField] NodeSelectionManager nodeSelectionManager;
+    [SerializeField] DialogGraphParser dialogGraphParser;
+    [SerializeField] DialogNode selectedNode;
     [SerializeField] DialogButton selectedCharacter;
     [SerializeField] Dictionary<PersonalityChoice, CharacterAbility> abilityDictionary;
 
@@ -27,6 +31,21 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     void Start()
     {
         ShowAbilityDescription(false);
+    }
+
+    private void OnEnable()
+    {
+        NodeButton.NodeButtonPressed += OnNodeButtonPressed;
+    }
+
+    private void OnDisable()
+    {
+        NodeButton.NodeButtonPressed -= OnNodeButtonPressed;
+    }
+
+    private void OnNodeButtonPressed(NodeButton node)
+    {
+        selectedNode = dialogGraphParser.GetNode(node.NodeName);
     }
 
     public void ApplyAbility()
@@ -47,6 +66,8 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
         if(show)
         {
             fadeInTweener?.Play();
+            List<DialogNode> nodes = dialogGraphParser.GetNodesForAbility(selectedCharacter.PersonalityChoice);
+            nodeSelectionManager.PopulateOption(nodes);
         }
         else
         {
@@ -72,6 +93,9 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      *              they also see which character’s node is active on 
      *              that - we never discussed about this before, I’ll 
      *              explain later
+     *              
+     *              How should this information appear? Node title? Node text?
+     *              both?
      */
     public void EagleAbility()
     {
@@ -81,7 +105,10 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     /* 
      * Human    -   can see 3 nodes ahead without moving the story wheel.
      *              So the special abilities work only with the corresponding 
-     *              character.Human can foresee human nodes only           
+     *              character.Human can foresee human nodes only
+     *              
+     *              How are the nodes supposed to be viewed? Node titles?
+     *              node text? How should the node text appear?
      */              
     public void HumanAbility()
     {
@@ -94,7 +121,7 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */
     public void LionAbility()
     {
-
+        dialogGraphParser.GoToVisitedNode(selectedNode);
     }
 
 }

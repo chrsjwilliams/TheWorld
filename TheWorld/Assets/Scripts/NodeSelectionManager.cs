@@ -43,8 +43,30 @@ public class NodeSelectionManager : MonoBehaviour
         layoutGroup.enabled = true;
     }
 
-    void PopulateOption(List<DialogNode> nodes)
+    public void RemoveNodeButtons()
     {
+        foreach(GridLayoutGroup page in nodeButtonPages)
+        {
+            if(page != firstPage)
+            {
+                Destroy(page.gameObject);
+            }
+        }
+
+        List<NodeButton> buttonsToDelete = new List<NodeButton>();
+        buttonsToDelete.AddRange(nodeButtons);
+        foreach(NodeButton button in buttonsToDelete)
+        {
+            Destroy(button.gameObject);
+        }
+
+        nodeButtons = new List<NodeButton>();
+    }
+
+    public void PopulateOption(List<DialogNode> nodes)
+    {
+        RemoveNodeButtons();
+
         int nodesOnPage = 0;
         GridLayoutGroup currentPage = firstPage;
         foreach (DialogNode node in nodes)

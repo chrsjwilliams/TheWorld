@@ -2257,10 +2257,10 @@ RectTransform:
   m_Father: {fileID: 35741018}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.35375652, y: 0.0358797}
-  m_AnchorMax: {x: 0.65500003, y: 0.21960156}
-  m_AnchoredPosition: {x: -1.173584, y: 0}
-  m_SizeDelta: {x: 0, y: 2}
+  m_AnchorMin: {x: 0.3675, y: 0.0358797}
+  m_AnchorMax: {x: 0.67, y: 0.2262232}
+  m_AnchoredPosition: {x: -0.5, y: -1.5}
+  m_SizeDelta: {x: 0, y: -1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1882386125
 CanvasRenderer:
@@ -3558,6 +3558,9 @@ MonoBehaviour:
       Data: 
   abilityTitle: {fileID: 4389469757880649503}
   abilityDesctiption: {fileID: 7174061544203803564}
+  nodeSelectionManager: {fileID: 0}
+  dialogGraphParser: {fileID: 0}
+  selectedNode: {fileID: 0}
   selectedCharacter: {fileID: 1163182321}
   fadeInTweener: {fileID: 2791388430970863563}
   fadeOutTweener: {fileID: 1935925900307646886}

@@ -367,12 +367,79 @@ public class DialogGraphParser : MonoBehaviour
         return nodetext;
     }
 
+
+    public void GoToVisitedNode(DialogNode node)
+    {
+        if(visitedNodes.Contains(node))
+        {
+            currentNode = node;
+
+            nodeNameText.text = currentNode.NodeTitle;
+            //  add new node to node stack
+            visitedNodes.Push(currentNode);
+            // execute actions on the node
+            currentNode.ExecuteTagActions(() => { });
+            //  reset dialog line index
+            dialogLineIndex = 0;
+            //  display dialog line
+            DisplayNextDialogLine();
+
+            MadeSelection.value = false;
+            CanMakeSelection.value = true;
+            if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
+            {
+                AllowPlayerCharacterInteraction?.Raise();
+            }
+        }
+        else
+        {
+            Debug.LogError("Dialog Node " + node.name + " has not been visited");
+        }
+    }
+
+    public List<DialogNode> GetNodesForAbility(PersonalityChoice choice)
+    {
+        List<DialogNode> nodes = new List<DialogNode>();
+
+        switch(choice)
+        {
+            case PersonalityChoice.HUMAN:
+                break;
+            case PersonalityChoice.EAGLE:
+                break;
+            case PersonalityChoice.LION:
+                nodes.AddRange(visitedNodes);
+                break;
+            case PersonalityChoice.OX:
+                break;
+            default:
+                break;
+        }
+
+
+        return nodes;
+    }
+
+    public DialogNode GetNode(string nodeName)
+    {
+        foreach(DialogNode node in dialogGraph.nodes)
+        {
+            if(nodeName == node.name)
+            {
+                return node;
+            }
+        }
+
+        return null;
+    }
+
     void RefreshLayoutGroup()
     {
         Canvas.ForceUpdateCanvases();
         horizontalLayoutGroup.enabled = false;
         horizontalLayoutGroup.enabled = true;
     }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -380,11 +447,5 @@ public class DialogGraphParser : MonoBehaviour
         allButtons = new List<DialogButton>();
         allButtons.Add(selectedButton);
         allButtons.AddRange(unselectedButtons);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
