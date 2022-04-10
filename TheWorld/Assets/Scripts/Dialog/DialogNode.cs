@@ -9,6 +9,7 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogNode : SerializedScriptableObject, IAction
 {
+    [SerializeField] public PersonalityChoice nodeType;
     [SerializeField] public string NodeTitle;
     [SerializeField] public List<DialogLine> speakingLines = new List<DialogLine>();
     [SerializeField] public Dictionary<PersonalityChoice, DialogNode> nextNodes = new Dictionary<PersonalityChoice, DialogNode>();
@@ -33,6 +34,17 @@ public class DialogNode : SerializedScriptableObject, IAction
         }
 
         callback?.Invoke();
+    }
+
+    public List<DialogNode> GetNextNodes()
+    {
+        List<DialogNode> nextNodesList = new List<DialogNode>();
+        foreach(DialogNode node in nextNodes.Values)
+        {
+            nextNodesList.Add(node);
+        }
+
+        return nextNodesList;
     }
 
     public bool HasPersonalityChoice(PersonalityChoice choice)

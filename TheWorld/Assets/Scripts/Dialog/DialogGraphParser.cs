@@ -404,6 +404,24 @@ public class DialogGraphParser : MonoBehaviour
         switch(choice)
         {
             case PersonalityChoice.HUMAN:
+
+                List<DialogNode> humanNodes = GetNextNodes(currentNode);
+
+                List<DialogNode> nodesToRemove = new List<DialogNode>();
+                foreach(DialogNode node in humanNodes)
+                {
+                    if(node != currentNode && node.nodeType != PersonalityChoice.HUMAN)
+                    {
+                        nodesToRemove.Add(node);
+                    }
+                }
+
+                foreach(DialogNode node in nodesToRemove)
+                {
+                    humanNodes.Remove(node);
+                }
+
+                nodes.AddRange(humanNodes);
                 break;
             case PersonalityChoice.EAGLE:
                 break;
@@ -431,6 +449,39 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         return null;
+    }
+
+
+    public List<DialogNode> GetNextNodes(DialogNode startingNode)
+    {
+        // Mark all the vertices as not visited
+        // (set as false by default in c#)
+        List<DialogNode> visited = new List<DialogNode>();
+
+        // Call the recursive helper function
+        // to print DFS traversal
+        List<DialogNode> nextNodes = DFSUtil(startingNode, visited);
+
+        return nextNodes;
+    }
+
+
+    List<DialogNode> DFSUtil(DialogNode v, List<DialogNode> visited)
+    {
+        // Mark the current node as visited
+        // and print it
+        visited.Add(v);
+
+        // Recur for all the vertices
+        // adjacent to this vertex
+        List<DialogNode> vList = v.GetNextNodes();
+        foreach (var n in vList)
+        {
+            if (!visited.Contains(n))
+                DFSUtil(n, visited);
+        }
+
+        return visited;
     }
 
     void RefreshLayoutGroup()
