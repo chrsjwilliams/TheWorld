@@ -18,6 +18,15 @@ public class DialogGraph : SerializedScriptableObject
     {
         startingNode = nodes[0];
     }
+
+    [Button]
+    public void SetNodeTypes()
+    {
+        foreach(DialogNode node in nodes)
+        {
+            node.SetNodeTypes();
+        }
+    }
 }
 
 [System.Serializable]

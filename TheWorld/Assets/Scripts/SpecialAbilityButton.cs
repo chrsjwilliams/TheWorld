@@ -61,12 +61,16 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
         }
     }
 
+    [SerializeField] List<DialogNode> nodes;
+
     public void ShowAbilityDescription(bool show)
     {
         if(show)
         {
             fadeInTweener?.Play();
-            List<DialogNode> nodes = dialogGraphParser.GetNodesForAbility(selectedCharacter.PersonalityChoice);
+            nodes = dialogGraphParser.GetNodesForAbility(selectedCharacter.PersonalityChoice);
+            abilityTitle.text = abilityDictionary[selectedCharacter.PersonalityChoice].title;
+            abilityDesctiption.text = abilityDictionary[selectedCharacter.PersonalityChoice].description;
             nodeSelectionManager.PopulateOption(nodes);
         }
         else
@@ -74,11 +78,6 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
             fadeOutTweener?.Play();
         }
     }
-
-    /*
-     *  ~TODO: Figure out how to display x number of nodes
-     * 
-     */ 
 
     /* 
      * Ox       -   not sure yet

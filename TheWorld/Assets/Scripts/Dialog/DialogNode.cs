@@ -19,6 +19,15 @@ public class DialogNode : SerializedScriptableObject, IAction
 
     [SerializeField] List<TagAction> lineActions = new List<TagAction>();
 
+
+    public void SetNodeTypes()
+    {
+        foreach (KeyValuePair<PersonalityChoice, DialogNode> entry in nextNodes)
+        {
+            entry.Value.nodeType = entry.Key;
+        }
+    }
+
     public void AddTagAction(TagAction action)
     {
         lineActions.Add(action);
