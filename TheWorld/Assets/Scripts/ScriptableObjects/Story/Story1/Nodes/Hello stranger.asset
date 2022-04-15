@@ -73,6 +73,8 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  nodeType: 0
+  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
   NodeTitle: Hello stranger
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -89,7 +91,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red">"Hello stranger." </color>
+    line: ' (text-colour: "red")["Hello stranger."] '
     lineActions:
     - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 

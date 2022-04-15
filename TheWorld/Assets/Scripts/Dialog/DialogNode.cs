@@ -9,6 +9,7 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogNode : SerializedScriptableObject, IAction
 {
+    [SerializeField] public bool hasSecretItem;
     [SerializeField] public PersonalityChoice nodeType;
     [SerializeField] public Sprite nodeSprite;
     [SerializeField] public string NodeTitle;

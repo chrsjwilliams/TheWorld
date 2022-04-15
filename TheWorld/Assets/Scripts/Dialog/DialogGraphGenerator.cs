@@ -19,8 +19,10 @@ public class DialogGraphGenerator : ScriptableObject
     const string LINK_SYMBOL = "[[";
     const string TAG_SYMBOL = "##";
     const char ACTION_SYMBOL = '@';
-    // ##Eon_picture_ad
-    // ##Stranger_anim_laugh
+    const string NODE_PICURE_SYMBOL = "**";
+    const string SECRET_ITEM_KEY = "~~";
+
+    [SerializeField] SpriteLookUpEnum nodePictureDictionary;
 
     [SerializeField] string folderName;
     [Button("Generate Dialog Graph")]
@@ -66,6 +68,21 @@ public class DialogGraphGenerator : ScriptableObject
         //  Split at new line character
         List<string> nodeText = new List<string>();
         nodeText = new List<string>(JSONnode.text.Split('\n'));
+        if(PictureSymbolCheck(nodeText[0]))
+        {
+            SetNodeSprite(nodeText[0], newNode);
+            nodeText.RemoveAt(0);
+        }
+        else
+        {
+            SetNodeSprite("DEFAULT", newNode);
+        }
+
+        if(nodeText.Count > 2 && (SecretItemSymbolCheck(nodeText[1]) || SecretItemSymbolCheck(nodeText[0])))
+        {
+            newNode.hasSecretItem = true;
+        }
+
         foreach (string line in nodeText)
         {
             //  Skip lines with less that 2 characters
@@ -256,10 +273,39 @@ public class DialogGraphGenerator : ScriptableObject
 
     }
 
+    void SetNodeSprite(string line, DialogNode node)
+    {
+        line = line.Replace(NODE_PICURE_SYMBOL, "").ToUpper();
+
+        var key = GetNodePicEnum(line);
+        Sprite value;
+        if(nodePictureDictionary.TryGetSprite(key, out value))
+        {
+            Debug.Log(value);
+            node.nodeSprite = value;
+        }
+        else
+        {
+            Debug.Log("Sprite not found for value " + line);
+        }
+    }
+
     bool CommentCheck(string line)
     {
         string commentCheck = line.Substring(0, 2);
         return commentCheck == COMMENT_SYMBOL;
+    }
+
+    bool PictureSymbolCheck(string line)
+    {
+        string pictureSymbolCheck = line.Substring(0, 2);
+        return pictureSymbolCheck == NODE_PICURE_SYMBOL;
+    }
+
+    bool SecretItemSymbolCheck(string line)
+    {
+        string secretItemSymbolCheck = line.Substring(0, 2);
+        return secretItemSymbolCheck == SECRET_ITEM_KEY;
     }
 
     bool LinkCheck(string line)
@@ -309,6 +355,19 @@ public class DialogGraphGenerator : ScriptableObject
         return null;
     }
 
+    NODE_PICTURE GetNodePicEnum(string name)
+    {
+        foreach (NODE_PICTURE effect in Enum.GetValues(typeof(SFX)))
+        {
+            if (name.ToUpper() == effect.ToString().ToUpper())
+            {
+                return effect;
+            }
+        }
+        Debug.LogError("Sound Effect " + name + " not found in SFX enum list");
+        return NODE_PICTURE.DEFAULT;
+    }
+
     struct LinkInfo
     {
         public PersonalityChoice personality;
@@ -317,9 +376,12 @@ public class DialogGraphGenerator : ScriptableObject
 
     public enum Tags { ERROR, ANIM, SFX, BGM, SET_VALUE, PROFILE, END}
 
+
     public enum LogType { MESSAGE, WARNING, ERROR }
     public void LogMessage(LogType messageType, string message)
     {
         Debug.Log("[" + messageType + "]: " + message);
     }
 }
+
+public enum NODE_PICTURE { DEFAULT, TEST }

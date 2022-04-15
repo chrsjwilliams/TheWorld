@@ -9,28 +9,28 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
-  m_Name: Exit Door
+  m_Script: {fileID: 11500000, guid: 0e2fe98e8b74942289fd6a8b8dd019a0, type: 3}
+  m_Name: Sprite Lookup Enum
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: d04a04c433dd4448cad221c4f4ee0ba9, type: 2}
-    - {fileID: 11400000, guid: 9e9efc45432244541b4b936765303d2f, type: 2}
+    - {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+    - {fileID: 8322860813814927962, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes:
-    - Name: nextNodes
+    - Name: sprites
       Entry: 7
-      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
-        Assembly-CSharp]], mscorlib
+      Data: 0|System.Collections.Generic.Dictionary`2[[NODE_PICTURE, Assembly-CSharp],[UnityEngine.Sprite,
+        UnityEngine.CoreModule]], mscorlib
     - Name: comparer
       Entry: 7
-      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
-        Assembly-CSharp]], mscorlib
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[NODE_PICTURE, Assembly-CSharp]],
+        mscorlib
     - Name: 
       Entry: 12
       Data: 0
@@ -48,7 +48,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 4
+      Data: 0
     - Name: $v
       Entry: 10
       Data: 0
@@ -60,7 +60,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 3
+      Data: 1
     - Name: $v
       Entry: 10
       Data: 1
@@ -73,18 +73,4 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
-  nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
-  NodeTitle: Exit Door
-  speakingLines:
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'The stranger is suddenly at the exit door. '
-    lineActions:
-    - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
-    Notes: 
-  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")["I told you not to be scared."]'
-    lineActions: []
-    Notes: 
-  Notes: 
-  lineActions: []
+  fallbackSprite: {fileID: 21300000, guid: d5adab5e4e1ab44dc8e2012ad3782240, type: 3}
