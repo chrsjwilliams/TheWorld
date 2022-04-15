@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum SFX { CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN }
+public enum SFX { CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER }
 
 public enum BGM { SILENCE }
 
@@ -26,6 +26,7 @@ public class AudioManager : MonoBehaviour
     private void LoadLibrary()
     {
         audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("Audio/Click"));
+        audioLibrary.Add(SFX.THUNDER, Resources.Load<AudioClip>("Audio/rain and thunger.mp3"));
     }
 
     public void PlayClipVaryPitch(SFX clip)

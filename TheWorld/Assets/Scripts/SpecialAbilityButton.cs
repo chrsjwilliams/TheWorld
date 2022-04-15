@@ -80,7 +80,7 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     }
 
     /* 
-     * Ox       -   not sure yet
+     * Ox       -   see less desirable ends
      */
     public void OxAbility()
     {
@@ -122,5 +122,10 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     {
         dialogGraphParser.GoToVisitedNode(selectedNode);
     }
+
+    // go back a set number of times
+    // 3 times each story
+
+    // ~TODO: title of the game?
 
 }

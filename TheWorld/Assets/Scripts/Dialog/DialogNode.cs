@@ -10,6 +10,7 @@ using Sirenix.OdinInspector;
 public class DialogNode : SerializedScriptableObject, IAction
 {
     [SerializeField] public PersonalityChoice nodeType;
+    [SerializeField] public Sprite nodeSprite;
     [SerializeField] public string NodeTitle;
     [SerializeField] public List<DialogLine> speakingLines = new List<DialogLine>();
     [SerializeField] public Dictionary<PersonalityChoice, DialogNode> nextNodes = new Dictionary<PersonalityChoice, DialogNode>();
