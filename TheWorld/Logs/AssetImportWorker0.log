@@ -22,103 +22,103 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63688
+60032
 Successfully changed project path to: /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld
 /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 102.14 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.26f1 (7298b473bc1a)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/edanurkuntman/Projects/Games/TheWorld/TheWorld/Assets
 GfxDevice: creating device client; threaded=0
-2022-04-15 12:46:45.987 Unity[13095:534661] Color LCD preferred device: Intel Iris Pro Graphics (low power)
-2022-04-15 12:46:45.987 Unity[13095:534661] Metal devices available: 1
-2022-04-15 12:46:45.987 Unity[13095:534661] 0: Intel Iris Pro Graphics (low power)
-2022-04-15 12:46:45.988 Unity[13095:534661] Using device Intel Iris Pro Graphics (low power)
+2022-04-17 15:30:32.400 Unity[18601:996864] Color LCD preferred device: Intel Iris Pro Graphics (low power)
+2022-04-17 15:30:32.400 Unity[18601:996864] Metal devices available: 1
+2022-04-17 15:30:32.401 Unity[18601:996864] 0: Intel Iris Pro Graphics (low power)
+2022-04-17 15:30:32.401 Unity[18601:996864] Using device Intel Iris Pro Graphics (low power)
 Initializing Metal device caps: Intel Iris Pro Graphics
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56095
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56601
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.26f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003148 seconds.
+Registered in 0.002215 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 83.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 74.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.102 seconds
+- Completed reload, in  0.937 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (61ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (891ms)
-			LoadAssemblies (69ms)
+		EndReloadAssembly (759ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (318ms)
+			SetupTypeCache (271ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (66ms)
-			SetupLoadedEditorAssemblies (359ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (297ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (8ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (83ms)
-				BeforeProcessingInitializeOnLoad (18ms)
-				ProcessInitializeOnLoadAttributes (192ms)
-				ProcessInitializeOnLoadMethodAttributes (57ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (14ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.015752 seconds.
+Registered in 0.014756 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 66.78 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 76.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.788 seconds
+- Completed reload, in  2.828 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2790ms)
-		BeginReloadAssembly (216ms)
+	ReloadAssembly (2830ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (48ms)
-		EndReloadAssembly (2476ms)
-			LoadAssemblies (165ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (2513ms)
+			LoadAssemblies (156ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (575ms)
+			SetupTypeCache (588ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1464ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (1481ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (67ms)
-				BeforeProcessingInitializeOnLoad (99ms)
-				ProcessInitializeOnLoadAttributes (1207ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				RefreshPlugins (76ms)
+				BeforeProcessingInitializeOnLoad (109ms)
+				ProcessInitializeOnLoadAttributes (1206ms)
+				ProcessInitializeOnLoadMethodAttributes (81ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.010968 seconds.
+Validating Project structure ... 0.010252 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.027782 seconds.
+Upgrading shader files ...0.027883 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -128,18 +128,18 @@ Application.AssetDatabase.Refresh End
 RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
 RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.26f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
 Initializing Unity extensions:
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2405 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 221.5 MB.
+System memory in use before: 221.4 MB.
 System memory in use after: 220.7 MB.
 
 Unloading 162 unused Assets to reduce memory usage. Loaded Objects now: 2928.
-Total: 31.626113 ms (FindLiveObjects: 0.245320 ms CreateObjectMapping: 0.120454 ms MarkObjects: 30.398681 ms  DeleteObjects: 0.860082 ms)
+Total: 32.836875 ms (FindLiveObjects: 0.329168 ms CreateObjectMapping: 0.256231 ms MarkObjects: 31.573869 ms  DeleteObjects: 0.676037 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -153,203 +153,105 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc136ac056e11af00422b56d6cf8349') in 1.928494 seconds 
-  Import took 1.941537 seconds .
+  path: Assets/Images/UI/icon-ox.png
+  artifactKey: Guid(406cae46effcf4d168b01e8403490ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/icon-ox.png using Guid(406cae46effcf4d168b01e8403490ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13af3fbe0687254fb027217ff1c87a30') in 1.297416 seconds 
+  Import took 1.306968 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.476369 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab06c2abf7c2f7bc405bfe3d9de7d6de') in 0.095654 seconds 
-  Import took 0.104856 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/Images/UI/stranger.png
+  artifactKey: Guid(03c1a1b92af9b4c419b9c704e67a2655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/stranger.png using Guid(03c1a1b92af9b4c419b9c704e67a2655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e337156d92b68e3ea7c2fc594f37a6') in 0.033950 seconds 
+  Import took 0.039826 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 3.917076 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc46243cdf34a74e1a7ae4abb73cdeff') in 0.092158 seconds 
-  Import took 0.102843 seconds .
+  Time since last request: 0.000284 seconds.
+  path: Assets/Images/UI/icon-eagle.png
+  artifactKey: Guid(bcf87818d8fe143a4a0b7ecbe2ffd215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/icon-eagle.png using Guid(bcf87818d8fe143a4a0b7ecbe2ffd215) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3607e4338430c1b5e7b9421124baf21') in 0.043657 seconds 
+  Import took 0.049141 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 9.722283 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68fb5702945937bd24bf2beb637d3db7') in 0.089583 seconds 
-  Import took 0.098162 seconds .
+  Time since last request: 0.000303 seconds.
+  path: Assets/Images/UI/textBox.png
+  artifactKey: Guid(0347e165b3674469280dd40f7b6d3e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/textBox.png using Guid(0347e165b3674469280dd40f7b6d3e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff2c5f4feceebef9582fabcceab88c') in 0.040919 seconds 
+  Import took 0.046440 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 45.386857 seconds.
-  path: Assets/Resources/ui/game/character-bar.png
-  artifactKey: Guid(2d5e507c5dc7b4f72959a19a9e62a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/character-bar.png using Guid(2d5e507c5dc7b4f72959a19a9e62a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e4577b20605611d783f4b52662e4a34') in 1.147164 seconds 
-  Import took 1.158168 seconds .
+  Time since last request: 0.000310 seconds.
+  path: Assets/Images/UI/arrowNext-outlined.png
+  artifactKey: Guid(478621619496f406aa118f1e6a0541a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/UI/arrowNext-outlined.png using Guid(478621619496f406aa118f1e6a0541a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d157f70d08cb1b01c8fb29e3838416a') in 0.030985 seconds 
+  Import took 0.036679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.118893 seconds.
+  path: Assets/Resources/ui
+  artifactKey: Guid(48e271ecfd9c64778b2582c924877d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ui using Guid(48e271ecfd9c64778b2582c924877d90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa95a4e4db4115537d2000a3506840e1') in 0.001120 seconds 
+  Import took 0.005925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 66.690361 seconds.
+  path: Assets/Resources/ui/game
+  artifactKey: Guid(36bf233cd23034cacba05e322f602531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/ui/game using Guid(36bf233cd23034cacba05e322f602531) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ad318ce8038642ab1534d461a84a49') in 0.001785 seconds 
+  Import took 0.007000 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.013184 seconds.
+Registered in 0.005072 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.649 seconds
+- Completed reload, in  2.577 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2649ms)
-		BeginReloadAssembly (211ms)
+	ReloadAssembly (2578ms)
+		BeginReloadAssembly (196ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (10ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (2352ms)
-			LoadAssemblies (106ms)
+			CreateAndSetChildDomain (115ms)
+		EndReloadAssembly (2292ms)
+			LoadAssemblies (102ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (542ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (67ms)
-			SetupLoadedEditorAssemblies (1455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (171ms)
-				ProcessInitializeOnLoadAttributes (1185ms)
-				ProcessInitializeOnLoadMethodAttributes (88ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.6 MB.
-System memory in use after: 227.8 MB.
-
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2940.
-Total: 46.372154 ms (FindLiveObjects: 0.433582 ms CreateObjectMapping: 0.186685 ms MarkObjects: 45.707243 ms  DeleteObjects: 0.043187 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005904 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  3.339 seconds
-Domain Reload Profiling:
-	ReloadAssembly (3340ms)
-		BeginReloadAssembly (234ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (138ms)
-		EndReloadAssembly (2993ms)
-			LoadAssemblies (137ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (662ms)
+			SetupTypeCache (570ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (85ms)
-			SetupLoadedEditorAssemblies (1865ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (267ms)
-				ProcessInitializeOnLoadAttributes (1523ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (15ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.0 MB.
-System memory in use after: 228.2 MB.
-
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2942.
-Total: 35.411023 ms (FindLiveObjects: 0.224172 ms CreateObjectMapping: 0.117214 ms MarkObjects: 35.008669 ms  DeleteObjects: 0.059707 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014258 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.566 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2566ms)
-		BeginReloadAssembly (215ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (128ms)
-		EndReloadAssembly (2260ms)
-			LoadAssemblies (155ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (549ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (1308ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1355ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (161ms)
-				ProcessInitializeOnLoadAttributes (1085ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (1123ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.73 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 228.2 MB.
-System memory in use after: 228.4 MB.
+System memory in use before: 222.3 MB.
+System memory in use after: 222.6 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2944.
-Total: 31.861487 ms (FindLiveObjects: 0.216486 ms CreateObjectMapping: 0.105243 ms MarkObjects: 31.495091 ms  DeleteObjects: 0.043475 ms)
+Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2942.
+Total: 32.690551 ms (FindLiveObjects: 0.239914 ms CreateObjectMapping: 0.165657 ms MarkObjects: 32.253265 ms  DeleteObjects: 0.030485 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -362,739 +264,51 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 196.731354 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4f307a8d4599e24ff817c001f725177') in 0.532510 seconds 
-  Import took 0.541868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.536595 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21177b218fd47687c2f13818c5cd6f53') in 0.122356 seconds 
-  Import took 0.133884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.710075 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca0cf5bdcd1c5a7ac2b9d1702a80238') in 0.083936 seconds 
-  Import took 0.092669 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.002313 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f274280b5d4bd3593c3b60fc2ba17c2b') in 0.075289 seconds 
-  Import took 0.084938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.904914 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d5a0fbfaeb7e6a67a410affdce8a86c') in 0.084701 seconds 
-  Import took 0.095461 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.407959 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38263e1da7ee82dfe5d38bacaf1f587') in 0.096670 seconds 
-  Import took 0.105251 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 28.646432 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '077647fd360fc218fda614430b409d46') in 0.131337 seconds 
-  Import took 0.141117 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 217.618766 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a308b2476b7a081d0aae73ff28b47c80') in 0.123350 seconds 
-  Import took 0.133801 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.304690 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e9b3be78a666bd7b303ce14a1b9a06') in 0.089421 seconds 
-  Import took 0.099182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 31.070807 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec91367511748ed656e6de9c3a601728') in 0.081509 seconds 
-  Import took 0.090298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 19.566413 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb4cabdc8569f13ef2b3b2b023f116c') in 0.073307 seconds 
-  Import took 0.083422 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.984183 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e37e19a98ffbb34dc4196482ab61a76') in 0.079940 seconds 
-  Import took 0.088789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.203975 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ead7659210b1c5049ab7a35331c75f2') in 0.078573 seconds 
-  Import took 0.087691 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.456557 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83afb1300ce13f8593c6037cb8787e7a') in 0.083261 seconds 
-  Import took 0.091739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.115055 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2481109bee4306edb605df339e225e3c') in 0.091275 seconds 
-  Import took 0.101169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.720008 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18967e8e29a52dadb8ade938d0de56ea') in 0.081586 seconds 
-  Import took 0.089971 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.323063 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2130908635ac5cdaa0851d4025b9e5ab') in 0.074921 seconds 
-  Import took 0.084623 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.107088 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45a5610774894c1e94244ca0a79c5069') in 0.085799 seconds 
-  Import took 0.093717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.632139 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b1e2dd1ba7007b18b92425503c8c74') in 0.077136 seconds 
-  Import took 0.085737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.996840 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14fc17106ce91582e05c220e4f30ad14') in 0.102813 seconds 
-  Import took 0.113624 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.861922 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb59ffde74263a3427ce50f37c452ca') in 0.086615 seconds 
-  Import took 0.096086 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.845833 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fc3b5e7a71594748a2aa7118d16c373') in 0.093749 seconds 
-  Import took 0.104002 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.774534 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3705eecb4e1f1255cd005702681003c') in 0.086134 seconds 
-  Import took 0.095385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.758247 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640640017563a2872e49e33e0133bcaa') in 0.079612 seconds 
-  Import took 0.088389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.536677 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e19d579abe0ffac576e14b3490ee8fa') in 0.088793 seconds 
-  Import took 0.097750 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.785095 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7060453a5cffead286ab6008921939') in 0.099327 seconds 
-  Import took 0.108994 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.178344 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7746b0f74d2e44bb84bc8525c43d0178') in 0.084721 seconds 
-  Import took 0.095033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.108125 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4926e373213b3028473b06571e02bbd0') in 0.074596 seconds 
-  Import took 0.083163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.505149 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e39be16a8cb97da3e16c076643da1af') in 0.078609 seconds 
-  Import took 0.087485 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.166067 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e18644f068d2f1d619330b11c17160d') in 0.095405 seconds 
-  Import took 0.107264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.363589 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb884ab9f1d0913b82a5c670fe1ce015') in 0.076255 seconds 
-  Import took 0.084013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.886279 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c82814fab0503d0a4a8fed21cef93609') in 0.081713 seconds 
-  Import took 0.090931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.505967 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e242ae6bffb000cbec9932cf5de5acb6') in 0.095374 seconds 
-  Import took 0.107062 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.981046 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59b5b5bd2ab7443507d586c0a024fa6e') in 0.082102 seconds 
-  Import took 0.090694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.214297 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe6af8a1ae3d6bfadd8b0327624f4b6') in 0.078770 seconds 
-  Import took 0.086294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.595888 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea333c7db9beb93a1927c64957921797') in 0.092255 seconds 
-  Import took 0.102977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.705808 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48ebe50f973f0fe2589cd3eb4e845b77') in 0.098446 seconds 
-  Import took 0.109058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.144238 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff1b964e000c788b7902afe4e518154') in 0.085675 seconds 
-  Import took 0.094373 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.973019 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7844b5d91b3659c40ca18dea69038f86') in 0.097863 seconds 
-  Import took 0.107451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.961467 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0ba5183d83c82ef4c27ffe35125b02') in 0.095080 seconds 
-  Import took 0.103990 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.864825 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fba0bc2dc389e39bd66ea2dccd92318') in 0.079006 seconds 
-  Import took 0.088128 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.267986 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e5df2f3718876d021f1f955c1b5184d') in 0.082337 seconds 
-  Import took 0.091573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.506985 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd703f37371f1fdb841f8dda1558f1b85') in 0.111884 seconds 
-  Import took 0.122096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.383889 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b81dafec09bc393422aead69c03bb69a') in 0.113358 seconds 
-  Import took 0.123120 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.096286 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707ae0e6ba86c7b447c96e5d46b0513c') in 0.076713 seconds 
-  Import took 0.084589 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.251020 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6658d5a29b06939d38d54e771b6cb3d6') in 0.076184 seconds 
-  Import took 0.085212 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.282136 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '756784dd61ec15c168d2b6b71db57b5b') in 0.096543 seconds 
-  Import took 0.107314 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.099378 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ffa138e8522ef7c632f5423efb9cac6') in 0.085915 seconds 
-  Import took 0.094633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.213015 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7f62ef0ddd152a4925cca32138c5e72') in 0.085060 seconds 
-  Import took 0.095411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.551638 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9edeb5682274f6c2212aeed7772a5a0') in 0.078410 seconds 
-  Import took 0.086293 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.153953 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b1407c7761a88522eb9f88c14f5ae6') in 0.082414 seconds 
-  Import took 0.090596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.258365 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ebc48d652adcca9988bcaf52be12e6c') in 0.077669 seconds 
-  Import took 0.084991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.485593 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e96c5d74f8ca24e0b8b45905f578737') in 0.086225 seconds 
-  Import took 0.097163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.204885 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beb68dbef95321206896ac5118285b9b') in 0.080819 seconds 
-  Import took 0.088862 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.144513 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d4466cd465156397cb2a29857c7124') in 0.104697 seconds 
-  Import took 0.113332 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.806700 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b75249801b930aab2ca327bbfe0e2b') in 0.079696 seconds 
-  Import took 0.088391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.021127 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5440a8a2bc04908e0524f4b4dd315ab9') in 0.076098 seconds 
-  Import took 0.084887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.570581 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f1aebe87959376836185c8ed16aaeb1') in 0.081089 seconds 
-  Import took 0.089672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.873202 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e997fd9bc0ab2cb33529ed7c41a83d') in 0.082156 seconds 
-  Import took 0.090545 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.301219 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a489f7035c7e566ccfc2fac4fc6044e') in 0.077332 seconds 
-  Import took 0.086416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 46.172217 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '967babc0a1bf37842bdf9c23a9a6fece') in 0.091459 seconds 
-  Import took 0.101956 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.163676 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62eaefe78bfd929299c53101223c362c') in 0.094057 seconds 
-  Import took 0.103460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.937593 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd3668933fcf307f5d3907f8703c29c3') in 0.097630 seconds 
-  Import took 0.107102 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.110335 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24ccbcd8418cbed6d42ff3f486060424') in 0.088744 seconds 
-  Import took 0.099092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.003201 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3369247f479509bd6232d9c90525a8') in 0.093774 seconds 
-  Import took 0.103503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.387474 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270fd12c6b5eefcaadc3437379abcee8') in 0.089218 seconds 
-  Import took 0.103822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.751751 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f112275075ddb4e69c00be0f9a9f13e') in 0.092964 seconds 
-  Import took 0.102765 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.560856 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae202e607a967440befc24a2b678670') in 0.082972 seconds 
-  Import took 0.092092 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.927750 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef698056ac17cd09a9e733856587fdac') in 0.091720 seconds 
-  Import took 0.101119 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.780776 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8e23fa8a360483be3672a92492fdd03') in 0.089578 seconds 
-  Import took 0.099080 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.621314 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '539ba599c14f6db0a6c073925009f773') in 0.079017 seconds 
-  Import took 0.087692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.761709 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f3bb9dbe7123c7e2bb6977859bd4d29') in 0.077240 seconds 
-  Import took 0.085345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.684958 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9b22e8f42e36213a18d651cf3389dc') in 0.085948 seconds 
-  Import took 0.097564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.582984 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b78f0922891f973cfe5608e2e13c335') in 0.077549 seconds 
-  Import took 0.085581 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.321084 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d813ff5036fecd29b90aa4c1793310c') in 0.089749 seconds 
-  Import took 0.100969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.840324 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59bb1cc769c10f6015679aa2f3a43fd') in 0.094760 seconds 
-  Import took 0.107932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.370944 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045881249eb498aa916f40b81b9f6445') in 0.086779 seconds 
-  Import took 0.097625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.136735 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50fb82924cb0fb02702b38b3e6bdd43f') in 0.073598 seconds 
-  Import took 0.082250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.389177 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf23d53b6e5a9839b1c9a140c3b8a0e7') in 0.077261 seconds 
-  Import took 0.085010 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.949933 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d532f0c07404ecb1a71a46c71f1e63') in 0.098342 seconds 
-  Import took 0.107260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.217521 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c261efb5eca1db45ae75c8b76723507f') in 0.091195 seconds 
-  Import took 0.101081 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.729919 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ede1b303f0323e3cb10d62e36249bba') in 0.094441 seconds 
-  Import took 0.104693 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.511194 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292d1805dff65b58953a0e16249270e6') in 0.087603 seconds 
-  Import took 0.095357 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.552423 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02333db52ab62bf5315640c1fa80b42b') in 0.087956 seconds 
-  Import took 0.096174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.993969 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4461cef1703908290a07d92911bd71a1') in 0.109424 seconds 
-  Import took 0.119555 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.928246 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f0d622a20e9037e5a8213e92a13f06f') in 0.100667 seconds 
-  Import took 0.109921 seconds .
-
-========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012655 seconds.
+Registered in 0.005364 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.603 seconds
+- Completed reload, in  2.641 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2603ms)
-		BeginReloadAssembly (207ms)
+	ReloadAssembly (2642ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (131ms)
-		EndReloadAssembly (2311ms)
-			LoadAssemblies (160ms)
+			CreateAndSetChildDomain (123ms)
+		EndReloadAssembly (2335ms)
+			LoadAssemblies (113ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (551ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (90ms)
-			SetupLoadedEditorAssemblies (1286ms)
+			SetupTypeCache (576ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (1394ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (175ms)
-				ProcessInitializeOnLoadAttributes (1053ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
+				BeforeProcessingInitializeOnLoad (184ms)
+				ProcessInitializeOnLoadAttributes (1151ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2381 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.2 MB.
-System memory in use after: 229.5 MB.
+System memory in use before: 222.6 MB.
+System memory in use after: 222.8 MB.
 
-Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2947.
-Total: 30.793558 ms (FindLiveObjects: 0.203741 ms CreateObjectMapping: 0.101627 ms MarkObjects: 30.454720 ms  DeleteObjects: 0.031993 ms)
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 2944.
+Total: 31.820329 ms (FindLiveObjects: 0.222774 ms CreateObjectMapping: 0.108036 ms MarkObjects: 31.451888 ms  DeleteObjects: 0.036104 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1108,89 +322,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 56.338740 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd93ca9bb4a6bd9cadb46fc74c60f181') in 0.491840 seconds 
-  Import took 0.499694 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.886726 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bab2c651daaf0487dec250f2564870c') in 0.128859 seconds 
-  Import took 0.140153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.885243 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '910e9d1ede1208ba9aa77f2df257eca4') in 0.082761 seconds 
-  Import took 0.093263 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 304.645512 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22b5840ad3bee9a14767b30837c10afb') in 0.130646 seconds 
-  Import took 0.141471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.302606 seconds.
-  path: Assets/Resources/Prefabs/Screens/GameScreen.prefab
-  artifactKey: Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/Prefabs/Screens/GameScreen.prefab using Guid(6adcbe37463034d2fbf8052ef838ae1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d951f9d0d918bee808588731012901') in 0.090500 seconds 
-  Import took 0.098528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3085.944673 seconds.
-  path: Assets/Resources/ui/game/arrowNext.png
-  artifactKey: Guid(c54f345e41ae343c99eb8d1c09bb0e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/arrowNext.png using Guid(c54f345e41ae343c99eb8d1c09bb0e68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032e4a8cd234e79af6e337d0cb89990') in 0.069844 seconds 
-  Import took 0.084363 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002919 seconds.
-  path: Assets/Resources/ui/game/textBox-Right.png
-  artifactKey: Guid(a282f58cb14f54392bff67598d710b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/textBox-Right.png using Guid(a282f58cb14f54392bff67598d710b2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979d7e1de3098c7730739e50d66db329') in 0.027964 seconds 
-  Import took 0.035344 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000695 seconds.
-  path: Assets/Resources/ui/game/character-bar.png
-  artifactKey: Guid(2d5e507c5dc7b4f72959a19a9e62a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/character-bar.png using Guid(2d5e507c5dc7b4f72959a19a9e62a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa632ec420123f06ba9d3483bcd9049') in 0.061048 seconds 
-  Import took 0.071943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001095 seconds.
-  path: Assets/Resources/ui/game/textBox-Top.png
-  artifactKey: Guid(7660731bc538044aba65e5e874f2e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/textBox-Top.png using Guid(7660731bc538044aba65e5e874f2e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a0d60c2ae0fb2db60f9d8eab4715833') in 0.061340 seconds 
-  Import took 0.073692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Resources/ui/game/textBox-Left.png
-  artifactKey: Guid(1d100d1364b7f4066b66be6346e4f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ui/game/textBox-Left.png using Guid(1d100d1364b7f4066b66be6346e4f412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40036436ebe77dbd23a5772db908966a') in 0.030369 seconds 
-  Import took 0.036745 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.862768 seconds.
-  path: Assets/Scenes/Eon_Rig.unity
-  artifactKey: Guid(7e4037896ef60496f92e969831d06144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Eon_Rig.unity using Guid(7e4037896ef60496f92e969831d06144) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e697131e1b78471b4a00e47b861d6a16') in 0.001825 seconds 
-  Import took 0.007655 seconds .
+  Time since last request: 340.913593 seconds.
+  path: Assets/Scripts/ScriptableObjects/Personality Icons.asset
+  artifactKey: Guid(13a273a484a2c4d7cae0c40a9398f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/Personality Icons.asset using Guid(13a273a484a2c4d7cae0c40a9398f310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10a68cd620764f32c9740c4761aa726e') in 1.435128 seconds 
+  Import took 1.444640 seconds .
 
