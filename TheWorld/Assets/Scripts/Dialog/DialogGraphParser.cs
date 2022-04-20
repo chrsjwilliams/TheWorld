@@ -41,6 +41,7 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] BoolVariable CanMakeSelection;
     [SerializeField] BoolVariable MadeSelection;
 
+    [SerializeField] MonoTweener fadeInScreenCover;
 
     [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
     [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
@@ -55,7 +56,11 @@ public class DialogGraphParser : MonoBehaviour
     {
         if (AtLastLineOfDialog() || displayAllLines)
         {
-            
+            if(currentNode.nextNodes.Count < 1)
+            {
+                fadeInScreenCover?.Play();
+                return;
+            }
             MoveToNextNode();
             DisplayDialogChoices();
         }

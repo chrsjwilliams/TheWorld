@@ -14,6 +14,9 @@ public class GameSceneScript : Scene<TransitionData>
     public const int RIGHT_CLICK = 1;
 
     [SerializeField] DialogGraphParser storyReader;
+    [SerializeField] MonoTweener fadeOutScreenCover;
+    [SerializeField] MonoTweener fadeInScreenCover;
+    TransitionData transitionData;
 
     TaskManager _tm = new TaskManager();
 
@@ -24,12 +27,25 @@ public class GameSceneScript : Scene<TransitionData>
 
     internal override void OnEnter(TransitionData data)
     {
-        storyReader.StartStory(data);
+        transitionData = data;
+        fadeOutScreenCover?.Play();
     }
 
-    public void EnterScene()
+
+    public void StartStory()
     {
-        
+        storyReader.StartStory(transitionData);
+
+    }
+
+    public void FadeInScreenCover()
+    {
+        fadeInScreenCover?.Play();
+    }
+
+    public void BackToMainMenuScreen()
+    {
+        Services.Scenes.Swap<MainMenuSceneScript>();
 
     }
 

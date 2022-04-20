@@ -265,7 +265,7 @@ public class DialogGraphGenerator : ScriptableObject
                 AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
 
                 return tagAction;
-            case Tags.SET_VALUE:
+            case Tags.END:
                 return null;
             default:
                 return null;
