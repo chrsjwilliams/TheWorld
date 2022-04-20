@@ -126,6 +126,4 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     // go back a set number of times
     // 3 times each story
 
-    // ~TODO: title of the game?
-
 }

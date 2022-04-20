@@ -5,6 +5,8 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
+
+// ~TODO: random selecting of 3 text boxes
 public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]
