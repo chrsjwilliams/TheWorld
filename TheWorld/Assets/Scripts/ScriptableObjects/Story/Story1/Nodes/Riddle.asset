@@ -86,17 +86,15 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Riddle
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")[Yes it is. So here it comes:'
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' What is something that you get to keep after you give it to someone?
-      Take you time because if you fail, there will be consequences.]'
+    line: ' (text-colour: "red")[Yes it is. So here it comes...What is something
+      that you get to keep after you give it to someone? Take you time because if
+      you fail, there will be consequences.]'
     lineActions: []
     Notes: 
   Notes: 

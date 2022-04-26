@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: fd1a027c4c67249b0bd7ff9261ab1851, type: 2}
+    - {fileID: 11400000, guid: f11b1d2ffd795474a8615b213f3a2831, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -60,8 +60,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 145b62cbc25874d9482dc29491df7f84, type: 3}
   NodeTitle: Guess Love
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}

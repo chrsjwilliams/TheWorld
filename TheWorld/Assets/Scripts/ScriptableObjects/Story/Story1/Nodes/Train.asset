@@ -47,8 +47,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 4ab2bb83b686648f9bb6d4c06fe1934c, type: 3}
   NodeTitle: Train
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -69,8 +70,8 @@ MonoBehaviour:
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Eon waves at the stranger as the train took off. '
-    lineActions: []
+    lineActions:
+    - {fileID: 0}
     Notes: 
   Notes: 
-  lineActions:
-  - {fileID: 0}
+  lineActions: []

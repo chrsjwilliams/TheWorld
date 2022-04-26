@@ -60,8 +60,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 9d3178e77316e4092b7245254cd992db, type: 3}
   NodeTitle: Run
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -76,7 +77,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Eon starts running towards the exit. '
     lineActions:
-    - {fileID: 11400000, guid: d2c4e9f5368cb4882bed43329900626c, type: 2}
+    - {fileID: 11400000, guid: 5cb98abb967754a2788d9d2253e62669, type: 2}
     Notes: 
   Notes: 
   lineActions: []

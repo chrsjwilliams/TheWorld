@@ -60,8 +60,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Train arrives
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -70,7 +71,8 @@ MonoBehaviour:
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Okay, sorry but I need to go. I am late. '
-    lineActions: []
+    lineActions:
+    - {fileID: 11400000, guid: ef729cb7b04fc4aeeab966837b61bad3, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' WHAT? Where do you think you are going?'
@@ -85,5 +87,4 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   Notes: 
-  lineActions:
-  - {fileID: 11400000, guid: ef729cb7b04fc4aeeab966837b61bad3, type: 2}
+  lineActions: []

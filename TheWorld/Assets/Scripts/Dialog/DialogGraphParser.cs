@@ -30,6 +30,7 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] Image playerProfile;
     [SerializeField] Image npcProfile;
     [SerializeField] Image wheelProfile;
+    [SerializeField] Image nodeImage;
 
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
@@ -159,6 +160,9 @@ public class DialogGraphParser : MonoBehaviour
             {
                 currentNode = currentNode.nextNodes[selectedButton.PersonalityChoice];
             }
+
+            nodeImage.sprite = currentNode.nodeSprite;
+
             nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
             visitedNodes.Push(currentNode);
@@ -190,23 +194,7 @@ public class DialogGraphParser : MonoBehaviour
 
         CharacterData character = currentLine.speaker;
 
-        if(character.IsPlayer)
-        {
-            playerProfileCanvasGroup.alpha = 1;
-            npcProfileCanvasGroup.alpha = 0;
-            //playerProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
-        }
-        else if(character.IsNarrator)
-        {
-            npcProfileCanvasGroup.alpha = 0;
-            playerProfileCanvasGroup.alpha = 0;
-        }
-        else
-        {
-            playerProfileCanvasGroup.alpha = 0;
-            npcProfileCanvasGroup.alpha = 1;
-            //npcProfile.sprite = character.GetCharacterProfile(Emote.NEUTRAL);
-        }
+        
 
         //dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
         dialogText.text = GetAllNodeText();
@@ -318,14 +306,15 @@ public class DialogGraphParser : MonoBehaviour
         playerProfile.sprite = wheelProfile.sprite;
 
     }
-
+    bool hasNPCDialog = false;
+    bool onlyNarratorDialog = true;
     void DisplayAllNodeText()
     {
         string nodetext = "";
         foreach(DialogLine line in currentNode.speakingLines)
         {
             nodetext += line.line + "\n";
-        }
+        }  
         dialogText.text = nodetext;
 
     }
@@ -337,7 +326,11 @@ public class DialogGraphParser : MonoBehaviour
         {
             if(line.speaker != narrator && line.speaker != player)
             {
-                npcProfileCanvasGroup.alpha = 1;
+                hasNPCDialog = true;
+            }
+            else if(line.speaker != narrator)
+            {
+                onlyNarratorDialog = false;
             }
 
             if (line.line.Contains(COLOR_TAG) || line.line.Contains(COLOUR_TAG))
@@ -371,6 +364,23 @@ public class DialogGraphParser : MonoBehaviour
             nodetext += line.line + "\n";
             line.ExecuteTagActions(() => { });
         }
+
+        if (onlyNarratorDialog)
+        {
+            npcProfileCanvasGroup.alpha = 0;
+            playerProfileCanvasGroup.alpha = 0;
+        }
+        else if (hasNPCDialog)
+        {
+            playerProfileCanvasGroup.alpha = 0;
+            npcProfileCanvasGroup.alpha = 1;
+        }
+        else
+        {
+            playerProfileCanvasGroup.alpha = 1;
+            npcProfileCanvasGroup.alpha = 0;
+        }
+
         return nodetext;
     }
 

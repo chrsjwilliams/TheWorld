@@ -60,16 +60,17 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 8322860813814927962, guid: add66f4fbf9d14636a76319dc2659179, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 2818f345de08949b796a35bd4a3181b6, type: 3}
   NodeTitle: Stranger
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' She looks again towards the stranger. '
+    line: 'She looks again towards the stranger. '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' A silhouette wearing a dark jacket, jeans and sneakers.'
+    line: A silhouette wearing a dark jacket, jeans and sneakers.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
@@ -77,12 +78,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' Stranger keeps walking towards her. '
+    line: 'Stranger keeps walking towards her. '
     lineActions:
     - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' She looks away.'
+    line: She looks away.
     lineActions: []
     Notes: 
   Notes: 

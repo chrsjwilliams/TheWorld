@@ -60,16 +60,17 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Chills
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' Eon gets chills. '
+    line: 'Eon gets chills. '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' She doesn''t like being alone. '
+    line: 'She doesn''t like being alone. '
     lineActions:
     - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
@@ -78,9 +79,9 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ' Then she hears footsteps. '
-    lineActions: []
+    line: 'Then she hears footsteps. '
+    lineActions:
+    - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
     Notes: 
   Notes: 
-  lineActions:
-  - {fileID: 11400000, guid: 09b6fb2e5d1d5411684d773c8beab662, type: 2}
+  lineActions: []

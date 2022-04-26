@@ -281,7 +281,6 @@ public class DialogGraphGenerator : ScriptableObject
         Sprite value;
         if(nodePictureDictionary.TryGetSprite(key, out value))
         {
-            Debug.Log(value);
             node.nodeSprite = value;
         }
         else
@@ -357,14 +356,14 @@ public class DialogGraphGenerator : ScriptableObject
 
     NODE_PICTURE GetNodePicEnum(string name)
     {
-        foreach (NODE_PICTURE effect in Enum.GetValues(typeof(SFX)))
+        foreach (NODE_PICTURE effect in Enum.GetValues(typeof(NODE_PICTURE)))
         {
             if (name.ToUpper() == effect.ToString().ToUpper())
             {
                 return effect;
             }
         }
-        Debug.LogError("Sound Effect " + name + " not found in SFX enum list");
+        Debug.LogError("Node Picture " + name + " not found in Node Picture enum list");
         return NODE_PICTURE.DEFAULT;
     }
 
@@ -384,4 +383,5 @@ public class DialogGraphGenerator : ScriptableObject
     }
 }
 
-public enum NODE_PICTURE { DEFAULT, TEST }
+public enum NODE_PICTURE {  DEFAULT, CLOCK, DIALOG, END, EXIT, FOOTSTEPS, GUESSLOVE, GUESSSTD,
+                            GUESSWORD, ICONALERT, QUESTIONMARK, STRANGER, TURNIP}

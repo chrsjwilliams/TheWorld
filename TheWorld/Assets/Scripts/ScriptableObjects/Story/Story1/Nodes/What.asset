@@ -16,9 +16,9 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 66ef7010d106a48f3be0e641c73506f2, type: 2}
+    - {fileID: 11400000, guid: 53be0804e732a49d882779a131a17591, type: 2}
     - {fileID: 11400000, guid: 41ff10d4445e24e808f006bd092e7fa0, type: 2}
-    - {fileID: 11400000, guid: 3abe60c19fea4454ea5c91bc1dbc2dd8, type: 2}
+    - {fileID: 11400000, guid: edd55ada6921043e49987c2e59f09a2e, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -86,8 +86,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+  hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 7f32b7306d66a4317b8f150278ff6981, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: What
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
