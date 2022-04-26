@@ -149,21 +149,23 @@ public class DialogGraphGenerator : ScriptableObject
         int nodeNameIndex = rawLinkInfo.Length - 1;
 
         DialogNode existingNode = (DialogNode)AssetDatabase.LoadAssetAtPath(DialogStoryPath + folderName + "/" + "Nodes/" + rawLinkInfo[nodeNameIndex].Trim() + ".asset", typeof(DialogNode));
-        if (existingNode)
-        {
-            linkInfo.node = existingNode;
-        }
-        else
-        {
-            //  Create instance of dialog node
-            DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
-            //  Set the name of the file and not title to the name
-            node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
+        linkInfo.node = existingNode;
 
-            //  Create aset and save it to its path
-            AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
-            linkInfo.node = node;
-        }
+        //if (existingNode)
+        //{
+        //    linkInfo.node = existingNode;
+        //}
+        //else
+        //{
+        //    //  Create instance of dialog node
+        //    DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
+        //    //  Set the name of the file and not title to the name
+        //    node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
+
+        //    //  Create aset and save it to its path
+        //    AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
+        //    linkInfo.node = node;
+        //}
         return linkInfo;
     }
 
