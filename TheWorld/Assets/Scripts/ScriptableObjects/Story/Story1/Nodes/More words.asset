@@ -66,8 +66,9 @@ MonoBehaviour:
   NodeTitle: More words
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' This dude must be super old. It makes sense that it''s a lame word play.'
-    lineActions: []
+    line: ' This dude must be super old. It makes sense that it''s a lame word play. '
+    lineActions:
+    - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Words are expected to be kept. I don''t think that''s true for advise.'

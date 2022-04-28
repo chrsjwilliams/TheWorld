@@ -93,7 +93,8 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Hmm, It can be multiple things.'
-    lineActions: []
+    lineActions:
+    - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
     Notes: 
   Notes: 
   lineActions: []

@@ -16,9 +16,8 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 53be0804e732a49d882779a131a17591, type: 2}
-    - {fileID: 11400000, guid: 41ff10d4445e24e808f006bd092e7fa0, type: 2}
     - {fileID: 11400000, guid: edd55ada6921043e49987c2e59f09a2e, type: 2}
+    - {fileID: 11400000, guid: c332aac30024044df8df5d7c6782633e, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -43,13 +42,13 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 3
+      Data: 2
     - Name: 
       Entry: 7
       Data: 
     - Name: $k
       Entry: 3
-      Data: 2
+      Data: 1
     - Name: $v
       Entry: 10
       Data: 0
@@ -69,18 +68,6 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
-      Entry: 7
-      Data: 
-    - Name: $k
-      Entry: 3
-      Data: 1
-    - Name: $v
-      Entry: 10
-      Data: 2
-    - Name: 
-      Entry: 8
-      Data: 
-    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -92,12 +79,21 @@ MonoBehaviour:
   NodeTitle: What
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Why do you talk to me like that? What do you want?'
-    lineActions: []
+    line: ' What the fuck you want? '
+    lineActions:
+    - {fileID: 11400000, guid: 37dda55bb27af4a2c83ade41967d567e, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")[I have a riddle for you. I want you to make a guess.
-      If you guess right, you''ll be fine. If not, there will be consequences.]'
+    line: ' (text-colour: "red")["I have a riddle for you"]'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' What? '
+    lineActions:
+    - {fileID: 11400000, guid: a231715633d6b48299be24366ec97f18, type: 2}
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    line: ' (text-colour: "red")["A riddle"]'
     lineActions: []
     Notes: 
   Notes: 

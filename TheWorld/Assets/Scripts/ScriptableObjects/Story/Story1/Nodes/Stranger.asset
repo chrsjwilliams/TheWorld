@@ -66,8 +66,9 @@ MonoBehaviour:
   NodeTitle: Stranger
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'She looks again towards the stranger. '
-    lineActions: []
+    line: 'She looks again towards the stranger.  '
+    lineActions:
+    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: A silhouette wearing a dark jacket, jeans and sneakers.

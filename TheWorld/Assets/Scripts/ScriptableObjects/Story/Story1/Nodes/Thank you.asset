@@ -66,8 +66,9 @@ MonoBehaviour:
   NodeTitle: Thank you
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' I am impressed my friend. Really impressed.'
-    lineActions: []
+    line: ' I am impressed my friend. Really impressed. '
+    lineActions:
+    - {fileID: 11400000, guid: c890136d623c04bf2bf3dd8c915789b9, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The train is approaching the station finally. '
@@ -75,7 +76,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e9ab47d39b15f4e659b8187293c84ab6, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' You are free to go now. It was a pleasure to challenge you my friend.'
+    line: <color="red"> You are free to go now. It was a pleasure to challenge you
+      my friend.</color>
     lineActions: []
     Notes: 
   Notes: 

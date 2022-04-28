@@ -18,7 +18,7 @@ MonoBehaviour:
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: df949e56c52b94b9dad1b8fb93daff13, type: 2}
     - {fileID: 11400000, guid: 5cae7581d5d46484482f1a462ff47958, type: 2}
-    - {fileID: 11400000, guid: 770216b6271314888bfcc38b5634326c, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -88,12 +88,13 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: e5c501d5d653d42e78fcf47e943a1a36, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: STD
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon is thinks for a moment.
-    lineActions: []
+    line: <i>Eon is thinking. </i>
+    lineActions:
+    - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' I feel like STD''s fits this definition perfectly. You still keep them

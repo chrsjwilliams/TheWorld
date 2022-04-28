@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 4dca7ef3ea7de4a0c8080403a9f5c7a5, type: 2}
+    - {fileID: 11400000, guid: 537bcaf65eb724f3cbbd13282ed14e8d, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -66,8 +66,9 @@ MonoBehaviour:
   NodeTitle: Get Away
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Why is this dude acting so weird?'
-    lineActions: []
+    line: ' Why is this dude acting so weird? '
+    lineActions:
+    - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: She gets up and walks away without saying anything.

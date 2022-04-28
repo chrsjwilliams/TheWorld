@@ -117,6 +117,14 @@ public class DialogGraphGenerator : ScriptableObject
 
     }
 
+    public DialogNode GetNode(string name)
+    {
+        DialogNode existingNode = (DialogNode)AssetDatabase.LoadAssetAtPath(DialogStoryPath + folderName + "/" + "Nodes/" + name + ".asset", typeof(DialogNode));
+        Debug.Log("NEXT NODE NAME: " + existingNode.NodeTitle);
+        Debug.Log("NEXT NODE COUNTS: " + existingNode.nextNodes.Count);
+        return existingNode;
+    }
+
     LinkInfo CreateLinkInfo(string rawLine)
     {
         string sanitizedLine = rawLine.Replace("[", "");
@@ -124,7 +132,7 @@ public class DialogGraphGenerator : ScriptableObject
         string[] rawLinkInfo = sanitizedLine.Split('|');
 
         // Remove any white space at the beginning and end of links
-        for(int i = 0; i < rawLinkInfo.Length; i++)
+        for (int i = 0; i < rawLinkInfo.Length; i++)
         {
             rawLinkInfo[i] = rawLinkInfo[i].Trim();
         }
@@ -148,24 +156,22 @@ public class DialogGraphGenerator : ScriptableObject
         //  The name of the link should always be the last string in the sanitized info
         int nodeNameIndex = rawLinkInfo.Length - 1;
 
-        DialogNode existingNode = (DialogNode)AssetDatabase.LoadAssetAtPath(DialogStoryPath + folderName + "/" + "Nodes/" + rawLinkInfo[nodeNameIndex].Trim() + ".asset", typeof(DialogNode));
-        linkInfo.node = existingNode;
+        DialogNode existingNode = GetNode(rawLinkInfo[nodeNameIndex].Trim());
+        if (existingNode)
+        {
+            linkInfo.node = existingNode;
+        }
+        else
+        {
+            //  Create instance of dialog node
+            DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
+            //  Set the name of the file and not title to the name
+            node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
 
-        //if (existingNode)
-        //{
-        //    linkInfo.node = existingNode;
-        //}
-        //else
-        //{
-        //    //  Create instance of dialog node
-        //    DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
-        //    //  Set the name of the file and not title to the name
-        //    node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
-
-        //    //  Create aset and save it to its path
-        //    AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
-        //    linkInfo.node = node;
-        //}
+            //  Create aset and save it to its path
+            AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
+            linkInfo.node = node;
+        }
         return linkInfo;
     }
 
@@ -365,7 +371,7 @@ public class DialogGraphGenerator : ScriptableObject
                 return effect;
             }
         }
-        Debug.LogError("Node Picture " + name + " not found in Node Picture enum list");
+        LogMessage(LogType.ERROR, "Node Picture " + name + " not found in Node Picture enum list");
         return NODE_PICTURE.DEFAULT;
     }
 

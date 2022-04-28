@@ -92,8 +92,9 @@ MonoBehaviour:
   NodeTitle: Word
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon is thinking.
-    lineActions: []
+    line: <i>Eon is thinking. </i>
+    lineActions:
+    - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' It can be an advise or word. But technically you don''t need to keep

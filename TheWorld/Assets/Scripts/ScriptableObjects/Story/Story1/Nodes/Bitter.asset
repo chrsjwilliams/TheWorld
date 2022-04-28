@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: d6af27b306a064e5a8022832aebd8d31, type: 2}
+    - {fileID: 11400000, guid: ca0984557430a49ef971bf84bd026315, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -66,20 +66,17 @@ MonoBehaviour:
   NodeTitle: Bitter
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: And that's not what she expected.
+    line: Okay, I can eat turnip. Whatever.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: She sees a giant turnip covering the exit door.
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Holy shit, that''s definitely not what I expected. '
+    line: 'She bites the turnip. '
     lineActions:
-    - {fileID: 11400000, guid: 035ac9942a1144401bd26c2de9907af5, type: 2}
+    - {fileID: 11400000, guid: 29e67a521fa0b4dd19c11706787c6961, type: 2}
+    - {fileID: 11400000, guid: e7f2fa7b27e5a474f91130e4b75b2220, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' "red")[AND IT''S A BITTER ONE. HAHAHA.]'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: It is hard, and bitter just like he said.
     lineActions: []
     Notes: 
   Notes: 

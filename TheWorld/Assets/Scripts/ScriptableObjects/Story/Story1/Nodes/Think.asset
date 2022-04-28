@@ -92,8 +92,9 @@ MonoBehaviour:
   NodeTitle: Think
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Interesting... Multiple things come to mind.'
-    lineActions: []
+    line: ' Interesting... Multiple things come to mind. '
+    lineActions:
+    - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   Notes: 
   lineActions: []

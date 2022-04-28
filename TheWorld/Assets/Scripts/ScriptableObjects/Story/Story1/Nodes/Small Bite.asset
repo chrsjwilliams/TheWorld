@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
-  m_Name: Small Bite
+  m_Name: Small bite
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: ba01dfdd85b0a43f99a67d8e8d47ce66, type: 2}
+    - {fileID: 11400000, guid: 6b794980ccf264901b1b2e7f8da4e7ea, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -63,7 +63,7 @@ MonoBehaviour:
   hasSecretItem: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: ccee760f17bba44db8c18a3cb7347376, type: 3}
-  NodeTitle: Small Bite
+  NodeTitle: Small bite
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Eon takes a very small bite of the turnip. '

@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 43a8cb8e093034d828b3bc1510405dad, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -66,22 +66,24 @@ MonoBehaviour:
   NodeTitle: Syphinx
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' You are Syphinx, master of riddles and father of terror.'
-    lineActions: []
+    line: ' I believe you are Syphinx, master of riddles and father of terror. '
+    lineActions:
+    - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' I have to admit, no one called me by that in a very long time. You impressed
-      me girl. '
+    line: <color="red"> I have to admit, no one called me by that in a very long
+      time. You impressed me gurl. </color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' And I guess you''ll eat me if I guess incorrectly?'
-    lineActions: []
+    line: ' And I guess you''ll eat me if I guess incorrectly? '
+    lineActions:
+    - {fileID: 11400000, guid: d968eb1c4dc7940b9abd57f55608f271, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' No, not anymore. I developed reflux over the years. But I have other
-      methods of terror. Anyway, as you know by now there is no other option for
-      you to answer my riddle. Are you ready?'
+    line: <color="red"> No, not anymore. I developed reflux over the years. But I
+      have other methods of terror. Anyway, as you know by now there is no other
+      option for you to answer my riddle. Are you ready?</color>
     lineActions: []
     Notes: 
   Notes: 

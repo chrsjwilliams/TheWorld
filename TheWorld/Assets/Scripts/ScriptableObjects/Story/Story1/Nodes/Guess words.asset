@@ -62,13 +62,14 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 082fd17789e0e4a57b93df59c9e61549, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Guess words
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: ' Okay, here I go. Answer to you riddle is, I believe, word. When you give
-      your word to someone, you get to keep it.'
-    lineActions: []
+      your word to someone, you get to keep it. '
+    lineActions:
+    - {fileID: 11400000, guid: d968eb1c4dc7940b9abd57f55608f271, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: The Stranger smiles wide.

@@ -16,8 +16,8 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: c713950150e464d48b0dfac02e22d09b, type: 2}
-    - {fileID: 11400000, guid: 6ee74c201cd3343f5b68785687b84035, type: 2}
+    - {fileID: 11400000, guid: 347346fd2f7c940b99811c2be1d574bd, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -80,15 +80,16 @@ MonoBehaviour:
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Eon is shaking. Holy shit, what''s gonna happen now? '
-    lineActions: []
+    lineActions:
+    - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Then she hears speakers turned on. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' "red")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON''T TRY TO CHEAT,
-      IT WON''T WORK.]'
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    line: <color="red">TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO
+      CHEAT, IT WON'T WORK.</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

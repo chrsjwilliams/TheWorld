@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 81e92c4365fdd4ec7b8fb0b5d079b465, type: 2}
+    - {fileID: 11400000, guid: a54dad6b0c558496e9d3a980632b6ee9, type: 2}
     - {fileID: 11400000, guid: 41ff10d4445e24e808f006bd092e7fa0, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -75,12 +75,13 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Hello
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Hello? Can I help you?'
-    lineActions: []
+    line: ' Hello? Can I help you? '
+    lineActions:
+    - {fileID: 11400000, guid: d968eb1c4dc7940b9abd57f55608f271, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: ' (text-colour: "red")[You can help yourself.]'
