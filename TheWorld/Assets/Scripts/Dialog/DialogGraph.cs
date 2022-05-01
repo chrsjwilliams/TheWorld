@@ -14,6 +14,8 @@ public class DialogGraph : SerializedScriptableObject
 
     public List<DialogNode> nodes = new List<DialogNode>();
 
+    public Sprite storyBackground;
+
     public void Init()
     {
         startingNode = nodes[0];

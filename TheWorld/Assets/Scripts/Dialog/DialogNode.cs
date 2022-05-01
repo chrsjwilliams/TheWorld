@@ -28,6 +28,7 @@ public class DialogNode : SerializedScriptableObject, IAction
         {
             entry.Value.nodeType = entry.Key;
         }
+        Debug.Log("[LOG MESSAGE] Node types set.");
     }
 
     public void AddTagAction(TagAction action)

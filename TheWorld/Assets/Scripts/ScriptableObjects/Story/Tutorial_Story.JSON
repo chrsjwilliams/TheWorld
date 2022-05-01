@@ -1,0 +1,367 @@
+
+
+{
+  "passages": [
+    {
+      "text": "Dear spectator, it's a pleasure to have you here! Welcome!\nHere, you will witness snippets from our hero's life and help them make critical decisions.\n[[Eon]]",
+      "links": [
+        {
+          "name": "Eon",
+          "link": "Eon",
+          "pid": "2"
+        }
+      ],
+      "name": "Hello",
+      "pid": "1",
+      "position": {
+        "x": "1100",
+        "y": "199"
+      }
+    },
+    {
+      "text": "This is Eon. She is no hero in real terms. Just an ordinary girl. She can be shy or bold depends on her mood. Sometimes she is extremely wise, but sometimes she is just impulsive. Friendly when she feels comfortable, anxious when she feels threatened. @eon_hi_norm\nAs I said, just a regular person like any of us. But that is about to change. \n[[Thunder]]",
+      "links": [
+        {
+          "name": "Thunder",
+          "link": "Thunder",
+          "pid": "3"
+        }
+      ],
+      "name": "Eon",
+      "pid": "2",
+      "position": {
+        "x": "1100",
+        "y": "349"
+      }
+    },
+    {
+      "text": "Maybe it was Lady Fortuna getting bored, or Zeus playing games with his subjects...Well, who knows the real cause? @eon_thunder_norm\nThat day, Eon was hit by a thunder and her personality was splitted into four different personas, each representing a certain part from her soul.\n[[Lion|Lion]]",
+      "links": [
+        {
+          "name": "Lion|Lion",
+          "link": "Lion|Lion",
+          "broken": true
+        }
+      ],
+      "name": "Thunder",
+      "pid": "3",
+      "position": {
+        "x": "1100",
+        "y": "499"
+      }
+    },
+    {
+      "text": "The first persona is the Lion. @eon_roar_lion\nLion is an extremely bold character. She always speaks her mind, never afraid of anything. That can be a good or bad trait of course. Because sometimes, she just doesn't know where to stop.\nShe also has a short temper, and a strong fighter. A real survivor. At least in soul.\n[[Ox|Ox]]",
+      "links": [
+        {
+          "name": "Ox|Ox",
+          "link": "Ox|Ox",
+          "broken": true
+        }
+      ],
+      "name": "Lion",
+      "pid": "4",
+      "position": {
+        "x": "1100",
+        "y": "649"
+      }
+    },
+    {
+      "text": "The second persona is the Ox. @eon_hi_ox\nThe Ox is an extremely friendly and kind character. She tends to see the best in people but some might call her naive. \nUnlike Lion, she gets stressed pretty often. Pressure really cracks her. She feels vulnerable pretty frequently.\n[[Human|Human]]",
+      "links": [
+        {
+          "name": "Human|Human",
+          "link": "Human|Human",
+          "broken": true
+        }
+      ],
+      "name": "Ox",
+      "pid": "5",
+      "position": {
+        "x": "1100",
+        "y": "799"
+      }
+    },
+    {
+      "text": "Eon's third persona is the Human.@eon_sinister_human\nThe Human has an extremly sharp mind. She can almost see through people, some might even call her a trickster. But that feature also turns her a sinister character sometimes.\nShe is also known for her creativity. Problems of all sort is soluable according to the Human.\n[[Eagle|Eagle]]",
+      "links": [
+        {
+          "name": "Eagle|Eagle",
+          "link": "Eagle|Eagle",
+          "broken": true
+        }
+      ],
+      "name": "Human",
+      "pid": "6",
+      "position": {
+        "x": "1100",
+        "y": "950"
+      }
+    },
+    {
+      "text": "And finally, the Eagle. @eon_think_eagle\nEagle tends to be really wise. She can usually stay calm under stressful situations which helps her find a meaningful solution.\nHowever, she tends to stay on the colder side socially. She is not as capable of emotional connection as the other personas do.\n[[Eagle|Persona Switch]]",
+      "links": [
+        {
+          "name": "Eagle|Persona Switch",
+          "link": "Eagle|Persona Switch",
+          "broken": true
+        }
+      ],
+      "name": "Eagle",
+      "pid": "7",
+      "position": {
+        "x": "1100",
+        "y": "1099"
+      }
+    },
+    {
+      "text": "Down below, you'll see the Ox persona icon. \nYou can click on different personas and switch to a different character.\nLet's click on the Ox icon to select a different persona.\nThen click on the arrow to on the right side to go to the next block.\n[[Ox|Selection]]",
+      "links": [
+        {
+          "name": "Ox|Selection",
+          "link": "Ox|Selection",
+          "broken": true
+        }
+      ],
+      "name": "Persona Switch",
+      "pid": "8",
+      "position": {
+        "x": "1100",
+        "y": "1249"
+      }
+    },
+    {
+      "text": "@eon_hello_ox\nYou'll see below that there are more than one icon. There is the Eagle & Ox below. \nMake a selection if you'd like to switch back to Eagle. \nFinish and move to the next story block by clicking on the arrow.\n[[Eagle|Option 1]]\n[[Ox|Option 2]]",
+      "links": [
+        {
+          "name": "Eagle|Option 1",
+          "link": "Eagle|Option 1",
+          "broken": true
+        },
+        {
+          "name": "Ox|Option 2",
+          "link": "Ox|Option 2",
+          "broken": true
+        }
+      ],
+      "name": "Selection",
+      "pid": "9",
+      "position": {
+        "x": "1100",
+        "y": "1400"
+      }
+    },
+    {
+      "text": "@eon_think_eagle\nAs you move through story blocks, you'll see the big wheel on the left side turning.\nThere are slots on the wheel representing the story blocks you've been through.\nThey can get useful if you'd like to travel back and change your decisions.\n[[Ox|Test]]",
+      "links": [
+        {
+          "name": "Ox|Test",
+          "link": "Ox|Test",
+          "broken": true
+        }
+      ],
+      "name": "Option 1",
+      "pid": "10",
+      "position": {
+        "x": "1000",
+        "y": "1549"
+      }
+    },
+    {
+      "text": "@eon_hello_ox\nAs you move through story blocks, you'll see the big wheel on the left side turning.\nThere are slots on the wheel representing the story blocks you've been through.\nThey can get useful if you'd like to travel back and change your decisions.\n[[Ox|Test]]",
+      "links": [
+        {
+          "name": "Ox|Test",
+          "link": "Ox|Test",
+          "broken": true
+        }
+      ],
+      "name": "Option 2",
+      "pid": "11",
+      "position": {
+        "x": "1225",
+        "y": "1550"
+      }
+    },
+    {
+      "text": "Let's give it a try! Here is an apple for Eon to eat. \nSelect a persona before moving on to the next story block. That will change how the story evolves.\n[[Ox|Yum]]\n[[Eagle|Suspicious]]",
+      "links": [
+        {
+          "name": "Ox|Yum",
+          "link": "Ox|Yum",
+          "broken": true
+        },
+        {
+          "name": "Eagle|Suspicious",
+          "link": "Eagle|Suspicious",
+          "broken": true
+        }
+      ],
+      "name": "Test",
+      "pid": "12",
+      "position": {
+        "x": "1112",
+        "y": "1699"
+      }
+    },
+    {
+      "text": "Eon: An apple? Looks yum! Thank you! @eon_eating_ox\n[[Ox|Sick]]",
+      "links": [
+        {
+          "name": "Ox|Sick",
+          "link": "Ox|Sick",
+          "broken": true
+        }
+      ],
+      "name": "Yum",
+      "pid": "13",
+      "position": {
+        "x": "1027",
+        "y": "1854"
+      }
+    },
+    {
+      "text": "Eon: An apple? Thank you but I don't eat food coming from strangers.\n[[Eagle|Smart]]",
+      "links": [
+        {
+          "name": "Eagle|Smart",
+          "link": "Eagle|Smart",
+          "broken": true
+        }
+      ],
+      "name": "Suspicious",
+      "pid": "14",
+      "position": {
+        "x": "1199",
+        "y": "1850"
+      }
+    },
+    {
+      "text": "Eon: Oh, I feel sick. What's happening? @eon_vomit_ox\norry Eon, I'm trying to make a point, so I drugged the apple.\nEon: But, why would you do that?\nIf you like, dear player, you can go back and see what happens if you stick with the Eagle. @eon_tired_ox\n[[Ox|Special Powers]]",
+      "links": [
+        {
+          "name": "Ox|Special Powers",
+          "link": "Ox|Special Powers",
+          "broken": true
+        }
+      ],
+      "name": "Sick",
+      "pid": "15",
+      "position": {
+        "x": "1027",
+        "y": "2004"
+      }
+    },
+    {
+      "text": "Well, that was a smart move Eon! Because that Apple was kinda poisonous.\nEon: What's wrong with you? @eon_confused_eagle\nJust doing a little demonstration.\nIf you like, dear player, you can go back and see what happens if you stick with the Ox. \n[[Eagle|Special Powers]]",
+      "links": [
+        {
+          "name": "Eagle|Special Powers",
+          "link": "Eagle|Special Powers",
+          "broken": true
+        }
+      ],
+      "name": "Smart",
+      "pid": "16",
+      "position": {
+        "x": "1199",
+        "y": "2001"
+      }
+    },
+    {
+      "text": "Keep in mind that you have a limit to go back in time. Use it wisely.\nEach persona has a special power that you can only use once throughout the whole story.\n[[Eagle|Eagle Power]]",
+      "links": [
+        {
+          "name": "Eagle|Eagle Power",
+          "link": "Eagle|Eagle Power",
+          "broken": true
+        }
+      ],
+      "name": "Special Powers",
+      "pid": "17",
+      "position": {
+        "x": "1114",
+        "y": "2151"
+      }
+    },
+    {
+      "text": "Some choices will take Eon to undesirable ends in the story. \nEagle can foresee these points in the story.\nBitter ends are part of life. However, if you'd like to avoid them, you can make use of Eagle's special power.\n[[Human|Human Power]]",
+      "links": [
+        {
+          "name": "Human|Human Power",
+          "link": "Human|Human Power",
+          "broken": true
+        }
+      ],
+      "name": "Eagle Power",
+      "pid": "18",
+      "position": {
+        "x": "1113",
+        "y": "2301"
+      }
+    },
+    {
+      "text": "Human has an ability to see the future. \nShe can see what is in the next upcoming three nodes without actually moving through the story.\nBased on that, you can decide to stick with the Human or swap to another character.\n[[Lion|Lion Power]]",
+      "links": [
+        {
+          "name": "Lion|Lion Power",
+          "link": "Lion|Lion Power",
+          "broken": true
+        }
+      ],
+      "name": "Human Power",
+      "pid": "19",
+      "position": {
+        "x": "1111",
+        "y": "2457"
+      }
+    },
+    {
+      "text": "Lion can browse through all the previous story blocks and go back to any part in the story.\n[[Ox|Ox Power]]",
+      "links": [
+        {
+          "name": "Ox|Ox Power",
+          "link": "Ox|Ox Power",
+          "broken": true
+        }
+      ],
+      "name": "Lion Power",
+      "pid": "20",
+      "position": {
+        "x": "1111",
+        "y": "2607"
+      }
+    },
+    {
+      "text": "When you make certain choices you'll find special prizes hidden for Eon. \nThe Ox can see the specific story block where the prize is hidden and show it to you.\nYou still need to figure out how to get there though.\n[[Eon|Game]]",
+      "links": [
+        {
+          "name": "Eon|Game",
+          "link": "Eon|Game",
+          "broken": true
+        }
+      ],
+      "name": "Ox Power",
+      "pid": "21",
+      "position": {
+        "x": "1111",
+        "y": "2757"
+      }
+    },
+    {
+      "text": "Now, you are ready to go on a journey with Eon.\nThere are four stories available for you to experience together with Eon.\nIf you ever get confused, there is a cheatsheet available on the bottom menu.\nGood luck and enjoy discovering Eon's world!\n@end",
+      "name": "Game",
+      "pid": "22",
+      "position": {
+        "x": "1111",
+        "y": "2907"
+      }
+    }
+  ],
+  "name": "TWC-Tutorial",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.15",
+  "ifid": "7631892D-1BB9-467A-BD97-AEB996A3829F"
+}
+

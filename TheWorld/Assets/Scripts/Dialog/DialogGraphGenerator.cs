@@ -82,7 +82,7 @@ public class DialogGraphGenerator : ScriptableObject
         {
             newNode.hasSecretItem = true;
         }
-
+        Debug.Log("~~~~~~~: " + newNode.name);
         foreach (string line in nodeText)
         {
             //  Skip lines with less that 2 characters
@@ -120,8 +120,6 @@ public class DialogGraphGenerator : ScriptableObject
     public DialogNode GetNode(string name)
     {
         DialogNode existingNode = (DialogNode)AssetDatabase.LoadAssetAtPath(DialogStoryPath + folderName + "/" + "Nodes/" + name + ".asset", typeof(DialogNode));
-        Debug.Log("NEXT NODE NAME: " + existingNode.NodeTitle);
-        Debug.Log("NEXT NODE COUNTS: " + existingNode.nextNodes.Count);
         return existingNode;
     }
 

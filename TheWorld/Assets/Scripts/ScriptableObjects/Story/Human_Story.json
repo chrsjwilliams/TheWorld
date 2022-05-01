@@ -1,0 +1,989 @@
+{
+    "passages": [
+        {
+            "text": "**sun\n@eon_wakeUp_human @sfx_birds\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: What a lovely day to spend at the garden!\nShe wakes up saying the same thing every morning.\n[[Human|Breakfast]]",
+            "links": [
+                {
+                    "name": "Human|Breakfast",
+                    "link": "Human|Breakfast",
+                    "broken": true
+                }
+            ],
+            "name": "In The Garden",
+            "pid": "1",
+            "position": {
+                "x": "1227",
+                "y": "197"
+            }
+        },
+        {
+            "text": "**sun\n@eon_walk_human @sfx_whistle\nEon: A good day starts with good breakfast! \nShe walks through the garden browsing the fruit trees.\nEon: Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?\n[[Human|Peach]]",
+            "links": [
+                {
+                    "name": "Human|Peach",
+                    "link": "Human|Peach",
+                    "broken": true
+                }
+            ],
+            "name": "Breakfast",
+            "pid": "2",
+            "position": {
+                "x": "1230",
+                "y": "349"
+            }
+        },
+        {
+            "text": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach.\nEon: Here is my breakfast!\nAs she is reaching to grab it, a mysterious voice confronts her.\nSerpent: Arghh, same ridiculous routine every morning. Aren't you bored yet?\n[[Lion|Come Out]]\n[[Ox| Who]]\n[[Human|Where]]",
+            "links": [
+                {
+                    "name": "Lion|Come Out",
+                    "link": "Lion|Come Out",
+                    "broken": true
+                },
+                {
+                    "name": "Ox| Who",
+                    "link": "Ox| Who",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Where",
+                    "link": "Human|Where",
+                    "broken": true
+                }
+            ],
+            "name": "Peach",
+            "pid": "3",
+            "position": {
+                "x": "1233",
+                "y": "500"
+            }
+        },
+        {
+            "text": "**exxMark\n@eon_unhappy_lion\nEon: Who is dis? Come out! \nSerpent: I see you are a little stressed. Sorry for interrupting your lil' boring breakfast routine. @sfx_evilLaughter\nEon: I said come out!\n[[Lion|Anxious]]",
+            "links": [
+                {
+                    "name": "Lion|Anxious",
+                    "link": "Lion|Anxious",
+                    "broken": true
+                }
+            ],
+            "name": "Come Out",
+            "pid": "4",
+            "position": {
+                "x": "975",
+                "y": "648"
+            },
+            "tags": [
+                "Lion"
+            ]
+        },
+        {
+            "text": "**questionMark\n@eon_anxious_ox\nEon didn't expect someone else to be around.\nEon: Who is that?\nSerpent: Just someone who is bored of watching the same silly routine every morning.\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+            "links": [
+                {
+                    "name": "Ox|Explain",
+                    "link": "Ox|Explain",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Anxious",
+                    "link": "Lion|Anxious",
+                    "broken": true
+                }
+            ],
+            "name": " Who",
+            "pid": "5",
+            "position": {
+                "x": "1293",
+                "y": "645"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon: What do you mean?\nSerpent: Poor kid...Every morning, you get up, say that it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.\n[[Ox|Please]]",
+            "links": [
+                {
+                    "name": "Ox|Please",
+                    "link": "Ox|Please",
+                    "broken": true
+                }
+            ],
+            "name": "Explain",
+            "pid": "6",
+            "position": {
+                "x": "1301",
+                "y": "796"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: That is not true, I ate an apple yesterday.\nThe voice laughs hysterically. sfx_evilLaughter\nSerpent: Oh, poor child, I only feel sorry for you.\n[[Ox|Up]]",
+            "links": [
+                {
+                    "name": "Ox|Up",
+                    "link": "Ox|Up",
+                    "broken": true
+                }
+            ],
+            "name": "Please",
+            "pid": "7",
+            "position": {
+                "x": "1301",
+                "y": "931"
+            }
+        },
+        {
+            "text": "**eyes\n@eon_lookAround_ox\nEon: Can you please show yourself? You are making me anxious.\nSerpent: That is the last thing I'd like to do.\nEon hears a slow crouching sound first. Then a subtle deep sound. \nSerpent: Look up you fool child!\nAs Eon moves her gaze upwards, she sees two glazing eyes in between leaves.\nThe eyes slowly slide down through the tree's trunk.\n[[Ox|Serpent]]",
+            "links": [
+                {
+                    "name": "Ox|Serpent",
+                    "link": "Ox|Serpent",
+                    "broken": true
+                }
+            ],
+            "name": "Up",
+            "pid": "8",
+            "position": {
+                "x": "1299",
+                "y": "1076"
+            }
+        },
+        {
+            "text": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon: What are you? You look nothing like me or anything.\nSerpent: I am a serpent, child. I've been living here in the shadows, observing you and your routine every day.\n[[Ox|Why]]",
+            "links": [
+                {
+                    "name": "Ox|Why",
+                    "link": "Ox|Why",
+                    "broken": true
+                }
+            ],
+            "name": "Serpent",
+            "pid": "9",
+            "position": {
+                "x": "1300",
+                "y": "1242"
+            }
+        },
+        {
+            "text": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone.\nSerpent: Don't be anxious kid, there is no reason to be scared!\nEon: I am not scared! But in fact, I believe you are since you're the one who is hiding. \nSerpent: Well, if I come out, you need to face the truth. Do you think you're ready for that?\n[[Lion|No Fear]]\n[[Ox|Explain]]",
+            "links": [
+                {
+                    "name": "Lion|No Fear",
+                    "link": "Lion|No Fear",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Explain",
+                    "link": "Ox|Explain",
+                    "broken": true
+                }
+            ],
+            "name": "Anxious",
+            "pid": "10",
+            "position": {
+                "x": "974",
+                "y": "798"
+            }
+        },
+        {
+            "text": "**dialogue\n@eon_angry_lion\nEon: I have no fear of you or what you can tell me. Now come out and show me your face!\nSerpent: Okay, you asked for it.\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake\n[[Lion|Hi]]",
+            "links": [
+                {
+                    "name": "Lion|Hi",
+                    "link": "Lion|Hi",
+                    "broken": true
+                }
+            ],
+            "name": "No Fear",
+            "pid": "11",
+            "position": {
+                "x": "974",
+                "y": "948"
+            }
+        },
+        {
+            "text": "**serpent\n@eon_surprised_lion\nA long body slowly slides down through the tree's stem.\nEon has never seen a creature like this before.\nEon: What are you exactly?\nSerpent: Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.\n[[Lion|Straight]]\n[[Ox|Why]]",
+            "links": [
+                {
+                    "name": "Lion|Straight",
+                    "link": "Lion|Straight",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Why",
+                    "link": "Ox|Why",
+                    "broken": true
+                }
+            ],
+            "name": "Hi",
+            "pid": "12",
+            "position": {
+                "x": "973",
+                "y": "1099"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_confused_ox\nEon: But why would you do that? You don't know me...\nSerpent: Because they have been lying to you. And you deserve better than that.\n[[Ox|About]]\n[[Eagle|Deserve]]\n",
+            "links": [
+                {
+                    "name": "Ox|About",
+                    "link": "Ox|About",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Deserve",
+                    "link": "Eagle|Deserve",
+                    "broken": true
+                }
+            ],
+            "name": "Why",
+            "pid": "13",
+            "position": {
+                "x": "1302",
+                "y": "1403"
+            }
+        },
+        {
+            "text": "**dialog\nEon feels chills on her body.\nEon: What are they lying about?\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: \"Your whole life.\"\n[[Ox|No]]",
+            "links": [
+                {
+                    "name": "Ox|No",
+                    "link": "Ox|No",
+                    "broken": true
+                }
+            ],
+            "name": "About",
+            "pid": "14",
+            "position": {
+                "x": "1437",
+                "y": "1536"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**recycle\n@eon_think_ox\nEon: How do you know I deserve better? You don't know me.\nSerpent: You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. Forever!\n[[Eagle|Tell me]]\n[[Ox|No]]",
+            "links": [
+                {
+                    "name": "Eagle|Tell me",
+                    "link": "Eagle|Tell me",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|No",
+                    "link": "Ox|No",
+                    "broken": true
+                }
+            ],
+            "name": "Deserve",
+            "pid": "15",
+            "position": {
+                "x": "1143",
+                "y": "1500"
+            }
+        },
+        {
+            "text": "**apple\n@eon_think_eagle\nEon: And what are his intentions with this? Why is he making me live in a loop?\nSerpent whispers with a devilous smile.\nSerpent: He doesn't want you to taste the apple.\n[[Eagle|Apple]]",
+            "links": [
+                {
+                    "name": "Eagle|Apple",
+                    "link": "Eagle|Apple",
+                    "broken": true
+                }
+            ],
+            "name": "Tell me",
+            "pid": "16",
+            "position": {
+                "x": "1047",
+                "y": "1698"
+            }
+        },
+        {
+            "text": "**dialog\nEon is shaking. @eon_shaking_ox\nEon: No, he wouldn't do that! He loves me!\nThe serpent rolls his eyes.\nSerpent: Ah, the things we do for love... Though, I think that expressions if for a different context.\n[[Ox||Loops]]",
+            "links": [
+                {
+                    "name": "Ox||Loops",
+                    "link": "Ox||Loops",
+                    "broken": true
+                }
+            ],
+            "name": "No",
+            "pid": "17",
+            "position": {
+                "x": "1261",
+                "y": "1649"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**recycle\n@eon_disappointed_lion\nEon: I am tired of these games. Just tell me what's happening.\nSerpent seems to enjoy Eon's impatience.\nSerpent: It breaks my heart to say this, but your whole life here is a lie. You believe time is passing, that every day is a new one. But in reality, you've been waking up to the same morning every day and go through the same events over and over again. You've been eating a peach for breakfast forever.\n[[Lion|Lying]]\n[[Eagle|Tell me]]",
+            "links": [
+                {
+                    "name": "Lion|Lying",
+                    "link": "Lion|Lying",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Tell me",
+                    "link": "Eagle|Tell me",
+                    "broken": true
+                }
+            ],
+            "name": "Straight",
+            "pid": "18",
+            "position": {
+                "x": "876",
+                "y": "1226"
+            }
+        },
+        {
+            "text": "*apple\n@eon_angry_lion\nEon feels a rising fire inside.\nEon: That is not true. You are lying!\nSerpent: I'm not. Why would I do that?\nEon: Why would they do that?\nSerpent: Because they don't want you to taste the apple.\n[[Lion|Away]]\n[[Eagle|Apple]]",
+            "links": [
+                {
+                    "name": "Lion|Away",
+                    "link": "Lion|Away",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Apple",
+                    "link": "Eagle|Apple",
+                    "broken": true
+                }
+            ],
+            "name": "Lying",
+            "pid": "19",
+            "position": {
+                "x": "874",
+                "y": "1375"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_disappointed_lion\nEon: Just go away, I can't deal with your nonsense anymore.\nSerpent looks uncomfortable.\nSerpent: It's not nonsense! I am telling you the truth! I am trying to save you!\n[[Lion|Walk]]\n[[Eagle|Warning]]",
+            "links": [
+                {
+                    "name": "Lion|Walk",
+                    "link": "Lion|Walk",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Warning",
+                    "link": "Eagle|Warning",
+                    "broken": true
+                }
+            ],
+            "name": "Away",
+            "pid": "20",
+            "position": {
+                "x": "733",
+                "y": "1545"
+            }
+        },
+        {
+            "text": "**apple\n@eon_confused_eagle\nEon doesn't really understand.\nEon: What is special about the apple? It's just another fruit.\nSerpent: No, that is not true. Apple contains a very special ingredient that will open up your senses. But once you have it, you can never go back.\n[[Eagle|Before]]\n[[Ox|Prove]]\n[[Lion|Away]]",
+            "links": [
+                {
+                    "name": "Eagle|Before",
+                    "link": "Eagle|Before",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Prove",
+                    "link": "Ox|Prove",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Away",
+                    "link": "Lion|Away",
+                    "broken": true
+                }
+            ],
+            "name": "Apple",
+            "pid": "21",
+            "position": {
+                "x": "968",
+                "y": "1839"
+            }
+        },
+        {
+            "text": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: Hey, where are you? Who is talking to me?\nSerpent: Just a friendly stranger who is notorious to stand up against injustice.\n[[Human|Face]]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+            "links": [
+                {
+                    "name": "Human|Face",
+                    "link": "Human|Face",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Explain",
+                    "link": "Ox|Explain",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Anxious",
+                    "link": "Lion|Anxious",
+                    "broken": true
+                }
+            ],
+            "name": "Where",
+            "pid": "22",
+            "position": {
+                "x": "1456",
+                "y": "660"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
+        {
+            "text": "**dialog\n@eon_lookAround_human\nSerpent: So, you wanna see who I am. Very well, I'm coming down.\nEon is looking around, then she hears leaves rustling on the peach tree. As she looks up, she sees something long crawling down around the trunk of the tree.\nSerpent: Hello stranger. Nice to meet you. \n[[Human|Hello]]\n[[Ox|Serpent]]",
+            "links": [
+                {
+                    "name": "Human|Hello",
+                    "link": "Human|Hello",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Serpent",
+                    "link": "Ox|Serpent",
+                    "broken": true
+                }
+            ],
+            "name": "Face",
+            "pid": "23",
+            "position": {
+                "x": "1497",
+                "y": "1004"
+            }
+        },
+        {
+            "text": "**serpent\n@eon_confused_human @sfx_snake\nEon: Hello, but...Who are you?\nSerpent: I am the serpent child. No need to worry I am your friend. And I am here to reveal the bitter truth to you.\nEon: Truth?\nSerpent: You've been living a lie this whole time.\n[[Lion|Straight]]\n[[Ox|Why]]",
+            "links": [
+                {
+                    "name": "Lion|Straight",
+                    "link": "Lion|Straight",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Why",
+                    "link": "Ox|Why",
+                    "broken": true
+                }
+            ],
+            "name": "Hello",
+            "pid": "24",
+            "position": {
+                "x": "1600",
+                "y": "1242"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_think_eagle\nEon: So you are saying that my memory of eating the apple is false.\nSerpent: Yes.\nEon: And if I eat the apple, I'll change forever.\nSerpent: Correct.\n[[Eagle|Outcast]]",
+            "links": [
+                {
+                    "name": "Eagle|Outcast",
+                    "link": "Eagle|Outcast",
+                    "broken": true
+                }
+            ],
+            "name": "Before",
+            "pid": "25",
+            "position": {
+                "x": "968",
+                "y": "1984"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_suspicious_eagle\nEon: Did you have it before?\nSerpent: Yes, that's why I am here now telling you the truth.\nEon: Why were you hiding in the tree?\nSerpent lowers his voice.\nSerpent: Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.\n[[Eagle|Trick]]",
+            "links": [
+                {
+                    "name": "Eagle|Trick",
+                    "link": "Eagle|Trick",
+                    "broken": true
+                }
+            ],
+            "name": "Outcast",
+            "pid": "26",
+            "position": {
+                "x": "968",
+                "y": "2127"
+            }
+        },
+        {
+            "text": "**questionMark\n@eon_suspicious_eagle\nEon: So, I'll be kicked out as well. Why would I do that?\nSerpent: To live free of course! Make a life of your own!\n[[Eagle|Warning]]\n[[Lion|Walk]]",
+            "links": [
+                {
+                    "name": "Eagle|Warning",
+                    "link": "Eagle|Warning",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Walk",
+                    "link": "Lion|Walk",
+                    "broken": true
+                }
+            ],
+            "name": "Trick",
+            "pid": "27",
+            "position": {
+                "x": "968",
+                "y": "2277"
+            }
+        },
+        {
+            "text": "**warning\n@eon_anxious_eagle\nEon: Guards!\nSerpent looks to Eon in shock. \nSerpent: What the...\nEon: Sorry pal, but I warned you.\n[[Eagle|Cherubs]]",
+            "links": [
+                {
+                    "name": "Eagle|Cherubs",
+                    "link": "Eagle|Cherubs",
+                    "broken": true
+                }
+            ],
+            "name": "Guards",
+            "pid": "28",
+            "position": {
+                "x": "968",
+                "y": "2468"
+            }
+        },
+        {
+            "text": "**nightstick\n@eon_disappointed_eagle\nTwo cherubs appear next to the Serpent.\nSerpent: Oh man, not again...\nCherub 1: Well, I agree! You gotta stop coming back in. You don't belong here.\nCherub 2: Hey, I think you're good here so I'm just gonna go.\nCherub 1: Okay man, no worries.\n[[Eagle|Bye]]",
+            "links": [
+                {
+                    "name": "Eagle|Bye",
+                    "link": "Eagle|Bye",
+                    "broken": true
+                }
+            ],
+            "name": "Cherubs",
+            "pid": "29",
+            "position": {
+                "x": "969",
+                "y": "2619"
+            }
+        },
+        {
+            "text": "**exxMark\n@eon_disappointed_eagle\nCherub 1 grabs the serpent. \nCherub 1: Thank you for calling us. I hope he didn't disturb you much with his nonsense.\nEon: I'm okay. Thank you for coming.\nThe Serpent screams as they take him away.\nSerpent: THIS IS NOT OVER YET!\n[[Eagle|Worm]]",
+            "links": [
+                {
+                    "name": "Eagle|Worm",
+                    "link": "Eagle|Worm",
+                    "broken": true
+                }
+            ],
+            "name": "Bye",
+            "pid": "30",
+            "position": {
+                "x": "970",
+                "y": "2779"
+            }
+        },
+        {
+            "text": "**apple\n@eon_think_eagle\nEon takes a look at the apple.\nReaches and grabs one. Smells it.\nEon: Hmm, smells good.\nThen she sees a worm peeking out of the apple.\n[[Eagle|Nah]]",
+            "links": [
+                {
+                    "name": "Eagle|Nah",
+                    "link": "Eagle|Nah",
+                    "broken": true
+                }
+            ],
+            "name": "Worm",
+            "pid": "31",
+            "position": {
+                "x": "967",
+                "y": "2942"
+            }
+        },
+        {
+            "text": "**peach\n@eon_nah_eagle\nEon: Nah!\nAnd she throws the apple away.\nEon: I'll just have a peach instead.\nSo, she lived in the garden, forever, happily ever after.\n@end",
+            "name": "Nah",
+            "pid": "32",
+            "position": {
+                "x": "966",
+                "y": "3089"
+            }
+        },
+        {
+            "text": "**exxMark\nEon: You are lying! I don't believe a single thing you say! @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent: If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time.\n[[Ox|Okay]]\n[[Eagle|Before]]\n[[Lion|Walk]]",
+            "links": [
+                {
+                    "name": "Ox|Okay",
+                    "link": "Ox|Okay",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Before",
+                    "link": "Eagle|Before",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Walk",
+                    "link": "Lion|Walk",
+                    "broken": true
+                }
+            ],
+            "name": "Prove",
+            "pid": "33",
+            "position": {
+                "x": "1262",
+                "y": "1912"
+            }
+        },
+        {
+            "text": "**recycle\n@sfx_snake\n@eon_shaking_ox\nSerpent: Listen to me, kid, you are stuck in a loop. Living the same day forever. And that is all there to keep you away from the apple. Because if you eat the apple, you'll be awake. And you'll be free from this pretty prison.\n[[Ox|Prove]]\n[[Eagle|Apple]]\n[[Lion|Away]]",
+            "links": [
+                {
+                    "name": "Ox|Prove",
+                    "link": "Ox|Prove",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Apple",
+                    "link": "Eagle|Apple",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Away",
+                    "link": "Lion|Away",
+                    "broken": true
+                }
+            ],
+            "name": "Loops",
+            "pid": "34",
+            "position": {
+                "x": "1261",
+                "y": "1777"
+            }
+        },
+        {
+            "text": "**tick\nEon can't stand the idea that her dad is a liar. She knows he is not.\n@eon_disappointed_ox\nEon: Okay! I accept your challenge. I'll eat the apple, and prove to you that my dad is an honest person.\n[[Ox|Decide]]",
+            "links": [
+                {
+                    "name": "Ox|Decide",
+                    "link": "Ox|Decide",
+                    "broken": true
+                }
+            ],
+            "name": "Okay",
+            "pid": "35",
+            "position": {
+                "x": "1265",
+                "y": "2052"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**exxMark\n@eon_walk_lion\nEon: We're done here.\nShe just walks away. The serpent panics.\nSerpent: No, no! Wait! \nHe jumps and grabs Eon's leg.\n[[Lion|Scream]]",
+            "links": [
+                {
+                    "name": "Lion|Scream",
+                    "link": "Lion|Scream",
+                    "broken": true
+                }
+            ],
+            "name": "Walk",
+            "pid": "36",
+            "position": {
+                "x": "552",
+                "y": "1700"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_disappointed_eagle\nEon: Nothing you say makes any sense to me. I am happy here. And I don't know you. Please leave or I'll call guards.\nSerpent: You are not listening! This is not happiness, you are just numb!\n[[Eagle|Guards]]",
+            "links": [
+                {
+                    "name": "Eagle|Guards",
+                    "link": "Eagle|Guards",
+                    "broken": true
+                }
+            ],
+            "name": "Warning",
+            "pid": "37",
+            "position": {
+                "x": "753",
+                "y": "2375"
+            }
+        },
+        {
+            "text": "**explosion\n@eon_scared_lion\nEon is scared as hell. She stars screaming. @sfx_scream\nEon: GET AWAY FROM ME!!!\nIn panic, she steps on the Serpent's head. Multiple times.\nSerpent: Arghhhh!!!\n[[Lion|Sorry]]",
+            "links": [
+                {
+                    "name": "Lion|Sorry",
+                    "link": "Lion|Sorry",
+                    "broken": true
+                }
+            ],
+            "name": "Scream",
+            "pid": "38",
+            "position": {
+                "x": "554",
+                "y": "1849"
+            }
+        },
+        {
+            "text": "**dead\n@eon_surprised_lion\nThe Serpent's head is crushed.\nEon looks at him in shock. \nEon: Omg...Omg, I am so sorry. I didn't mean to...\nEon realizes there was nothing else to do. So she calls the guards.\n[[Lion|Criminal]]",
+            "links": [
+                {
+                    "name": "Lion|Criminal",
+                    "link": "Lion|Criminal",
+                    "broken": true
+                }
+            ],
+            "name": "Sorry",
+            "pid": "39",
+            "position": {
+                "x": "554",
+                "y": "1999"
+            }
+        },
+        {
+            "text": "**cry\n@eon_cry_lion\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief: It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.\nEon is in tears.\n[[Lion|Gift]]",
+            "links": [
+                {
+                    "name": "Lion|Gift",
+                    "link": "Lion|Gift",
+                    "broken": true
+                }
+            ],
+            "name": "Criminal",
+            "pid": "40",
+            "position": {
+                "x": "554",
+                "y": "2149"
+            }
+        },
+        {
+            "text": "**peach\n@eon_eat_lion\nEon: But what was his crime?\nChief: Don't bother yourself with these right now. Here, a delicious peach for you.\nEon looks at the peach. It reminds him of the dead serpent now. Why did he have to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end",
+            "name": "Gift",
+            "pid": "41",
+            "position": {
+                "x": "558",
+                "y": "2283"
+            }
+        },
+        {
+            "text": "**apple\nEon and the Serpent walks to the apple tree. Eon can barely breathe. \nShe grabs an apple from the tree. @eon_anxious_ox\nEon: Looks so shiny and smells really good.\nSerpent: I know! So, do you dare to learn the truth?\n[[Ox|Dare]]\n[[Eagle|Logic]]",
+            "links": [
+                {
+                    "name": "Ox|Dare",
+                    "link": "Ox|Dare",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Logic",
+                    "link": "Eagle|Logic",
+                    "broken": true
+                }
+            ],
+            "name": "Decide",
+            "pid": "42",
+            "position": {
+                "x": "1265",
+                "y": "2202"
+            }
+        },
+        {
+            "text": "**apple\nEon is having second thoughts. But she just hates the idea of father lying to her. @eon_eat_ox\nEon: Okay, here I come!\nShe she takes a big bite from the apple.\nThe serpent's smile covers his whole face. Than he disappears.\n[[Ox|Hit]]",
+            "links": [
+                {
+                    "name": "Ox|Hit",
+                    "link": "Ox|Hit",
+                    "broken": true
+                }
+            ],
+            "name": "Dare",
+            "pid": "43",
+            "position": {
+                "x": "1401",
+                "y": "2348"
+            }
+        },
+        {
+            "text": "**think\nEon doesn't say anything. @eon_think_eagle\nShe is still making calculations in her head.\nEon: If he is right, somehow, I doubt that would make my life any easier. and it is already beautiful, I love it here.\n[[Eagle|Outcast]]\n[[Ox|Dare]]",
+            "links": [
+                {
+                    "name": "Eagle|Outcast",
+                    "link": "Eagle|Outcast",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Dare",
+                    "link": "Ox|Dare",
+                    "broken": true
+                }
+            ],
+            "name": "Logic",
+            "pid": "44",
+            "position": {
+                "x": "1196",
+                "y": "2352"
+            }
+        },
+        {
+            "text": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox\nEon: ARGHHHHH!!!\n[[Ox|Bent]]",
+            "links": [
+                {
+                    "name": "Ox|Bent",
+                    "link": "Ox|Bent",
+                    "broken": true
+                }
+            ],
+            "name": "Hit",
+            "pid": "45",
+            "position": {
+                "x": "1401",
+                "y": "2499"
+            }
+        },
+        {
+            "text": "**explosion\nThe colors and shapes started to bend. She freaks out and screams louder.\nShe feels like falling in void. @eon_fall_ox\nShe loses sense of time. \nFalling for an indefinite time, she finally lands on ground. \nThe ground lights up. It becomes so bright that she goes blind.\nHer feels her mind is opening up. She is feeling emotions she never felt before. She knows now that dad lied to her.\n[[Ox|Crashing]]",
+            "links": [
+                {
+                    "name": "Ox|Crashing",
+                    "link": "Ox|Crashing",
+                    "broken": true
+                }
+            ],
+            "name": "Bent",
+            "pid": "46",
+            "position": {
+                "x": "1400",
+                "y": "2650"
+            }
+        },
+        {
+            "text": "**explosion\nShe kept crashing into rocks, waves, flowers and spiders. @eon_passedOut_ox\nLast thing she saw was a grave of her own. And she didn't know they existed before. \nSo, she opens up her eyes again as a different person.\n[[Ox|Dizzy]]",
+            "links": [
+                {
+                    "name": "Ox|Dizzy",
+                    "link": "Ox|Dizzy",
+                    "broken": true
+                }
+            ],
+            "name": "Crashing",
+            "pid": "47",
+            "position": {
+                "x": "1400",
+                "y": "2799"
+            }
+        },
+        {
+            "text": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam: Hey? Are you okay?\n[[Ox|Adam]]",
+            "links": [
+                {
+                    "name": "Ox|Adam",
+                    "link": "Ox|Adam",
+                    "broken": true
+                }
+            ],
+            "name": "Dizzy",
+            "pid": "48",
+            "position": {
+                "x": "1400",
+                "y": "2949"
+            }
+        },
+        {
+            "text": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon: Who are you?\nAdam: Oh sorry, I am Adam. \n[[Ox|Same]]",
+            "links": [
+                {
+                    "name": "Ox|Same",
+                    "link": "Ox|Same",
+                    "broken": true
+                }
+            ],
+            "name": "Adam",
+            "pid": "49",
+            "position": {
+                "x": "1399",
+                "y": "3100"
+            }
+        },
+        {
+            "text": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: Did you come from the Garden as well?\nThis question surprised Eon.\nEon: Yes...But how did you know that?\nAdam: Well...That's also where I came from.\n[[Ox|Answer]]",
+            "links": [
+                {
+                    "name": "Ox|Answer",
+                    "link": "Ox|Answer",
+                    "broken": true
+                }
+            ],
+            "name": "Same",
+            "pid": "50",
+            "position": {
+                "x": "1400",
+                "y": "3251"
+            }
+        },
+        {
+            "text": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon: But...I've never seen you there. How is that possib...\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam: I think you know the answer.\n[[Ox|Loneliness]]",
+            "links": [
+                {
+                    "name": "Ox|Loneliness",
+                    "link": "Ox|Loneliness",
+                    "broken": true
+                }
+            ],
+            "name": "Answer",
+            "pid": "51",
+            "position": {
+                "x": "1400",
+                "y": "3401"
+            }
+        },
+        {
+            "text": "**apple\nAdam: Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with. @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam: So, I've been walking around everyday to run into someone, somehow. And today is the day.\n[[Ox|Hungry]]",
+            "links": [
+                {
+                    "name": "Ox|Hungry",
+                    "link": "Ox|Hungry",
+                    "broken": true
+                }
+            ],
+            "name": "Loneliness",
+            "pid": "52",
+            "position": {
+                "x": "1400",
+                "y": "3551"
+            }
+        },
+        {
+            "text": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: Where are we? This is the middle of nowhere!\nAdam: Don't panic! There is a small lake nearby where we can rest, have some water and food.\nEon's stomach grumbles as Adam is speaking.\nAdam: Oh, you must be hungry! Here, I have another apple for you.\nHe gives Eon a bright blue apple.\n[[Ox|Together]]",
+            "links": [
+                {
+                    "name": "Ox|Together",
+                    "link": "Ox|Together",
+                    "broken": true
+                }
+            ],
+            "name": "Hungry",
+            "pid": "53",
+            "position": {
+                "x": "1400",
+                "y": "3702"
+            }
+        },
+        {
+            "text": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: Come on, hold on to me. And we'll make it there together.\nEon gets up holding on to Adam. It feels good to have someone around, she thinks.\nThey walk together towards the horizon. They don't let go of each other's hands.\n@end",
+            "name": "Together",
+            "pid": "54",
+            "position": {
+                "x": "1399",
+                "y": "3851"
+            }
+        }
+    ],
+    "name": "TWC-StoryLion-Eden",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.15",
+    "ifid": "C3955E8A-37CA-4CCC-922B-81363DBD5866"
+}
+

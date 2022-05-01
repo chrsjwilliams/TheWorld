@@ -485,8 +485,10 @@ GameObject:
   - component: {fileID: 4530523829244674710}
   - component: {fileID: 571914857918032890}
   - component: {fileID: 4098274636197502062}
+  - component: {fileID: 7590176833038073599}
   - component: {fileID: 6533415940141257092}
   - component: {fileID: 2747412017523152535}
+  - component: {fileID: 5558239602006506936}
   m_Layer: 5
   m_Name: Tutorial Button
   m_TagString: Untagged
@@ -609,6 +611,21 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &7590176833038073599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741383678077725175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
+  story: {fileID: 11400000, guid: dc08a5a2655794771a0fa56250259acb, type: 2}
+  canvasGroup: {fileID: 5558239602006506936}
 --- !u!114 &6533415940141257092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -649,6 +666,18 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!225 &5558239602006506936
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741383678077725175}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2185615555631110224
 GameObject:
   m_ObjectHideFlags: 0
@@ -1841,7 +1870,19 @@ MonoBehaviour:
       m_Calls: []
   OnComplete:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7590176833038073599}
+        m_TargetAssemblyTypeName: StorySelectButtons, Assembly-CSharp
+        m_MethodName: OnPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   OnKill:
     m_PersistentCalls:
       m_Calls: []
@@ -2336,8 +2377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  castList: {fileID: 0}
-  story: {fileID: 0}
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
+  story: {fileID: 11400000, guid: 85bc09761f60b49908e7c5ad706cf593, type: 2}
   canvasGroup: {fileID: 7667271687856691271}
 --- !u!225 &7667271687856691271
 CanvasGroup:
@@ -3006,8 +3047,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  castList: {fileID: 0}
-  story: {fileID: 0}
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
+  story: {fileID: 11400000, guid: 7faf7281048b74c82ad9f233b37345b0, type: 2}
   canvasGroup: {fileID: 1623030557392654441}
 --- !u!225 &1623030557392654441
 CanvasGroup:
