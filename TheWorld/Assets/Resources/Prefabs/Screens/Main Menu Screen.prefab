@@ -52,7 +52,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.15
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -84,8 +84,8 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 273670585355204515}
-  scalePercent: 0.5
-  vibrato: 10
+  scalePercent: -0.2
+  vibrato: 2
   elasticity: 0.2
   resetOnComplete: 0
 --- !u!1 &1074981754019671376
@@ -163,6 +163,94 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1205185505906043465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8694856264086761319}
+  - component: {fileID: 3238778111973665981}
+  m_Layer: 5
+  m_Name: Punch Scale Tweener (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8694856264086761319
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205185505906043465}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 891657853084370499}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &3238778111973665981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1205185505906043465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b411f7abe49044ed905d9f2ed31a205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEditDescription: 0
+  description: 
+  completeIfKilled: 0
+  randomDuration: 0
+  duration: 0.2
+  durationRange: {x: 0, y: 0}
+  randomDelay: 0
+  delay: 0
+  delayRange: {x: 0, y: 0}
+  playWhilePaused: 0
+  loop: 0
+  loops: 0
+  loopType: 0
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TitleSceneScript, Assembly-CSharp
+        m_MethodName: PressedStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  easing: 3
+  transformToUse: {fileID: 6636897475206451264}
+  scalePercent: -0.1
+  vibrato: 1
+  elasticity: 0.2
+  resetOnComplete: 0
 --- !u!1 &1640437670468512307
 GameObject:
   m_ObjectHideFlags: 0
@@ -530,6 +618,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4641324530829230958}
+  - {fileID: 8070932891215082071}
   m_Father: {fileID: 2161435806190303604}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -576,6 +665,7 @@ MonoBehaviour:
   mode: 0
   tweeners:
   - {fileID: 9191171648646377963}
+  - {fileID: 1651053993316474562}
 --- !u!1 &2188213512344323494
 GameObject:
   m_ObjectHideFlags: 0
@@ -587,7 +677,7 @@ GameObject:
   - component: {fileID: 5617274947459891291}
   - component: {fileID: 6121121123155352779}
   m_Layer: 5
-  m_Name: Punch Scale Tweener
+  m_Name: Punch Scale Tweener - shrink
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628,7 +718,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.15
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -658,11 +748,99 @@ MonoBehaviour:
   OnKill:
     m_PersistentCalls:
       m_Calls: []
-  easing: 0
+  easing: 2
   transformToUse: {fileID: 7373546934481344239}
-  scalePercent: 0.5
-  vibrato: 10
-  elasticity: 0.2
+  scalePercent: -0.2
+  vibrato: 2
+  elasticity: 0.1
+  resetOnComplete: 0
+--- !u!1 &2216744527381027381
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6549294098001226335}
+  - component: {fileID: 6161422819035232799}
+  m_Layer: 5
+  m_Name: Punch Scale Tweener - grow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &6549294098001226335
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216744527381027381}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1816431622307888251}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -1192.9999, y: 505.99997}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &6161422819035232799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2216744527381027381}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b411f7abe49044ed905d9f2ed31a205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEditDescription: 0
+  description: 
+  completeIfKilled: 0
+  randomDuration: 0
+  duration: 0.2
+  durationRange: {x: 0, y: 0}
+  randomDelay: 0
+  delay: 0
+  delayRange: {x: 0, y: 0}
+  playWhilePaused: 0
+  loop: 0
+  loops: 0
+  loopType: 0
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TitleSceneScript, Assembly-CSharp
+        m_MethodName: PressedStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  easing: 3
+  transformToUse: {fileID: 7373546934481344239}
+  scalePercent: 0.1
+  vibrato: 1
+  elasticity: 0.1
   resetOnComplete: 0
 --- !u!1 &2426408273940445636
 GameObject:
@@ -768,12 +946,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5617274947459891291}
+  - {fileID: 2501201559115844920}
   m_Father: {fileID: 7373546934481344239}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.00006088118, y: -0.00003044059}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1735989016242659133
@@ -826,6 +1005,7 @@ MonoBehaviour:
   mode: 0
   tweeners:
   - {fileID: 6121121123155352779}
+  - {fileID: 1497312814466807425}
 --- !u!1 &2619554031956078706
 GameObject:
   m_ObjectHideFlags: 0
@@ -855,6 +1035,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 9134884192242031645}
+  - {fileID: 8694856264086761319}
   m_Father: {fileID: 6636897475206451264}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -913,6 +1094,7 @@ MonoBehaviour:
   mode: 0
   tweeners:
   - {fileID: 7403969815410929142}
+  - {fileID: 3238778111973665981}
 --- !u!1 &2620167433018567973
 GameObject:
   m_ObjectHideFlags: 0
@@ -965,7 +1147,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.3
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -997,9 +1179,9 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 2399692566407284868}
-  scalePercent: 0.5
-  vibrato: 10
-  elasticity: 0.2
+  scalePercent: -0.1
+  vibrato: 2
+  elasticity: 0.1
   resetOnComplete: 0
 --- !u!1 &3182781213663387702
 GameObject:
@@ -1330,12 +1512,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1391631127613298239}
+  - {fileID: 1755217453178365580}
   m_Father: {fileID: 6185749630784392777}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.00005747037, y: 0.0000143675925}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4973719859404738975
@@ -1388,6 +1571,7 @@ MonoBehaviour:
   mode: 0
   tweeners:
   - {fileID: 7619337749458504242}
+  - {fileID: 7242012580283643198}
 --- !u!1 &4608625044530419061
 GameObject:
   m_ObjectHideFlags: 0
@@ -1626,6 +1810,94 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!1 &4919080527030695353
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8070932891215082071}
+  - component: {fileID: 1651053993316474562}
+  m_Layer: 5
+  m_Name: Punch Scale Tweener (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8070932891215082071
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4919080527030695353}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2095258979865948196}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1651053993316474562
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4919080527030695353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b411f7abe49044ed905d9f2ed31a205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEditDescription: 0
+  description: 
+  completeIfKilled: 0
+  randomDuration: 0
+  duration: 0.2
+  durationRange: {x: 0, y: 0}
+  randomDelay: 0
+  delay: 0
+  delayRange: {x: 0, y: 0}
+  playWhilePaused: 0
+  loop: 0
+  loops: 0
+  loopType: 0
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TitleSceneScript, Assembly-CSharp
+        m_MethodName: PressedStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  easing: 3
+  transformToUse: {fileID: 2161435806190303604}
+  scalePercent: 0.1
+  vibrato: 1
+  elasticity: 0.1
+  resetOnComplete: 0
 --- !u!1 &5210701490258288981
 GameObject:
   m_ObjectHideFlags: 0
@@ -2051,6 +2323,94 @@ MonoBehaviour:
   m_ChildScaleWidth: 0
   m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
+--- !u!1 &5767591287521283120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1755217453178365580}
+  - component: {fileID: 7242012580283643198}
+  m_Layer: 5
+  m_Name: Punch Scale Tweener (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1755217453178365580
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5767591287521283120}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4805841562671567393}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &7242012580283643198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5767591287521283120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b411f7abe49044ed905d9f2ed31a205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEditDescription: 0
+  description: 
+  completeIfKilled: 0
+  randomDuration: 0
+  duration: 0.2
+  durationRange: {x: 0, y: 0}
+  randomDelay: 0
+  delay: 0
+  delayRange: {x: 0, y: 0}
+  playWhilePaused: 0
+  loop: 0
+  loops: 0
+  loopType: 0
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TitleSceneScript, Assembly-CSharp
+        m_MethodName: PressedStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  easing: 3
+  transformToUse: {fileID: 6185749630784392777}
+  scalePercent: 0.1
+  vibrato: 1
+  elasticity: 0.1
+  resetOnComplete: 0
 --- !u!1 &6285343555447483071
 GameObject:
   m_ObjectHideFlags: 0
@@ -2243,12 +2603,13 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5129985600542167111}
+  - {fileID: 6549294098001226335}
   m_Father: {fileID: 273670585355204515}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.000061035156, y: 0.000015258789}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &347664780969267208
@@ -2301,6 +2662,95 @@ MonoBehaviour:
   mode: 0
   tweeners:
   - {fileID: 9000167921024514445}
+  - {fileID: 6161422819035232799}
+--- !u!1 &6936607056700987714
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2501201559115844920}
+  - component: {fileID: 1497312814466807425}
+  m_Layer: 5
+  m_Name: Punch Scale Tweener - grow
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2501201559115844920
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936607056700987714}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 7030243642843889518}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1497312814466807425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6936607056700987714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b411f7abe49044ed905d9f2ed31a205, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canEditDescription: 0
+  description: 
+  completeIfKilled: 0
+  randomDuration: 0
+  duration: 0.2
+  durationRange: {x: 0, y: 0}
+  randomDelay: 0
+  delay: 0
+  delayRange: {x: 0, y: 0}
+  playWhilePaused: 0
+  loop: 0
+  loops: 0
+  loopType: 0
+  OnBegin:
+    m_PersistentCalls:
+      m_Calls: []
+  OnComplete:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: TitleSceneScript, Assembly-CSharp
+        m_MethodName: PressedStartGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnKill:
+    m_PersistentCalls:
+      m_Calls: []
+  easing: 3
+  transformToUse: {fileID: 7373546934481344239}
+  scalePercent: 0.1
+  vibrato: 1
+  elasticity: 0.1
+  resetOnComplete: 0
 --- !u!1 &7159120287515055410
 GameObject:
   m_ObjectHideFlags: 0
@@ -2353,7 +2803,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.3
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -2385,9 +2835,9 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 6895856716938869062}
-  scalePercent: 0.5
-  vibrato: 10
-  elasticity: 0.2
+  scalePercent: -0.1
+  vibrato: 2
+  elasticity: 0.1
   resetOnComplete: 0
 --- !u!1 &7373546933597206828
 GameObject:
@@ -2575,7 +3025,7 @@ RectTransform:
   m_GameObject: {fileID: 7373546934481344238}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
   m_Children:
   - {fileID: 6002885546133293432}
   - {fileID: 7030243642843889518}
@@ -2760,7 +3210,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.15
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -2792,9 +3242,9 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 2161435806190303604}
-  scalePercent: 0.5
-  vibrato: 10
-  elasticity: 0.2
+  scalePercent: -0.2
+  vibrato: 2
+  elasticity: 0.1
   resetOnComplete: 0
 --- !u!1 &7834553705221831262
 GameObject:
@@ -2998,7 +3448,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.15
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -3030,9 +3480,9 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 6185749630784392777}
-  scalePercent: 0.5
-  vibrato: 10
-  elasticity: 0.2
+  scalePercent: -0.2
+  vibrato: 2
+  elasticity: 0.1
   resetOnComplete: 0
 --- !u!1 &8484021240073622913
 GameObject:
@@ -3258,7 +3708,7 @@ MonoBehaviour:
   description: 
   completeIfKilled: 0
   randomDuration: 0
-  duration: 0.33
+  duration: 0.15
   durationRange: {x: 0, y: 0}
   randomDelay: 0
   delay: 0
@@ -3290,7 +3740,7 @@ MonoBehaviour:
       m_Calls: []
   easing: 0
   transformToUse: {fileID: 6636897475206451264}
-  scalePercent: 0.5
-  vibrato: 10
+  scalePercent: -0.2
+  vibrato: 2
   elasticity: 0.2
   resetOnComplete: 0
