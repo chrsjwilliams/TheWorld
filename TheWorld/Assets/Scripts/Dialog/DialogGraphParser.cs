@@ -35,6 +35,7 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
 
+    [SerializeField] SpriteRenderer background;
 
     [SerializeField] DialogButton selectedButton;
     [SerializeField] List<DialogButton> unselectedButtons;
@@ -83,7 +84,8 @@ public class DialogGraphParser : MonoBehaviour
         dialogGraph = data.selectedStory;
         castList = data.selectedCastList;
         Services.SetCurrentCast(castList);
-        
+
+        background.sprite = data.selectedStory.storyBackground;
         if (currentNode != null)
         {
             Debug.LogError("Current Node is not empty");
@@ -327,6 +329,8 @@ public class DialogGraphParser : MonoBehaviour
             if(line.speaker != narrator && line.speaker != player)
             {
                 hasNPCDialog = true;
+                npcProfile.sprite = line.speaker.GetCharacterProfile(Emote.NEUTRAL);
+
             }
             else if(line.speaker != narrator)
             {
