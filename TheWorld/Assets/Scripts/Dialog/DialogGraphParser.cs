@@ -11,6 +11,7 @@ public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]
     public bool displayAllLines;
+    private static StoryCharacter eon;
 
     [Space(25)]
     [SerializeField] CastList castList;
@@ -93,9 +94,12 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         dialogGraph.Init();
-        var player = Services.CastList.Player;
-        var character = Instantiate(player.Model);
-        Services.CastList.AddCharacterModel(character);
+        if (eon == null)
+        {
+            var player = Services.CastList.Player;
+            eon = Instantiate(player.Model);
+            Services.CastList.AddCharacterModel(eon);
+        }
 
         currentNode = dialogGraph.startingNode;
         nodeNameText.text = currentNode.NodeTitle;

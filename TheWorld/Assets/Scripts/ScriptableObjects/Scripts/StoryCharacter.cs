@@ -1,31 +1,34 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class StoryCharacter : MonoBehaviour
 {
     [SerializeField] public string characterName;
     [SerializeField] Animator animator;
     [SerializeField] List<SpriteRenderer> allCharacterSprites;
+    [SerializeField] GameObject character;
 
-
-    // Start is called before the first frame update
-    void Start()
+    [Button]
+    public void AddSprRenderers()
     {
-        AddDescendantsWithTag(transform, "Default", allCharacterSprites);
+        AddDescendantsWithTag(character.transform, "Default", allCharacterSprites);
 
     }
 
     private void AddDescendantsWithTag(Transform parent, string tag, List<SpriteRenderer> list)
     {
-        foreach (Transform child in parent)
+        List<Transform> children = new List<Transform>(parent.GetComponentsInChildren<Transform>());
+        foreach (Transform child in children)
         {
+            Debug.Log(child.name);
+
             SpriteRenderer sprite = child.GetComponent<SpriteRenderer>();
-            if (child.gameObject.tag == tag && sprite != null)
+            if (sprite != null)
             {
                 list.Add(sprite);
             }
-            AddDescendantsWithTag(child, tag, list);
         }
     }
 
@@ -39,6 +42,23 @@ public class StoryCharacter : MonoBehaviour
         foreach(SpriteRenderer sprite in allCharacterSprites)
         {
             sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, value);
+        }
+    }
+    [Button]
+    public void HideCharacter()
+    {
+        foreach (SpriteRenderer sprite in allCharacterSprites)
+        {
+            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 0);
+        }
+    }
+
+    [Button]
+    public void ShowCharacter()
+    {
+        foreach (SpriteRenderer sprite in allCharacterSprites)
+        {
+            sprite.color = new Color(sprite.color.r, sprite.color.g, sprite.color.b, 1);
         }
     }
 
