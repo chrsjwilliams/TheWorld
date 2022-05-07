@@ -17,8 +17,8 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 43f24e7970f864f2db792fa505b25a95, type: 2}
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: e9d4703e5d08543a8977946457c8c14a, type: 2}
+    - {fileID: 11400000, guid: 21e4943a2f9b54158b6d34a82fdfe041, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -92,12 +92,12 @@ MonoBehaviour:
   NodeTitle: Riddle
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red">[Yes it is. So here it comes:</color>
+    line: ' (text-colour: "red")[Yes it is. So here it comes:'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> What is something that you get to keep after you give it
-      to someone? Take you time because if you fail, there will be consequences.</color>
+    line: ' What is something that you get to keep after you give it to someone?
+      Take you time because if you fail, there will be consequences.]'
     lineActions: []
     Notes: 
   Notes: 

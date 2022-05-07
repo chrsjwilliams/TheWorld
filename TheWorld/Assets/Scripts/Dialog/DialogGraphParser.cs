@@ -33,6 +33,9 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] Image wheelProfile;
     [SerializeField] Image nodeImage;
 
+    [SerializeField] List<TextBox> textBoxes;
+    TextBox selectedTexBox;
+
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
 
@@ -54,8 +57,8 @@ public class DialogGraphParser : MonoBehaviour
     const string COLOUR_TAG = " (text-colour: ";
     const string COLOR_TAG = " (text-color: ";
 
-    // Choices we have not selected
-    // last choice selected
+    ShuffleBag<int> intBag = new ShuffleBag<int>();
+
 
     public void NextButtonPressed()
     {
@@ -82,6 +85,12 @@ public class DialogGraphParser : MonoBehaviour
 
     public void StartStory(TransitionData data)
     {
+        
+        for (int i = 0; i < textBoxes.Count; i++)
+        {
+            intBag.Add(i);
+        }
+
         dialogGraph = data.selectedStory;
         castList = data.selectedCastList;
         Services.SetCurrentCast(castList);
@@ -196,6 +205,10 @@ public class DialogGraphParser : MonoBehaviour
     void DisplayNextDialogLine()
     {
 
+        // Select textBox
+
+
+
         DialogLine currentLine = currentNode.speakingLines[dialogLineIndex];
 
         CharacterData character = currentLine.speaker;
@@ -203,7 +216,10 @@ public class DialogGraphParser : MonoBehaviour
         
 
         //dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
-        dialogText.text = GetAllNodeText();
+        SetNodeText();
+
+
+
         RefreshLayoutGroup();
         currentLine.ExecuteTagActions(() =>{ });
         dialogLineIndex++;
@@ -322,10 +338,27 @@ public class DialogGraphParser : MonoBehaviour
             nodetext += line.line + "\n";
         }  
         dialogText.text = nodetext;
-
     }
 
-    string GetAllNodeText()
+    TextBox SelectTextBox(string message)
+    {
+        int index = intBag.Next();
+        TextBox textBox = null;
+        while(textBox == null)
+        {
+            if(textBoxes[index].characterLimit > message.Length)
+            {
+                textBox =  textBoxes[index];
+                break;
+            }
+
+            index = intBag.Next();
+        }
+
+        return textBox;
+    }
+
+    void SetNodeText()
     {
         string nodetext = "";
         foreach (DialogLine line in currentNode.speakingLines)
@@ -373,23 +406,29 @@ public class DialogGraphParser : MonoBehaviour
             line.ExecuteTagActions(() => { });
         }
 
+        selectedTexBox = SelectTextBox(nodetext);
+        foreach(TextBox textBox in textBoxes)
+        {
+            if(textBox != selectedTexBox)
+            {
+                textBox.ShowTextBox(false);
+            }
+        }
+
+
         if (onlyNarratorDialog)
         {
-            npcProfileCanvasGroup.alpha = 0;
-            playerProfileCanvasGroup.alpha = 0;
+            selectedTexBox.DisplayPicture(TextBox.PictureTpe.NONE);
         }
         else if (hasNPCDialog)
         {
-            playerProfileCanvasGroup.alpha = 0;
-            npcProfileCanvasGroup.alpha = 1;
+            selectedTexBox.DisplayPicture(TextBox.PictureTpe.NPC);
         }
         else
         {
-            playerProfileCanvasGroup.alpha = 1;
-            npcProfileCanvasGroup.alpha = 0;
+            selectedTexBox.DisplayPicture(TextBox.PictureTpe.PLAYER);
         }
-
-        return nodetext;
+        selectedTexBox.SetText(nodetext);
     }
 
 

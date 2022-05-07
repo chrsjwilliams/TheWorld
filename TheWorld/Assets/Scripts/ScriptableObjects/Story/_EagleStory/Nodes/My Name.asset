@@ -65,9 +65,13 @@ MonoBehaviour:
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: My Name
   speakingLines:
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ~~
+    lineActions: []
+    Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> Thank you for remembering my name. Not many people do anymore.
-      I'd like to present you this rare blue flower as a gift.</color>
+    line: ' Thank you for remembering my name. Not many people do anymore. I''d like
+      to present you this rare blue flower as a gift.'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -76,7 +80,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7c2b3c141dc994895bf73d7a663b2e91, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> Now, it is time for the riddle...</color>
+    line: ' Now, it is time for the riddle...'
     lineActions: []
     Notes: 
   Notes: 

@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: d04a04c433dd4448cad221c4f4ee0ba9, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 81e92c4365fdd4ec7b8fb0b5d079b465, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -84,7 +84,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> If I were you, I'd listen to me or there would be consequences.</color>
+    line: ' If I were you, I''d listen to me or there would be consequences.'
     lineActions: []
     Notes: 
   Notes: 

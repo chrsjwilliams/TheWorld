@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 298ec632bf87b48c481eb964828d8ac8, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 58174473915554c55b46a03cdca3670b, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -89,7 +89,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> YOU THINK YOU CAN FOOL ME? ME? </color>
+    line: ' YOU THINK YOU CAN FOOL ME? ME? '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

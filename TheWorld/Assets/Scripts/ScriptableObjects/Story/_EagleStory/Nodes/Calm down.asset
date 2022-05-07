@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 93c12206b25b74844904b58d3c57e724, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -71,7 +71,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: d968eb1c4dc7940b9abd57f55608f271, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: <color="red"> NO! YOU THINK I AM STUPID?</color>
+    line: ' NO! YOU THINK I AM STUPID?'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}

@@ -82,7 +82,7 @@ public class DialogGraphGenerator : ScriptableObject
         {
             newNode.hasSecretItem = true;
         }
-        Debug.Log("~~~~~~~: " + newNode.name);
+
         foreach (string line in nodeText)
         {
             //  Skip lines with less that 2 characters
@@ -155,21 +155,15 @@ public class DialogGraphGenerator : ScriptableObject
         int nodeNameIndex = rawLinkInfo.Length - 1;
 
         DialogNode existingNode = GetNode(rawLinkInfo[nodeNameIndex].Trim());
-        if (existingNode)
+        if (existingNode != null)
         {
             linkInfo.node = existingNode;
         }
         else
         {
-            //  Create instance of dialog node
-            DialogNode node = ScriptableObject.CreateInstance<DialogNode>();
-            //  Set the name of the file and not title to the name
-            node.name = node.NodeTitle = rawLinkInfo[nodeNameIndex].Trim();
-
-            //  Create aset and save it to its path
-            AssetDatabase.CreateAsset(node, DialogStoryPath + folderName + "/" + "Nodes/" + node.name + ".asset");
-            linkInfo.node = node;
+            linkInfo.node = null;
         }
+
         return linkInfo;
     }
 
