@@ -22,7 +22,7 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   startingNode: {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
-  previouslyVisitedNode: {fileID: 0}
+  previouslyVisitedNode: {fileID: 11400000, guid: 984d1bae52a7940859a091e6b7069375, type: 2}
   nodes:
   - {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   - {fileID: 11400000, guid: 277d632e2297e4c7fb68a763127ab283, type: 2}
@@ -78,4 +78,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 017a7b024766e4717ab8cb8a8bbc8aa0, type: 2}
   - {fileID: 11400000, guid: 952cae2a683584490a20e11dadfd666a, type: 2}
   - {fileID: 11400000, guid: 12fbf424da4e94af3a15c24cb61a976d, type: 2}
-  storyBackground: {fileID: 21300000, guid: eb45edea27b0c42edbffb58dd0e299a5, type: 3}
+  storyBackground: {fileID: 21300000, guid: 811ee0e53ee0f4484b00479364fa6e49, type: 3}
