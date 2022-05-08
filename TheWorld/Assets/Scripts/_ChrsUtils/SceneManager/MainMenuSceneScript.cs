@@ -10,8 +10,7 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     private TaskManager _tm = new TaskManager();
 
-    [SerializeField] DialogGraph selectedStory;
-    
+    TransitionData mainMenuData = new TransitionData();
 
 
     internal override void OnEnter(TransitionData data)
@@ -34,12 +33,9 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     private void OnStorySelected(StorySelectButtons _selectedStory)
     {
-        selectedStory = _selectedStory.Story;
-        TransitionData mainMenuData = new TransitionData();
-        mainMenuData.selectedStory = selectedStory;
+        mainMenuData.selectedStory = _selectedStory.Story;
         mainMenuData.selectedCastList = _selectedStory.CastList;
         Services.Scenes.Swap<GameSceneScript>(mainMenuData);
-
     }
 
     internal override void OnExit()

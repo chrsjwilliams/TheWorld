@@ -164,6 +164,7 @@ public class DialogGraphParser : MonoBehaviour
         if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
+            dialogGraph.previouslyVisitedNode = currentNode;
             npcProfileCanvasGroup.alpha = 0;
 
             //  Set current node to next node
@@ -176,6 +177,10 @@ public class DialogGraphParser : MonoBehaviour
                 currentNode = currentNode.nextNodes[selectedButton.PersonalityChoice];
             }
 
+            if(currentNode == null)
+            {
+                Debug.LogError("Current node is null for some reason!");
+            }
             nodeImage.sprite = currentNode.nodeSprite;
 
             nodeNameText.text = currentNode.NodeTitle;

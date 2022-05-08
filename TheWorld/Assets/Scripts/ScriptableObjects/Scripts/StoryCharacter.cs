@@ -34,7 +34,7 @@ public class StoryCharacter : MonoBehaviour
 
     public void PlayAnimation(string name)
     {
-        animator.Play(name);
+        animator.Play(name, 0);
     }
 
     public void SetCharacterAlpha(float value)
