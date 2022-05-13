@@ -384,4 +384,6 @@ public class DialogGraphGenerator : ScriptableObject
 }
 
 public enum NODE_PICTURE {  DEFAULT, CLOCK, DIALOG, END, EXIT, FOOTSTEPS, GUESSLOVE, GUESSSTD,
-                            GUESSWORD, ICONALERT, QUESTIONMARK, STRANGER, TURNIP}
+                            GUESSWORD, ICONALERT, QUESTIONMARK, STRANGER, TURNIP, EAR, FIRE, EXXMARK, 
+                            LUNCHBAG, CRY, EXPLOSION, LAPTOP, COFFEE, EYES, EXXQUESTION, SERPENT, SUN, 
+                            BLUEBANANA, APPLE, BLUEAPPLE, HEART}
