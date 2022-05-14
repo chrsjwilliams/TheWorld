@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
+  m_Name: Brave
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: a33c333493a0946cfbfbb3079416b9ca, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nextNodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hasSecretItem: 0
+  nodeType: 0
+  nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
+  NodeTitle: Brave
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' I put so much thinking into this decision and came all this way. Because
+      I was unhappy and unsatisfied. There is nothing worthwhile for me to go back.
+      I am quitting my miserable life. '
+    lineActions:
+    - {fileID: 11400000, guid: 57e327d9003de41879cfb9d401d061b9, type: 2}
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: She passes the check point.
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: And suddenly she just feels free.
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' Woo Hoo! For better or worse, here I come! Freedom!'
+    lineActions: []
+    Notes: 
+  Notes: 
+  lineActions: []

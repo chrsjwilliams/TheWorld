@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
+  m_Name: Crash
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 22373214ff0be48f39406518a01dacef, type: 2}
+    - {fileID: 11400000, guid: 01153315440b34d61a300743ec852f0e, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nextNodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 4
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 1
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hasSecretItem: 0
+  nodeType: 0
+  nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
+  NodeTitle: Crash
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: 'After a little while, Eon sees a little bright dot appearing on the dark
+      gray planet. '
+    lineActions:
+    - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' Oh shit! Oh no. NO!'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: A couple moments later, Omolon's unfortunate scream arrives to Eon's ears.
+    lineActions: []
+    Notes: 
+  Notes: 
+  lineActions: []

@@ -28,6 +28,7 @@ public class DialogGraph : SerializedScriptableObject
         {
             node.SetNodeTypes();
         }
+        Debug.Log("[LOG MESSAGE] Node types set.");
     }
 }
 

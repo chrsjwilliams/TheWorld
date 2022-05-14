@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
+  m_Name: Tried
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 4008f299fea39424884fefa0be3bcfb2, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nextNodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 3
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hasSecretItem: 0
+  nodeType: 0
+  nodeSprite: {fileID: 21300000, guid: b6defd7771b00460a8d33fae5540bad0, type: 3}
+  NodeTitle: Tried
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' It is actually really impressive that she put the effort to change her
+      life for better. That is quite inspiring. She died for something that was important
+      to her. '
+    lineActions:
+    - {fileID: 11400000, guid: 55b6520a615554330ae2bf0c86d48b0b, type: 2}
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: So, the death of Omolon and their last conversation starts to invade Eon's
+      mind more and more.
+    lineActions: []
+    Notes: 
+  Notes: 
+  lineActions: []

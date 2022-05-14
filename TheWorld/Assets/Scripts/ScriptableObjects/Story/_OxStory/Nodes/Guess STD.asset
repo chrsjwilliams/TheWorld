@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
+  m_Name: Guess STD
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 814c35db5eee645689399f53a67b5936, type: 2}
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: nextNodes
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[PersonalityChoice, Assembly-CSharp],[DialogNode,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[PersonalityChoice,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 10
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  hasSecretItem: 0
+  nodeType: 0
+  nodeSprite: {fileID: 21300000, guid: e5c501d5d653d42e78fcf47e943a1a36, type: 3}
+  NodeTitle: Guess STD
+  speakingLines:
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' Okay, I think it''s STD''s '
+    lineActions:
+    - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: 'The stranger looks surprised. '
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    line: '(text-colour: "red")["Ehmm..."]'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' What? You give them and still keep them.'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    line: '(text-colour: "red")["I guess that''s true"]  (text-colour: "red")["But
+      that was not the answer I expected. So, I''ll ask another now."]'
+    lineActions: []
+    Notes: 
+  Notes: 
+  lineActions: []

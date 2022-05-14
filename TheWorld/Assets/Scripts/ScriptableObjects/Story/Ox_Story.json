@@ -72,12 +72,12 @@
       "name": "Hello",
       "tags": "Eagle",
       "id": "5",
-      "text": "Eon: Hello? Can I help you? @eon_anxious_eagle\nStranger: (text-colour: \"red\")[You can help yourself.]\nThe stranger's alligator smile grows bigger.\n[[Eagle |Eagle: What?]]\n[[Ox |Get Away]]",
+      "text": "Eon: Hello? Can I help you? @eon_anxious_eagle\nStranger: (text-colour: \"red\")[You can help yourself.]\nThe stranger's alligator smile grows bigger.\n[[Eagle |What]]\n[[Ox |Get Away]]",
       "links": [
         {
-          "linkText": "Eagle |Eagle: What?",
-          "passageName": "Eagle |Eagle: What?",
-          "original": "[[Eagle |Eagle: What?]]"
+          "linkText": "Eagle |What",
+          "passageName": "Eagle |What",
+          "original": "[[Eagle |What]]"
         },
         {
           "linkText": "Ox |Get Away",
@@ -275,12 +275,12 @@
       "name": "Thinking",
       "tags": "Human",
       "id": "17",
-      "text": "Eon: Hmm, It can be multiple things.@eon_think_human\n[[Ox |Repeat?]]\n[[ Human |STD]]\n[[Eagle |Word]]",
+      "text": "Eon: Hmm, It can be multiple things.@eon_think_human\n[[Ox |Repeat]]\n[[ Human |STD]]\n[[Eagle |Word]]",
       "links": [
         {
-          "linkText": "Ox |Repeat?",
-          "passageName": "Ox |Repeat?",
-          "original": "[[Ox |Repeat?]]"
+          "linkText": "Ox |Repeat",
+          "passageName": "Ox |Repeat",
+          "original": "[[Ox |Repeat]]"
         },
         {
           "linkText": "Human |STD",
@@ -310,7 +310,7 @@
       "cleanText": "Eon: Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now! @eon_disappointed_human\nStranger:(text-colour: \"red\")[Your?]\nEon: Yes, it's your turn to guess now."
     },
     {
-      "name": "Repeat?",
+      "name": "Repeat",
       "tags": "Ox",
       "id": "19",
       "text": "Eon thinkis thiking. @eon_anxious_ox\nBut it is quite hard cause she is hella pressed.\nEon: What is something that you get to keep after giving it?...\n// Eon says with a very low voice\nEon: I'm sorry, do you mind repeating the riddle again?\n[[Ox |Love]]",
@@ -327,7 +327,7 @@
       "name": "Love",
       "tags": "Ox",
       "id": "20",
-      "text": "Stranges looks disappointed. He repeats rolling his eyes:\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...\n[[Ox |Guess Love]]\n[[Human |STD]]",
+      "text": "Strangers looks disappointed. He repeats rolling his eyes.\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...\n[[Ox |Guess Love]]\n[[Human |STD]]",
       "links": [
         {
           "linkText": "Ox |Guess Love",
@@ -340,7 +340,7 @@
           "original": "[[Human |STD]]"
         }
       ],
-      "cleanText": "Stranges looks disappointed. He repeats rolling his eyes:\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say..."
+      "cleanText": "Strangers looks disappointed. He repeats rolling his eyes.\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say..."
     },
     {
       "name": "Guess Love",
@@ -374,12 +374,12 @@
       "name": "Just think",
       "tags": "Ox",
       "id": "23",
-      "text": "Eon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think.\n[[Ox |Repeat?]]",
+      "text": "Eon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think.\n[[Ox |Repeat]]",
       "links": [
         {
-          "linkText": "Ox |Repeat?",
-          "passageName": "Ox |Repeat?",
-          "original": "[[Ox |Repeat?]]"
+          "linkText": "Ox |Repeat",
+          "passageName": "Ox |Repeat",
+          "original": "[[Ox |Repeat]]"
         }
       ],
       "cleanText": "Eon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think."
@@ -463,7 +463,7 @@
       "name": "STD",
       "tags": "Human",
       "id": "29",
-      "text": "Eon is thinking.\nEon: I feel like STD's fits this definition perfectly. You still keep them after you give it to someone. Dang...\n[[Human |Guess STD]]\n[[Ox |Repeat?]]\n[[Eagle |Word]]",
+      "text": "Eon is thinking.\nEon: I feel like STD's fits this definition perfectly. You still keep them after you give it to someone. Dang...\n[[Human |Guess STD]]\n[[Ox |Repeat]]\n[[Eagle |Word]]",
       "links": [
         {
           "linkText": "Human |Guess STD",
@@ -471,9 +471,9 @@
           "original": "[[Human |Guess STD]]"
         },
         {
-          "linkText": "Ox |Repeat?",
-          "passageName": "Ox |Repeat?",
-          "original": "[[Ox |Repeat?]]"
+          "linkText": "Ox |Repeat",
+          "passageName": "Ox |Repeat",
+          "original": "[[Ox |Repeat]]"
         },
         {
           "linkText": "Eagle |Word",
@@ -615,15 +615,15 @@
       "cleanText": "As she hears the train approaching, she gets back to eating again. @eon_eat_eagle\nStranger: (text-colour: \"red\")[GOTTA EAT FASTER]"
     },
     {
-      "name": "Eagle: What?",
+      "name": "What",
       "tags": "Eagle",
       "id": "39",
-      "text": "Eon: Why do you talk to me like that? What do you want? @eon_confused_eagle\nStranger: (text-colour: \"red\")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]\n[[Eagle |Eagle: Consequences]]\n[[Ox |Get Away]]\n[[Human |What is]]",
+      "text": "Eon: Why do you talk to me like that? What do you want? @eon_confused_eagle\nStranger: (text-colour: \"red\")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]\n[[Eagle |Consequences]]\n[[Ox |Get Away]]\n[[Human |What is]]",
       "links": [
         {
-          "linkText": "Eagle |Eagle: Consequences",
-          "passageName": "Eagle |Eagle: Consequences",
-          "original": "[[Eagle |Eagle: Consequences]]"
+          "linkText": "Eagle |Consequences",
+          "passageName": "Eagle |Consequences",
+          "original": "[[Eagle |Consequences]]"
         },
         {
           "linkText": "Ox |Get Away",
@@ -639,10 +639,10 @@
       "cleanText": "Eon: Why do you talk to me like that? What do you want? @eon_confused_eagle\nStranger: (text-colour: \"red\")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]"
     },
     {
-      "name": "Eagle: Consequences",
+      "name": "Consequences",
       "tags": "Eagle",
       "id": "40",
-      "text": "Eon: What if I say no? @eon_think_eagle\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise.\n[[Ox |Here comes]]\n[[Human |What is]]\n[[Eagle |Eagle: Who's dis?]]\n[[Lion |Lion Convo 2]]",
+      "text": "Eon: What if I say no? @eon_think_eagle\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise.\n[[Ox |Here comes]]\n[[Human |What is]]\n[[Eagle |Who is this]]\n[[Lion |Lion Convo 2]]",
       "links": [
         {
           "linkText": "Ox |Here comes",
@@ -655,9 +655,9 @@
           "original": "[[Human |What is]]"
         },
         {
-          "linkText": "Eagle |Eagle: Who's dis?",
-          "passageName": "Eagle |Eagle: Who's dis?",
-          "original": "[[Eagle |Eagle: Who's dis?]]"
+          "linkText": "Eagle |Who is this",
+          "passageName": "Eagle |Who is this",
+          "original": "[[Eagle |Who is this]]"
         },
         {
           "linkText": "Lion |Lion Convo 2",
@@ -668,29 +668,29 @@
       "cleanText": "Eon: What if I say no? @eon_think_eagle\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise."
     },
     {
-      "name": "Eagle: Who's dis?",
+      "name": "Who is this",
       "tags": "Eagle",
       "id": "41",
-      "text": "Eon: And may I ask who you are? @eon_confused_eagle\nStrangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!\n[[Eagle |Eagle: Syphinx]]",
+      "text": "Eon: And may I ask who you are? @eon_confused_eagle\nStrangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!\n[[Eagle |Syphinx]]",
       "links": [
         {
-          "linkText": "Eagle |Eagle: Syphinx",
-          "passageName": "Eagle |Eagle: Syphinx",
-          "original": "[[Eagle |Eagle: Syphinx]]"
+          "linkText": "Eagle |Syphinx",
+          "passageName": "Eagle |Syphinx",
+          "original": "[[Eagle |yphinx]]"
         }
       ],
       "cleanText": "Eon: And may I ask who you are? @eon_confused_eagle\nStrangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!"
     },
     {
-      "name": "Eagle: Syphinx",
+      "name": "Syphinx",
       "tags": "flower Eagle",
       "id": "42",
-      "text": "Eon: I believe you are Syphinx, master of riddles and father of terror. @eon_think_eagle\nStranger: I have to admit, no one called me by that in a very long time. You impressed me gurl. \nEon: And I guess you'll eat me if I guess incorrectly? @eon_anxious_eagle\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\n[[Eagle |Eagle: Blue Orange]]",
+      "text": "Eon: I believe you are Syphinx, master of riddles and father of terror. @eon_think_eagle\nStranger: I have to admit, no one called me by that in a very long time. You impressed me gurl. \nEon: And I guess you'll eat me if I guess incorrectly? @eon_anxious_eagle\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\n[[Eagle |Blue Orange]]",
       "links": [
         {
-          "linkText": "Eagle |Eagle: Blue Orange",
-          "passageName": "Eagle |Eagle: Blue Orange",
-          "original": "[[Eagle |Eagle: Blue Orange]]"
+          "linkText": "Eagle |Blue Orange",
+          "passageName": "Eagle |Blue Orange",
+          "original": "[[Eagle |Blue Orange]]"
         }
       ],
       "cleanText": "Eon: I believe you are Syphinx, master of riddles and father of terror. @eon_think_eagle\nStranger: I have to admit, no one called me by that in a very long time. You impressed me gurl. \nEon: And I guess you'll eat me if I guess incorrectly? @eon_anxious_eagle\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?"
@@ -699,12 +699,12 @@
       "name": "Think",
       "tags": "Eagle",
       "id": "43",
-      "text": "Eon: Interesting... Multiple things come to mind. @eon_think_eagle\n[[Ox |Repeat?]]\n[[ Human |STD]]\n[[Eagle |Word]]",
+      "text": "Eon: Interesting... Multiple things come to mind. @eon_think_eagle\n[[Ox|Repeat]]\n[[ Human |STD]]\n[[Eagle |Word]]",
       "links": [
         {
-          "linkText": "Ox |Repeat?",
-          "passageName": "Ox |Repeat?",
-          "original": "[[Ox |Repeat?]]"
+          "linkText": "Ox|Repeat",
+          "passageName": "Ox|Repeat",
+          "original": "[[Ox|Repeat]]"
         },
         {
           "linkText": "Human |STD",
@@ -723,7 +723,7 @@
       "name": "Word",
       "tags": "Eagle",
       "id": "44",
-      "text": "Eon is thinking. @eon_think_eagle\nEon: It can be an advise or word. But technically you don't need to keep any of those after giving them.\n[[Human |STD]]\n[[Ox |Repeat?]]\n[[Eagle |More words]]",
+      "text": "Eon is thinking. @eon_think_eagle\nEon: It can be an advise or word. But technically you don't need to keep any of those after giving them.\n[[Human |STD]]\n[[Ox |Repeat]]\n[[Eagle |More words]]",
       "links": [
         {
           "linkText": "Human |STD",
@@ -731,9 +731,9 @@
           "original": "[[Human |STD]]"
         },
         {
-          "linkText": "Ox |Repeat?",
-          "passageName": "Ox |Repeat?",
-          "original": "[[Ox |Repeat?]]"
+          "linkText": "Ox |Repeat",
+          "passageName": "Ox |Repeat",
+          "original": "[[Ox |Repeat]]"
         },
         {
           "linkText": "Eagle |More words",
@@ -794,7 +794,7 @@
       "cleanText": "The train arrives.  @eon_hi_eagle\nEon: This was the longest wait I ever had.\nShe jumps on the train. \nStranger: Take care my friend!\nEon waves at the stranger as the train took off. @end"
     },
     {
-      "name": "Eagle: Blue Orange",
+      "name": "Blue Orange",
       "tags": "",
       "id": "49",
       "text": "Stranger: Thank you for remembering my name. Not many people do anymore. I'd like to present you this rare blue flower as a gift.\nEon picks the blue orange. @eon_approve_eagle\nStranger: Now, it is time for the riddle...\n[[Eagle |Riddle]]",

@@ -192,6 +192,7 @@ public class DialogGraphGenerator : ScriptableObject
         dialogLine.speaker = castList.GetCharacter(character);
         string[] dialogAndTags = Regex.Split(c_text, @"(?=[@])");
 
+        Debug.Log(text);
         foreach (string line in dialogAndTags)
         {
             if (line[0] != '@')
@@ -238,7 +239,7 @@ public class DialogGraphGenerator : ScriptableObject
             case Tags.ANIM:
                 tagAction = ScriptableObject.CreateInstance<AnimationAction>();
                 character = GetCharacter(rawLineInfo[0]);
-                ((AnimationAction)tagAction).Init(character, rawLineInfo[1]);
+                ((AnimationAction)tagAction).Init(character, fileName);
                 tagAction.name = fileName;
                 AssetDatabase.CreateAsset(tagAction, TagActionFilePath + typeOfAction + "/" + tagAction.name + ".asset");
 
@@ -384,6 +385,8 @@ public class DialogGraphGenerator : ScriptableObject
 }
 
 public enum NODE_PICTURE {  DEFAULT, CLOCK, DIALOG, END, EXIT, FOOTSTEPS, GUESSLOVE, GUESSSTD,
-                            GUESSWORD, ICONALERT, QUESTIONMARK, STRANGER, TURNIP, EAR, FIRE, EXXMARK, 
+                            GUESSWORD, YYY, QUESTIONMARK, STRANGER, TURNIP, EAR, FIRE, EXXMARK, 
                             LUNCHBAG, CRY, EXPLOSION, LAPTOP, COFFEE, EYES, EXXQUESTION, SERPENT, SUN, 
-                            BLUEBANANA, APPLE, BLUEAPPLE, HEART}
+                            XXX, APPLE, BLUEAPPLE, HEART, APPLEBLUE, BANANABLUE, DEAD, DIALOG_GREEN,
+                            ELLIPSIS, HEARTBROKEN, NOTALLOWED, PEACH, QUESTIONMARK_PINK, RECYCLE,
+                            THINK, TICK, WARNING}

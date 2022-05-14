@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 587c11bda75024ec689e46e1fee69db4, type: 2}
-    - {fileID: 11400000, guid: ffe3c9c7b1e7d42c38f48c3d95d6869d, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -74,8 +74,8 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
-  nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeType: 4
+  nodeSprite: {fileID: 21300000, guid: 9d3178e77316e4092b7245254cd992db, type: 3}
   NodeTitle: Exit Door
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
