@@ -103,6 +103,8 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         dialogGraph.Init();
+
+
         if (eon == null)
         {
             var player = Services.CastList.Player;
@@ -126,6 +128,7 @@ public class DialogGraphParser : MonoBehaviour
         }
         DisplayDialogChoices();
         playerProfile.sprite = wheelProfile.sprite;
+        Services.AudioManager.PlayBGM(dialogGraph.music);
 
         //HideAllDialogButtons();
     }
@@ -156,6 +159,8 @@ public class DialogGraphParser : MonoBehaviour
         }
         DisplayDialogChoices();
         HideAllDialogButtons();
+
+        Services.AudioManager.PlayBGM(dialogGraph.music);
 
     }
 

@@ -1,16 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public enum SFX {   CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER, SNAKE,
-                    DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM}
+                    DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM}
 
-public enum BGM { SILENCE }
+public enum BGM { SILENCE, GARDEN, OFFICE }
 
-public class AudioManager : MonoBehaviour
+public class AudioManager : SerializedMonoBehaviour
 {
-    public Dictionary<SFX, AudioClip> audioLibrary { get; private set; }
-    private AudioSource audioSource;
+    public Dictionary<SFX, AudioClip> audioLibrary;
+
+    public Dictionary<BGM, AudioClip> bgmLibrary;
+
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioSource bgmAudioSource;
     private AudioClip audioClip;
 
     private bool fadeAudio = false;
@@ -19,15 +24,25 @@ public class AudioManager : MonoBehaviour
 	// Use this for initialization
 	void Start ()
     {
-        audioLibrary = new Dictionary<SFX, AudioClip>();
         audioSource = GetComponent<AudioSource>();
-        LoadLibrary();
 	}
 
     private void LoadLibrary()
     {
-        audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("Audio/Click"));
-        audioLibrary.Add(SFX.THUNDER, Resources.Load<AudioClip>("Audio/rain and thunger.mp3"));
+        audioLibrary.Add(SFX.BITE, Resources.Load<AudioClip>("sfx/sfx_bite.mp3"));
+        audioLibrary.Add(SFX.EVILLAUGHTER, Resources.Load<AudioClip>("sfx/sfx_evilLaughter.mp3"));
+        audioLibrary.Add(SFX.FOOTSTEPS, Resources.Load<AudioClip>("sfx/sfx_footsteps.mp3"));
+        audioLibrary.Add(SFX.MUMBLE, Resources.Load<AudioClip>("sfx/sfx_mumble.mp3"));
+        audioLibrary.Add(SFX.ROAR, Resources.Load<AudioClip>("sfx/sfx_roar.mp3"));
+        audioLibrary.Add(SFX.SHORTOFBREATH, Resources.Load<AudioClip>("sfx/sfx_shortOfBreath.mp3"));
+        audioLibrary.Add(SFX.SIREN, Resources.Load<AudioClip>("sfx/sfx_siren.mp3"));
+        audioLibrary.Add(SFX.SLAM, Resources.Load<AudioClip>("sfx/sfx_slam.mp3"));
+
+
+        bgmLibrary.Add(BGM.GARDEN, Resources.Load<AudioClip>("music/bg-garden.mp3"));
+        bgmLibrary.Add(BGM.OFFICE, Resources.Load<AudioClip>("music/bg-office.mp3"));
+
+
     }
 
     public void PlayClipVaryPitch(SFX clip)
@@ -41,16 +56,30 @@ public class AudioManager : MonoBehaviour
         PlayClip(clip, 1.0f, 1.0f);
     }
 
-    // ~TODO: Implement playing BGM
     public void PlayBGM(BGM bgm)
     {
+        if(bgm == BGM.SILENCE)
+        {
+            bgmAudioSource.Stop();
+            return;
+        }
+        bgmAudioSource.loop = true;
+        bgmAudioSource.clip = bgmLibrary[bgm];
+        bgmAudioSource.PlayOneShot(bgmLibrary[bgm], 1);
     }
 
     public void PlayClip(SFX clip, float volume, float pitch)
     {
         audioClip = audioLibrary[clip];
+        if(audioClip == null)
+        {
+            Debug.Log("[WARNING] No audio clip for " + clip.ToString() + " found");
+            return;
+        }
+
         audioSource.pitch = pitch;
         audioSource.PlayOneShot(audioClip, volume);
+        Debug.Log("Playing Clip " + clip);
     }
 
     public void StopClip()

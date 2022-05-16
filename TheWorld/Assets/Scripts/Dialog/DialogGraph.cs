@@ -8,6 +8,8 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogGraph : SerializedScriptableObject
 {
+    public BGM music;
+
     public DialogNode startingNode;
 
     public DialogNode previouslyVisitedNode;

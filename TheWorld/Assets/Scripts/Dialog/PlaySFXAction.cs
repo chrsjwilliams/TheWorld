@@ -27,7 +27,6 @@ public class PlaySFXAction : TagAction
 
     public override void ExecuteAction()
     {
-        //TODO: Find Sound Effects
-        //Services.AudioManager.PlayClip(sfx);
+        Services.AudioManager.PlayClip(sfx);
     }
 }

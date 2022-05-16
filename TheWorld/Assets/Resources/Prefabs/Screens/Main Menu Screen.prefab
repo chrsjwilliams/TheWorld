@@ -1796,7 +1796,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
-  story: {fileID: 11400000, guid: 713a8b2f969fb4a88a0e26de70f40329, type: 2}
+  story: {fileID: 11400000, guid: b5c2170e117b543daa7ba48ce50585c7, type: 2}
   canvasGroup: {fileID: 4698028200399432149}
 --- !u!225 &4698028200399432149
 CanvasGroup:
@@ -2077,8 +2077,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 904d890bbca164ecb8d7404c8d2c4764, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  castList: {fileID: 0}
-  story: {fileID: 0}
+  castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
+  story: {fileID: 11400000, guid: 427080bc9c2274277b6c1f569381009c, type: 2}
   canvasGroup: {fileID: 6149497760329098755}
 --- !u!114 &5788773893345830743
 MonoBehaviour:
@@ -2885,7 +2885,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startGame: 32
   SECONDS_TO_WAIT: 0.1
-  selectedStory: {fileID: 0}
 --- !u!1 &7373546933656505410
 GameObject:
   m_ObjectHideFlags: 0
@@ -3144,7 +3143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
-  story: {fileID: 11400000, guid: 7faf7281048b74c82ad9f233b37345b0, type: 2}
+  story: {fileID: 11400000, guid: cc5d1d769363a45a8932fdab4eaa63eb, type: 2}
   canvasGroup: {fileID: 1623030557392654441}
 --- !u!225 &1623030557392654441
 CanvasGroup:
