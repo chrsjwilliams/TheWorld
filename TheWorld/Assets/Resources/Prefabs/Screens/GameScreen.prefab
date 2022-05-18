@@ -213,6 +213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   displayAllLines: 0
+  finishedAnimating: 0
   castList: {fileID: 0}
   characters: []
   player: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
@@ -232,6 +233,7 @@ MonoBehaviour:
   - {fileID: 8515514636124395266}
   playerProfileCanvasGroup: {fileID: 1205853748}
   npcProfileCanvasGroup: {fileID: 25076131}
+  characterSelection: {fileID: 6059984022622275094}
   background: {fileID: 9011188424500037144}
   selectedButton: {fileID: 1163182321}
   unselectedButtons:
@@ -2243,6 +2245,7 @@ GameObject:
   - component: {fileID: 1882386124}
   - component: {fileID: 1882386123}
   - component: {fileID: 1882386122}
+  - component: {fileID: 6059984022622275094}
   m_Layer: 0
   m_Name: Character Selection Background
   m_TagString: Untagged
@@ -2348,6 +2351,18 @@ MonoBehaviour:
   m_Spacing: {x: 15, y: 0}
   m_Constraint: 1
   m_ConstraintCount: 3
+--- !u!225 &6059984022622275094
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1882386120}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1900133518
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,10 +2715,34 @@ MonoBehaviour:
   disappearanceOrientation: 0
   onTextShowed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTypewriterStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTextDisappeared:
     m_PersistentCalls:
       m_Calls: []
@@ -2741,8 +2780,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT
     DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG
-    TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT DIALOG TEXT
-    DIALOG TEXT DIALOG TEXT '
+    TEXT DIALOG TEXT DIALOG TEXT '
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 4433ca537ffd54a5a94e295c30d4a2c9, type: 2}
   m_sharedMaterial: {fileID: 290383096332900262, guid: 4433ca537ffd54a5a94e295c30d4a2c9, type: 2}
@@ -2769,8 +2807,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6111,7 +6149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: 0
-  characterLimit: 9999
+  characterLimit: 180
   canvasGroup: {fileID: 2485202677281974526}
   player: {fileID: 1205853748}
   npc: {fileID: 25076131}
@@ -6509,10 +6547,34 @@ MonoBehaviour:
   disappearanceOrientation: 0
   onTextShowed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTypewriterStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTextDisappeared:
     m_PersistentCalls:
       m_Calls: []
@@ -6577,8 +6639,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -6595,7 +6657,7 @@ MonoBehaviour:
   m_charWidthMaxAdj: 0
   m_enableWordWrapping: 1
   m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
+  m_overflowMode: 4
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
@@ -7830,10 +7892,34 @@ MonoBehaviour:
   disappearanceOrientation: 0
   onTextShowed:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
   onTypewriterStart:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 35741022}
+        m_TargetAssemblyTypeName: DialogGraphParser, Assembly-CSharp
+        m_MethodName: FinishedAnimating
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onTextDisappeared:
     m_PersistentCalls:
       m_Calls: []
@@ -7897,8 +7983,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 15
-  m_fontSizeBase: 15
+  m_fontSize: 12
+  m_fontSizeBase: 12
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -8130,7 +8216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   location: 2
-  characterLimit: 180
+  characterLimit: 99999
   canvasGroup: {fileID: 145587459144810569}
   player: {fileID: 6647415604819813597}
   npc: {fileID: 4782028492217714102}
@@ -9882,7 +9968,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3003938861499739387, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 207.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3280023734164349396, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMax.y

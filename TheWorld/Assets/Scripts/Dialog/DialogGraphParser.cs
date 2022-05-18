@@ -13,6 +13,8 @@ public class DialogGraphParser : MonoBehaviour
     public bool displayAllLines;
     private static StoryCharacter eon;
 
+    public bool finishedAnimating;
+
     [Space(25)]
     [SerializeField] CastList castList;
     [SerializeField] List<StoryCharacter> characters;
@@ -38,6 +40,7 @@ public class DialogGraphParser : MonoBehaviour
 
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
+    [SerializeField] CanvasGroup characterSelection;
 
     [SerializeField] SpriteRenderer background;
 
@@ -59,6 +62,11 @@ public class DialogGraphParser : MonoBehaviour
 
     ShuffleBag<int> intBag = new ShuffleBag<int>();
 
+
+    public void FinishedAnimating(bool b)
+    {
+        finishedAnimating = b;
+    }
 
     public void NextButtonPressed()
     {
@@ -166,6 +174,11 @@ public class DialogGraphParser : MonoBehaviour
 
     void MoveToNextNode()
     {
+        if (!finishedAnimating)
+        {
+            // ~TODO: play some error sound
+            return;
+        }
         if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
@@ -244,6 +257,14 @@ public class DialogGraphParser : MonoBehaviour
             MadeSelection.value = true;
             CanMakeSelection.value = false;
             BlockPlayerCharacterInteraction?.Raise();
+
+            characterSelection.alpha = 0;
+            characterSelection.interactable = false;
+        }
+        else if (currentNode.nextNodes.Count > 1)
+        {
+            characterSelection.alpha = 1;
+            characterSelection.interactable = true;
         }
 
         if (currentNode.IsNeutralNode() && currentNode != dialogGraph.startingNode) return;
@@ -572,5 +593,18 @@ public class DialogGraphParser : MonoBehaviour
         allButtons = new List<DialogButton>();
         allButtons.Add(selectedButton);
         allButtons.AddRange(unselectedButtons);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
+        {
+            NextButtonPressed();
+        }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.A))
+        {
+            PreviousButtonPressed();
+        }
+
     }
 }
