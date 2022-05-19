@@ -18,7 +18,7 @@ MonoBehaviour:
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 036c98d19df954e23b6eb215387db784, type: 2}
     - {fileID: 11400000, guid: f479fe27f0bc1496fbfd0c919edc28b5, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: dffb9a80ab84c43d69b8ae22a0bc60af, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -88,7 +88,7 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 082fd17789e0e4a57b93df59c9e61549, type: 3}
+  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Word
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

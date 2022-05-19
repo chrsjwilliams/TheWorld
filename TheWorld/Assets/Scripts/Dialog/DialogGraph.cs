@@ -8,20 +8,14 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogGraph : SerializedScriptableObject
 {
+    public bool MustMakeSelection;
     public BGM music;
 
     public DialogNode startingNode;
 
-    public DialogNode previouslyVisitedNode;
-
     public List<DialogNode> nodes = new List<DialogNode>();
 
     public Sprite storyBackground;
-
-    public void Init()
-    {
-        startingNode = nodes[0];
-    }
 
     [Button]
     public void SetNodeTypes()

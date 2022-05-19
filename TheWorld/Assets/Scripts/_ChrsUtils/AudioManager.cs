@@ -79,7 +79,6 @@ public class AudioManager : SerializedMonoBehaviour
 
         audioSource.pitch = pitch;
         audioSource.PlayOneShot(audioClip, volume);
-        Debug.Log("Playing Clip " + clip);
     }
 
     public void StopClip()

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b520727ad8d2470f847a821698db1fd, type: 3}
-  m_Name: TWC-Story1 - Ox
+  m_Name: TWC-Story1 - Eagle
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,6 +21,8 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
+  MustMakeSelection: 0
+  music: 0
   startingNode: {fileID: 11400000, guid: b3971795322db4e90908ac15823f9744, type: 2}
   previouslyVisitedNode: {fileID: 0}
   nodes:

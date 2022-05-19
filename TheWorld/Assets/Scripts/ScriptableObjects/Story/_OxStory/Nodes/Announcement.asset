@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: a77d6b931579e46ba83593af490a509a, type: 2}
-    - {fileID: 11400000, guid: d1cb9ea1bc65446d298fd6e3ab405188, type: 2}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -87,7 +87,7 @@ MonoBehaviour:
     line: 'Then she hears speakers turned on. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' "red")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON''T TRY TO CHEAT,
       IT WON''T WORK.]'
     lineActions: []

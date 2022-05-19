@@ -63,6 +63,8 @@ public class DialogGraphParser : MonoBehaviour
     ShuffleBag<int> intBag = new ShuffleBag<int>();
 
 
+    bool mustMakeSelection;
+
     public void FinishedAnimating(bool b)
     {
         finishedAnimating = b;
@@ -110,8 +112,10 @@ public class DialogGraphParser : MonoBehaviour
             return;
         }
 
-        dialogGraph.Init();
-
+        if(!dialogGraph.MustMakeSelection)
+        {
+            MadeSelection.value = true;
+        }
 
         if (eon == null)
         {
@@ -150,7 +154,6 @@ public class DialogGraphParser : MonoBehaviour
             return;
         }
 
-        dialogGraph.Init();
         currentNode = dialogGraph.startingNode;
         nodeNameText.text = currentNode.NodeTitle;
         visitedNodes.Clear();
@@ -182,7 +185,6 @@ public class DialogGraphParser : MonoBehaviour
         if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
-            dialogGraph.previouslyVisitedNode = currentNode;
             npcProfileCanvasGroup.alpha = 0;
 
             //  Set current node to next node
@@ -210,8 +212,10 @@ public class DialogGraphParser : MonoBehaviour
             dialogLineIndex = 0;
             //  display dialog line
             DisplayNextDialogLine();
-
-            MadeSelection.value = false;
+            if (dialogGraph.MustMakeSelection)
+            {
+                MadeSelection.value = false;
+            }
             CanMakeSelection.value = true;
             if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
             {
@@ -478,8 +482,10 @@ public class DialogGraphParser : MonoBehaviour
             dialogLineIndex = 0;
             //  display dialog line
             DisplayNextDialogLine();
-
-            MadeSelection.value = false;
+            if (dialogGraph.MustMakeSelection)
+            {
+                MadeSelection.value = false;
+            }
             CanMakeSelection.value = true;
             if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
             {

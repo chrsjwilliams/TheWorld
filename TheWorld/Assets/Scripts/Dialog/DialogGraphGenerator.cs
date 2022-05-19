@@ -155,14 +155,8 @@ public class DialogGraphGenerator : ScriptableObject
         int nodeNameIndex = rawLinkInfo.Length - 1;
 
         DialogNode existingNode = GetNode(rawLinkInfo[nodeNameIndex].Trim());
-        if (existingNode != null)
-        {
-            linkInfo.node = existingNode;
-        }
-        else
-        {
-            linkInfo.node = null;
-        }
+        linkInfo.node = existingNode;
+  
 
         return linkInfo;
     }
