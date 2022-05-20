@@ -5,13 +5,13 @@
   "creatorVersion": "2.3.1",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1652481108647,
+  "createdAtMs": 1653012932551,
   "passages": [
     {
       "name": "In The Garden",
       "tags": "",
       "id": "1",
-      "text": "**sun\n@eon_wakeUp_human @sfx_birds\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: What a lovely day to spend at the garden!\nShe wakes up saying the same thing every morning.\n[[Human|Breakfast]]",
+      "text": "**sun\n@eon_wakeUp_human @sfx_yawn\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: (text-colour:\"blue\")[What a lovely day to spend at the garden!]\nShe wakes up saying the same thing every morning.\n[[Human|Breakfast]]",
       "links": [
         {
           "linkText": "Human|Breakfast",
@@ -19,13 +19,13 @@
           "original": "[[Human|Breakfast]]"
         }
       ],
-      "cleanText": "**sun\n@eon_wakeUp_human @sfx_birds\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: What a lovely day to spend at the garden!\nShe wakes up saying the same thing every morning."
+      "cleanText": "**sun\n@eon_wakeUp_human @sfx_yawn\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: (text-colour:\"blue\")[What a lovely day to spend at the garden!]\nShe wakes up saying the same thing every morning."
     },
     {
       "name": "Breakfast",
       "tags": "",
       "id": "2",
-      "text": "**sun\n@eon_walk_human @sfx_whistle\nEon: A good day starts with good breakfast! \nShe walks through the garden browsing the fruit trees.\nEon: Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?\n[[Human|Peach]]",
+      "text": "**sun\n@eon_walk_human @sfx_whistle\nEon: (text-colour:\"blue\")[A good day starts with good breakfast!]\nShe walks through the garden browsing the fruit trees.\nEon: (text-colour:\"blue\")[Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?]\n[[Human|Peach]]",
       "links": [
         {
           "linkText": "Human|Peach",
@@ -33,13 +33,13 @@
           "original": "[[Human|Peach]]"
         }
       ],
-      "cleanText": "**sun\n@eon_walk_human @sfx_whistle\nEon: A good day starts with good breakfast! \nShe walks through the garden browsing the fruit trees.\nEon: Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?"
+      "cleanText": "**sun\n@eon_walk_human @sfx_whistle\nEon: (text-colour:\"blue\")[A good day starts with good breakfast!]\nShe walks through the garden browsing the fruit trees.\nEon: (text-colour:\"blue\")[Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?]"
     },
     {
       "name": "Peach",
       "tags": "",
       "id": "3",
-      "text": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach.\nEon: Here is my breakfast!\nAs she is reaching to grab it, a mysterious voice confronts her.\nSerpent: Arghh, same ridiculous routine every morning. Aren't you bored yet?\n[[Lion|Come Out]]\n[[Ox| Who]]\n[[Human|Where]]",
+      "text": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach. @sfx_snake\nEon: (text-colour:\"blue\")[Here is my breakfast!]\nAs she is reaching to grab it, a mysterious voice confronts her.\nVoice: (text-colour:\"red\")[Arghh, same ridiculous routine every morning. Aren't you bored yet?] \n[[Lion|Come Out]]\n[[Ox| Who]]\n[[Human|Where]]",
       "links": [
         {
           "linkText": "Lion|Come Out",
@@ -57,13 +57,13 @@
           "original": "[[Human|Where]]"
         }
       ],
-      "cleanText": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach.\nEon: Here is my breakfast!\nAs she is reaching to grab it, a mysterious voice confronts her.\nSerpent: Arghh, same ridiculous routine every morning. Aren't you bored yet?"
+      "cleanText": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach. @sfx_snake\nEon: (text-colour:\"blue\")[Here is my breakfast!]\nAs she is reaching to grab it, a mysterious voice confronts her.\nVoice: (text-colour:\"red\")[Arghh, same ridiculous routine every morning. Aren't you bored yet?]"
     },
     {
       "name": "Come Out",
       "tags": "Lion",
       "id": "4",
-      "text": "**exxMark\n@eon_unhappy_lion\nEon: Who is dis? Come out! \nSerpent: I see you are a little stressed. Sorry for interrupting your lil' boring breakfast routine. @sfx_evilLaughter\nEon: I said come out!\n[[Lion|Anxious]]",
+      "text": "**exxMark\n@eon_unhappy_lion\nEon: (text-colour:\"blue\")[Who is dis? Come out!] \nVoice: (text-colour:\"red\")[I see you are a little stressed. Sorry for interrupting your lil' boring breakfast routine.] @sfx_snake\nEon: (text-colour:\"blue\")[I said come out!]\n[[Lion|Anxious]]",
       "links": [
         {
           "linkText": "Lion|Anxious",
@@ -71,13 +71,13 @@
           "original": "[[Lion|Anxious]]"
         }
       ],
-      "cleanText": "**exxMark\n@eon_unhappy_lion\nEon: Who is dis? Come out! \nSerpent: I see you are a little stressed. Sorry for interrupting your lil' boring breakfast routine. @sfx_evilLaughter\nEon: I said come out!"
+      "cleanText": "**exxMark\n@eon_unhappy_lion\nEon: (text-colour:\"blue\")[Who is dis? Come out!] \nVoice: (text-colour:\"red\")[I see you are a little stressed. Sorry for interrupting your lil' boring breakfast routine.] @sfx_snake\nEon: (text-colour:\"blue\")[I said come out!]"
     },
     {
       "name": " Who",
       "tags": "Ox",
       "id": "5",
-      "text": "**questionMark\n@eon_anxious_ox\nEon didn't expect someone else to be around.\nEon: Who is that?\nSerpent: Just someone who is bored of watching the same silly routine every morning.\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+      "text": "**questionMark\n@eon_anxious_ox\nEon didn't expect someone else to be around.\nEon: (text-colour:\"blue\")[Who is that?]\nSerpent: (text-colour:\"red\")[Just someone who is bored of watching the same silly routine every morning.]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
       "links": [
         {
           "linkText": "Ox|Explain",
@@ -90,13 +90,13 @@
           "original": "[[Lion|Anxious]]"
         }
       ],
-      "cleanText": "**questionMark\n@eon_anxious_ox\nEon didn't expect someone else to be around.\nEon: Who is that?\nSerpent: Just someone who is bored of watching the same silly routine every morning."
+      "cleanText": "**questionMark\n@eon_anxious_ox\nEon didn't expect someone else to be around.\nEon: (text-colour:\"blue\")[Who is that?]\nSerpent: (text-colour:\"red\")[Just someone who is bored of watching the same silly routine every morning.]"
     },
     {
       "name": "Explain",
       "tags": "Ox",
       "id": "6",
-      "text": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon: What do you mean?\nSerpent: Poor kid...Every morning, you get up, say that it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.\n[[Ox|Please]]",
+      "text": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon:(text-colour:\"blue\")[What do you mean?]\nVoice: (text-colour:\"red\")[Poor kid...Every morning, you get up, say that it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.]\n[[Ox|Please]]",
       "links": [
         {
           "linkText": "Ox|Please",
@@ -104,13 +104,13 @@
           "original": "[[Ox|Please]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon: What do you mean?\nSerpent: Poor kid...Every morning, you get up, say that it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach."
+      "cleanText": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon:(text-colour:\"blue\")[What do you mean?]\nVoice: (text-colour:\"red\")[Poor kid...Every morning, you get up, say that it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.]"
     },
     {
       "name": "Please",
       "tags": "",
       "id": "7",
-      "text": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: That is not true, I ate an apple yesterday.\nThe voice laughs hysterically. sfx_evilLaughter\nSerpent: Oh, poor child, I only feel sorry for you.\n[[Ox|Up]]",
+      "text": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: (text-colour:\"blue\")[That is not true, I ate an apple yesterday.]\nThe voice laughs hysterically. sfx_evilLaughter\nVoice: (text-colour:\"red\")[Oh, poor child, I only feel sorry for you.]\n[[Ox|Up]]",
       "links": [
         {
           "linkText": "Ox|Up",
@@ -118,13 +118,13 @@
           "original": "[[Ox|Up]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: That is not true, I ate an apple yesterday.\nThe voice laughs hysterically. sfx_evilLaughter\nSerpent: Oh, poor child, I only feel sorry for you."
+      "cleanText": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: (text-colour:\"blue\")[That is not true, I ate an apple yesterday.]\nThe voice laughs hysterically. sfx_evilLaughter\nVoice: (text-colour:\"red\")[Oh, poor child, I only feel sorry for you.]"
     },
     {
       "name": "Up",
       "tags": "",
       "id": "8",
-      "text": "**eyes\n@eon_lookAround_ox\nEon: Can you please show yourself? You are making me anxious.\nSerpent: That is the last thing I'd like to do.\nEon hears a slow crouching sound first. Then a subtle deep sound. \nSerpent: Look up you fool child!\nAs Eon moves her gaze upwards, she sees two glazing eyes in between leaves.\nThe eyes slowly slide down through the tree's trunk.\n[[Ox|Serpent]]",
+      "text": "**eyes\n@eon_lookAround_ox\nEon: (text-colour:\"blue\")[Can you please show yourself? You are making me anxious.]\nVoice: (text-colour:\"red\")[That is the last thing I'd like to do.]\nEon hears a slow crouching sound first. Then a subtle deep sound. \nVoice: (text-colour:\"red\")[Look up you fool!]\nAs Eon moves her gaze upwards, she sees two bright eyes in between leaves.\nThe eyes slowly slide down through the tree's trunk.\n[[Ox|Serpent]]",
       "links": [
         {
           "linkText": "Ox|Serpent",
@@ -132,13 +132,13 @@
           "original": "[[Ox|Serpent]]"
         }
       ],
-      "cleanText": "**eyes\n@eon_lookAround_ox\nEon: Can you please show yourself? You are making me anxious.\nSerpent: That is the last thing I'd like to do.\nEon hears a slow crouching sound first. Then a subtle deep sound. \nSerpent: Look up you fool child!\nAs Eon moves her gaze upwards, she sees two glazing eyes in between leaves.\nThe eyes slowly slide down through the tree's trunk."
+      "cleanText": "**eyes\n@eon_lookAround_ox\nEon: (text-colour:\"blue\")[Can you please show yourself? You are making me anxious.]\nVoice: (text-colour:\"red\")[That is the last thing I'd like to do.]\nEon hears a slow crouching sound first. Then a subtle deep sound. \nVoice: (text-colour:\"red\")[Look up you fool!]\nAs Eon moves her gaze upwards, she sees two bright eyes in between leaves.\nThe eyes slowly slide down through the tree's trunk."
     },
     {
       "name": "Serpent",
       "tags": "",
       "id": "9",
-      "text": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon: What are you? You look nothing like me or anything.\nSerpent: I am a serpent, child. I've been living here in the shadows, observing you and your routine every day.\n[[Ox|Why]]",
+      "text": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon: (text-colour:\"blue\")[What are you? You look nothing like me or anything.]\nSerpent: (text-colour:\"red\")[I am a serpent, child. I've been living here in the shadows, observing you and your routine every day.]\n[[Ox|Why]]",
       "links": [
         {
           "linkText": "Ox|Why",
@@ -146,13 +146,13 @@
           "original": "[[Ox|Why]]"
         }
       ],
-      "cleanText": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon: What are you? You look nothing like me or anything.\nSerpent: I am a serpent, child. I've been living here in the shadows, observing you and your routine every day."
+      "cleanText": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon: (text-colour:\"blue\")[What are you? You look nothing like me or anything.]\nSerpent: (text-colour:\"red\")[I am a serpent, child. I've been living here in the shadows, observing you and your routine every day.]"
     },
     {
       "name": "Anxious",
       "tags": "",
       "id": "10",
-      "text": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone.\nSerpent: Don't be anxious kid, there is no reason to be scared!\nEon: I am not scared! But in fact, I believe you are since you're the one who is hiding. \nSerpent: Well, if I come out, you need to face the truth. Do you think you're ready for that?\n[[Lion|No Fear]]\n[[Ox|Explain]]",
+      "text": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone.\nVoice: (text-colour:\"red\")[Don't be anxious kid, there is no reason to be scared!]\nEon:(text-colour:\"blue\")[I am not scared! But in fact, I believe you are since you're the one who is hiding.] \nVoice: (text-colour:\"red\")[Well, if I come out, you need to face the truth. Do you think you're ready for that?]\n[[Lion|No Fear]]\n[[Ox|Explain]]",
       "links": [
         {
           "linkText": "Lion|No Fear",
@@ -165,13 +165,13 @@
           "original": "[[Ox|Explain]]"
         }
       ],
-      "cleanText": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone.\nSerpent: Don't be anxious kid, there is no reason to be scared!\nEon: I am not scared! But in fact, I believe you are since you're the one who is hiding. \nSerpent: Well, if I come out, you need to face the truth. Do you think you're ready for that?"
+      "cleanText": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone.\nVoice: (text-colour:\"red\")[Don't be anxious kid, there is no reason to be scared!]\nEon:(text-colour:\"blue\")[I am not scared! But in fact, I believe you are since you're the one who is hiding.] \nVoice: (text-colour:\"red\")[Well, if I come out, you need to face the truth. Do you think you're ready for that?]"
     },
     {
       "name": "No Fear",
       "tags": "",
       "id": "11",
-      "text": "**dialogue\n@eon_angry_lion\nEon: I have no fear of you or what you can tell me. Now come out and show me your face!\nSerpent: Okay, you asked for it.\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake\n[[Lion|Hi]]",
+      "text": "**dialogue\n@eon_angry_lion\nEon: (text-colour:\"blue\")[I have no fear of you or what you can tell me. Now come out and show me your face!]\nVoice: (text-colour:\"red\")[Okay, you asked for it.]\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake\n[[Lion|Hi]]",
       "links": [
         {
           "linkText": "Lion|Hi",
@@ -179,13 +179,13 @@
           "original": "[[Lion|Hi]]"
         }
       ],
-      "cleanText": "**dialogue\n@eon_angry_lion\nEon: I have no fear of you or what you can tell me. Now come out and show me your face!\nSerpent: Okay, you asked for it.\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake"
+      "cleanText": "**dialogue\n@eon_angry_lion\nEon: (text-colour:\"blue\")[I have no fear of you or what you can tell me. Now come out and show me your face!]\nVoice: (text-colour:\"red\")[Okay, you asked for it.]\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake"
     },
     {
       "name": "Hi",
       "tags": "",
       "id": "12",
-      "text": "**serpent\n@eon_surprised_lion\nA long body slowly slides down through the tree's stem.\nEon has never seen a creature like this before.\nEon: What are you exactly?\nSerpent: Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.\n[[Lion|Straight]]\n[[Ox|Why]]",
+      "text": "**serpent\n@eon_surprised_lion\nA long body slowly slides down through the tree's stem.\nEon has never seen a creature like this before.\nEon: (text-colour:\"blue\")[What are you exactly?]\nSerpent: (text-colour:\"red\")[Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.]\n[[Lion|Straight]]\n[[Ox|Why]]",
       "links": [
         {
           "linkText": "Lion|Straight",
@@ -198,13 +198,13 @@
           "original": "[[Ox|Why]]"
         }
       ],
-      "cleanText": "**serpent\n@eon_surprised_lion\nA long body slowly slides down through the tree's stem.\nEon has never seen a creature like this before.\nEon: What are you exactly?\nSerpent: Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream."
+      "cleanText": "**serpent\n@eon_surprised_lion\nA long body slowly slides down through the tree's stem.\nEon has never seen a creature like this before.\nEon: (text-colour:\"blue\")[What are you exactly?]\nSerpent: (text-colour:\"red\")[Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.]"
     },
     {
       "name": "Why",
       "tags": "",
       "id": "13",
-      "text": "**dialog\n@eon_confused_ox\nEon: But why would you do that? You don't know me...\nSerpent: Because they have been lying to you. And you deserve better than that.\n[[Ox|About]]\n[[Eagle|Deserve]]",
+      "text": "**dialog\n@eon_confused_ox\nEon: (text-colour:\"blue\")[But why would you do that? You don't know me...]\nSerpent: (text-colour:\"red\")[Because they have been lying to you. And you deserve better than that.]\n[[Ox|About]]\n[[Eagle|Deserve]]",
       "links": [
         {
           "linkText": "Ox|About",
@@ -217,13 +217,13 @@
           "original": "[[Eagle|Deserve]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_confused_ox\nEon: But why would you do that? You don't know me...\nSerpent: Because they have been lying to you. And you deserve better than that."
+      "cleanText": "**dialog\n@eon_confused_ox\nEon: (text-colour:\"blue\")[But why would you do that? You don't know me...]\nSerpent: (text-colour:\"red\")[Because they have been lying to you. And you deserve better than that.]"
     },
     {
       "name": "About",
       "tags": "Ox",
       "id": "14",
-      "text": "**dialog\nEon feels chills on her body.\nEon: What are they lying about?\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: \"Your whole life.\"\n[[Ox|No]]",
+      "text": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: (text-colour:\"red\")[Your whole life.]\n[[Ox|No]]",
       "links": [
         {
           "linkText": "Ox|No",
@@ -231,13 +231,13 @@
           "original": "[[Ox|No]]"
         }
       ],
-      "cleanText": "**dialog\nEon feels chills on her body.\nEon: What are they lying about?\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: \"Your whole life.\""
+      "cleanText": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: (text-colour:\"red\")[Your whole life.]"
     },
     {
       "name": "Deserve",
       "tags": "",
       "id": "15",
-      "text": "**recycle\n@eon_think_ox\nEon: How do you know I deserve better? You don't know me.\nSerpent: You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. Forever!\n[[Eagle|Tell me]]\n[[Ox|No]]",
+      "text": "**recycle\n@eon_think_ox\nEon: (text-colour:\"blue\")[How do you know I deserve better? You don't know me.]\nSerpent: (text-colour:\"red\")[You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. Forever!]\n[[Eagle|Tell me]]\n[[Ox|No]]",
       "links": [
         {
           "linkText": "Eagle|Tell me",
@@ -250,13 +250,13 @@
           "original": "[[Ox|No]]"
         }
       ],
-      "cleanText": "**recycle\n@eon_think_ox\nEon: How do you know I deserve better? You don't know me.\nSerpent: You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. Forever!"
+      "cleanText": "**recycle\n@eon_think_ox\nEon: (text-colour:\"blue\")[How do you know I deserve better? You don't know me.]\nSerpent: (text-colour:\"red\")[You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. Forever!]"
     },
     {
       "name": "Tell me",
       "tags": "",
       "id": "16",
-      "text": "**apple\n@eon_think_eagle\nEon: And what are his intentions with this? Why is he making me live in a loop?\nSerpent whispers with a devilous smile.\nSerpent: He doesn't want you to taste the apple.\n[[Eagle|Apple]]",
+      "text": "**apple\n@eon_think_eagle\nEon: (text-colour:\"blue\")[And what are his intentions with this? Why is he making me live in a loop?] @sfx_creepyWhisper\nSerpent whispers with a devilous smile:\nSerpent: (text-colour:\"red\")[He doesn't want you to taste the apple.]\n[[Eagle|Apple]]",
       "links": [
         {
           "linkText": "Eagle|Apple",
@@ -264,13 +264,13 @@
           "original": "[[Eagle|Apple]]"
         }
       ],
-      "cleanText": "**apple\n@eon_think_eagle\nEon: And what are his intentions with this? Why is he making me live in a loop?\nSerpent whispers with a devilous smile.\nSerpent: He doesn't want you to taste the apple."
+      "cleanText": "**apple\n@eon_think_eagle\nEon: (text-colour:\"blue\")[And what are his intentions with this? Why is he making me live in a loop?] @sfx_creepyWhisper\nSerpent whispers with a devilous smile:\nSerpent: (text-colour:\"red\")[He doesn't want you to taste the apple.]"
     },
     {
       "name": "No",
       "tags": "Ox",
       "id": "17",
-      "text": "**dialog\nEon is shaking. @eon_shaking_ox\nEon: No, he wouldn't do that! He loves me!\nThe serpent rolls his eyes.\nSerpent: Ah, the things we do for love... Though, I think that expressions if for a different context.\n[[Ox||Loops]]",
+      "text": "**dialog\nThis just sounds too horrible to be true. @eon_disagree_ox\nEon: (text-colour:\"blue\")[No, he wouldn't do that! He loves me!\nThe serpent rolls his eyes.]\nSerpent: (text-colour:\"red\")[Ah, the things we do for love... Though, I think that expressions if for a different context.]\n[[Ox||Loops]]",
       "links": [
         {
           "linkText": "Ox||Loops",
@@ -278,13 +278,13 @@
           "original": "[[Ox||Loops]]"
         }
       ],
-      "cleanText": "**dialog\nEon is shaking. @eon_shaking_ox\nEon: No, he wouldn't do that! He loves me!\nThe serpent rolls his eyes.\nSerpent: Ah, the things we do for love... Though, I think that expressions if for a different context."
+      "cleanText": "**dialog\nThis just sounds too horrible to be true. @eon_disagree_ox\nEon: (text-colour:\"blue\")[No, he wouldn't do that! He loves me!\nThe serpent rolls his eyes.]\nSerpent: (text-colour:\"red\")[Ah, the things we do for love... Though, I think that expressions if for a different context.]"
     },
     {
       "name": "Straight",
       "tags": "",
       "id": "18",
-      "text": "**recycle\n@eon_disappointed_lion\nEon: I am tired of these games. Just tell me what's happening.\nSerpent seems to enjoy Eon's impatience.\nSerpent: It breaks my heart to say this, but your whole life here is a lie. You believe time is passing, that every day is a new one. But in reality, you've been waking up to the same morning every day and go through the same events over and over again. You've been eating a peach for breakfast forever.\n[[Lion|Lying]]\n[[Eagle|Tell me]]",
+      "text": "**recycle\n@eon_disappointed_lion\nEon: (text-colour:\"blue\")[I am tired of these games. Just tell me what's happening.]\nSerpent seems to enjoy Eon's impatience.\nSerpent: (text-colour:\"red\")[It breaks my heart to say this, but your whole life here is a lie. You believe time is passing, that every day is a new one. But in reality, you've been waking up to the same morning every day and go through the same events over and over again. You've been eating a peach for breakfast forever.]\n[[Lion|Lying]]\n[[Eagle|Tell me]]",
       "links": [
         {
           "linkText": "Lion|Lying",
@@ -297,7 +297,7 @@
           "original": "[[Eagle|Tell me]]"
         }
       ],
-      "cleanText": "**recycle\n@eon_disappointed_lion\nEon: I am tired of these games. Just tell me what's happening.\nSerpent seems to enjoy Eon's impatience.\nSerpent: It breaks my heart to say this, but your whole life here is a lie. You believe time is passing, that every day is a new one. But in reality, you've been waking up to the same morning every day and go through the same events over and over again. You've been eating a peach for breakfast forever."
+      "cleanText": "**recycle\n@eon_disappointed_lion\nEon: (text-colour:\"blue\")[I am tired of these games. Just tell me what's happening.]\nSerpent seems to enjoy Eon's impatience.\nSerpent: (text-colour:\"red\")[It breaks my heart to say this, but your whole life here is a lie. You believe time is passing, that every day is a new one. But in reality, you've been waking up to the same morning every day and go through the same events over and over again. You've been eating a peach for breakfast forever.]"
     },
     {
       "name": "Lying",
@@ -322,7 +322,7 @@
       "name": "Away",
       "tags": "",
       "id": "20",
-      "text": "**dialog\n@eon_disappointed_lion\nEon: Just go away, I can't deal with your nonsense anymore.\nSerpent looks uncomfortable.\nSerpent: It's not nonsense! I am telling you the truth! I am trying to save you!\n[[Lion|Walk]]\n[[Eagle|Warning]]",
+      "text": "**dialog\n@eon_disappointed_lion\nEon: (text-colour:\"blue\")[Just go away, I can't deal with your nonsense anymore.]\nSerpent looks uncomfortable.\nSerpent: (text-colour:\"red\")[It's not nonsense! I am telling you the truth! I am trying to save you!]\n[[Lion|Walk]]\n[[Eagle|Warning]]",
       "links": [
         {
           "linkText": "Lion|Walk",
@@ -335,13 +335,13 @@
           "original": "[[Eagle|Warning]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_disappointed_lion\nEon: Just go away, I can't deal with your nonsense anymore.\nSerpent looks uncomfortable.\nSerpent: It's not nonsense! I am telling you the truth! I am trying to save you!"
+      "cleanText": "**dialog\n@eon_disappointed_lion\nEon: (text-colour:\"blue\")[Just go away, I can't deal with your nonsense anymore.]\nSerpent looks uncomfortable.\nSerpent: (text-colour:\"red\")[It's not nonsense! I am telling you the truth! I am trying to save you!]"
     },
     {
       "name": "Apple",
       "tags": "",
       "id": "21",
-      "text": "**apple\n@eon_confused_eagle\nEon doesn't really understand.\nEon: What is special about the apple? It's just another fruit.\nSerpent: No, that is not true. Apple contains a very special ingredient that will open up your senses. But once you have it, you can never go back.\n[[Eagle|Before]]\n[[Ox|Prove]]\n[[Lion|Away]]",
+      "text": "**apple\n@eon_confused_eagle\nEon doesn't really understand.\nEon: (text-colour:\"blue\")[What is special about the apple? It's just another fruit.]\nSerpent: (text-colour:\"red\")[No, that is not true. Apple contains a very special ingredient that will open up your senses. But once you have it, you can never go back.]\n[[Eagle|Before]]\n[[Ox|Prove]]\n[[Lion|Away]]",
       "links": [
         {
           "linkText": "Eagle|Before",
@@ -359,13 +359,13 @@
           "original": "[[Lion|Away]]"
         }
       ],
-      "cleanText": "**apple\n@eon_confused_eagle\nEon doesn't really understand.\nEon: What is special about the apple? It's just another fruit.\nSerpent: No, that is not true. Apple contains a very special ingredient that will open up your senses. But once you have it, you can never go back."
+      "cleanText": "**apple\n@eon_confused_eagle\nEon doesn't really understand.\nEon: (text-colour:\"blue\")[What is special about the apple? It's just another fruit.]\nSerpent: (text-colour:\"red\")[No, that is not true. Apple contains a very special ingredient that will open up your senses. But once you have it, you can never go back.]"
     },
     {
       "name": "Where",
       "tags": "Human",
       "id": "22",
-      "text": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: Hey, where are you? Who is talking to me?\nSerpent: Just a friendly stranger who is notorious to stand up against injustice.\n[[Human|Face]]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+      "text": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: (text-colour:\"blue\")[Hey, where are you? Who is talking to me?]\nVoice: (text-colour:\"red\")[Just a friendly stranger who is notorious to stand up against injustice.]\n[[Human|Face]]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
       "links": [
         {
           "linkText": "Human|Face",
@@ -383,13 +383,13 @@
           "original": "[[Lion|Anxious]]"
         }
       ],
-      "cleanText": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: Hey, where are you? Who is talking to me?\nSerpent: Just a friendly stranger who is notorious to stand up against injustice."
+      "cleanText": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: (text-colour:\"blue\")[Hey, where are you? Who is talking to me?]\nVoice: (text-colour:\"red\")[Just a friendly stranger who is notorious to stand up against injustice.]"
     },
     {
       "name": "Face",
       "tags": "",
       "id": "23",
-      "text": "**dialog\n@eon_lookAround_human\nSerpent: So, you wanna see who I am. Very well, I'm coming down.\nEon is looking around, then she hears leaves rustling on the peach tree. As she looks up, she sees something long crawling down around the trunk of the tree.\nSerpent: Hello stranger. Nice to meet you. \n[[Human|Hello]]\n[[Ox|Serpent]]",
+      "text": "**dialog\n@eon_lookAround_human\nSerpent: (text-colour:\"red\")[So, you wanna see who I am. Very well, I'm coming down.]\nEon is looking around, then she hears leaves rustling on the peach tree. As she looks up, she sees something long crawling down around the trunk of the tree.\nSerpent: (text-colour:\"red\")[Hello stranger. Nice to meet you.] \n[[Human|Hello]]\n[[Ox|Serpent]]",
       "links": [
         {
           "linkText": "Human|Hello",
@@ -402,13 +402,13 @@
           "original": "[[Ox|Serpent]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_lookAround_human\nSerpent: So, you wanna see who I am. Very well, I'm coming down.\nEon is looking around, then she hears leaves rustling on the peach tree. As she looks up, she sees something long crawling down around the trunk of the tree.\nSerpent: Hello stranger. Nice to meet you."
+      "cleanText": "**dialog\n@eon_lookAround_human\nSerpent: (text-colour:\"red\")[So, you wanna see who I am. Very well, I'm coming down.]\nEon is looking around, then she hears leaves rustling on the peach tree. As she looks up, she sees something long crawling down around the trunk of the tree.\nSerpent: (text-colour:\"red\")[Hello stranger. Nice to meet you.]"
     },
     {
       "name": "Hello",
       "tags": "",
       "id": "24",
-      "text": "**serpent\n@eon_confused_human @sfx_snake\nEon: Hello, but...Who are you?\nSerpent: I am the serpent child. No need to worry I am your friend. And I am here to reveal the bitter truth to you.\nEon: Truth?\nSerpent: You've been living a lie this whole time.\n[[Lion|Straight]]\n[[Ox|Why]]",
+      "text": "**serpent\n@eon_confused_human @sfx_snake\nEon: (text-colour:\"blue\")[Hello, but...Who are you?]\nSerpent: (text-colour:\"red\")[I am the serpent child. No need to worry I am your friend. And I am here to reveal the bitter truth to you.]\nEon: (text-colour:\"blue\")[Truth?]\nSerpent: (text-colour:\"red\")[You've been living a lie this whole time.]\n[[Lion|Straight]]\n[[Ox|Why]]",
       "links": [
         {
           "linkText": "Lion|Straight",
@@ -421,13 +421,13 @@
           "original": "[[Ox|Why]]"
         }
       ],
-      "cleanText": "**serpent\n@eon_confused_human @sfx_snake\nEon: Hello, but...Who are you?\nSerpent: I am the serpent child. No need to worry I am your friend. And I am here to reveal the bitter truth to you.\nEon: Truth?\nSerpent: You've been living a lie this whole time."
+      "cleanText": "**serpent\n@eon_confused_human @sfx_snake\nEon: (text-colour:\"blue\")[Hello, but...Who are you?]\nSerpent: (text-colour:\"red\")[I am the serpent child. No need to worry I am your friend. And I am here to reveal the bitter truth to you.]\nEon: (text-colour:\"blue\")[Truth?]\nSerpent: (text-colour:\"red\")[You've been living a lie this whole time.]"
     },
     {
       "name": "Before",
       "tags": "",
       "id": "25",
-      "text": "**dialog\n@eon_think_eagle\nEon: So you are saying that my memory of eating the apple is false.\nSerpent: Yes.\nEon: And if I eat the apple, I'll change forever.\nSerpent: Correct.\n[[Eagle|Outcast]]",
+      "text": "**dialog\n@eon_talk_eagle\nEon: (text-colour:\"blue\")[So you are saying that my memory of eating the apple is false.]\nSerpent: (text-colour:\"red\")[Yes.]\nEon: (text-colour:\"blue\")[And if I eat the apple, I'll change forever.]\nSerpent: (text-colour:\"red\")[Correct.]\n[[Eagle|Outcast]]",
       "links": [
         {
           "linkText": "Eagle|Outcast",
@@ -435,13 +435,13 @@
           "original": "[[Eagle|Outcast]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_think_eagle\nEon: So you are saying that my memory of eating the apple is false.\nSerpent: Yes.\nEon: And if I eat the apple, I'll change forever.\nSerpent: Correct."
+      "cleanText": "**dialog\n@eon_talk_eagle\nEon: (text-colour:\"blue\")[So you are saying that my memory of eating the apple is false.]\nSerpent: (text-colour:\"red\")[Yes.]\nEon: (text-colour:\"blue\")[And if I eat the apple, I'll change forever.]\nSerpent: (text-colour:\"red\")[Correct.]"
     },
     {
       "name": "Outcast",
       "tags": "",
       "id": "26",
-      "text": "**dialog\n@eon_suspicious_eagle\nEon: Did you have it before?\nSerpent: Yes, that's why I am here now telling you the truth.\nEon: Why were you hiding in the tree?\nSerpent lowers his voice.\nSerpent: Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.\n[[Eagle|Trick]]",
+      "text": "**dialog\n@eon_think_eagle\nEon: (text-colour:\"blue\")[Did you have it before?]\nSerpent: (text-colour:\"red\")[Yes, that's why I am here now telling you the truth.]\nEon: (text-colour:\"blue\")[Why were you hiding in the tree?]\nSerpent lowers his voice.\nSerpent: (text-colour:\"red\")[Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.]\n[[Eagle|Trick]]",
       "links": [
         {
           "linkText": "Eagle|Trick",
@@ -449,13 +449,13 @@
           "original": "[[Eagle|Trick]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_suspicious_eagle\nEon: Did you have it before?\nSerpent: Yes, that's why I am here now telling you the truth.\nEon: Why were you hiding in the tree?\nSerpent lowers his voice.\nSerpent: Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple."
+      "cleanText": "**dialog\n@eon_think_eagle\nEon: (text-colour:\"blue\")[Did you have it before?]\nSerpent: (text-colour:\"red\")[Yes, that's why I am here now telling you the truth.]\nEon: (text-colour:\"blue\")[Why were you hiding in the tree?]\nSerpent lowers his voice.\nSerpent: (text-colour:\"red\")[Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.]"
     },
     {
       "name": "Trick",
       "tags": "",
       "id": "27",
-      "text": "**questionMark\n@eon_suspicious_eagle\nEon: So, I'll be kicked out as well. Why would I do that?\nSerpent: To live free of course! Make a life of your own!\n[[Eagle|Warning]]\n[[Lion|Walk]]",
+      "text": "**questionMark\n@eon_suspicious_eagle\nEon: (text-colour:\"blue\")[So, I'll be kicked out as well. Why would I do that?]\nSerpent: (text-colour:\"red\")[To live free of course! Make a life of your own!]\n[[Eagle|Warning]]\n[[Lion|Walk]]",
       "links": [
         {
           "linkText": "Eagle|Warning",
@@ -468,13 +468,13 @@
           "original": "[[Lion|Walk]]"
         }
       ],
-      "cleanText": "**questionMark\n@eon_suspicious_eagle\nEon: So, I'll be kicked out as well. Why would I do that?\nSerpent: To live free of course! Make a life of your own!"
+      "cleanText": "**questionMark\n@eon_suspicious_eagle\nEon: (text-colour:\"blue\")[So, I'll be kicked out as well. Why would I do that?]\nSerpent: (text-colour:\"red\")[To live free of course! Make a life of your own!]"
     },
     {
       "name": "Guards",
       "tags": "",
       "id": "28",
-      "text": "**warning\n@eon_anxious_eagle\nEon: Guards!\nSerpent looks to Eon in shock. \nSerpent: What the...\nEon: Sorry pal, but I warned you.\n[[Eagle|Cherubs]]",
+      "text": "**warning\n@eon_anxious_eagle\nEon: (text-colour:\"blue\")[Guards!]\nSerpent looks to Eon in shock. \nSerpent: (text-colour:\"red\")[What the...]\nEon: (text-colour:\"blue\")[Sorry pal, but I warned you.]\n[[Eagle|Cherubs]]",
       "links": [
         {
           "linkText": "Eagle|Cherubs",
@@ -482,13 +482,13 @@
           "original": "[[Eagle|Cherubs]]"
         }
       ],
-      "cleanText": "**warning\n@eon_anxious_eagle\nEon: Guards!\nSerpent looks to Eon in shock. \nSerpent: What the...\nEon: Sorry pal, but I warned you."
+      "cleanText": "**warning\n@eon_anxious_eagle\nEon: (text-colour:\"blue\")[Guards!]\nSerpent looks to Eon in shock. \nSerpent: (text-colour:\"red\")[What the...]\nEon: (text-colour:\"blue\")[Sorry pal, but I warned you.]"
     },
     {
       "name": "Cherubs",
       "tags": "",
       "id": "29",
-      "text": "**nightstick\n@eon_disappointed_eagle\nTwo cherubs appear next to the Serpent.\nSerpent: Oh man, not again...\nCherub 1: Well, I agree! You gotta stop coming back in. You don't belong here.\nCherub 2: Hey, I think you're good here so I'm just gonna go.\nCherub 1: Okay man, no worries.\n[[Eagle|Bye]]",
+      "text": "**nightstick\n@eon_disappointed_eagle @sfx_flute\nTwo cherubs appear next to the Serpent.\nSerpent: (text-colour:\"red\")[Oh man, not again...]\nCherub 1: (text-colour:\"deeppink\")[Well, I agree! You gotta stop coming back in. You don't belong here.]\nCherub 2: (text-colour:\"forestgreen\")[Hey, I think you're good here so I'm just gonna go.]\nCherub 1: (text-colour:\"deeppink\")[Okay man, no worries.]\n[[Eagle|Bye]]",
       "links": [
         {
           "linkText": "Eagle|Bye",
@@ -496,13 +496,13 @@
           "original": "[[Eagle|Bye]]"
         }
       ],
-      "cleanText": "**nightstick\n@eon_disappointed_eagle\nTwo cherubs appear next to the Serpent.\nSerpent: Oh man, not again...\nCherub 1: Well, I agree! You gotta stop coming back in. You don't belong here.\nCherub 2: Hey, I think you're good here so I'm just gonna go.\nCherub 1: Okay man, no worries."
+      "cleanText": "**nightstick\n@eon_disappointed_eagle @sfx_flute\nTwo cherubs appear next to the Serpent.\nSerpent: (text-colour:\"red\")[Oh man, not again...]\nCherub 1: (text-colour:\"deeppink\")[Well, I agree! You gotta stop coming back in. You don't belong here.]\nCherub 2: (text-colour:\"forestgreen\")[Hey, I think you're good here so I'm just gonna go.]\nCherub 1: (text-colour:\"deeppink\")[Okay man, no worries.]"
     },
     {
       "name": "Bye",
       "tags": "",
       "id": "30",
-      "text": "**exxMark\n@eon_disappointed_eagle\nCherub 1 grabs the serpent. \nCherub 1: Thank you for calling us. I hope he didn't disturb you much with his nonsense.\nEon: I'm okay. Thank you for coming.\nThe Serpent screams as they take him away.\nSerpent: THIS IS NOT OVER YET!\n[[Eagle|Worm]]",
+      "text": "**exxMark\n@eon_disappointed_eagle\nCherub 1 grabs the serpent. \nCherub 1: (text-colour:\"deeppink\")[Thank you for calling us. I hope he didn't disturb you much with his nonsense.]\nEon: (text-colour:\"blue\")[I'm okay. Thank you for coming.]\nThe Serpent screams as they take him away:\nSerpent: (text-colour:\"red\")[THIS IS NOT OVER YET!]\n[[Eagle|Worm]]",
       "links": [
         {
           "linkText": "Eagle|Worm",
@@ -510,13 +510,13 @@
           "original": "[[Eagle|Worm]]"
         }
       ],
-      "cleanText": "**exxMark\n@eon_disappointed_eagle\nCherub 1 grabs the serpent. \nCherub 1: Thank you for calling us. I hope he didn't disturb you much with his nonsense.\nEon: I'm okay. Thank you for coming.\nThe Serpent screams as they take him away.\nSerpent: THIS IS NOT OVER YET!"
+      "cleanText": "**exxMark\n@eon_disappointed_eagle\nCherub 1 grabs the serpent. \nCherub 1: (text-colour:\"deeppink\")[Thank you for calling us. I hope he didn't disturb you much with his nonsense.]\nEon: (text-colour:\"blue\")[I'm okay. Thank you for coming.]\nThe Serpent screams as they take him away:\nSerpent: (text-colour:\"red\")[THIS IS NOT OVER YET!]"
     },
     {
       "name": "Worm",
       "tags": "",
       "id": "31",
-      "text": "**apple\n@eon_think_eagle\nEon takes a look at the apple.\nReaches and grabs one. Smells it.\nEon: Hmm, smells good.\nThen she sees a worm peeking out of the apple.\n[[Eagle|Nah]]",
+      "text": "**apple\n@eon_think_eagle\nEon takes a look at the apple.\nReaches and grabs one. Smells it.\nEon: (text-colour:\"blue\")[Hmm, smells good.]\nThen she sees a worm peeking out of the apple.\n[[Eagle|Nah]]",
       "links": [
         {
           "linkText": "Eagle|Nah",
@@ -524,21 +524,21 @@
           "original": "[[Eagle|Nah]]"
         }
       ],
-      "cleanText": "**apple\n@eon_think_eagle\nEon takes a look at the apple.\nReaches and grabs one. Smells it.\nEon: Hmm, smells good.\nThen she sees a worm peeking out of the apple."
+      "cleanText": "**apple\n@eon_think_eagle\nEon takes a look at the apple.\nReaches and grabs one. Smells it.\nEon: (text-colour:\"blue\")[Hmm, smells good.]\nThen she sees a worm peeking out of the apple."
     },
     {
       "name": "Nah",
       "tags": "",
       "id": "32",
-      "text": "**peach\n@eon_nah_eagle\nEon: Nah!\nAnd she throws the apple away.\nEon: I'll just have a peach instead.\nSo, she lived in the garden, forever, happily ever after.\n@end",
+      "text": "**peach\n@eon_nah_eagle @sfx_whoosh\nEon: (text-colour:\"blue\")[Nah!]\nAnd she throws the apple away.\nEon: (text-colour:\"blue\")[I'll just have a peach instead.]\nSo, she lived in the garden, forever, happily ever after.\n@end",
       "links": [],
-      "cleanText": "**peach\n@eon_nah_eagle\nEon: Nah!\nAnd she throws the apple away.\nEon: I'll just have a peach instead.\nSo, she lived in the garden, forever, happily ever after.\n@end"
+      "cleanText": "**peach\n@eon_nah_eagle @sfx_whoosh\nEon: (text-colour:\"blue\")[Nah!]\nAnd she throws the apple away.\nEon: (text-colour:\"blue\")[I'll just have a peach instead.]\nSo, she lived in the garden, forever, happily ever after.\n@end"
     },
     {
       "name": "Prove",
       "tags": "",
       "id": "33",
-      "text": "**exxMark\nEon: You are lying! I don't believe a single thing you say! @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent: If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time.\n[[Ox|Okay]]\n[[Eagle|Before]]\n[[Lion|Walk]]",
+      "text": "**exxMark\nEon: (text-colour:\"blue\")[You are lying! I don't believe a single thing you say!] @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent: (text-colour:\"red\")[If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.]\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time.\n[[Ox|Okay]]\n[[Eagle|Before]]\n[[Lion|Walk]]",
       "links": [
         {
           "linkText": "Ox|Okay",
@@ -556,13 +556,13 @@
           "original": "[[Lion|Walk]]"
         }
       ],
-      "cleanText": "**exxMark\nEon: You are lying! I don't believe a single thing you say! @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent: If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time."
+      "cleanText": "**exxMark\nEon: (text-colour:\"blue\")[You are lying! I don't believe a single thing you say!] @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent: (text-colour:\"red\")[If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.]\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time."
     },
     {
       "name": "Loops",
       "tags": "",
       "id": "34",
-      "text": "**recycle\n@sfx_snake\n@eon_shaking_ox\nSerpent: Listen to me, kid, you are stuck in a loop. Living the same day forever. And that is all there to keep you away from the apple. Because if you eat the apple, you'll be awake. And you'll be free from this pretty prison.\n[[Ox|Prove]]\n[[Eagle|Apple]]\n[[Lion|Away]]",
+      "text": "**recycle\n@sfx_snake @eon_dance_ox\nSerpent: (text-colour:\"red\")[Listen to me, kid, you are stuck in a loop. Living the same day forever. And that is all there to keep you away from the apple. Because if you eat the apple, you'll be awake. And you'll be free from this pretty prison.]\n[[Ox|Prove]]\n[[Eagle|Apple]]\n[[Lion|Away]]",
       "links": [
         {
           "linkText": "Ox|Prove",
@@ -580,13 +580,13 @@
           "original": "[[Lion|Away]]"
         }
       ],
-      "cleanText": "**recycle\n@sfx_snake\n@eon_shaking_ox\nSerpent: Listen to me, kid, you are stuck in a loop. Living the same day forever. And that is all there to keep you away from the apple. Because if you eat the apple, you'll be awake. And you'll be free from this pretty prison."
+      "cleanText": "**recycle\n@sfx_snake @eon_dance_ox\nSerpent: (text-colour:\"red\")[Listen to me, kid, you are stuck in a loop. Living the same day forever. And that is all there to keep you away from the apple. Because if you eat the apple, you'll be awake. And you'll be free from this pretty prison.]"
     },
     {
       "name": "Okay",
       "tags": "Ox",
       "id": "35",
-      "text": "**tick\nEon can't stand the idea that her dad is a liar. She knows he is not.\n@eon_disappointed_ox\nEon: Okay! I accept your challenge. I'll eat the apple, and prove to you that my dad is an honest person.\n[[Ox|Decide]]",
+      "text": "**tick\nEon can't stand the idea that her dad is a liar. She knows he is not.\n@eon_disappointed_ox\nEon: (text-colour:\"blue\")[Okay! I accept your challenge. I'll eat the apple, and prove to you that my dad is an honest person.]\n[[Ox|Decide]]",
       "links": [
         {
           "linkText": "Ox|Decide",
@@ -594,13 +594,13 @@
           "original": "[[Ox|Decide]]"
         }
       ],
-      "cleanText": "**tick\nEon can't stand the idea that her dad is a liar. She knows he is not.\n@eon_disappointed_ox\nEon: Okay! I accept your challenge. I'll eat the apple, and prove to you that my dad is an honest person."
+      "cleanText": "**tick\nEon can't stand the idea that her dad is a liar. She knows he is not.\n@eon_disappointed_ox\nEon: (text-colour:\"blue\")[Okay! I accept your challenge. I'll eat the apple, and prove to you that my dad is an honest person.]"
     },
     {
       "name": "Walk",
       "tags": "",
       "id": "36",
-      "text": "**exxMark\n@eon_walk_lion\nEon: We're done here.\nShe just walks away. The serpent panics.\nSerpent: No, no! Wait! \nHe jumps and grabs Eon's leg.\n[[Lion|Scream]]",
+      "text": "**exxMark\n@eon_walk_lion\nEon: (text-colour:\"blue\")[We're done here.]\nThe serpent panics as Eon walks away.\nSerpent: (text-colour:\"red\")[No, no! Wait!] \nHe jumps and grabs Eon's leg.\n[[Lion|Scream]]",
       "links": [
         {
           "linkText": "Lion|Scream",
@@ -608,13 +608,13 @@
           "original": "[[Lion|Scream]]"
         }
       ],
-      "cleanText": "**exxMark\n@eon_walk_lion\nEon: We're done here.\nShe just walks away. The serpent panics.\nSerpent: No, no! Wait! \nHe jumps and grabs Eon's leg."
+      "cleanText": "**exxMark\n@eon_walk_lion\nEon: (text-colour:\"blue\")[We're done here.]\nThe serpent panics as Eon walks away.\nSerpent: (text-colour:\"red\")[No, no! Wait!] \nHe jumps and grabs Eon's leg."
     },
     {
       "name": "Warning",
       "tags": "",
       "id": "37",
-      "text": "**dialog\n@eon_disappointed_eagle\nEon: Nothing you say makes any sense to me. I am happy here. And I don't know you. Please leave or I'll call guards.\nSerpent: You are not listening! This is not happiness, you are just numb!\n[[Eagle|Guards]]",
+      "text": "**dialog\n@eon_disappointed_eagle\nEon: (text-colour:\"blue\")[Nothing you say makes any sense to me. I am happy here. And I don't know you. Please leave or I'll call guards.]\nSerpent: (text-colour:\"red\")[You are not listening! This is not happiness, you are just numb!]\n[[Eagle|Guards]]",
       "links": [
         {
           "linkText": "Eagle|Guards",
@@ -622,13 +622,13 @@
           "original": "[[Eagle|Guards]]"
         }
       ],
-      "cleanText": "**dialog\n@eon_disappointed_eagle\nEon: Nothing you say makes any sense to me. I am happy here. And I don't know you. Please leave or I'll call guards.\nSerpent: You are not listening! This is not happiness, you are just numb!"
+      "cleanText": "**dialog\n@eon_disappointed_eagle\nEon: (text-colour:\"blue\")[Nothing you say makes any sense to me. I am happy here. And I don't know you. Please leave or I'll call guards.]\nSerpent: (text-colour:\"red\")[You are not listening! This is not happiness, you are just numb!]"
     },
     {
       "name": "Scream",
       "tags": "",
       "id": "38",
-      "text": "**explosion\n@eon_scared_lion\nEon is scared as hell. She stars screaming. @sfx_scream\nEon: GET AWAY FROM ME!!!\nIn panic, she steps on the Serpent's head. Multiple times.\nSerpent: Arghhhh!!!\n[[Lion|Sorry]]",
+      "text": "**explosion\n@eon_scared_lion @sfx_fluteBroken\nEon is scared as hell. She stars screaming. @sfx_scream\nEon: (text-colour:\"blue\")[GET AWAY FROM ME!!!]\nIn panic, she kicks on the Serpent's head. Multiple times.\nSerpent: (text-colour:\"red\")[Arghhhh!!!]\n[[Lion|Sorry]]",
       "links": [
         {
           "linkText": "Lion|Sorry",
@@ -636,13 +636,13 @@
           "original": "[[Lion|Sorry]]"
         }
       ],
-      "cleanText": "**explosion\n@eon_scared_lion\nEon is scared as hell. She stars screaming. @sfx_scream\nEon: GET AWAY FROM ME!!!\nIn panic, she steps on the Serpent's head. Multiple times.\nSerpent: Arghhhh!!!"
+      "cleanText": "**explosion\n@eon_scared_lion @sfx_fluteBroken\nEon is scared as hell. She stars screaming. @sfx_scream\nEon: (text-colour:\"blue\")[GET AWAY FROM ME!!!]\nIn panic, she kicks on the Serpent's head. Multiple times.\nSerpent: (text-colour:\"red\")[Arghhhh!!!]"
     },
     {
       "name": "Sorry",
       "tags": "",
       "id": "39",
-      "text": "**dead\n@eon_surprised_lion\nThe Serpent's head is crushed.\nEon looks at him in shock. \nEon: Omg...Omg, I am so sorry. I didn't mean to...\nEon realizes there was nothing else to do. So she calls the guards.\n[[Lion|Criminal]]",
+      "text": "**dead\n@eon_surprised_lion @sfx_fluteBroken\nSerpent's head is smashed.\nEon looks at him in shock. \nEon: (text-colour:\"blue\")[Omg...Omg, I am so sorry. I didn't mean to...]\nEon realizes there was nothing else to do. So she calls the guards.\n[[Lion|Criminal]]",
       "links": [
         {
           "linkText": "Lion|Criminal",
@@ -650,13 +650,13 @@
           "original": "[[Lion|Criminal]]"
         }
       ],
-      "cleanText": "**dead\n@eon_surprised_lion\nThe Serpent's head is crushed.\nEon looks at him in shock. \nEon: Omg...Omg, I am so sorry. I didn't mean to...\nEon realizes there was nothing else to do. So she calls the guards."
+      "cleanText": "**dead\n@eon_surprised_lion @sfx_fluteBroken\nSerpent's head is smashed.\nEon looks at him in shock. \nEon: (text-colour:\"blue\")[Omg...Omg, I am so sorry. I didn't mean to...]\nEon realizes there was nothing else to do. So she calls the guards."
     },
     {
       "name": "Criminal",
       "tags": "",
       "id": "40",
-      "text": "**cry\n@eon_cry_lion\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief: It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.\nEon is in tears.\n[[Lion|Gift]]",
+      "text": "**cry\n@eon_cry_lion @sfx_whistleFlute\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief: (text-colour:\"deeppink\")[It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.]\nEon is in tears.\n[[Lion|Gift]]",
       "links": [
         {
           "linkText": "Lion|Gift",
@@ -664,21 +664,21 @@
           "original": "[[Lion|Gift]]"
         }
       ],
-      "cleanText": "**cry\n@eon_cry_lion\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief: It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.\nEon is in tears."
+      "cleanText": "**cry\n@eon_cry_lion @sfx_whistleFlute\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief: (text-colour:\"deeppink\")[It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.]\nEon is in tears."
     },
     {
       "name": "Gift",
       "tags": "",
       "id": "41",
-      "text": "**peach\n@eon_eat_lion\nEon: But what was his crime?\nChief: Don't bother yourself with these right now. Here, a delicious peach for you.\nEon looks at the peach. It reminds him of the dead serpent now. Why did he have to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end",
+      "text": "**peach\n@eon_eat_lion @sfx_bite\nEon: (text-colour:\"blue\")[But what was his crime?]\nChief: (text-colour:\"deeppink\")[Don't bother yourself with these right now. Here, a delicious peach for you.]\nEon looks at the peach. It reminds him of the dead serpent now. Why did he have to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end",
       "links": [],
-      "cleanText": "**peach\n@eon_eat_lion\nEon: But what was his crime?\nChief: Don't bother yourself with these right now. Here, a delicious peach for you.\nEon looks at the peach. It reminds him of the dead serpent now. Why did he have to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end"
+      "cleanText": "**peach\n@eon_eat_lion @sfx_bite\nEon: (text-colour:\"blue\")[But what was his crime?]\nChief: (text-colour:\"deeppink\")[Don't bother yourself with these right now. Here, a delicious peach for you.]\nEon looks at the peach. It reminds him of the dead serpent now. Why did he have to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end"
     },
     {
       "name": "Decide",
       "tags": "",
       "id": "42",
-      "text": "**apple\nEon and the Serpent walks to the apple tree. Eon can barely breathe. \nShe grabs an apple from the tree. @eon_anxious_ox\nEon: Looks so shiny and smells really good.\nSerpent: I know! So, do you dare to learn the truth?\n[[Ox|Dare]]\n[[Eagle|Logic]]",
+      "text": "**apple\nEon and the Serpent walks to the apple tree. Eon can barely breathe. \nShe grabs an apple from the tree. @eon_anxious_ox\nEon: (text-colour:\"blue\")[Looks so shiny and smells really good.]\nSerpent: (text-colour:\"red\")[I know! So, do you dare to learn the truth?]\n[[Ox|Dare]]\n[[Eagle|Logic]]",
       "links": [
         {
           "linkText": "Ox|Dare",
@@ -691,13 +691,13 @@
           "original": "[[Eagle|Logic]]"
         }
       ],
-      "cleanText": "**apple\nEon and the Serpent walks to the apple tree. Eon can barely breathe. \nShe grabs an apple from the tree. @eon_anxious_ox\nEon: Looks so shiny and smells really good.\nSerpent: I know! So, do you dare to learn the truth?"
+      "cleanText": "**apple\nEon and the Serpent walks to the apple tree. Eon can barely breathe. \nShe grabs an apple from the tree. @eon_anxious_ox\nEon: (text-colour:\"blue\")[Looks so shiny and smells really good.]\nSerpent: (text-colour:\"red\")[I know! So, do you dare to learn the truth?]"
     },
     {
       "name": "Dare",
       "tags": "",
       "id": "43",
-      "text": "**apple\nEon is having second thoughts. But she just hates the idea of father lying to her. @eon_eat_ox\nEon: Okay, here I come!\nShe she takes a big bite from the apple.\nThe serpent's smile covers his whole face. Than he disappears.\n[[Ox|Hit]]",
+      "text": "**apple\nEon is having second thoughts. But she just hates the idea of father lying to her. @eon_eat_ox\nEon: (text-colour:\"blue\")[Okay, here I come!]\nShe she takes a big bite from the apple.\nThe serpent's smile covers his whole face. Than he disappears.\n[[Ox|Hit]]",
       "links": [
         {
           "linkText": "Ox|Hit",
@@ -705,13 +705,13 @@
           "original": "[[Ox|Hit]]"
         }
       ],
-      "cleanText": "**apple\nEon is having second thoughts. But she just hates the idea of father lying to her. @eon_eat_ox\nEon: Okay, here I come!\nShe she takes a big bite from the apple.\nThe serpent's smile covers his whole face. Than he disappears."
+      "cleanText": "**apple\nEon is having second thoughts. But she just hates the idea of father lying to her. @eon_eat_ox\nEon: (text-colour:\"blue\")[Okay, here I come!]\nShe she takes a big bite from the apple.\nThe serpent's smile covers his whole face. Than he disappears."
     },
     {
       "name": "Logic",
       "tags": "",
       "id": "44",
-      "text": "**think\nEon doesn't say anything. @eon_think_eagle\nShe is still making calculations in her head.\nEon: If he is right, somehow, I doubt that would make my life any easier. and it is already beautiful, I love it here.\n[[Eagle|Outcast]]\n[[Ox|Dare]]",
+      "text": "**think\nEon doesn't say anything. @eon_think_eagle\nShe is still making calculations in her head.\nEon: (text-colour:\"blue\")[If he is right, somehow, I doubt that would make my life any easier. and it is already beautiful, I love it here.]\n[[Eagle|Outcast]]\n[[Ox|Dare]]",
       "links": [
         {
           "linkText": "Eagle|Outcast",
@@ -724,13 +724,13 @@
           "original": "[[Ox|Dare]]"
         }
       ],
-      "cleanText": "**think\nEon doesn't say anything. @eon_think_eagle\nShe is still making calculations in her head.\nEon: If he is right, somehow, I doubt that would make my life any easier. and it is already beautiful, I love it here."
+      "cleanText": "**think\nEon doesn't say anything. @eon_think_eagle\nShe is still making calculations in her head.\nEon: (text-colour:\"blue\")[If he is right, somehow, I doubt that would make my life any easier. and it is already beautiful, I love it here.]"
     },
     {
       "name": "Hit",
       "tags": "",
       "id": "45",
-      "text": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox\nEon: ARGHHHHH!!!\n[[Ox|Bent]]",
+      "text": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox @sfx_explosion\nEon: (text-colour:\"blue\")[ARGHHHHH!!!]\n[[Ox|Bent]]",
       "links": [
         {
           "linkText": "Ox|Bent",
@@ -738,7 +738,7 @@
           "original": "[[Ox|Bent]]"
         }
       ],
-      "cleanText": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox\nEon: ARGHHHHH!!!"
+      "cleanText": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox @sfx_explosion\nEon: (text-colour:\"blue\")[ARGHHHHH!!!]"
     },
     {
       "name": "Bent",
@@ -772,7 +772,7 @@
       "name": "Dizzy",
       "tags": "",
       "id": "48",
-      "text": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam: Hey? Are you okay?\n[[Ox|Adam]]",
+      "text": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam: (text-colour:\"firebrick\")[Hey? Are you okay?]\n[[Ox|Adam]]",
       "links": [
         {
           "linkText": "Ox|Adam",
@@ -780,13 +780,13 @@
           "original": "[[Ox|Adam]]"
         }
       ],
-      "cleanText": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam: Hey? Are you okay?"
+      "cleanText": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam: (text-colour:\"firebrick\")[Hey? Are you okay?]"
     },
     {
       "name": "Adam",
       "tags": "",
       "id": "49",
-      "text": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon: Who are you?\nAdam: Oh sorry, I am Adam. \n[[Ox|Same]]",
+      "text": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon: (text-colour:\"blue\")[Who are you?]\nAdam: (text-colour:\"firebrick\")[Oh sorry, I am Adam.] \n[[Ox|Same]]",
       "links": [
         {
           "linkText": "Ox|Same",
@@ -794,13 +794,13 @@
           "original": "[[Ox|Same]]"
         }
       ],
-      "cleanText": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon: Who are you?\nAdam: Oh sorry, I am Adam."
+      "cleanText": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon: (text-colour:\"blue\")[Who are you?]\nAdam: (text-colour:\"firebrick\")[Oh sorry, I am Adam.]"
     },
     {
       "name": "Same",
       "tags": "",
       "id": "50",
-      "text": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: Did you come from the Garden as well?\nThis question surprised Eon.\nEon: Yes...But how did you know that?\nAdam: Well...That's also where I came from.\n[[Ox|Answer]]",
+      "text": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: Did you come from the Garden as well?\nThis question surprised Eon.\nEon: (text-colour:\"blue\")[Yes...But how did you know that?]\nAdam: (text-colour:\"firebrick\")[Well...That's also where I came from.]\n[[Ox|Answer]]",
       "links": [
         {
           "linkText": "Ox|Answer",
@@ -808,13 +808,13 @@
           "original": "[[Ox|Answer]]"
         }
       ],
-      "cleanText": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: Did you come from the Garden as well?\nThis question surprised Eon.\nEon: Yes...But how did you know that?\nAdam: Well...That's also where I came from."
+      "cleanText": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: Did you come from the Garden as well?\nThis question surprised Eon.\nEon: (text-colour:\"blue\")[Yes...But how did you know that?]\nAdam: (text-colour:\"firebrick\")[Well...That's also where I came from.]"
     },
     {
       "name": "Answer",
       "tags": "",
       "id": "51",
-      "text": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon: But...I've never seen you there. How is that possib...\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam: I think you know the answer.\n[[Ox|Loneliness]]",
+      "text": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon: (text-colour:\"blue\")[But...I've never seen you there. How is that possib...]\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam: (text-colour:\"firebrick\")[I think you know the answer.]\n[[Ox|Loneliness]]",
       "links": [
         {
           "linkText": "Ox|Loneliness",
@@ -822,13 +822,13 @@
           "original": "[[Ox|Loneliness]]"
         }
       ],
-      "cleanText": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon: But...I've never seen you there. How is that possib...\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam: I think you know the answer."
+      "cleanText": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon: (text-colour:\"blue\")[But...I've never seen you there. How is that possib...]\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam: (text-colour:\"firebrick\")[I think you know the answer.]"
     },
     {
       "name": "Loneliness",
       "tags": "",
       "id": "52",
-      "text": "**apple\nAdam: Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with. @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam: So, I've been walking around everyday to run into someone, somehow. And today is the day.\n[[Ox|Hungry]]",
+      "text": "**apple\nAdam: (text-colour:\"firebrick\")[Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with.] @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam: (text-colour:\"firebrick\")[So, I've been walking around everyday to run into someone, somehow. And today is the day.]\n[[Ox|Hungry]]",
       "links": [
         {
           "linkText": "Ox|Hungry",
@@ -836,13 +836,13 @@
           "original": "[[Ox|Hungry]]"
         }
       ],
-      "cleanText": "**apple\nAdam: Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with. @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam: So, I've been walking around everyday to run into someone, somehow. And today is the day."
+      "cleanText": "**apple\nAdam: (text-colour:\"firebrick\")[Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with.] @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam: (text-colour:\"firebrick\")[So, I've been walking around everyday to run into someone, somehow. And today is the day.]"
     },
     {
       "name": "Hungry",
       "tags": "",
       "id": "53",
-      "text": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: Where are we? This is the middle of nowhere!\nAdam: Don't panic! There is a small lake nearby where we can rest, have some water and food.\nEon's stomach grumbles as Adam is speaking.\nAdam: Oh, you must be hungry! Here, I have another apple for you.\nHe gives Eon a bright blue apple.\n[[Ox|Together]]",
+      "text": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: (text-colour:\"blue\")[Where are we? This is the middle of nowhere!\nAdam: Don't panic! There is a small lake nearby where we can rest, have some water and food.]\nEon's stomach grumbles as Adam is speaking.\nAdam: (text-colour:\"blue\")[Oh, you must be hungry! Here, I have another apple for you.]\nHe gives Eon a bright blue apple.\n[[Ox|Together]]",
       "links": [
         {
           "linkText": "Ox|Together",
@@ -850,15 +850,15 @@
           "original": "[[Ox|Together]]"
         }
       ],
-      "cleanText": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: Where are we? This is the middle of nowhere!\nAdam: Don't panic! There is a small lake nearby where we can rest, have some water and food.\nEon's stomach grumbles as Adam is speaking.\nAdam: Oh, you must be hungry! Here, I have another apple for you.\nHe gives Eon a bright blue apple."
+      "cleanText": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: (text-colour:\"blue\")[Where are we? This is the middle of nowhere!\nAdam: Don't panic! There is a small lake nearby where we can rest, have some water and food.]\nEon's stomach grumbles as Adam is speaking.\nAdam: (text-colour:\"blue\")[Oh, you must be hungry! Here, I have another apple for you.]\nHe gives Eon a bright blue apple."
     },
     {
       "name": "Together",
       "tags": "",
       "id": "54",
-      "text": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: Come on, hold on to me. And we'll make it there together.\nEon gets up holding on to Adam. It feels good to have someone around, she thinks.\nThey walk together towards the horizon. They don't let go of each other's hands.\n@end",
+      "text": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: (text-colour:\"firebrick\")[Come on, hold on to me. And we'll make it there together.]\nEon gets up holding on to Adam. It feels good to have someone around, she thinks.\nThey walk together towards the horizon. They don't let go of each other's hands.\n@end",
       "links": [],
-      "cleanText": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: Come on, hold on to me. And we'll make it there together.\nEon gets up holding on to Adam. It feels good to have someone around, she thinks.\nThey walk together towards the horizon. They don't let go of each other's hands.\n@end"
+      "cleanText": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: (text-colour:\"firebrick\")[Come on, hold on to me. And we'll make it there together.]\nEon gets up holding on to Adam. It feels good to have someone around, she thinks.\nThey walk together towards the horizon. They don't let go of each other's hands.\n@end"
     }
   ]
 }
