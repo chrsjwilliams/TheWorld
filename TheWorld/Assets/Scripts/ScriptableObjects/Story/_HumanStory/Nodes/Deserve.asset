@@ -79,13 +79,14 @@ MonoBehaviour:
   NodeTitle: Deserve
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' How do you know I deserve better? You don''t know me.'
+    line: ' (text-colour:"blue")[How do you know I deserve better? You don''t know
+      me.]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' You are smart kid. I like that. That''s true, but I know your father.
-      I know his intentions. He is making you live the same day over and over again.
-      Forever!'
+    line: ' (text-colour:"red")[You are smart kid. I like that. That''s true, but
+      I know your father. I know his intentions. He is making you live the same day
+      over and over again. Forever!]'
     lineActions: []
     Notes: 
   Notes: 

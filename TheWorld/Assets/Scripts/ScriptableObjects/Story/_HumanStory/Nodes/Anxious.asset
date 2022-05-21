@@ -82,18 +82,18 @@ MonoBehaviour:
     line: Eon is searching for a face but can't see anyone.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Don''t be anxious kid, there is no reason to be scared!'
+  - speaker: {fileID: 0}
+    line: ' (text-colour:"red")[Don''t be anxious kid, there is no reason to be scared!]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I am not scared! But in fact, I believe you are since you''re the one
-      who is hiding. '
+    line: '(text-colour:"blue")[I am not scared! But in fact, I believe you are since
+      you''re the one who is hiding.] '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Well, if I come out, you need to face the truth. Do you think you''re
-      ready for that?'
+  - speaker: {fileID: 0}
+    line: ' (text-colour:"red")[Well, if I come out, you need to face the truth.
+      Do you think you''re ready for that?]'
     lineActions: []
     Notes: 
   Notes: 

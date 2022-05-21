@@ -83,11 +83,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Who is that?'
+    line: ' (text-colour:"blue")[Who is that?]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Just someone who is bored of watching the same silly routine every morning.'
+    line: ' (text-colour:"red")[Just someone who is bored of watching the same silly
+      routine every morning.]'
     lineActions: []
     Notes: 
   Notes: 

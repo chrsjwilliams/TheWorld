@@ -92,19 +92,21 @@ MonoBehaviour:
   NodeTitle: Peach
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Her search stops when her eyes spotted a juicy peach.
-    lineActions: []
+    line: 'Her search stops when her eyes spotted a juicy peach. '
+    lineActions:
+    - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Here is my breakfast!'
+    line: ' (text-colour:"blue")[Here is my breakfast!]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: As she is reaching to grab it, a mysterious voice confronts her.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Arghh, same ridiculous routine every morning. Aren''t you bored yet?'
+  - speaker: {fileID: 0}
+    line: ' (text-colour:"red")[Arghh, same ridiculous routine every morning. Aren''t
+      you bored yet?] '
     lineActions: []
     Notes: 
   Notes: 

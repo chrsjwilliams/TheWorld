@@ -70,15 +70,19 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What are they lying about?'
+    line: ' (text-colour:"blue")[What are they lying about?]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Serpent pauses for a moment. He seems to enjoy this conversation though. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' "Your whole life."'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: 'He whispers in devilous tunes. '
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
+    line: ' (text-colour:"red")[Your whole life.]'
     lineActions: []
     Notes: 
   Notes: 

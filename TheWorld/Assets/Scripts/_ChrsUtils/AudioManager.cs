@@ -4,7 +4,8 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 
 public enum SFX {   CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER, SNAKE,
-                    DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM}
+                    DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM, WHISTLE, 
+                    WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER}
 
 public enum BGM { SILENCE, GARDEN, OFFICE }
 
@@ -37,6 +38,13 @@ public class AudioManager : SerializedMonoBehaviour
         audioLibrary.Add(SFX.SHORTOFBREATH, Resources.Load<AudioClip>("sfx/sfx_shortOfBreath.mp3"));
         audioLibrary.Add(SFX.SIREN, Resources.Load<AudioClip>("sfx/sfx_siren.mp3"));
         audioLibrary.Add(SFX.SLAM, Resources.Load<AudioClip>("sfx/sfx_slam.mp3"));
+        audioLibrary.Add(SFX.WHOOSH, Resources.Load<AudioClip>("sfx/sfx_whoosh.wav"));
+        audioLibrary.Add(SFX.YAWN, Resources.Load<AudioClip>("sfx/sfx_yawn.mp3"));
+        audioLibrary.Add(SFX.FLUTE, Resources.Load<AudioClip>("sfx/sfx_flute.mp3"));
+        audioLibrary.Add(SFX.FLUTEBROKEN, Resources.Load<AudioClip>("sfx/sfx_fluteBroken.mp3"));
+        audioLibrary.Add(SFX.WHISTLE, Resources.Load<AudioClip>("sfx/sfx_whistle.mp3"));
+        audioLibrary.Add(SFX.CREEPYWHISPER, Resources.Load<AudioClip>("sfx/sfx_creepyWhisper.mp3"));
+        audioLibrary.Add(SFX.SNAKE, Resources.Load<AudioClip>("sfx/sfx_snake.mp3"));
 
 
         bgmLibrary.Add(BGM.GARDEN, Resources.Load<AudioClip>("music/bg-garden.mp3"));

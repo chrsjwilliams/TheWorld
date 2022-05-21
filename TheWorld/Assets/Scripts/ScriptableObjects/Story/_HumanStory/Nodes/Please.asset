@@ -70,15 +70,15 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' That is not true, I ate an apple yesterday.'
+    line: ' (text-colour:"blue")[That is not true, I ate an apple yesterday.]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: The voice laughs hysterically. sfx_evilLaughter
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Oh, poor child, I only feel sorry for you.'
+  - speaker: {fileID: 0}
+    line: ' (text-colour:"red")[Oh, poor child, I only feel sorry for you.]'
     lineActions: []
     Notes: 
   Notes: 

@@ -79,11 +79,12 @@ MonoBehaviour:
   NodeTitle: Why
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But why would you do that? You don''t know me...'
+    line: ' (text-colour:"blue")[But why would you do that? You don''t know me...]'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Because they have been lying to you. And you deserve better than that.'
+    line: ' (text-colour:"red")[Because they have been lying to you. And you deserve
+      better than that.]'
     lineActions: []
     Notes: 
   Notes: 

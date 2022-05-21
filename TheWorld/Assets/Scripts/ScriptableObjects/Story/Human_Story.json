@@ -5,7 +5,7 @@
   "creatorVersion": "2.3.1",
   "schemaName": "Twine to JSON",
   "schemaVersion": "0.0.6",
-  "createdAtMs": 1653012932551,
+  "createdAtMs": 1653085809406,
   "passages": [
     {
       "name": "In The Garden",
@@ -223,7 +223,7 @@
       "name": "About",
       "tags": "Ox",
       "id": "14",
-      "text": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: (text-colour:\"red\")[Your whole life.]\n[[Ox|No]]",
+      "text": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes. \nSerpent: (text-colour:\"red\")[Your whole life.]\n[[Ox|No]]",
       "links": [
         {
           "linkText": "Ox|No",
@@ -231,7 +231,7 @@
           "original": "[[Ox|No]]"
         }
       ],
-      "cleanText": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes: (text-colour:\"red\")[Your whole life.]"
+      "cleanText": "**dialog\nEon feels chills on her body.\nEon: (text-colour:\"blue\")[What are they lying about?]\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes. \nSerpent: (text-colour:\"red\")[Your whole life.]"
     },
     {
       "name": "Deserve",
