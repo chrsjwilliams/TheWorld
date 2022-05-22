@@ -66,12 +66,13 @@ MonoBehaviour:
   NodeTitle: Warning
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Nothing you say makes any sense to me. I am happy here. And I don''t
-      know you. Please leave or I''ll call guards.'
+    line: <color="blue">"Nothing you say makes any sense to me. I am happy here.
+      And I don't know you. Please leave or I'll call the guards."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' You are not listening! This is not happiness, you are just numb!'
+    line: <color="red">"You are not listening! This is not happiness, you are just
+      numb!"</color>
     lineActions: []
     Notes: 
   Notes: 

@@ -66,12 +66,12 @@ MonoBehaviour:
   NodeTitle: No
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Eon is shaking. '
+    line: 'This sounds just too horrible to be true. '
     lineActions:
-    - {fileID: 11400000, guid: 75ef4462546b34d778761912156d409a, type: 2}
+    - {fileID: 11400000, guid: c3d81ea4b44864f62a519ec0c3554651, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' No, he wouldn''t do that! He loves me!'
+    line: ' <color="blue">"No! He wouldn''t do that! He loves me!"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,8 +79,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Ah, the things we do for love... Though, I think that expressions if
-      for a different context.'
+    line: <color="red">"Ah, the things we do for love... Though, I think that expressions
+      if for a different context."</color>
     lineActions: []
     Notes: 
   Notes: 

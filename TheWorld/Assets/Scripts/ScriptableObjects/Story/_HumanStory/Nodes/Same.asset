@@ -71,7 +71,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 06f4d3a6cba3a49e5ba4ce74614cf08c, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Did you come from the Garden as well?'
+    line: ' <color="firebrick">"Did you come from the Garden as well?"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,11 +79,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Yes...But how did you know that?'
+    line: ' <color="blue">"Yes...But how did you know that?"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Well...That''s also where I came from.'
+    line: ' <color="firebrick">"Well...That''s also where I came from."</color>'
     lineActions: []
     Notes: 
   Notes: 

@@ -66,15 +66,15 @@ MonoBehaviour:
   NodeTitle: Walk
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' We''re done here.'
+    line: <color = "blue">"We're done here."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: She just walks away. The serpent panics.
+    line: The serpent panics as Eon walks away.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' No, no! Wait! '
+    line: '<color = "red">"No, no! Wait!"</color> '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

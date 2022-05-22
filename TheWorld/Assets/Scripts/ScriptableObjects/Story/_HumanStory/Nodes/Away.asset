@@ -79,7 +79,7 @@ MonoBehaviour:
   NodeTitle: Away
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Just go away, I can''t deal with your nonsense anymore.'
+    line: ' <color = "blue">"Just go away, I can''t deal with your nonsense anymore."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -87,7 +87,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' It''s not nonsense! I am telling you the truth! I am trying to save you!'
+    line: <color = "red">"It's not nonsense! I am telling you the truth! I am trying
+      to save you!"</color>
     lineActions: []
     Notes: 
   Notes: 

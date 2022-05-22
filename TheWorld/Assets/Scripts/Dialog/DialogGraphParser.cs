@@ -5,8 +5,9 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
+// ~TODO:  
+//          reset tet bos profiel picture
 
-// ~TODO: random selecting of 3 text boxes
 public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]
@@ -22,38 +23,52 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] CharacterData narrator;
     [SerializeField] DialogGraph dialogGraph;
 
+    [Space(25)]
     [SerializeField] DialogNode currentNode;
 
-    [SerializeField] Stack<DialogNode> visitedNodes = new Stack<DialogNode>();
+    [Space(25)]
+    [SerializeField] List<DialogNode> visitedNodes = new List<DialogNode>();
 
+    [Space(25)]
     [SerializeField] TextMeshProUGUI nodeNameText;
     [SerializeField] TextMeshProUGUI dialogText;
+    [SerializeField] TextMeshProUGUI backArrowCounter;
     [SerializeField] HorizontalLayoutGroup horizontalLayoutGroup;
+    [SerializeField] ToggleButtonUsingBoolSO backButton;
+    int backArrowCount;
 
+    [Space(25)]
     [SerializeField] Image playerProfile;
     [SerializeField] Image npcProfile;
     [SerializeField] Image wheelProfile;
     [SerializeField] Image nodeImage;
 
+    [Space(25)]
     [SerializeField] List<TextBox> textBoxes;
     TextBox selectedTexBox;
 
+    [Space(25)]
     [SerializeField] CanvasGroup playerProfileCanvasGroup;
     [SerializeField] CanvasGroup npcProfileCanvasGroup;
     [SerializeField] CanvasGroup characterSelection;
 
+    [Space(25)]
     [SerializeField] SpriteRenderer background;
 
+    [Space(25)]
     [SerializeField] DialogButton selectedButton;
     [SerializeField] List<DialogButton> unselectedButtons;
     List<DialogButton> allButtons;
 
+    [Space(25)]
     public int dialogLineIndex = 0;
     [SerializeField] BoolVariable CanMakeSelection;
     [SerializeField] BoolVariable MadeSelection;
 
+    [Space(25)]
     [SerializeField] MonoTweener fadeInScreenCover;
 
+    [Space(25)]
     [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
     [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
 
@@ -61,9 +76,6 @@ public class DialogGraphParser : MonoBehaviour
     const string COLOR_TAG = " (text-color: ";
 
     ShuffleBag<int> intBag = new ShuffleBag<int>();
-
-
-    bool mustMakeSelection;
 
     public void FinishedAnimating(bool b)
     {
@@ -90,7 +102,24 @@ public class DialogGraphParser : MonoBehaviour
 
     public void PreviousButtonPressed()
     {
+        if (backArrowCount == 0)
+        {
+            // ~TODO: play some error sound
+            return;
+        }
+        backArrowCount -= 1;
+        backArrowCounter.text = backArrowCount + "";
 
+        visitedNodes.RemoveAt(0);
+        // Go backa node
+        Debug.Log("~~~LEAVING TO NODE: " + currentNode.name);
+        var prevNode = visitedNodes[0];
+        Debug.Log("~~~GOING TO NODE: " + currentNode.name);
+        GoToVisitedNode(prevNode);
+        if (backArrowCount < 1)
+        {
+            backButton.turnOffButton = true;
+        }
     }
 
     public void StartStory(TransitionData data)
@@ -127,7 +156,7 @@ public class DialogGraphParser : MonoBehaviour
         currentNode = dialogGraph.startingNode;
         nodeNameText.text = currentNode.NodeTitle;
         visitedNodes.Clear();
-        visitedNodes.Push(currentNode);
+        visitedNodes.Insert(0, currentNode);
         currentNode.ExecuteTagActions(() => { });
         dialogLineIndex = 0;
         if (!displayAllLines)
@@ -139,40 +168,11 @@ public class DialogGraphParser : MonoBehaviour
             DisplayAllNodeText();
         }
         DisplayDialogChoices();
-        playerProfile.sprite = wheelProfile.sprite;
         Services.AudioManager.PlayBGM(dialogGraph.music);
-
+        backArrowCount = 3;
+        backArrowCounter.text = backArrowCount + "";
+        backButton.turnOffButton = false;
         //HideAllDialogButtons();
-    }
-
-    [Button]
-    public void StartStory()
-    {
-        if (currentNode != null)
-        {
-            Debug.LogError("Current Node is not empty");
-            return;
-        }
-
-        currentNode = dialogGraph.startingNode;
-        nodeNameText.text = currentNode.NodeTitle;
-        visitedNodes.Clear();
-        visitedNodes.Push(currentNode);
-        currentNode.ExecuteTagActions(() => { });
-        dialogLineIndex = 0;
-        if (!displayAllLines)
-        {
-            DisplayNextDialogLine();
-        }
-        else
-        {
-            DisplayAllNodeText();
-        }
-        DisplayDialogChoices();
-        HideAllDialogButtons();
-
-        Services.AudioManager.PlayBGM(dialogGraph.music);
-
     }
 
     void MoveToNextNode()
@@ -205,7 +205,7 @@ public class DialogGraphParser : MonoBehaviour
 
             nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
-            visitedNodes.Push(currentNode);
+            visitedNodes.Insert(0, currentNode);
             // execute actions on the node
             currentNode.ExecuteTagActions(() => { });
             //  reset dialog line index
@@ -231,16 +231,9 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayNextDialogLine()
     {
-
-        // Select textBox
-
-
-
         DialogLine currentLine = currentNode.speakingLines[dialogLineIndex];
 
-        CharacterData character = currentLine.speaker;
-
-        
+        CharacterData character = currentLine.speaker;   
 
         //dialogText.text = currentNode.speakingLines[dialogLineIndex].line;
         SetNodeText();
@@ -254,7 +247,6 @@ public class DialogGraphParser : MonoBehaviour
 
     void DisplayDialogChoices()
     {
-        playerProfile.sprite = wheelProfile.sprite;
 
         if (currentNode.nextNodes.Count == 1)
         {
@@ -360,7 +352,7 @@ public class DialogGraphParser : MonoBehaviour
         oldButton.SetPersonalityChoice(oldChoice);
         selectedButton.SetPersonalityChoice(newChoice);
 
-        playerProfile.sprite = wheelProfile.sprite;
+        selectedTexBox.playerImage.sprite = wheelProfile.sprite;
 
     }
     bool hasNPCDialog = false;
@@ -396,7 +388,7 @@ public class DialogGraphParser : MonoBehaviour
     void SetNodeText()
     {
         string nodetext = "";
-        foreach (DialogLine line in currentNode.speakingLines)
+        foreach (DialogLine line in visitedNodes[0].speakingLines)
         {
             if(line.speaker != narrator && line.speaker != player)
             {
@@ -412,9 +404,6 @@ public class DialogGraphParser : MonoBehaviour
             if (line.line.Contains(COLOR_TAG) || line.line.Contains(COLOUR_TAG))
             {
                 npcProfileCanvasGroup.alpha = 1;
-                //string[] rawTextInfo = c_text.Split(new[] { ':' }, 2);
-                //string[] colorInfo = c_text.Split(new[] { ')' }, 2);
-                //(text-color:
 
                 if (line.line.Contains(COLOR_TAG))
                 {
@@ -442,7 +431,9 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         selectedTexBox = SelectTextBox(nodetext);
-        foreach(TextBox textBox in textBoxes)
+        selectedTexBox.playerImage.sprite = wheelProfile.sprite;
+
+        foreach (TextBox textBox in textBoxes)
         {
             if(textBox != selectedTexBox)
             {
@@ -475,7 +466,7 @@ public class DialogGraphParser : MonoBehaviour
 
             nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
-            visitedNodes.Push(currentNode);
+
             // execute actions on the node
             currentNode.ExecuteTagActions(() => { });
             //  reset dialog line index
@@ -491,6 +482,7 @@ public class DialogGraphParser : MonoBehaviour
             {
                 AllowPlayerCharacterInteraction?.Raise();
             }
+            DisplayDialogChoices();
         }
         else
         {

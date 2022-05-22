@@ -16,8 +16,8 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 0}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 10046067444a8493c97b4024155e6bfe, type: 2}
+    - {fileID: 11400000, guid: 6a8f438d7e8cb45c08b1fbb319bf2d6d, type: 2}
     - {fileID: 11400000, guid: e52a24347b45745c9bf817403693945f, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -88,20 +88,20 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 0ed7db64983b54c0fa6a1f9528560202, type: 3}
+  nodeSprite: {fileID: 0}
   NodeTitle: Apple
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon doesn't really understand.
+    line: Nothing the Serpent claims makes any sense to Eon.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What is special about the apple? It''s just another fruit.'
+    line: <color="blue">"What is special about the apple? It's just another fruit."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' No, that is not true. Apple contains a very special ingredient that will
-      open up your senses. But once you have it, you can never go back.'
+    line: <color="red">"No, that is not true. Apple contains a very special ingredient
+      that will open up your senses. When you have it once, you can never go back."</color>
     lineActions: []
     Notes: 
   Notes: 

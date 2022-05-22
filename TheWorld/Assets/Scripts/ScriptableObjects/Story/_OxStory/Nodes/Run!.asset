@@ -70,15 +70,14 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")["There is no reason to be scared as long as you
-      prove to be sharp."] '
+    line: <color="red">"There is no reason to be scared as long as you prove to be
+      sharp." </color></color>
     lineActions:
     - {fileID: 11400000, guid: d2c4e9f5368cb4882bed43329900626c, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Eon starts running towards the exit. '
-    lineActions:
-    - {fileID: 11400000, guid: 5cb98abb967754a2788d9d2253e62669, type: 2}
+    lineActions: []
     Notes: 
   Notes: 
   lineActions: []

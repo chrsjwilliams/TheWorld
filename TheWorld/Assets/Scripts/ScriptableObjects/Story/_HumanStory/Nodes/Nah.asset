@@ -53,7 +53,7 @@ MonoBehaviour:
   NodeTitle: Nah
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Nah!'
+    line: <color="blue">"Nah!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -61,7 +61,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I''ll just have a peach instead.'
+    line: <color="blue">"I'll just have a peach instead."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -70,5 +70,5 @@ MonoBehaviour:
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: d1b94ea95066a41d1a193a5f23704ea1, type: 2}
+  - {fileID: 11400000, guid: 3d6c8baee5b164654a8d445e9304d482, type: 2}
   - {fileID: 0}

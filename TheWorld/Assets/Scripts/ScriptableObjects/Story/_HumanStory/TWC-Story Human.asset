@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9b520727ad8d2470f847a821698db1fd, type: 3}
-  m_Name: TWC-StoryHuman-Eden
+  m_Name: TWC-Story Human
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -21,9 +21,9 @@ MonoBehaviour:
     PrefabModificationsReferencedUnityObjects: []
     PrefabModifications: []
     SerializationNodes: []
+  MustMakeSelection: 0
   music: 1
   startingNode: {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
-  previouslyVisitedNode: {fileID: 0}
   nodes:
   - {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   - {fileID: 11400000, guid: 277d632e2297e4c7fb68a763127ab283, type: 2}
@@ -79,4 +79,5 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 017a7b024766e4717ab8cb8a8bbc8aa0, type: 2}
   - {fileID: 11400000, guid: 952cae2a683584490a20e11dadfd666a, type: 2}
   - {fileID: 11400000, guid: 12fbf424da4e94af3a15c24cb61a976d, type: 2}
+  - {fileID: 11400000, guid: e9cd2ad7df8ac4ae99adbea8495093b3, type: 2}
   storyBackground: {fileID: 21300000, guid: 811ee0e53ee0f4484b00479364fa6e49, type: 3}

@@ -79,11 +79,17 @@ MonoBehaviour:
   NodeTitle: Why
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But why would you do that? You don''t know me...'
+    line: ' <color = "blue">"But I don''t understand. You don''t know me. Why do
+      you care?"</color>'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: Serpent has a suspicious spark in his eyes.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Because they have been lying to you. And you deserve better than that.'
+    line: <color = "red">"Because they have been lying to you. And I believe you
+      deserve better than that."</color>
     lineActions: []
     Notes: 
   Notes: 

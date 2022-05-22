@@ -10,6 +10,8 @@ public class ToggleButtonUsingBoolSO : MonoBehaviour
     [SerializeField] bool negation;
     [SerializeField] BoolVariable boolSO;
     [SerializeField] Button button;
+    public bool turnOffButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -19,6 +21,12 @@ public class ToggleButtonUsingBoolSO : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (turnOffButton)
+        {
+            button.interactable = false;
+            return;
+        }
+
         button.interactable = negation ? !boolSO.value : boolSO.value;
     }
 }

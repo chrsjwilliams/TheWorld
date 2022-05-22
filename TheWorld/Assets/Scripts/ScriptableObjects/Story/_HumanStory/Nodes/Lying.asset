@@ -87,19 +87,20 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' That is not true. You are lying!'
+    line: ' <color="blue">"That is not true. You are lying!"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' I''m not. Why would I do that?'
+    line: <color = "red">"I'm not. Why would I do that?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Why would they do that?'
+    line: ' <color = "blue">"I don''t see why they would care to stage this in the
+      first place."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Because they don''t want you to taste the apple.'
+    line: ' <color = "red">"Because they don''t want you to taste the apple."</color>'
     lineActions: []
     Notes: 
   Notes: 

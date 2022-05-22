@@ -78,12 +78,17 @@ MonoBehaviour:
   nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Trick
   speakingLines:
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: The direction this conversation is headed sounds extremely suspicious to
+      Eon.
+    lineActions: []
+    Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' So, I''ll be kicked out as well. Why would I do that?'
+    line: <color="blue">"So, I'll be kicked out as well. Why would I do that?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' To live free of course! Make a life of your own!'
+    line: <color="red">"To live free of course! Make a life of your own!"</color>
     lineActions: []
     Notes: 
   Notes: 

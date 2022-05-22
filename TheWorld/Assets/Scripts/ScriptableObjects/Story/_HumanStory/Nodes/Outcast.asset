@@ -66,15 +66,15 @@ MonoBehaviour:
   NodeTitle: Outcast
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Did you have it before?'
+    line: <color="blue">"Did you have it before?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Yes, that''s why I am here now telling you the truth.'
+    line: ' <color="red">"Yes, that''s why I am here now telling you the truth."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Why were you hiding in the tree?'
+    line: <color="blue">"Why were you hiding in the tree?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -82,10 +82,10 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Because I am actually not allowed to be here. They kicked me out after
-      I disobeyed him and ate the apple.'
+    line: <color="red">"Because I am actually not allowed to be here. They kicked
+      me out after I disobeyed him and ate the apple."</color>
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 6fc19094b58564f5d80b1fac316628b2, type: 2}
+  - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}

@@ -66,16 +66,16 @@ MonoBehaviour:
   NodeTitle: Bye
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Cherub 1 grabs the serpent. '
+    line: 'One of the cherubs grabs the serpent. '
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Thank you for calling us. I hope he didn''t disturb you much with his
-      nonsense.'
+    line: <color="deeppink">"Thank you for calling us. I hope he didn't disturb you
+      much with his nonsense."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I''m okay. Thank you for coming.'
+    line: <color="blue">"I'm okay. Thank you for coming."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -83,7 +83,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' THIS IS NOT OVER YET!'
+    line: <color="red">"THIS IS NOT OVER YET!"</color>
     lineActions: []
     Notes: 
   Notes: 

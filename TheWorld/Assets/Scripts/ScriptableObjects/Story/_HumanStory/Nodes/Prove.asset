@@ -92,7 +92,7 @@ MonoBehaviour:
   NodeTitle: Prove
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' You are lying! I don''t believe a single thing you say! '
+    line: '<color="blue">"You are lying! I don''t believe a single thing you say!"</color> '
     lineActions:
     - {fileID: 11400000, guid: 6f12543ddeb1b47dabf499d473061692, type: 2}
     - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
@@ -102,8 +102,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' If you are so sure, then prove it. Just take a bite from the apple, and
-      we''ll see who is lying.'
+    line: <color="red">"If you are so sure, then prove it. Just take a bite from
+      the apple, and we'll see who is lying."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

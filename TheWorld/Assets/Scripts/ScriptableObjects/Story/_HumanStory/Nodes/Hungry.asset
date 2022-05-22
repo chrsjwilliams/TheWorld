@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 12fbf424da4e94af3a15c24cb61a976d, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -62,7 +62,7 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 1
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: fc113a95a59234f3eb6553297b511a60, type: 3}
+  nodeSprite: {fileID: 0}
   NodeTitle: Hungry
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -76,12 +76,12 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 035ac9942a1144401bd26c2de9907af5, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Where are we? This is the middle of nowhere!'
+    line: ' <color="blue">"Where are we? This is the middle of nowhere!"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Don''t panic! There is a small lake nearby where we can rest, have some
-      water and food.'
+    line: ' <color="firebrick">"Don''t panic! There is a small lake nearby where
+      we can rest, have some water and food."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -89,7 +89,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Oh, you must be hungry! Here, I have another apple for you.'
+    line: ' <color="firebrick">"Oh, you must be hungry! Here, I have another apple
+      for you."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

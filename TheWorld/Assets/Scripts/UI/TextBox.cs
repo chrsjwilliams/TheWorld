@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class TextBox : MonoBehaviour
@@ -14,6 +15,8 @@ public class TextBox : MonoBehaviour
     [SerializeField] CanvasGroup player;
     [SerializeField] CanvasGroup npc;
     [SerializeField] TextMeshProUGUI text;
+
+    public Image playerImage;
 
     public void SetText(string incomingText)
     {

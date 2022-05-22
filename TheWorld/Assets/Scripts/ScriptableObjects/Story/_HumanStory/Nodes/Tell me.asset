@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 0}
+    - {fileID: 11400000, guid: ec5a4267bf92a411bb782035ae2cc609, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -62,20 +62,21 @@ MonoBehaviour:
       Data: 
   hasSecretItem: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: 0ed7db64983b54c0fa6a1f9528560202, type: 3}
+  nodeSprite: {fileID: 0}
   NodeTitle: Tell me
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' And what are his intentions with this? Why is he making me live in a
-      loop?'
-    lineActions: []
+    line: '<color="blue">"And what are his intentions with this? Why is he making
+      me live in a loop?"</color> '
+    lineActions:
+    - {fileID: 11400000, guid: 3baf5f8fc5a644f1d9d2478e23f570e3, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Serpent whispers with a devilous smile.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' He doesn''t want you to taste the apple.'
+    line: <color="red">"He doesn't want you to taste the apple."</color>
     lineActions: []
     Notes: 
   Notes: 

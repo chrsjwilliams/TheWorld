@@ -79,20 +79,24 @@ MonoBehaviour:
   NodeTitle: Hello
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Hello, but...Who are you?'
+    line: ' <color = "blue">"Hello...But...Who are you?"</color>'
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: Eon's eyes are examining every inch on the Serpent's body.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' I am the serpent child. No need to worry I am your friend. And I am here
-      to reveal the bitter truth to you.'
+    line: <color = "red">"I am the Serpent, child. No need to worry. I am your friend.
+      And I am here to end the game played to you."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Truth?'
+    line: <color = "blue">"Game?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' You''ve been living a lie this whole time.'
+    line: <color = "blue">"You've been living a lie this whole time."</color>
     lineActions: []
     Notes: 
   Notes: 

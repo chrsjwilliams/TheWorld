@@ -17,8 +17,8 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 897c9318b19b545c8b9f65326b955f6b, type: 2}
-    - {fileID: 11400000, guid: 6e03fe70c647f467bbf4aa228f876420, type: 2}
-    - {fileID: 11400000, guid: cbb0ef2cb1b474809bddf4bf75eb6987, type: 2}
+    - {fileID: 0}
+    - {fileID: 0}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -92,19 +92,21 @@ MonoBehaviour:
   NodeTitle: Peach
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Her search stops when her eyes spotted a juicy peach.
-    lineActions: []
+    line: 'Her search stops when her eyes spotted a juicy peach. '
+    lineActions:
+    - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Here is my breakfast!'
+    line: ' <color="blue">"On, here is my breakfast!"</color></color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: As she is reaching to grab it, a mysterious voice confronts her.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Arghh, same ridiculous routine every morning. Aren''t you bored yet?'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ' <color="red">"Arghh, same ridiculous routine every morning. Aren''t you
+      bored yet?"</color> '
     lineActions: []
     Notes: 
   Notes: 

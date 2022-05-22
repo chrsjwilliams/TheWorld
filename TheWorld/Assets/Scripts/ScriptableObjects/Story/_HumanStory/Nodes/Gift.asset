@@ -53,17 +53,25 @@ MonoBehaviour:
   NodeTitle: Gift
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But what was his crime?'
+    line: <color = "blue">"But what was his crime?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Don''t bother yourself with these right now. Here, a delicious peach
-      for you.'
+    line: <color = "deeppink">"Don't bother yourself with these details right now.
+      You already had an exhausting day."</color>
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: They grab a peach from the tree and throw it to Eon.
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 0}
+    line: <color = "deeppink">"Here, have something to eat. You must be starving."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Eon looks at the peach. It reminds him of the dead serpent now. Why did
-      he have to attack her like that.
+      he had to attack her like that.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -72,5 +80,5 @@ MonoBehaviour:
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 50aff7d41eb44462497fb12c20dfee59, type: 2}
+  - {fileID: 11400000, guid: 3e4ec5bf9af104de699e866bfdb21d6d, type: 2}
   - {fileID: 0}

@@ -96,11 +96,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Hey, where are you? Who is talking to me?'
+    line: ' <color="blue">"Who is talking to me? Where are you?"</color>'
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Just a friendly stranger who is notorious to stand up against injustice.'
+  - speaker: {fileID: 0}
+    line: ' <color="red">"Just a friendly stranger who is notorious to stand up against
+      injustice."</color>'
     lineActions: []
     Notes: 
   Notes: 

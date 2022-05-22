@@ -79,7 +79,7 @@ MonoBehaviour:
   NodeTitle: Hi
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: A long body slowly slides down through the tree's stem.
+    line: A long and narrow body slowly slides down on the tree's truck.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -87,12 +87,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What are you exactly?'
+    line: <color = "blue">"What are you exactly?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous
-      dream.'
+    line: <color = "red">"Hi kid, I am the Serpent. And I am here to wake you up
+      from this ridiculous dream."</color>
     lineActions: []
     Notes: 
   Notes: 

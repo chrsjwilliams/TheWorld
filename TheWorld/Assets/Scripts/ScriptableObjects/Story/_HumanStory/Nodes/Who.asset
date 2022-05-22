@@ -79,15 +79,17 @@ MonoBehaviour:
   NodeTitle: Who
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon didn't expect someone else to be around.
+    line: Eon didn't expect anyone else to be around. And she doesn't recognize the
+      voice.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Who is that?'
+    line: ' <color="blue">Who is it?</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Just someone who is bored of watching the same silly routine every morning.'
+    line: ' <color="red">Just someone who is bored of watching the same silly routine
+      every morning.</color>'
     lineActions: []
     Notes: 
   Notes: 

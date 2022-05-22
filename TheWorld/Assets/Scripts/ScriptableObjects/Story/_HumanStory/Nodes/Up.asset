@@ -66,27 +66,28 @@ MonoBehaviour:
   NodeTitle: Up
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Can you please show yourself? You are making me anxious.'
+    line: <color = "blue">"Can you please reveal yourself? You are making me anxious."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' That is the last thing I''d like to do.'
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Eon hears a slow crouching sound first. Then a subtle deep sound. '
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Look up you fool child!'
+  - speaker: {fileID: 0}
+    line: <color = "red">"Oh, that is the last thing I'd like to do!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: As Eon moves her gaze upwards, she sees two glazing eyes in between leaves.
+    line: 'Eon hears a slow crouching sound first. Then an uneasy, deep sound she
+      never heard before follows. '
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 0}
+    line: <color = "red">"Look up you fool!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: The eyes slowly slide down through the tree's trunk.
+    line: As Eon moves her gaze upwards, she sees two bright eyes in between leaves.
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: The eyes slowly slide down around the tree's trunk.
     lineActions: []
     Notes: 
   Notes: 

@@ -71,7 +71,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 2faf0f7811c8e43e4a7e2cc6b5ae29c9, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But...I''ve never seen you there. How is that possib...'
+    line: <color="blue">"But...I've never seen you there. How is that possib..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -85,7 +85,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' I think you know the answer.'
+    line: <color="firebrick">"I think you know the answer."</color>
     lineActions: []
     Notes: 
   Notes: 

@@ -66,17 +66,17 @@ MonoBehaviour:
   NodeTitle: Come Out
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Who is dis? Come out! '
+    line: '<color="blue">"Who is dis? Show yourself!"</color> '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' I see you are a little stressed. Sorry for interrupting your lil'' boring
-      breakfast routine. '
+  - speaker: {fileID: 0}
+    line: '<color="red">"I see you are a little stressed. Sorry for interrupting
+      your lil'' boring breakfast routine."</color> '
     lineActions:
-    - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
+    - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I said come out!'
+    line: <color="blue">"I said come out!"</color>
     lineActions: []
     Notes: 
   Notes: 

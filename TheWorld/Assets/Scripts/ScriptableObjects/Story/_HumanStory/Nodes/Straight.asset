@@ -79,7 +79,7 @@ MonoBehaviour:
   NodeTitle: Straight
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I am tired of these games. Just tell me what''s happening.'
+    line: <color = "blue">"I am tired of your games. Just tell me what's happening."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -87,10 +87,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' It breaks my heart to say this, but your whole life here is a lie. You
-      believe time is passing, that every day is a new one. But in reality, you''ve
-      been waking up to the same morning every day and go through the same events
-      over and over again. You''ve been eating a peach for breakfast forever.'
+    line: <color = "red">"It breaks my heart to say this, but your whole life here
+      has been a lie. You made believe that time is linear and moving forwards. Every
+      day is a new one, they made you think. But in reality, you've been waking up
+      to the same morning every day, going through the same sequence of events, over
+      and over again. Like that peach you picked today. You've been eating a peach
+      for breakfast since you were born."</color>
     lineActions: []
     Notes: 
   Notes: 

@@ -79,21 +79,21 @@ MonoBehaviour:
   NodeTitle: Anxious
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon is searching for a face but can't see anyone.
+    line: Eon is searching for a face but can't see anyone around.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Don''t be anxious kid, there is no reason to be scared!'
+  - speaker: {fileID: 0}
+    line: ' <color="red">"You don''t need to be anxious, kid!"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I am not scared! But in fact, I believe you are since you''re the one
-      who is hiding. '
+    line: '<color="blue">"I am not anxious! But it seems like you are since you''re
+      hiding yourself from my sight."</color> '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' Well, if I come out, you need to face the truth. Do you think you''re
-      ready for that?'
+  - speaker: {fileID: 0}
+    line: ' <color="red">"Well, I need to warn you. If I come out, you''ll need to
+      face the bare truth. Do you think you''re ready for that?"</color>'
     lineActions: []
     Notes: 
   Notes: 
