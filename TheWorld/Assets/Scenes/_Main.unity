@@ -406,6 +406,8 @@ GameObject:
   - component: {fileID: 1916470672}
   - component: {fileID: 1916470673}
   - component: {fileID: 1916470674}
+  - component: {fileID: 1916470676}
+  - component: {fileID: 1916470675}
   m_Layer: 0
   m_Name: Main
   m_TagString: Untagged
@@ -480,6 +482,8 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 9a531df0ba71e443d8f694cb63b63ddf, type: 3}
     - {fileID: 8300000, guid: c08c1c63a058341d2b35125fd554bd3a, type: 3}
     - {fileID: 8300000, guid: d2e9ab2f00fa34b9b90c8e43525346c2, type: 3}
+    - {fileID: 8300000, guid: 8ac14ebd749f749918ca73e025126fa6, type: 3}
+    - {fileID: 8300000, guid: c1b696a9a6d3c4a01a2f164d562be19c, type: 3}
     - {fileID: 8300000, guid: d355f1b9b6904445195518087853134f, type: 3}
     - {fileID: 8300000, guid: 5baafe91d5de94a2fbbb5564a064c3b4, type: 3}
     SerializedBytesString: 
@@ -506,7 +510,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 8
+      Data: 10
     - Name: 
       Entry: 7
       Data: 
@@ -604,6 +608,30 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 10
+      Data: 8
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 21
+    - Name: $v
+      Entry: 10
+      Data: 9
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -649,7 +677,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 10
-      Data: 8
+      Data: 10
     - Name: 
       Entry: 8
       Data: 
@@ -661,7 +689,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 10
-      Data: 9
+      Data: 11
     - Name: 
       Entry: 8
       Data: 
@@ -769,3 +797,59 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1916470675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916470669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35139deb03be941ae8fdc7a64a43449c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleEvent: {fileID: 11400000, guid: 4b4766191abe44ab9b31e2756729bf33, type: 2}
+  onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1916470673}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayErrorSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1916470676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916470669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35139deb03be941ae8fdc7a64a43449c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  simpleEvent: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+  onEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1916470673}
+        m_TargetAssemblyTypeName: AudioManager, Assembly-CSharp
+        m_MethodName: PlayClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

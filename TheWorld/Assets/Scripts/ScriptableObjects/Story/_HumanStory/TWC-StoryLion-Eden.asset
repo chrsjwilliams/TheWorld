@@ -22,8 +22,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   MustMakeSelection: 0
-  music: 0
-  startingNode: {fileID: 0}
+  music: 1
+  startingNode: {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   nodes:
   - {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   - {fileID: 11400000, guid: 277d632e2297e4c7fb68a763127ab283, type: 2}
@@ -80,4 +80,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 952cae2a683584490a20e11dadfd666a, type: 2}
   - {fileID: 11400000, guid: 12fbf424da4e94af3a15c24cb61a976d, type: 2}
   - {fileID: 11400000, guid: 3e9a1d18815874774a30479e7ef4cee7, type: 2}
-  storyBackground: {fileID: 0}
+  storyBackground: {fileID: 21300000, guid: 811ee0e53ee0f4484b00479364fa6e49, type: 3}

@@ -5,7 +5,7 @@ using Sirenix.OdinInspector;
 
 public enum SFX {   CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER, SNAKE,
                     DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM, WHISTLE, 
-                    WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER}
+                    WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER, ERROR}
 
 public enum BGM { SILENCE, GARDEN, OFFICE }
 
@@ -30,6 +30,8 @@ public class AudioManager : SerializedMonoBehaviour
 
     private void LoadLibrary()
     {
+        audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("sfx/click.mp3"));
+        audioLibrary.Add(SFX.ERROR, Resources.Load<AudioClip>("sfx/error.mp3"));
         audioLibrary.Add(SFX.BITE, Resources.Load<AudioClip>("sfx/sfx_bite.mp3"));
         audioLibrary.Add(SFX.EVILLAUGHTER, Resources.Load<AudioClip>("sfx/sfx_evilLaughter.mp3"));
         audioLibrary.Add(SFX.FOOTSTEPS, Resources.Load<AudioClip>("sfx/sfx_footsteps.mp3"));
@@ -51,6 +53,16 @@ public class AudioManager : SerializedMonoBehaviour
         bgmLibrary.Add(BGM.OFFICE, Resources.Load<AudioClip>("music/bg-office.mp3"));
 
 
+    }
+
+    public void PlayClickSound()
+    {
+        PlayClip(SFX.CLICK);
+    }
+
+    public void PlayErrorSound()
+    {
+        PlayClip(SFX.ERROR);
     }
 
     public void PlayClipVaryPitch(SFX clip)

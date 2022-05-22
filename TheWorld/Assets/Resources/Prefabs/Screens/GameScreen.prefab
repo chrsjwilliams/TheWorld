@@ -687,6 +687,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &448424327
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1109,6 +1121,18 @@ MonoBehaviour:
       - m_Target: {fileID: 128194160355778113}
         m_TargetAssemblyTypeName: MonoTweener, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1633,6 +1657,18 @@ MonoBehaviour:
       - m_Target: {fileID: 128194159467892818}
         m_TargetAssemblyTypeName: MonoTweener, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2533,6 +2569,18 @@ MonoBehaviour:
       - m_Target: {fileID: 128194159488847330}
         m_TargetAssemblyTypeName: MonoTweener, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4222,6 +4270,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!225 &932144217279960938
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -5407,6 +5467,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &4602689641818570385
 GameObject:
   m_ObjectHideFlags: 0
@@ -5531,6 +5603,18 @@ MonoBehaviour:
       - m_Target: {fileID: 7950965358015753025}
         m_TargetAssemblyTypeName: MonoTweener, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5665,6 +5749,18 @@ MonoBehaviour:
       - m_Target: {fileID: 6390911864862186410}
         m_TargetAssemblyTypeName: MonoTweener, Assembly-CSharp
         m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
+        m_MethodName: Raise
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10045,6 +10141,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SimpleEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503250241765101225, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1515993949523263375, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -10261,6 +10385,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SimpleEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6407005155126259508, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6647224871430629204, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: OnComplete.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -10300,6 +10452,34 @@ PrefabInstance:
     - target: {fileID: 6740253136826028623, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: SimpleEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7172794464240103780, guid: c8c3916021a97449480516b1045acc1f, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7462363027089657362, guid: c8c3916021a97449480516b1045acc1f, type: 3}
       propertyPath: m_AnchorMax.y

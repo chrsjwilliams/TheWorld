@@ -619,6 +619,34 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 3353801792102380555}
     m_Modifications:
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Raise
+      objectReference: {fileID: 0}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: SimpleEvent, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 128194159520983640, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
+      propertyPath: OnBegin.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 4215294746389580670, guid: 29a2af7eb2a3d404fafae6337b8bea31, type: 3}
       propertyPath: m_Name
       value: UI_Button Response

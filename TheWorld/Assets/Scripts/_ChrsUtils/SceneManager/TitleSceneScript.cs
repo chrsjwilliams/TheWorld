@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class TitleSceneScript : Scene<TransitionData>
 {
-    public KeyCode startGame = KeyCode.Space;
+    public KeyCode startGame = KeyCode.Return;
 
     [SerializeField]private float SECONDS_TO_WAIT = 0.1f;
 
@@ -39,9 +39,10 @@ public class TitleSceneScript : Scene<TransitionData>
     private void Update()
     {
         _tm.Update();
-        if (Input.GetKeyDown(startGame) || Input.GetMouseButtonDown(0) || Input.GetMouseButtonDown(1))
+        if (Input.GetKeyDown(startGame))
         {
-            //Services.AudioManager.PlayClip(SFX.CLICK);
+            Services.AudioManager.PlayClip(SFX.CLICK);
+            PressedStartGame();
         }
     }
 }

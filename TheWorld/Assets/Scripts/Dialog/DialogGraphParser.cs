@@ -102,9 +102,9 @@ public class DialogGraphParser : MonoBehaviour
 
     public void PreviousButtonPressed()
     {
-        if (backArrowCount == 0)
+        if (backArrowCount == 0 || visitedNodes.Count < 2)
         {
-            // ~TODO: play some error sound
+            Services.AudioManager.PlayClip(SFX.ERROR);
             return;
         }
         backArrowCount -= 1;
@@ -179,12 +179,15 @@ public class DialogGraphParser : MonoBehaviour
     {
         if (!finishedAnimating)
         {
-            // ~TODO: play some error sound
+            Services.AudioManager.PlayClip(SFX.ERROR);
             return;
         }
+
         if (CanMakeSelection.value && !MadeSelection.value && !displayAllLines) return;
         if (currentNode.HasPersonalityChoice(selectedButton.PersonalityChoice))
         {
+            Services.AudioManager.PlayClip(SFX.CLICK);
+
             npcProfileCanvasGroup.alpha = 0;
 
             //  Set current node to next node
@@ -286,8 +289,6 @@ public class DialogGraphParser : MonoBehaviour
 
     private void HideUnusedDialogButtons(Dictionary<PersonalityChoice, DialogNode> choices)
     {
-        // Go through all the unselected buttons and hide them if we cannot use them
-        // ~TODO: have each button tween away/in before changing their active status
         foreach(DialogButton button in unselectedButtons)
         {
             if(!choices.ContainsKey(button.PersonalityChoice))
