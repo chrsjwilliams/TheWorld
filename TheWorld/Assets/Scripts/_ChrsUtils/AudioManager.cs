@@ -5,7 +5,9 @@ using Sirenix.OdinInspector;
 
 public enum SFX {   CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER, SNAKE,
                     DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM, WHISTLE, 
-                    WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER, ERROR}
+
+                    WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER,  KISS, CRY, EXPLOSION, TROMBONE, MMM, ERROR}
+
 
 public enum BGM { SILENCE, GARDEN, OFFICE }
 
@@ -33,20 +35,26 @@ public class AudioManager : SerializedMonoBehaviour
         audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("sfx/click.mp3"));
         audioLibrary.Add(SFX.ERROR, Resources.Load<AudioClip>("sfx/error.mp3"));
         audioLibrary.Add(SFX.BITE, Resources.Load<AudioClip>("sfx/sfx_bite.mp3"));
-        audioLibrary.Add(SFX.EVILLAUGHTER, Resources.Load<AudioClip>("sfx/sfx_evilLaughter.mp3"));
+        audioLibrary.Add(SFX.CRY, Resources.Load<AudioClip>("sfx/sfx_cry.wav"));
+        audioLibrary.Add(SFX.CREEPYWHISPER, Resources.Load<AudioClip>("sfx/sfx_creepyWhisper.wav"));
+        audioLibrary.Add(SFX.EVILLAUGHTER, Resources.Load<AudioClip>("sfx/sfx_evilLaughter.wav"));
+        audioLibrary.Add(SFX.EXPLOSION, Resources.Load<AudioClip>("sfx/sfx_explosion.mp3"));
         audioLibrary.Add(SFX.FOOTSTEPS, Resources.Load<AudioClip>("sfx/sfx_footsteps.mp3"));
-        audioLibrary.Add(SFX.MUMBLE, Resources.Load<AudioClip>("sfx/sfx_mumble.mp3"));
-        audioLibrary.Add(SFX.ROAR, Resources.Load<AudioClip>("sfx/sfx_roar.mp3"));
+        audioLibrary.Add(SFX.FLUTE, Resources.Load<AudioClip>("sfx/sfx_flute.wav"));
+        audioLibrary.Add(SFX.FLUTEBROKEN, Resources.Load<AudioClip>("sfx/sfx_fluteBroken.wav"));
+        audioLibrary.Add(SFX.KISS, Resources.Load<AudioClip>("sfx/sfx_kiss.wav"));
+        audioLibrary.Add(SFX.MUMBLE, Resources.Load<AudioClip>("sfx/sfx_mumble.wav"));
+        audioLibrary.Add(SFX.MMM, Resources.Load<AudioClip>("sfx/sfx_mmm.wav"));
+        audioLibrary.Add(SFX.ROAR, Resources.Load<AudioClip>("sfx/sfx_roar.wav"));
         audioLibrary.Add(SFX.SHORTOFBREATH, Resources.Load<AudioClip>("sfx/sfx_shortOfBreath.mp3"));
+        audioLibrary.Add(SFX.SCREAM, Resources.Load<AudioClip>("sfx/sfx_scream.mp3"));
         audioLibrary.Add(SFX.SIREN, Resources.Load<AudioClip>("sfx/sfx_siren.mp3"));
-        audioLibrary.Add(SFX.SLAM, Resources.Load<AudioClip>("sfx/sfx_slam.mp3"));
-        audioLibrary.Add(SFX.WHOOSH, Resources.Load<AudioClip>("sfx/sfx_whoosh.wav"));
-        audioLibrary.Add(SFX.YAWN, Resources.Load<AudioClip>("sfx/sfx_yawn.mp3"));
-        audioLibrary.Add(SFX.FLUTE, Resources.Load<AudioClip>("sfx/sfx_flute.mp3"));
-        audioLibrary.Add(SFX.FLUTEBROKEN, Resources.Load<AudioClip>("sfx/sfx_fluteBroken.mp3"));
-        audioLibrary.Add(SFX.WHISTLE, Resources.Load<AudioClip>("sfx/sfx_whistle.mp3"));
-        audioLibrary.Add(SFX.CREEPYWHISPER, Resources.Load<AudioClip>("sfx/sfx_creepyWhisper.mp3"));
+        audioLibrary.Add(SFX.SLAM, Resources.Load<AudioClip>("sfx/sfx_slam.wav"));
         audioLibrary.Add(SFX.SNAKE, Resources.Load<AudioClip>("sfx/sfx_snake.mp3"));
+        audioLibrary.Add(SFX.WHOOSH, Resources.Load<AudioClip>("sfx/sfx_whoosh.wav"));
+        audioLibrary.Add(SFX.YAWN, Resources.Load<AudioClip>("sfx/sfx_yawn.wav"));
+        audioLibrary.Add(SFX.WHISTLE, Resources.Load<AudioClip>("sfx/sfx_whistle.wav"));
+        audioLibrary.Add(SFX.TROMBONE, Resources.Load<AudioClip>("sfx/sfx_trombone.wav"));
 
 
         bgmLibrary.Add(BGM.GARDEN, Resources.Load<AudioClip>("music/bg-garden.mp3"));
