@@ -5,11 +5,10 @@ using Sirenix.OdinInspector;
 
 public enum SFX {   CLICK, FOOTSTEPS, SHORTOFBREATH, BITE, TRAIN, THUNDER, SNAKE,
                     DOORSLAM, EAT, EVILLAUGHTER, MUMBLE, ROAR, SCREAM, SIREN, SLAM, WHISTLE, 
-
                     WHOOSH,FLUTE,FLUTEBROKEN,YAWN,CREEPYWHISPER,  KISS, CRY, EXPLOSION, TROMBONE, MMM, ERROR}
 
 
-public enum BGM { SILENCE, GARDEN, OFFICE }
+public enum BGM { SILENCE, GARDEN, OFFICE, STATION, SPACE }
 
 public class AudioManager : SerializedMonoBehaviour
 {
@@ -28,11 +27,13 @@ public class AudioManager : SerializedMonoBehaviour
 	void Start ()
     {
         audioSource = GetComponent<AudioSource>();
-	}
 
+    }
+
+    [Button]
     private void LoadLibrary()
     {
-        audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("sfx/click.mp3"));
+        audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("Resources/sfx/click") as AudioClip);
         audioLibrary.Add(SFX.ERROR, Resources.Load<AudioClip>("sfx/error.mp3"));
         audioLibrary.Add(SFX.BITE, Resources.Load<AudioClip>("sfx/sfx_bite.mp3"));
         audioLibrary.Add(SFX.CRY, Resources.Load<AudioClip>("sfx/sfx_cry.wav"));

@@ -65,7 +65,7 @@ public class NodeSelectionManager : MonoBehaviour
 
     public void PopulateOption(List<DialogNode> nodes)
     {
-        RemoveNodeButtons();
+        //RemoveNodeButtons();
 
         int nodesOnPage = 0;
         GridLayoutGroup currentPage = firstPage;

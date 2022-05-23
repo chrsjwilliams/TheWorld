@@ -5,8 +5,8 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
-// ~TODO:  
-//          reset tet bos profiel picture
+// ~TODO:   LION ABILITY
+//          HUMAN ABILITY
 
 public class DialogGraphParser : MonoBehaviour
 {
@@ -540,6 +540,17 @@ public class DialogGraphParser : MonoBehaviour
             {
                 return node;
             }
+        }
+
+        return null;
+    }
+
+    public DialogNode FindSpecialItem()
+    {
+        foreach(DialogNode node in dialogGraph.nodes)
+        {
+            if (node.hasSecretItem)
+                return node;
         }
 
         return null;

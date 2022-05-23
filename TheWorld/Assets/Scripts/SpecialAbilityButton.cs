@@ -27,6 +27,11 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     [SerializeField] MonoTweener fadeInTweener;
     [SerializeField] MonoTweener fadeOutTweener;
 
+    [SerializeField] TextMeshProUGUI messageBoxTitle;
+    [SerializeField] TextMeshProUGUI messageBoxMessage;
+    [SerializeField] MonoTweener messageBoxAppear;
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -98,7 +103,41 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */
     public void EagleAbility()
     {
+        messageBoxAppear.Play();
+        var itemNode = dialogGraphParser.FindSpecialItem();
 
+        string messageText;
+        if(itemNode == null)
+        {
+            messageText = "No special items found in this story.";
+        }
+        else
+        {
+            string choice = itemNode.nodeType.ToString();
+            string choiceMessage;
+            if (choice.ToLower() == "neutral")
+            {
+                choiceMessage = "The nodepath is still hazy.";
+            }
+            else
+            { 
+
+            choiceMessage = StartsWithVowel(choice) ?
+                                    "An " + choice + " choice will get you there" :
+                                    "A " + choice + " choice will get you there";
+            }
+            messageText = "The special item is found in the " + itemNode.name + " node."+
+                          "\n" + choiceMessage;
+        }
+
+        messageBoxTitle.text = "Eagle Ability";
+        messageBoxMessage.text = messageText;
+    }
+
+    bool StartsWithVowel(string word)
+    {
+        return word[0] == 'a' || word[0] == 'e' || word[0] == 'i' ||
+            word[0] == 'o' || word[0] == 'u';
     }
 
     /* 
