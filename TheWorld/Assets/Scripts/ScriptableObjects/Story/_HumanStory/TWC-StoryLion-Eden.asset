@@ -22,8 +22,8 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes: []
   MustMakeSelection: 0
-  music: 0
-  startingNode: {fileID: 0}
+  music: 1
+  startingNode: {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   nodes:
   - {fileID: 11400000, guid: 5da11584f45a24e7ab95211e856aab15, type: 2}
   - {fileID: 11400000, guid: 277d632e2297e4c7fb68a763127ab283, type: 2}
