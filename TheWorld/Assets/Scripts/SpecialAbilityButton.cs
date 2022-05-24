@@ -73,10 +73,8 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
         if(show)
         {
             fadeInTweener?.Play();
-            nodes = dialogGraphParser.GetNodesForAbility(selectedCharacter.PersonalityChoice);
             abilityTitle.text = abilityDictionary[selectedCharacter.PersonalityChoice].title;
             abilityDesctiption.text = abilityDictionary[selectedCharacter.PersonalityChoice].description;
-            nodeSelectionManager.PopulateOption(nodes);
         }
         else
         {
@@ -150,7 +148,10 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */              
     public void HumanAbility()
     {
-
+        List<DialogNode> nextHumanNodes = dialogGraphParser.GetNodesForAbility(PersonalityChoice.HUMAN);
+        nextHumanNodes.RemoveAt(0);
+        nodeSelectionManager.PopulateOption(nextHumanNodes, "Next Human Nodes",interactable: false);
+        nodeSelectionManager.fadeInTween.Play();
     }
 
     /*
@@ -159,7 +160,8 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */
     public void LionAbility()
     {
-        dialogGraphParser.GoToVisitedNode(selectedNode);
+        nodeSelectionManager.PopulateOption(dialogGraphParser.VisitedNodes, "Select Node");
+        //dialogGraphParser.GoToVisitedNode(selectedNode);
     }
 
     // go back a set number of times

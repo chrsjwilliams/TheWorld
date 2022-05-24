@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class NodeSelectionManager : MonoBehaviour
 {
@@ -16,8 +17,12 @@ public class NodeSelectionManager : MonoBehaviour
     [SerializeField] NodeButton nodeButtonPrefab;
     [SerializeField] GridLayoutGroup nodeButtonPagePrefab;
     [SerializeField] int nodesPerPage;
+    [SerializeField] TextMeshProUGUI windowTitle;
 
-    List<NodeButton> nodeButtons;
+    public MonoTweener fadeInTween;
+    public MonoTweener fadeOutTween;
+
+    [SerializeField] List<NodeButton> nodeButtons = new List<NodeButton>();
     int optionWidth;
     int nodePageIndex = 0;
     bool isLerping = false;
@@ -63,9 +68,10 @@ public class NodeSelectionManager : MonoBehaviour
         nodeButtons = new List<NodeButton>();
     }
 
-    public void PopulateOption(List<DialogNode> nodes)
+    public void PopulateOption(List<DialogNode> nodes,string title ,bool interactable = true)
     {
         //RemoveNodeButtons();
+        windowTitle.text = title;
 
         int nodesOnPage = 0;
         GridLayoutGroup currentPage = firstPage;
@@ -73,7 +79,7 @@ public class NodeSelectionManager : MonoBehaviour
         {
             //  If the first page is full and we are on the 8th stamp,
             //  create a new page
-            if (nodesOnPage % 8 == 0 && firstPage.transform.childCount >= nodesPerPage)
+            if (nodesOnPage % nodesPerPage == 0 && firstPage.transform.childCount >= nodesPerPage)
             {
                 currentPage = Instantiate(nodeButtonPagePrefab, nodePageParent);
 
@@ -84,7 +90,7 @@ public class NodeSelectionManager : MonoBehaviour
             // create instance of MBSharingUIOption and populate it
             // with the metadata and increase the number of stamps on the page
             var nodeButton = Instantiate(nodeButtonPrefab, currentPage.transform);
-            nodeButton.Init(node.name);
+            nodeButton.Init(node.name, canVisit: interactable);
             nodeButtons.Add(nodeButton);
             nodesOnPage++;
         }

@@ -28,6 +28,7 @@ public class DialogGraphParser : MonoBehaviour
 
     [Space(25)]
     [SerializeField] List<DialogNode> visitedNodes = new List<DialogNode>();
+    public List<DialogNode> VisitedNodes { get { return visitedNodes; } }
 
     [Space(25)]
     [SerializeField] TextMeshProUGUI nodeNameText;
@@ -499,7 +500,7 @@ public class DialogGraphParser : MonoBehaviour
         {
             case PersonalityChoice.HUMAN:
 
-                List<DialogNode> humanNodes = GetNextNodes(currentNode);
+                List<DialogNode> humanNodes = GetNextNodes(visitedNodes[0]);
 
                 List<DialogNode> nodesToRemove = new List<DialogNode>();
                 foreach(DialogNode node in humanNodes)
@@ -563,6 +564,7 @@ public class DialogGraphParser : MonoBehaviour
         // (set as false by default in c#)
         List<DialogNode> visited = new List<DialogNode>();
 
+
         // Call the recursive helper function
         // to print DFS traversal
         List<DialogNode> nextNodes = DFSUtil(startingNode, visited);
@@ -573,6 +575,8 @@ public class DialogGraphParser : MonoBehaviour
 
     List<DialogNode> DFSUtil(DialogNode v, List<DialogNode> visited)
     {
+
+
         // Mark the current node as visited
         // and print it
         visited.Add(v);
@@ -580,10 +584,13 @@ public class DialogGraphParser : MonoBehaviour
         // Recur for all the vertices
         // adjacent to this vertex
         List<DialogNode> vList = v.GetNextNodes();
-        foreach (var n in vList)
+        if (vList != null)
         {
-            if (!visited.Contains(n))
-                DFSUtil(n, visited);
+            foreach (var n in vList)
+            {
+                if (!visited.Contains(n))
+                    DFSUtil(n, visited);
+            }
         }
 
         return visited;

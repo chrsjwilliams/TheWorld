@@ -11,6 +11,8 @@ public class NodeButton : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI nodeText;
     [SerializeField] Button nodeButton;
+    [SerializeField] Image buttonImage;
+    [SerializeField] Color buttonColor;
     string nodeName;
     public string NodeName { get { return nodeName; } }
 
@@ -19,6 +21,7 @@ public class NodeButton : MonoBehaviour
         nodeName = name;
         nodeText.text = name;
         nodeButton.interactable = canVisit;
+        //buttonImage.color = canVisit ? buttonColor : Color.clear;
     }
 
     public void OnButtonPressed()
