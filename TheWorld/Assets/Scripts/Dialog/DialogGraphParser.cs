@@ -390,7 +390,8 @@ public class DialogGraphParser : MonoBehaviour
     {
         string nodetext = "";
         Sprite npcImage = null;
-        foreach (DialogLine line in visitedNodes[0].speakingLines)
+        onlyNarratorDialog = true;
+        foreach (DialogLine line in currentNode.speakingLines)
         {
             if(line.speaker != narrator && line.speaker != player)
             {
@@ -466,8 +467,26 @@ public class DialogGraphParser : MonoBehaviour
     {
         if(visitedNodes.Contains(node))
         {
-            currentNode = node;
+            List<DialogNode> nodesToRemove = new List<DialogNode>();
+            for(int i = 0; i < visitedNodes.Count; i++)
+            {
+                if(visitedNodes[i] == node)
+                {
+                    break;
+                }
+                else
+                {
+                    nodesToRemove.Add(visitedNodes[i]);
+                }
+            }
 
+            foreach(DialogNode n in nodesToRemove)
+            {
+                visitedNodes.Remove(n);
+            }
+
+            currentNode = node;
+            SetNodeText();
             nodeNameText.text = currentNode.NodeTitle;
             //  add new node to node stack
 
