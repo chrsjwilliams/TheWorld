@@ -17,6 +17,7 @@ public class TextBox : MonoBehaviour
     [SerializeField] TextMeshProUGUI text;
 
     public Image playerImage;
+    public Image npcImage;
 
     public void SetText(string incomingText)
     {

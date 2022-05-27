@@ -6,7 +6,6 @@ using TMPro;
 using Sirenix.OdinInspector;
 
 // ~TODO:   LION ABILITY
-//          HUMAN ABILITY
 
 public class DialogGraphParser : MonoBehaviour
 {
@@ -358,7 +357,7 @@ public class DialogGraphParser : MonoBehaviour
 
     }
     bool hasNPCDialog = false;
-    bool onlyNarratorDialog = true;
+    public bool onlyNarratorDialog = true;
     void DisplayAllNodeText()
     {
         string nodetext = "";
@@ -390,12 +389,13 @@ public class DialogGraphParser : MonoBehaviour
     void SetNodeText()
     {
         string nodetext = "";
+        Sprite npcImage = null;
         foreach (DialogLine line in visitedNodes[0].speakingLines)
         {
             if(line.speaker != narrator && line.speaker != player)
             {
                 hasNPCDialog = true;
-                npcProfile.sprite = line.speaker.GetCharacterProfile(Emote.NEUTRAL);
+                npcImage = line.speaker.GetCharacterProfile(Emote.NEUTRAL);
 
             }
             else if(line.speaker != narrator)
@@ -433,7 +433,7 @@ public class DialogGraphParser : MonoBehaviour
         }
 
         selectedTexBox = SelectTextBox(nodetext);
-        selectedTexBox.playerImage.sprite = wheelProfile.sprite;
+        
 
         foreach (TextBox textBox in textBoxes)
         {
@@ -451,10 +451,12 @@ public class DialogGraphParser : MonoBehaviour
         else if (hasNPCDialog)
         {
             selectedTexBox.DisplayPicture(TextBox.PictureTpe.NPC);
+            selectedTexBox.npcImage.sprite = npcImage;
         }
         else
         {
             selectedTexBox.DisplayPicture(TextBox.PictureTpe.PLAYER);
+            selectedTexBox.playerImage.sprite = wheelProfile.sprite;
         }
         selectedTexBox.SetText(nodetext);
     }

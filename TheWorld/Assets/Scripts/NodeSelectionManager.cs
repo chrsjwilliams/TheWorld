@@ -24,13 +24,13 @@ public class NodeSelectionManager : MonoBehaviour
 
     [SerializeField] List<NodeButton> nodeButtons = new List<NodeButton>();
     int optionWidth;
-    int nodePageIndex = 0;
+    public int nodePageIndex = 0;
     bool isLerping = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        optionWidth = 1000;
+        optionWidth = 412;
         nodeButtonPages.Add(firstPage);
 
         leftButton.interactable = false;
@@ -95,6 +95,9 @@ public class NodeSelectionManager : MonoBehaviour
             nodesOnPage++;
         }
 
+        RefreshLayoutGroup();
+
+
         // If there is only one page of stamps, disable the left and right buttons
         if (nodeButtonPages.Count == 1)
         {
@@ -121,19 +124,20 @@ public class NodeSelectionManager : MonoBehaviour
         }
 
         int dirValue = 1;
-        if (button.direction == DirectionButton.Direction.LEFT)
-        {
-            nodePageIndex -= 1;
-            dirValue = -1;
-            if (nodePageIndex <= 0)
-            {
-                nodePageIndex = 0;
-            }
-        }
-        else if (button.direction == DirectionButton.Direction.RIGHT)
+        if (button.direction == DirectionButton.Direction.RIGHT)
         {
             nodePageIndex += 1;
             dirValue = 1;
+            
+            if (nodePageIndex >= nodeButtonPages.Count - 1)
+            {
+                nodePageIndex = nodeButtonPages.Count - 1;
+            }
+        }
+        else if (button.direction == DirectionButton.Direction.LEFT)
+        {
+            nodePageIndex -= 1;
+            dirValue = -1;
             if (nodePageIndex <= 0)
             {
                 nodePageIndex = 0;

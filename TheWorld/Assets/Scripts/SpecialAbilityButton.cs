@@ -50,7 +50,12 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
 
     private void OnNodeButtonPressed(NodeButton node)
     {
-        selectedNode = dialogGraphParser.GetNode(node.NodeName);
+        if (selectedCharacter.PersonalityChoice == PersonalityChoice.LION)
+        {
+            selectedNode = dialogGraphParser.GetNode(node.NodeName);
+            dialogGraphParser.GoToVisitedNode(selectedNode);
+            nodeSelectionManager.fadeOutTween.Play();
+        }
     }
 
     public void ApplyAbility()
@@ -160,11 +165,9 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */
     public void LionAbility()
     {
-        nodeSelectionManager.PopulateOption(dialogGraphParser.VisitedNodes, "Select Node");
-        //dialogGraphParser.GoToVisitedNode(selectedNode);
+        List<DialogNode> lionNodes = dialogGraphParser.VisitedNodes;
+        lionNodes.RemoveAt(0);
+        nodeSelectionManager.PopulateOption(lionNodes, "Select Node");
+        nodeSelectionManager.fadeInTween.Play();
     }
-
-    // go back a set number of times
-    // 3 times each story
-
 }
