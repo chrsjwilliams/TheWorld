@@ -61,8 +61,9 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 6eb24d004d6c24429a448382c1193fe3, type: 3}
   NodeTitle: Last bite
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -78,12 +79,8 @@ MonoBehaviour:
     line: 'She feels nauseous. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Confettis explode on top of her head.
-    lineActions: []
-    Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' You did it gurl! Congratulations!'
+    line: <color="red">"You did it girl! Congratulations!"</color>
     lineActions: []
     Notes: 
   Notes: 

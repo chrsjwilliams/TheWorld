@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: a77d6b931579e46ba83593af490a509a, type: 2}
+    - {fileID: 11400000, guid: 755f5c29a80544514aa3248a51173103, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,8 +61,9 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: d01d6e36eb92648bab5e5c405f844dc2, type: 3}
   NodeTitle: Your task
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -74,9 +75,9 @@ MonoBehaviour:
     line: 'Then she hears speakers turned on. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' "red")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON''T TRY TO CHEAT,
-      IT WON''T WORK.]'
+  - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
+    line: <color="red">"TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO
+      CHEAT, IT WON'T WORK."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

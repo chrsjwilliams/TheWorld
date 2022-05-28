@@ -396,6 +396,7 @@ public class DialogGraphParser : MonoBehaviour
             if(line.speaker != narrator && line.speaker != player)
             {
                 hasNPCDialog = true;
+                onlyNarratorDialog = false;
                 npcImage = line.speaker.GetCharacterProfile(Emote.NEUTRAL);
 
             }
@@ -545,6 +546,15 @@ public class DialogGraphParser : MonoBehaviour
                 nodes.AddRange(visitedNodes);
                 break;
             case PersonalityChoice.OX:
+
+                foreach(DialogNode node in dialogGraph.nodes)
+                {
+                    if(node.oxNodeAbility)
+                    {
+                        nodes.Add(node);
+                    }
+                }
+
                 break;
             default:
                 break;

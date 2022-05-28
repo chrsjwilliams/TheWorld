@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: d01d6e36eb92648bab5e5c405f844dc2, type: 3}
   NodeTitle: Get Away
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Why is this dude acting so weird? '
+    line: ' <color="blue"><i>Why is this dude acting so weird?</i><color>, Eon thinks. '
     lineActions:
     - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 

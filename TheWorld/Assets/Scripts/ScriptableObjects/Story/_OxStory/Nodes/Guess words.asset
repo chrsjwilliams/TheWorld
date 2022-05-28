@@ -61,13 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Guess words
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Okay, here I go. Answer to you riddle is, I believe, word. When you give
-      your word to someone, you get to keep it. '
+    line: '<color="blue">"Okay, here I go. Answer to you riddle is, I believe, word.
+      When you give your word to someone, you get to keep it!"</color> '
     lineActions:
     - {fileID: 11400000, guid: d968eb1c4dc7940b9abd57f55608f271, type: 2}
     Notes: 

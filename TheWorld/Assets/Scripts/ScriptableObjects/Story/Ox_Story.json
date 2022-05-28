@@ -1,973 +1,1226 @@
 {
-  "uuid": "A8F8ECB6-06FA-457E-B0BF-5A123B25AFE9",
-  "name": "TWC-Story1 - Eagle",
-  "creator": "Twine",
-  "creatorVersion": "2.3.1",
-  "schemaName": "Twine to JSON",
-  "schemaVersion": "0.0.6",
-  "createdAtMs": 1652481305548,
-  "passages": [
-    {
-      "name": "Station",
-      "tags": "START Ox",
-      "id": "1",
-      "text": "**clock\nEon is waiting for the last train. @eon_idle_ox\nIt seems like she is the only one.\n[[Ox|Chills]]",
-      "links": [
+    "passages": [
         {
-          "linkText": "Ox|Chills",
-          "passageName": "Ox|Chills",
-          "original": "[[Ox|Chills]]"
-        }
-      ],
-      "cleanText": "**clock\nEon is waiting for the last train. @eon_idle_ox\nIt seems like she is the only one."
-    },
-    {
-      "name": "Footsteps",
-      "tags": "Ox",
-      "id": "2",
-      "text": "She looks towards the sound. @sfx_footsteps\nA silhouette is approaching her. @sfx_footsteps\nShe turns her head away. @sfx_footsteps\nStranger doesn't stop. @sfx_footsteps\nFootsteps coming closer. @sfx_footsteps\n[[Stranger]]",
-      "links": [
-        {
-          "linkText": "Stranger",
-          "passageName": "Stranger",
-          "original": "[[Stranger]]"
-        }
-      ],
-      "cleanText": "She looks towards the sound. @sfx_footsteps\nA silhouette is approaching her. @sfx_footsteps\nShe turns her head away. @sfx_footsteps\nStranger doesn't stop. @sfx_footsteps\nFootsteps coming closer. @sfx_footsteps"
-    },
-    {
-      "name": "Stranger",
-      "tags": "Ox",
-      "id": "3",
-      "text": "She looks again towards the stranger. \nA silhouette wearing a dark jacket, jeans and sneakers.\nEon: Okay, casual style.\nStranger keeps walking towards her. @sfx_footsteps\nShe looks away.\n[[Hello stranger]]",
-      "links": [
-        {
-          "linkText": "Hello stranger",
-          "passageName": "Hello stranger",
-          "original": "[[Hello stranger]]"
-        }
-      ],
-      "cleanText": "She looks again towards the stranger. \nA silhouette wearing a dark jacket, jeans and sneakers.\nEon: Okay, casual style.\nStranger keeps walking towards her. @sfx_footsteps\nShe looks away."
-    },
-    {
-      "name": "Hello stranger",
-      "tags": "Ox",
-      "id": "4",
-      "text": "The footsteps stops next to her. @sfx_footsteps @eon_scared_ox\nWith the corner of her eye, she sees the torn out sneakers and the jeans.\nThe stranger sits down next to her.\nStranger: (text-colour: \"red\")[\"Hello stranger.\"] \n[[Eagle|Hello]]\n[[Ox|Get Away]]",
-      "links": [
-        {
-          "linkText": "Eagle|Hello",
-          "passageName": "Eagle|Hello",
-          "original": "[[Eagle|Hello]]"
+            "text": "**clock\nEon is waiting at the train station. @eon_idle_ox\nIt seems like there is no one else around.\n[[Ox|Chills]]",
+            "links": [
+                {
+                    "name": "Ox|Chills",
+                    "link": "Ox|Chills",
+                    "broken": true
+                }
+            ],
+            "name": "Station",
+            "pid": "1",
+            "position": {
+                "x": "1584",
+                "y": "112"
+            },
+            "tags": [
+                "START",
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox|Get Away",
-          "passageName": "Ox|Get Away",
-          "original": "[[Ox|Get Away]]"
-        }
-      ],
-      "cleanText": "The footsteps stops next to her. @sfx_footsteps @eon_scared_ox\nWith the corner of her eye, she sees the torn out sneakers and the jeans.\nThe stranger sits down next to her.\nStranger: (text-colour: \"red\")[\"Hello stranger.\"]"
-    },
-    {
-      "name": "Hello",
-      "tags": "Eagle",
-      "id": "5",
-      "text": "Eon: Hello? Can I help you? @eon_anxious_eagle\nStranger: (text-colour: \"red\")[You can help yourself.]\nThe stranger's alligator smile grows bigger.\n[[Eagle |What]]\n[[Ox |Get Away]]",
-      "links": [
-        {
-          "linkText": "Eagle |What",
-          "passageName": "Eagle |What",
-          "original": "[[Eagle |What]]"
+            "text": "**footsteps\nShe looks towards the sound. @sfx_footsteps \n@eon_lookAround_ox\nA silhouette is approaching her. \nShe turns her head away. \nStranger doesn't stop. \nFootsteps coming closer. \n[[Stranger]]",
+            "links": [
+                {
+                    "name": "Stranger",
+                    "link": "Stranger",
+                    "pid": "3"
+                }
+            ],
+            "name": "Footsteps",
+            "pid": "2",
+            "position": {
+                "x": "1583",
+                "y": "367"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox |Get Away",
-          "passageName": "Ox |Get Away",
-          "original": "[[Ox |Get Away]]"
-        }
-      ],
-      "cleanText": "Eon: Hello? Can I help you? @eon_anxious_eagle\nStranger: (text-colour: \"red\")[You can help yourself.]\nThe stranger's alligator smile grows bigger."
-    },
-    {
-      "name": "Get Away",
-      "tags": "Ox",
-      "id": "6",
-      "text": "Eon: Why is this dude acting so weird? @eon_scared_ox\nShe gets up and walks away without saying anything.\n[[Ox|Run!]]",
-      "links": [
-        {
-          "linkText": "Ox|Run!",
-          "passageName": "Ox|Run!",
-          "original": "[[Ox|Run!]]"
-        }
-      ],
-      "cleanText": "Eon: Why is this dude acting so weird? @eon_scared_ox\nShe gets up and walks away without saying anything."
-    },
-    {
-      "name": "Run!",
-      "tags": "Ox",
-      "id": "7",
-      "text": "As she is walking away, she hears their deep voice again.\nStranger: (text-colour: \"red\")[\"There is no reason to be scared as long as you prove to be sharp.\"] @eon_run_ox\nEon starts running towards the exit. @anim_eon_run_ox\n[[Ox|Exit Door]]",
-      "links": [
-        {
-          "linkText": "Ox|Exit Door",
-          "passageName": "Ox|Exit Door",
-          "original": "[[Ox|Exit Door]]"
-        }
-      ],
-      "cleanText": "As she is walking away, she hears their deep voice again.\nStranger: (text-colour: \"red\")[\"There is no reason to be scared as long as you prove to be sharp.\"] @eon_run_ox\nEon starts running towards the exit. @anim_eon_run_ox"
-    },
-    {
-      "name": "Exit Door",
-      "tags": "Ox",
-      "id": "8",
-      "text": "The stranger is suddenly at the exit door. @eon_scared_ox\nStranger: (text-colour: \"red\")[\"I told you not to be scared.\"]\n[[Ox|Run Again]]\n[[Lion|Angry]]",
-      "links": [
-        {
-          "linkText": "Ox|Run Again",
-          "passageName": "Ox|Run Again",
-          "original": "[[Ox|Run Again]]"
+            "text": "**stranger\nShe looks again towards the stranger. @eon_anxious_ox\nA silhouette wearing a dark jacket, jeans and sneakers.\nEon:<color=\"blue\"> \"Okay, casual style.\"</color>\nStranger keeps walking towards her. @sfx_footsteps\nShe looks away.\n[[Hello stranger]]",
+            "links": [
+                {
+                    "name": "Hello stranger",
+                    "link": "Hello stranger",
+                    "pid": "4"
+                }
+            ],
+            "name": "Stranger",
+            "pid": "3",
+            "position": {
+                "x": "1585",
+                "y": "493"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Lion|Angry",
-          "passageName": "Lion|Angry",
-          "original": "[[Lion|Angry]]"
-        }
-      ],
-      "cleanText": "The stranger is suddenly at the exit door. @eon_scared_ox\nStranger: (text-colour: \"red\")[\"I told you not to be scared.\"]"
-    },
-    {
-      "name": "Run Again",
-      "tags": "Ox",
-      "id": "9",
-      "text": "Eon runs towards the other exit as fast as she can. @sfx_shortOfBreath @eon_run_ox\n[[Ox|Exit Door]]",
-      "links": [
-        {
-          "linkText": "Ox|Exit Door",
-          "passageName": "Ox|Exit Door",
-          "original": "[[Ox|Exit Door]]"
-        }
-      ],
-      "cleanText": "Eon runs towards the other exit as fast as she can. @sfx_shortOfBreath @eon_run_ox"
-    },
-    {
-      "name": "Angry",
-      "tags": "Lion",
-      "id": "10",
-      "text": "Eon: Just fucking let me go! @eon_angry_lion\nStranger: If I were you, I'd listen to me or there would be consequences.\n[[Ox|Run Again]]\n[[Lion|Lion Convo 2]]",
-      "links": [
-        {
-          "linkText": "Ox|Run Again",
-          "passageName": "Ox|Run Again",
-          "original": "[[Ox|Run Again]]"
+            "text": "**dialog\nThe footsteps stops next to her. @sfx_footsteps @eon_anxious_ox\nWith the corner of her eye, she sees the torn out sneakers and the jeans.\nThe stranger sits down next to her.\nStranger: <color=\"red\">\"Hello stranger.\"</color>\n[[Eagle|Hello]]\n[[Ox|Get Away]]",
+            "links": [
+                {
+                    "name": "Eagle|Hello",
+                    "link": "Eagle|Hello",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Get Away",
+                    "link": "Ox|Get Away",
+                    "broken": true
+                }
+            ],
+            "name": "Hello stranger",
+            "pid": "4",
+            "position": {
+                "x": "1582",
+                "y": "632"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Lion|Lion Convo 2",
-          "passageName": "Lion|Lion Convo 2",
-          "original": "[[Lion|Lion Convo 2]]"
-        }
-      ],
-      "cleanText": "Eon: Just fucking let me go! @eon_angry_lion\nStranger: If I were you, I'd listen to me or there would be consequences."
-    },
-    {
-      "name": "Chills",
-      "tags": "Ox",
-      "id": "11",
-      "text": "Eon gets chills. \nShe doesn't like being alone. @eon_anxious_ox\nEon: I wish there was someone waiting with me.\nThen she hears footsteps. @sfx_footsteps\n[[Footsteps]]",
-      "links": [
-        {
-          "linkText": "Footsteps",
-          "passageName": "Footsteps",
-          "original": "[[Footsteps]]"
-        }
-      ],
-      "cleanText": "Eon gets chills. \nShe doesn't like being alone. @eon_anxious_ox\nEon: I wish there was someone waiting with me.\nThen she hears footsteps. @sfx_footsteps"
-    },
-    {
-      "name": "Lion Convo 2",
-      "tags": "Lion",
-      "id": "12",
-      "text": "Eon: What the fuck you want? @eon_angry_lion\nStranger: (text-colour: \"red\")[\"I have a riddle for you\"]\nEon: What? @eon_confused_lion\nStranger: (text-colour: \"red\")[\"A riddle\"]\n[[Human|What is]]\n[[Ox|Here comes]]",
-      "links": [
-        {
-          "linkText": "Human|What is",
-          "passageName": "Human|What is",
-          "original": "[[Human|What is]]"
+            "text": "**questionMark\nEon: <color=\"blue\">\"Hello? Can I help you?\"</color> @eon_anxious_eagle\nStranger: <color=\"red\">\"You can help yourself.\"</color>\nThe stranger's alligator smile grows bigger.\n[[Eagle|Why]]\n[[Ox|Get Away]]",
+            "links": [
+                {
+                    "name": "Eagle|Why",
+                    "link": "Eagle|Why",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Get Away",
+                    "link": "Ox|Get Away",
+                    "broken": true
+                }
+            ],
+            "name": "Hello",
+            "pid": "5",
+            "position": {
+                "x": "1494",
+                "y": "770"
+            },
+            "tags": [
+                "Eagle"
+            ]
         },
         {
-          "linkText": "Ox|Here comes",
-          "passageName": "Ox|Here comes",
-          "original": "[[Ox|Here comes]]"
-        }
-      ],
-      "cleanText": "Eon: What the fuck you want? @eon_angry_lion\nStranger: (text-colour: \"red\")[\"I have a riddle for you\"]\nEon: What? @eon_confused_lion\nStranger: (text-colour: \"red\")[\"A riddle\"]"
-    },
-    {
-      "name": "What is",
-      "tags": "",
-      "id": "13",
-      "text": "Eon: But I don't know what riddle means. @eon_confused_human\nStranger looks confused. \nStranger: (text-colour: \"red\")[\"Are you from fucking Mars? How do you not know what riddles are?\"]\nEon: I just don't man, sorry...\nStranger: (text-colour: \"red\")[\"Oh man...\" ]\nStranger: (text-colour: \"red\")[\"Okay, I'll just explain then. It's like a puzzle you solve.\"]\n[[Human|Puzzle]]\n[[Ox|Run Again]]",
-      "links": [
-        {
-          "linkText": "Human|Puzzle",
-          "passageName": "Human|Puzzle",
-          "original": "[[Human|Puzzle]]"
+            "text": "**exxQuestion\nEon: <color=\"blue\"><i>Why is this dude acting so weird?</i><color>, Eon thinks. @eon_scared_ox\nShe gets up and walks away without saying anything.\n[[Ox|Run!]]",
+            "links": [
+                {
+                    "name": "Ox|Run!",
+                    "link": "Ox|Run!",
+                    "broken": true
+                }
+            ],
+            "name": "Get Away",
+            "pid": "6",
+            "position": {
+                "x": "1669",
+                "y": "759"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox|Run Again",
-          "passageName": "Ox|Run Again",
-          "original": "[[Ox|Run Again]]"
-        }
-      ],
-      "cleanText": "Eon: But I don't know what riddle means. @eon_confused_human\nStranger looks confused. \nStranger: (text-colour: \"red\")[\"Are you from fucking Mars? How do you not know what riddles are?\"]\nEon: I just don't man, sorry...\nStranger: (text-colour: \"red\")[\"Oh man...\" ]\nStranger: (text-colour: \"red\")[\"Okay, I'll just explain then. It's like a puzzle you solve.\"]"
-    },
-    {
-      "name": "Here comes",
-      "tags": "Ox",
-      "id": "14",
-      "text": "Eon: Okay tell me... @eon_disappointed_ox\nThe Alligator smile grows bigger.\nStranger: (text-colour: \"red\")[Okay here it comes...]\n[[Ox |Riddle]]",
-      "links": [
-        {
-          "linkText": "Ox |Riddle",
-          "passageName": "Ox |Riddle",
-          "original": "[[Ox |Riddle]]"
-        }
-      ],
-      "cleanText": "Eon: Okay tell me... @eon_disappointed_ox\nThe Alligator smile grows bigger.\nStranger: (text-colour: \"red\")[Okay here it comes...]"
-    },
-    {
-      "name": "Puzzle",
-      "tags": "Human",
-      "id": "15",
-      "text": "Eon: Okay but what's a puzzle? @eon_sinister_human\nStranger: (text-colour: \"red\")[\"What?\"]\nEon: I don't know what that means.\nStranger: (text-colour: \"red\")[\"Are you fucking kidding me?\"]\nEon: Why would I do that?\nStranger: (text-colour: \"red\")[\"I'll tell you something and you'll try to guess what I mean!\"]\nEon: Oh okay, it's a guessing game. But...\nStranger: (text-colour: \"red\")[\"QUIET NOW!\"]\n[[Human |Riddle]]",
-      "links": [
-        {
-          "linkText": "Human |Riddle",
-          "passageName": "Human |Riddle",
-          "original": "[[Human |Riddle]]"
-        }
-      ],
-      "cleanText": "Eon: Okay but what's a puzzle? @eon_sinister_human\nStranger: (text-colour: \"red\")[\"What?\"]\nEon: I don't know what that means.\nStranger: (text-colour: \"red\")[\"Are you fucking kidding me?\"]\nEon: Why would I do that?\nStranger: (text-colour: \"red\")[\"I'll tell you something and you'll try to guess what I mean!\"]\nEon: Oh okay, it's a guessing game. But...\nStranger: (text-colour: \"red\")[\"QUIET NOW!\"]"
-    },
-    {
-      "name": "Riddle",
-      "tags": "anim-thinking",
-      "id": "16",
-      "text": "Stranger: (text-colour: \"red\")[Yes it is. So here it comes:\nStranger: What is something that you get to keep after you give it to someone? Take you time because if you fail, there will be consequences.]\n[[Human |Thinking]]\n[[Ox |Just think]]\n[[Eagle |Think]]",
-      "links": [
-        {
-          "linkText": "Human |Thinking",
-          "passageName": "Human |Thinking",
-          "original": "[[Human |Thinking]]"
+            "text": "**warning\nAs she is walking away, she hears their deep voice again.\nStranger:<color=\"red\">\"There is no reason to be scared as long as you prove to be sharp.\"</color> @eon_run_ox\nEon starts running towards the exit. @eon_run_ox\n[[Ox|Exit Door]]",
+            "links": [
+                {
+                    "name": "Ox|Exit Door",
+                    "link": "Ox|Exit Door",
+                    "broken": true
+                }
+            ],
+            "name": "Run!",
+            "pid": "7",
+            "position": {
+                "x": "1665",
+                "y": "888"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox |Just think",
-          "passageName": "Ox |Just think",
-          "original": "[[Ox |Just think]]"
+            "text": "**exit\nThe stranger is suddenly at the exit door. @eon_panic_ox\nStranger:<color=\"red\">\"I told you not to be scared.\"</color>\n[[Ox|Run Again]]\n[[Lion|Angry]]",
+            "links": [
+                {
+                    "name": "Ox|Run Again",
+                    "link": "Ox|Run Again",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Angry",
+                    "link": "Lion|Angry",
+                    "broken": true
+                }
+            ],
+            "name": "Exit Door",
+            "pid": "8",
+            "position": {
+                "x": "1850",
+                "y": "979"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Eagle |Think",
-          "passageName": "Eagle |Think",
-          "original": "[[Eagle |Think]]"
-        }
-      ],
-      "cleanText": "Stranger: (text-colour: \"red\")[Yes it is. So here it comes:\nStranger: What is something that you get to keep after you give it to someone? Take you time because if you fail, there will be consequences.]"
-    },
-    {
-      "name": "Thinking",
-      "tags": "Human",
-      "id": "17",
-      "text": "Eon: Hmm, It can be multiple things.@eon_think_human\n[[Ox |Repeat]]\n[[ Human |STD]]\n[[Eagle |Word]]",
-      "links": [
-        {
-          "linkText": "Ox |Repeat",
-          "passageName": "Ox |Repeat",
-          "original": "[[Ox |Repeat]]"
+            "text": "**exit\nEon runs towards the other exit as fast as she can. @sfx_shortOfBreath @eon_run_ox\n[[Ox|Exit Door]]",
+            "links": [
+                {
+                    "name": "Ox|Exit Door",
+                    "link": "Ox|Exit Door",
+                    "broken": true
+                }
+            ],
+            "name": "Run Again",
+            "pid": "9",
+            "position": {
+                "x": "1724",
+                "y": "1006"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Human |STD",
-          "passageName": "Human |STD",
-          "original": "[[ Human |STD]]"
+            "text": "**explosion\nEon:<color=\"blue\">\"Just fucking let me go!\"</color> @eon_angry_lion\nStranger:<color=\"red\">\"If I were you, I'd listen to me or there would be consequences.\"</color>\n[[Ox|Run Again]]\n[[Lion|What]]",
+            "links": [
+                {
+                    "name": "Ox|Run Again",
+                    "link": "Ox|Run Again",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|What",
+                    "link": "Lion|What",
+                    "broken": true
+                }
+            ],
+            "name": "Angry",
+            "pid": "10",
+            "position": {
+                "x": "1932.6666666666667",
+                "y": "1113.6666666666667"
+            },
+            "tags": [
+                "Lion"
+            ]
         },
         {
-          "linkText": "Eagle |Word",
-          "passageName": "Eagle |Word",
-          "original": "[[Eagle |Word]]"
-        }
-      ],
-      "cleanText": "Eon: Hmm, It can be multiple things.@eon_think_human"
-    },
-    {
-      "name": "Cheating",
-      "tags": "Human",
-      "id": "18",
-      "text": "Eon: Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now! @eon_disappointed_human\nStranger:(text-colour: \"red\")[Your?]\nEon: Yes, it's your turn to guess now.\n[[Human |No smile]]",
-      "links": [
-        {
-          "linkText": "Human |No smile",
-          "passageName": "Human |No smile",
-          "original": "[[Human |No smile]]"
-        }
-      ],
-      "cleanText": "Eon: Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now! @eon_disappointed_human\nStranger:(text-colour: \"red\")[Your?]\nEon: Yes, it's your turn to guess now."
-    },
-    {
-      "name": "Repeat",
-      "tags": "Ox",
-      "id": "19",
-      "text": "Eon thinkis thiking. @eon_anxious_ox\nBut it is quite hard cause she is hella pressed.\nEon: What is something that you get to keep after giving it?...\n// Eon says with a very low voice\nEon: I'm sorry, do you mind repeating the riddle again?\n[[Ox |Love]]",
-      "links": [
-        {
-          "linkText": "Ox |Love",
-          "passageName": "Ox |Love",
-          "original": "[[Ox |Love]]"
-        }
-      ],
-      "cleanText": "Eon thinkis thiking. @eon_anxious_ox\nBut it is quite hard cause she is hella pressed.\nEon: What is something that you get to keep after giving it?...\n// Eon says with a very low voice\nEon: I'm sorry, do you mind repeating the riddle again?"
-    },
-    {
-      "name": "Love",
-      "tags": "Ox",
-      "id": "20",
-      "text": "Strangers looks disappointed. He repeats rolling his eyes.\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...\n[[Ox |Guess Love]]\n[[Human |STD]]",
-      "links": [
-        {
-          "linkText": "Ox |Guess Love",
-          "passageName": "Ox |Guess Love",
-          "original": "[[Ox |Guess Love]]"
+            "text": "**footsteps\nEon gets chills. \nShe doesn't like being alone. @eon_anxious_ox\nEon:<color=\"blue\"> \"I wish there was someone waiting with me.\"</color>\nThen she hears footsteps. @sfx_footsteps\n[[Footsteps]]",
+            "links": [
+                {
+                    "name": "Footsteps",
+                    "link": "Footsteps",
+                    "pid": "2"
+                }
+            ],
+            "name": "Chills",
+            "pid": "11",
+            "position": {
+                "x": "1590",
+                "y": "229.33333333333334"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Human |STD",
-          "passageName": "Human |STD",
-          "original": "[[Human |STD]]"
-        }
-      ],
-      "cleanText": "Strangers looks disappointed. He repeats rolling his eyes.\nStranger: (text-colour: \"red\")[What is something that you get to keep after you give it to someone?]\nEon: Yes yes. I just need to think a little. @eon_anxious_ox\nEon: It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say..."
-    },
-    {
-      "name": "Guess Love",
-      "tags": "Ox",
-      "id": "21",
-      "text": "Eon: But what if it is not? There will be consequences he said.\nThe Stranger is playing with his phone. He looks impatient tapping on the floor with this foot.\nEon: What can the consequence be? she asks herself. I guess something bad.\nIt seems like the stranger is just checking his messages.\nEon: He looks like a normal person. But this is definitely not a normal situation or act.\nStranger: (text-colour: \"red\")[\"Ehem! You still there? It's getting late\"]\nEon: Yes, just one more minute! \n[[Ox | Ox Answer Love 2]]",
-      "links": [
-        {
-          "linkText": "Ox | Ox Answer Love 2",
-          "passageName": "Ox | Ox Answer Love 2",
-          "original": "[[Ox | Ox Answer Love 2]]"
-        }
-      ],
-      "cleanText": "Eon: But what if it is not? There will be consequences he said.\nThe Stranger is playing with his phone. He looks impatient tapping on the floor with this foot.\nEon: What can the consequence be? she asks herself. I guess something bad.\nIt seems like the stranger is just checking his messages.\nEon: He looks like a normal person. But this is definitely not a normal situation or act.\nStranger: (text-colour: \"red\")[\"Ehem! You still there? It's getting late\"]\nEon: Yes, just one more minute!"
-    },
-    {
-      "name": " Ox Answer Love 2",
-      "tags": "Ox",
-      "id": "22",
-      "text": "Eon: It has to be love, or at least nothing else comes to mind. @eon_think_ox\nEon takes a deep breath. She speaks hesitantly.\nEon: Okay, mu guess is that it's love.\n[[Ox | Ox Answer Love 3]]",
-      "links": [
-        {
-          "linkText": "Ox | Ox Answer Love 3",
-          "passageName": "Ox | Ox Answer Love 3",
-          "original": "[[Ox | Ox Answer Love 3]]"
-        }
-      ],
-      "cleanText": "Eon: It has to be love, or at least nothing else comes to mind. @eon_think_ox\nEon takes a deep breath. She speaks hesitantly.\nEon: Okay, mu guess is that it's love."
-    },
-    {
-      "name": "Just think",
-      "tags": "Ox",
-      "id": "23",
-      "text": "Eon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think.\n[[Ox |Repeat]]",
-      "links": [
-        {
-          "linkText": "Ox |Repeat",
-          "passageName": "Ox |Repeat",
-          "original": "[[Ox |Repeat]]"
-        }
-      ],
-      "cleanText": "Eon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think."
-    },
-    {
-      "name": "No smile",
-      "tags": "Human",
-      "id": "24",
-      "text": "What is it that given one, you'll have either two or none? @eon_sinister_human\nStranger looks extremly bitter. No more smile.\nThink carefully, Eon adds. Remember, there will be consequences.\n[[Human |Slowly]]",
-      "links": [
-        {
-          "linkText": "Human |Slowly",
-          "passageName": "Human |Slowly",
-          "original": "[[Human |Slowly]]"
-        }
-      ],
-      "cleanText": "What is it that given one, you'll have either two or none? @eon_sinister_human\nStranger looks extremly bitter. No more smile.\nThink carefully, Eon adds. Remember, there will be consequences."
-    },
-    {
-      "name": "Slowly",
-      "tags": "Human",
-      "id": "25",
-      "text": "The alligator face is murmuring. \nStranger: This must be contemporary one...\nEon walks to the Exit door slowly. @eon_walkSlow_human\n[[Human |Sirens]]",
-      "links": [
-        {
-          "linkText": "Human |Sirens",
-          "passageName": "Human |Sirens",
-          "original": "[[Human |Sirens]]"
-        }
-      ],
-      "cleanText": "The alligator face is murmuring. \nStranger: This must be contemporary one...\nEon walks to the Exit door slowly. @eon_walkSlow_human"
-    },
-    {
-      "name": "Sirens",
-      "tags": "Human",
-      "id": "26",
-      "text": "The moment she steps by the door step, sirens break out. @eon_scared_human\nAlligator dude turns towards Eon. His eyes are burning flames. He looks scary.\nStranger: YOU THINK YOU CAN FOOL ME? ME? \nHe starts floating towards her. \nEon: Oh shit...\n[[Ox | Begging]]\n[[Eagle |Stupid]]",
-      "links": [
-        {
-          "linkText": "Ox | Begging",
-          "passageName": "Ox | Begging",
-          "original": "[[Ox | Begging]]"
+            "text": "**dialog\nEon:<color=\"blue\">\"What the fuck you want?\"</color> @eon_unhappy_lion\nStranger:<color=\"red\">\"I have a riddle for you.\"</color>\nEon:<color=\"blue\">\"What?\"</color> @eon_confused_lion\nStranger:<color=\"red\">\"A riddle.\"</color>\n[[Human|What Is A Riddle]]\n[[Ox|Ready]]",
+            "links": [
+                {
+                    "name": "Human|What Is A Riddle",
+                    "link": "Human|What Is A Riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Ready",
+                    "link": "Ox|Ready",
+                    "broken": true
+                }
+            ],
+            "name": "What",
+            "pid": "12",
+            "position": {
+                "x": "1993.3333333333335",
+                "y": "1246.6666666666667"
+            },
+            "tags": [
+                "Lion"
+            ]
         },
         {
-          "linkText": "Eagle |Stupid",
-          "passageName": "Eagle |Stupid",
-          "original": "[[Eagle |Stupid]]"
-        }
-      ],
-      "cleanText": "The moment she steps by the door step, sirens break out. @eon_scared_human\nAlligator dude turns towards Eon. His eyes are burning flames. He looks scary.\nStranger: YOU THINK YOU CAN FOOL ME? ME? \nHe starts floating towards her. \nEon: Oh shit..."
-    },
-    {
-      "name": " Begging",
-      "tags": "Ox",
-      "id": "27",
-      "text": "Eon: NO!NO! PLEASE DON'T HURT ME! @eon_panic_ox\nStranger: SHOULD I SEND YOU TO TURNIP HELL? SHOULD I?\nEon: Oh God, oh God. Please mister, please forgive me. Please...\nStranger: I'LL SHOW YOU NOW...\nThe train approaches the station.\n[[Ox |Turnip Hell]]",
-      "links": [
-        {
-          "linkText": "Ox |Turnip Hell",
-          "passageName": "Ox |Turnip Hell",
-          "original": "[[Ox |Turnip Hell]]"
-        }
-      ],
-      "cleanText": "Eon: NO!NO! PLEASE DON'T HURT ME! @eon_panic_ox\nStranger: SHOULD I SEND YOU TO TURNIP HELL? SHOULD I?\nEon: Oh God, oh God. Please mister, please forgive me. Please...\nStranger: I'LL SHOW YOU NOW...\nThe train approaches the station."
-    },
-    {
-      "name": "Stupid",
-      "tags": "",
-      "id": "28",
-      "text": "Eon: Please calm down, we can figure this out. @eon_anxious_eagle\nStranger: NO! YOU THINK I AM STUPID?\nEon: Not at all! Look, you seem mighty and I was scared okay?\nStranger seems calmer.\nEon: Sorry I did something stupid. But everyone acts stupid sometimes, right?\nStranger: Okay, okay. No worries kid. Well, then we'll skip your riddle and move on to consequences.\n[[Eagle |Consequences]]",
-      "links": [
-        {
-          "linkText": "Eagle |Consequences",
-          "passageName": "Eagle |Consequences",
-          "original": "[[Eagle |Consequences]]"
-        }
-      ],
-      "cleanText": "Eon: Please calm down, we can figure this out. @eon_anxious_eagle\nStranger: NO! YOU THINK I AM STUPID?\nEon: Not at all! Look, you seem mighty and I was scared okay?\nStranger seems calmer.\nEon: Sorry I did something stupid. But everyone acts stupid sometimes, right?\nStranger: Okay, okay. No worries kid. Well, then we'll skip your riddle and move on to consequences."
-    },
-    {
-      "name": "STD",
-      "tags": "Human",
-      "id": "29",
-      "text": "Eon is thinking.\nEon: I feel like STD's fits this definition perfectly. You still keep them after you give it to someone. Dang...\n[[Human |Guess STD]]\n[[Ox |Repeat]]\n[[Eagle |Word]]",
-      "links": [
-        {
-          "linkText": "Human |Guess STD",
-          "passageName": "Human |Guess STD",
-          "original": "[[Human |Guess STD]]"
+            "text": "**questionMark\nEon:<color=\"blue\">\"But I don't know what riddle means.\"</color> @eon_confused_human\nStranger looks confused. \nStranger:<color=\"red\">\"Are you from fucking Mars? How do you not know what riddles are?\"</color>\nEon:<color=\"blue\">\"I just don't man, sorry...\"</color>\nStranger:<color=\"red\">\"Oh man...Okay, I'll just explain then. It's like a puzzle you solve.\"</color>\n[[Human|Puzzle]]\n[[Ox|Run Again]]",
+            "links": [
+                {
+                    "name": "Human|Puzzle",
+                    "link": "Human|Puzzle",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Run Again",
+                    "link": "Ox|Run Again",
+                    "broken": true
+                }
+            ],
+            "name": "What Is A Riddle",
+            "pid": "13",
+            "position": {
+                "x": "1762",
+                "y": "1125.6666666666667"
+            }
         },
         {
-          "linkText": "Ox |Repeat",
-          "passageName": "Ox |Repeat",
-          "original": "[[Ox |Repeat]]"
+            "text": "**dialog\nEon:<color=\"blue\">Okay tell me...</color> @eon_anxious_ox\nThe Alligator smile grows bigger.\nStranger:<color=\"red\">Okay here it comes...</color>\n[[Ox|Riddle]]",
+            "links": [
+                {
+                    "name": "Ox|Riddle",
+                    "link": "Ox|Riddle",
+                    "broken": true
+                }
+            ],
+            "name": "Ready",
+            "pid": "14",
+            "position": {
+                "x": "1797",
+                "y": "1251.3333333333333"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Eagle |Word",
-          "passageName": "Eagle |Word",
-          "original": "[[Eagle |Word]]"
-        }
-      ],
-      "cleanText": "Eon is thinking.\nEon: I feel like STD's fits this definition perfectly. You still keep them after you give it to someone. Dang..."
-    },
-    {
-      "name": "Guess STD",
-      "tags": "Human",
-      "id": "30",
-      "text": "Eon: Okay, I think it's STD's @eon_think_human\nThe stranger looks surprised. \nStranger:(text-colour: \"red\")[\"Ehmm...\"]\nEon: What? You give them and still keep them.\nStranger:(text-colour: \"red\")[\"I guess that's true\"]  (text-colour: \"red\")[\"But that was not the answer I expected. So, I'll ask another now.\"]\n[[Human |Cheating]]",
-      "links": [
-        {
-          "linkText": "Human |Cheating",
-          "passageName": "Human |Cheating",
-          "original": "[[Human |Cheating]]"
-        }
-      ],
-      "cleanText": "Eon: Okay, I think it's STD's @eon_think_human\nThe stranger looks surprised. \nStranger:(text-colour: \"red\")[\"Ehmm...\"]\nEon: What? You give them and still keep them.\nStranger:(text-colour: \"red\")[\"I guess that's true\"]  (text-colour: \"red\")[\"But that was not the answer I expected. So, I'll ask another now.\"]"
-    },
-    {
-      "name": " Ox Answer Love 3",
-      "tags": "Ox",
-      "id": "31",
-      "text": "Stranger: (text-colour: \"red\")[oooh, aren't you a sweetheart, it almost breaks my heart.]\nStranger: (text-colour: \"red\")[But that's just not true. You can totally love and then open up to someone. And lose it afterwards because they are actually a piece of shit!] @eon_disappointed_ox\nEon: Argh, sounds like you have some shit going on.\n[[Ox |Consequences]]",
-      "links": [
-        {
-          "linkText": "Ox |Consequences",
-          "passageName": "Ox |Consequences",
-          "original": "[[Ox |Consequences]]"
-        }
-      ],
-      "cleanText": "Stranger: (text-colour: \"red\")[oooh, aren't you a sweetheart, it almost breaks my heart.]\nStranger: (text-colour: \"red\")[But that's just not true. You can totally love and then open up to someone. And lose it afterwards because they are actually a piece of shit!] @eon_disappointed_ox\nEon: Argh, sounds like you have some shit going on."
-    },
-    {
-      "name": "Announcement ",
-      "tags": "Ox",
-      "id": "32",
-      "text": "Eon is shaking. Holy shit, what's gonna happen now? @eon_scared_ox\nThen she hears speakers turned on. \n(text-colour: \"red\")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.]\nEon looks back in confusion.\n[[Ox | Ox Turnip 1]]\n[[Eagle | Eagle Turnip 1]]",
-      "links": [
-        {
-          "linkText": "Ox | Ox Turnip 1",
-          "passageName": "Ox | Ox Turnip 1",
-          "original": "[[Ox | Ox Turnip 1]]"
+            "text": "**questionMark\nEon:<color=\"blue\">\"Okay but what's a puzzle?\"</color> @eon_sinister_human\nStranger:<color=\"red\">\"What?\"</color>\nEon:<color=\"blue\">\"I don't know what that means.\"</color>\nStranger:<color=\"red\">\"Are you fucking kidding me?\"</color>\nEon:<color=\"blue\">\"Why would I do that?\"</color>\nStranger:<color=\"red\">\"I'll tell you something and you'll try to guess what I mean!\"</color>\nEon:<color=\"blue\">\"Oh okay, it's a guessing game. But...\"</color>\nStranger:<color=\"red\">\"QUIET NOW!\"</color>\n[[Human|Riddle]]",
+            "links": [
+                {
+                    "name": "Human|Riddle",
+                    "link": "Human|Riddle",
+                    "broken": true
+                }
+            ],
+            "name": "Puzzle",
+            "pid": "15",
+            "position": {
+                "x": "1628.6666666666667",
+                "y": "1230"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Eagle | Eagle Turnip 1",
-          "passageName": "Eagle | Eagle Turnip 1",
-          "original": "[[Eagle | Eagle Turnip 1]]"
-        }
-      ],
-      "cleanText": "Eon is shaking. Holy shit, what's gonna happen now? @eon_scared_ox\nThen she hears speakers turned on. \n(text-colour: \"red\")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.]\nEon looks back in confusion."
-    },
-    {
-      "name": " Ox Turnip 1",
-      "tags": "Ox",
-      "id": "33",
-      "text": "And that's not what she expected.@eon_confused_ox\nShe sees a giant turnip covering the exit door.\nEon: Holy shit, that's definitely a surprise. \n(text-colour: \"red\")[AND IT'S A BITTER ONE. HAHAHA.]\n[[Ox | Ox Turnip 2]]",
-      "links": [
-        {
-          "linkText": "Ox | Ox Turnip 2",
-          "passageName": "Ox | Ox Turnip 2",
-          "original": "[[Ox | Ox Turnip 2]]"
-        }
-      ],
-      "cleanText": "And that's not what she expected.@eon_confused_ox\nShe sees a giant turnip covering the exit door.\nEon: Holy shit, that's definitely a surprise. \n(text-colour: \"red\")[AND IT'S A BITTER ONE. HAHAHA.]"
-    },
-    {
-      "name": " Ox Turnip 2",
-      "tags": "Ox",
-      "id": "34",
-      "text": "Okay, I can eat turnip. Whatever.\nShe bites the turnip. @eon_eat_ox @sfx_bite\nIt is hard, and bitter just like he said.\n[[Ox | Ox Turnip 3]]",
-      "links": [
-        {
-          "linkText": "Ox | Ox Turnip 3",
-          "passageName": "Ox | Ox Turnip 3",
-          "original": "[[Ox | Ox Turnip 3]]"
-        }
-      ],
-      "cleanText": "Okay, I can eat turnip. Whatever.\nShe bites the turnip. @eon_eat_ox @sfx_bite\nIt is hard, and bitter just like he said."
-    },
-    {
-      "name": " Ox Turnip 3",
-      "tags": "Ox",
-      "id": "35",
-      "text": "As Eon keeps eating it, her chewing get slower and slower. @eon_eat_ox\nShe feels her stomach bloathing.\nStranger: Doing well! Keep it up gurl!\n[[Ox|Eating]]",
-      "links": [
-        {
-          "linkText": "Ox|Eating",
-          "passageName": "Ox|Eating",
-          "original": "[[Ox|Eating]]"
-        }
-      ],
-      "cleanText": "As Eon keeps eating it, her chewing get slower and slower. @eon_eat_ox\nShe feels her stomach bloathing.\nStranger: Doing well! Keep it up gurl!"
-    },
-    {
-      "name": " Eagle Turnip 1",
-      "tags": "Eagle",
-      "id": "36",
-      "text": "Eon: This is really stupid. I am not trying to get out. I'm waiting to get on my train! @eon_think_eagle\nI should just pretend to eat it until my train arrives, which can be any minute. @eon_eat_eagle\n(text-colour: \"red\")[GO AHEAD] Stranger keeps talking.\n[[Eagle | Eagle Turnip 2]]",
-      "links": [
-        {
-          "linkText": "Eagle | Eagle Turnip 2",
-          "passageName": "Eagle | Eagle Turnip 2",
-          "original": "[[Eagle | Eagle Turnip 2]]"
-        }
-      ],
-      "cleanText": "Eon: This is really stupid. I am not trying to get out. I'm waiting to get on my train! @eon_think_eagle\nI should just pretend to eat it until my train arrives, which can be any minute. @eon_eat_eagle\n(text-colour: \"red\")[GO AHEAD] Stranger keeps talking."
-    },
-    {
-      "name": " Eagle Turnip 2",
-      "tags": "Eagle",
-      "id": "37",
-      "text": "Eon takes a very small bite of the turnip. \nStranger: (text-colour: \"red\")[WOW YOU ARE A SLOW EATER]\nEon: Wow I am so full, I think I need a break. @eon_tired_eagle\n[[Eagle | Eagle Turnip 3]]",
-      "links": [
-        {
-          "linkText": "Eagle | Eagle Turnip 3",
-          "passageName": "Eagle | Eagle Turnip 3",
-          "original": "[[Eagle | Eagle Turnip 3]]"
-        }
-      ],
-      "cleanText": "Eon takes a very small bite of the turnip. \nStranger: (text-colour: \"red\")[WOW YOU ARE A SLOW EATER]\nEon: Wow I am so full, I think I need a break. @eon_tired_eagle"
-    },
-    {
-      "name": " Eagle Turnip 3",
-      "tags": "Eagle",
-      "id": "38",
-      "text": "As she hears the train approaching, she gets back to eating again. @eon_eat_eagle\nStranger: (text-colour: \"red\")[GOTTA EAT FASTER]\n[[Eagle | Train arrives]]",
-      "links": [
-        {
-          "linkText": "Eagle | Train arrives",
-          "passageName": "Eagle | Train arrives",
-          "original": "[[Eagle | Train arrives]]"
-        }
-      ],
-      "cleanText": "As she hears the train approaching, she gets back to eating again. @eon_eat_eagle\nStranger: (text-colour: \"red\")[GOTTA EAT FASTER]"
-    },
-    {
-      "name": "What",
-      "tags": "Eagle",
-      "id": "39",
-      "text": "Eon: Why do you talk to me like that? What do you want? @eon_confused_eagle\nStranger: (text-colour: \"red\")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]\n[[Eagle |Consequences]]\n[[Ox |Get Away]]\n[[Human |What is]]",
-      "links": [
-        {
-          "linkText": "Eagle |Consequences",
-          "passageName": "Eagle |Consequences",
-          "original": "[[Eagle |Consequences]]"
+            "text": "**riddle\nStranger:<color=\"red\">\"Yes it is. So here it comes...</color>\nStranger:<color=\"red\">What is something that you get to keep after you give it to someone? Take you time because if you fail, there will be consequences.\"</color>\n[[Human|Thinking]]\n[[Ox|Just think]]\n[[Eagle|Think]]",
+            "links": [
+                {
+                    "name": "Human|Thinking",
+                    "link": "Human|Thinking",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Just think",
+                    "link": "Ox|Just think",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Think",
+                    "link": "Eagle|Think",
+                    "broken": true
+                }
+            ],
+            "name": "Riddle",
+            "pid": "16",
+            "position": {
+                "x": "1684.3333333333335",
+                "y": "1355.6666666666667"
+            }
         },
         {
-          "linkText": "Ox |Get Away",
-          "passageName": "Ox |Get Away",
-          "original": "[[Ox |Get Away]]"
+            "text": "**think\nEon:<color=\"blue\"><i>Hmm, It can be multiple things.</i></color>@eon_think_human\n[[Ox|Repeat]]\n[[Human|STD]]\n[[Eagle|Word]]",
+            "links": [
+                {
+                    "name": "Ox|Repeat",
+                    "link": "Ox|Repeat",
+                    "broken": true
+                },
+                {
+                    "name": "Human|STD",
+                    "link": "Human|STD",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Word",
+                    "link": "Eagle|Word",
+                    "broken": true
+                }
+            ],
+            "name": "Thinking",
+            "pid": "17",
+            "position": {
+                "x": "1746.6666666666667",
+                "y": "1471"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Human |What is",
-          "passageName": "Human |What is",
-          "original": "[[Human |What is]]"
-        }
-      ],
-      "cleanText": "Eon: Why do you talk to me like that? What do you want? @eon_confused_eagle\nStranger: (text-colour: \"red\")[I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be consequences.]"
-    },
-    {
-      "name": "Consequences",
-      "tags": "Eagle",
-      "id": "40",
-      "text": "Eon: What if I say no? @eon_think_eagle\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise.\n[[Ox |Here comes]]\n[[Human |What is]]\n[[Eagle |Who is this]]\n[[Lion |Lion Convo 2]]",
-      "links": [
-        {
-          "linkText": "Ox |Here comes",
-          "passageName": "Ox |Here comes",
-          "original": "[[Ox |Here comes]]"
+            "text": "**notAllowed\nEon:<color=\"blue\">\"Wait a minute! That's just cheating man, not cool. It is my turn to ask you one now!\"</color> @eon_sinister_human\nStranger:<color=\"red\">\"Your?\"</color>\nEon:<color=\"blue\">\"Yes, it's your turn to guess now.\"</color>\n[[Human|Your turn]]\n",
+            "links": [
+                {
+                    "name": "Human|Your turn",
+                    "link": "Human|Your turn",
+                    "broken": true
+                }
+            ],
+            "name": "Cheating",
+            "pid": "18",
+            "position": {
+                "x": "1740.3333333333335",
+                "y": "1986"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Human |What is",
-          "passageName": "Human |What is",
-          "original": "[[Human |What is]]"
+            "text": "**love\nEon is thinking. @eon_anxious_ox\nBut it is quite hard cause she is hella pressed.\nEon:<color=\"blue\"><i>What is something that you get to keep after giving it?...</i></color>\nEon: Eon says with a very low voice,<color=\"blue\">\"I'm sorry, do you mind repeating the riddle again?\"</color>\n[[Ox|Love]]",
+            "links": [
+                {
+                    "name": "Ox|Love",
+                    "link": "Ox|Love",
+                    "broken": true
+                }
+            ],
+            "name": "Repeat",
+            "pid": "19",
+            "position": {
+                "x": "1866.3333333333335",
+                "y": "1608"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Eagle |Who is this",
-          "passageName": "Eagle |Who is this",
-          "original": "[[Eagle |Who is this]]"
+            "text": "**love\nStranges looks disappointed. He repeats rolling his eyes,\nStranger:<color=\"red\">\"What is something that you get to keep after you give it to someone?\"</color>\nEon:<color=\"blue\">\"Yes yes. I just need to think a little.</color> @eon_think_ox\nEon:<color=\"blue\">\"It sounds like, hmm, love probably. You gotta have love to be able to give it someone. The more you give, the more you have? I mean, that's what they say...\"</color>\n[[Ox|One more]]\n[[Human|STD]]",
+            "links": [
+                {
+                    "name": "Ox|One more",
+                    "link": "Ox|One more",
+                    "broken": true
+                },
+                {
+                    "name": "Human|STD",
+                    "link": "Human|STD",
+                    "broken": true
+                }
+            ],
+            "name": "Love",
+            "pid": "20",
+            "position": {
+                "x": "1954.6666666666667",
+                "y": "1732.3333333333333"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Lion |Lion Convo 2",
-          "passageName": "Lion |Lion Convo 2",
-          "original": "[[Lion |Lion Convo 2]]"
-        }
-      ],
-      "cleanText": "Eon: What if I say no? @eon_think_eagle\nStranger: Then you'll lose by default and face the consequences.\nEon: And what are those?\nStranger: I cannot tell, that's a surprise."
-    },
-    {
-      "name": "Who is this",
-      "tags": "Eagle",
-      "id": "41",
-      "text": "Eon: And may I ask who you are? @eon_confused_eagle\nStrangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!\n[[Eagle |Syphinx]]",
-      "links": [
-        {
-          "linkText": "Eagle |Syphinx",
-          "passageName": "Eagle |Syphinx",
-          "original": "[[Eagle |yphinx]]"
-        }
-      ],
-      "cleanText": "Eon: And may I ask who you are? @eon_confused_eagle\nStrangers smile grows deeper.\nStranger: I am the riddle master. I am ancient.\nEon: I think I know who you are.\nStranger: Is that so? Then tell me my name!"
-    },
-    {
-      "name": "Syphinx",
-      "tags": "flower Eagle",
-      "id": "42",
-      "text": "Eon: I believe you are Syphinx, master of riddles and father of terror. @eon_think_eagle\nStranger: I have to admit, no one called me by that in a very long time. You impressed me gurl. \nEon: And I guess you'll eat me if I guess incorrectly? @eon_anxious_eagle\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\n[[Eagle |Blue Orange]]",
-      "links": [
-        {
-          "linkText": "Eagle |Blue Orange",
-          "passageName": "Eagle |Blue Orange",
-          "original": "[[Eagle |Blue Orange]]"
-        }
-      ],
-      "cleanText": "Eon: I believe you are Syphinx, master of riddles and father of terror. @eon_think_eagle\nStranger: I have to admit, no one called me by that in a very long time. You impressed me gurl. \nEon: And I guess you'll eat me if I guess incorrectly? @eon_anxious_eagle\nStranger: No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?"
-    },
-    {
-      "name": "Think",
-      "tags": "Eagle",
-      "id": "43",
-      "text": "Eon: Interesting... Multiple things come to mind. @eon_think_eagle\n[[Ox|Repeat]]\n[[ Human |STD]]\n[[Eagle |Word]]",
-      "links": [
-        {
-          "linkText": "Ox|Repeat",
-          "passageName": "Ox|Repeat",
-          "original": "[[Ox|Repeat]]"
+            "text": "**love\nEon: <color=\"blue\"><i>But what if it is not? There will be consequences he said.</i></color> @eon_think_ox\nThe Stranger is playing with his phone. He looks impatient tapping on the floor with this foot.\nEon:<color=\"blue\"><i>What can the consequence be? she asks herself. I guess something bad.</i></color>\nIt seems like the stranger is just checking his messages.\nEon:<color=\"blue\"><i>He looks like a normal person. But this is definitely not a normal situation or act.</i></color>\nStranger:<color=\"red\">\"Ehem! You still there? It's getting late.\"</color>\nEon:<color=\"blue\">\"Yes, just one more minute!\"</color>\n[[Ox|Answer Love]]",
+            "links": [
+                {
+                    "name": "Ox|Answer Love",
+                    "link": "Ox|Answer Love",
+                    "broken": true
+                }
+            ],
+            "name": "One more",
+            "pid": "21",
+            "position": {
+                "x": "1954.6666666666667",
+                "y": "1859.3333333333333"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Human |STD",
-          "passageName": "Human |STD",
-          "original": "[[ Human |STD]]"
+            "text": "**love\nEon:<color=\"blue\"><i>It has to be love, or at least nothing else comes to mind.</i></color> @eon_anxious_ox\nEon takes a deep breath. And then hesitantly, she speaks her answer.\nEon:<color=\"blue\">\"Okay, my guess is that it's love.\"</color>\n[[Ox|Love sucks]]",
+            "links": [
+                {
+                    "name": "Ox|Love sucks",
+                    "link": "Ox|Love sucks",
+                    "broken": true
+                }
+            ],
+            "name": "Answer Love",
+            "pid": "22",
+            "position": {
+                "x": "1936.3333333333335",
+                "y": "1978.3333333333333"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Eagle |Word",
-          "passageName": "Eagle |Word",
-          "original": "[[Eagle |Word]]"
-        }
-      ],
-      "cleanText": "Eon: Interesting... Multiple things come to mind. @eon_think_eagle"
-    },
-    {
-      "name": "Word",
-      "tags": "Eagle",
-      "id": "44",
-      "text": "Eon is thinking. @eon_think_eagle\nEon: It can be an advise or word. But technically you don't need to keep any of those after giving them.\n[[Human |STD]]\n[[Ox |Repeat]]\n[[Eagle |More words]]",
-      "links": [
-        {
-          "linkText": "Human |STD",
-          "passageName": "Human |STD",
-          "original": "[[Human |STD]]"
+            "text": "**think\nEon feels the tension rising. What kind of consequences she asks with a whisper. @eon_anxious_ox\nIt is useless to discuss it at this point. Just think.\n[[Ox|Repeat]]",
+            "links": [
+                {
+                    "name": "Ox|Repeat",
+                    "link": "Ox|Repeat",
+                    "broken": true
+                }
+            ],
+            "name": "Just think",
+            "pid": "23",
+            "position": {
+                "x": "1971.0000000000002",
+                "y": "1483.3333333333333"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox |Repeat",
-          "passageName": "Ox |Repeat",
-          "original": "[[Ox |Repeat]]"
+            "text": "**questionMark\nEon:<color=\"blue\">\"What is it that given one, you'll have either two or none?\"</color> @eon_talk_human\nStranger looks extremly bitter. No more smile.\nEon:<color=\"blue\">\"Think carefully\"</color>, Eon adds. <color=\"blue\">\"Remember, there will be consequences.\"</color>\n[[Human|Slowly]]",
+            "links": [
+                {
+                    "name": "Human|Slowly",
+                    "link": "Human|Slowly",
+                    "broken": true
+                }
+            ],
+            "name": "Your turn",
+            "pid": "24",
+            "position": {
+                "x": "1736",
+                "y": "2115.3333333333335"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Eagle |More words",
-          "passageName": "Eagle |More words",
-          "original": "[[Eagle |More words]]"
-        }
-      ],
-      "cleanText": "Eon is thinking. @eon_think_eagle\nEon: It can be an advise or word. But technically you don't need to keep any of those after giving them."
-    },
-    {
-      "name": "More words",
-      "tags": "Eagle",
-      "id": "45",
-      "text": "Eon: This dude must be super old. It makes sense that it's a lame word play. @eon_think_eagle\nEon: Words are expected to be kept. I don't think that's true for advise.\nEon: I'll go for word, that makes the most sense. And he won't be eating me anyway.\n[[Eagle |Guess words]]",
-      "links": [
+            "text": "**exit\nThe alligator face is murmuring. \nStranger:<color=\"red\">\"This must be contemporary one...\"</color>\nEon walks to the Exit door slowly. @eon_walkSlow_human\n[[Human|Fool]]",
+            "links": [
+                {
+                    "name": "Human|Fool",
+                    "link": "Human|Fool",
+                    "broken": true
+                }
+            ],
+            "name": "Slowly",
+            "pid": "25",
+            "position": {
+                "x": "1725.6666666666667",
+                "y": "2253.3333333333335"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
         {
-          "linkText": "Eagle |Guess words",
-          "passageName": "Eagle |Guess words",
-          "original": "[[Eagle |Guess words]]"
-        }
-      ],
-      "cleanText": "Eon: This dude must be super old. It makes sense that it's a lame word play. @eon_think_eagle\nEon: Words are expected to be kept. I don't think that's true for advise.\nEon: I'll go for word, that makes the most sense. And he won't be eating me anyway."
-    },
-    {
-      "name": "Guess words",
-      "tags": "Eagle",
-      "id": "46",
-      "text": "Eon: Okay, here I go. Answer to you riddle is, I believe, word. When you give your word to someone, you get to keep it. @eon_anxious_eagle\nThe Stranger smiles wide.\n[[Eagle |Thank you]]",
-      "links": [
+            "text": "**warning\nThe moment she steps by the door step, sirens break out. @eon_scared_human\nAlligator dude turns towards Eon. His eyes are burning flames. He looks scary.\nStranger:<color=\"red\">\"YOU THINK YOU CAN FOOL ME? ME?\"</color>\nHe starts floating towards her. \nEon:<color=\"blue\">\"Oh shit...\"</color>\n[[Ox|Begging]]\n[[Eagle|Calm down]]",
+            "links": [
+                {
+                    "name": "Ox|Begging",
+                    "link": "Ox|Begging",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Calm down",
+                    "link": "Eagle|Calm down",
+                    "broken": true
+                }
+            ],
+            "name": "Fool",
+            "pid": "26",
+            "position": {
+                "x": "1579.6666666666667",
+                "y": "2380.3333333333335"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
         {
-          "linkText": "Eagle |Thank you",
-          "passageName": "Eagle |Thank you",
-          "original": "[[Eagle |Thank you]]"
-        }
-      ],
-      "cleanText": "Eon: Okay, here I go. Answer to you riddle is, I believe, word. When you give your word to someone, you get to keep it. @eon_anxious_eagle\nThe Stranger smiles wide."
-    },
-    {
-      "name": "Thank you",
-      "tags": "Eagle",
-      "id": "47",
-      "text": "Stranger: I am impressed my friend. Really impressed. @eon_approve_eagle\nThe train is approaching the station finally. @sfx_train\nStranger: You are free to go now. It was a pleasure to challenge you my friend.\n[[Eagle | Train]]",
-      "links": [
+            "text": "**dialog\nEon:<color=\"blue\">\"Please calm down, we can figure this out.\"</color> @eon_anxious_eagle\nStranger:<color=\"red\">\"NO! YOU THINK I AM STUPID?</color>\nEon:<color=\"blue\">\"Not at all! Look, you seem mighty and I was scared okay?\"</color>\nStranger seems calmer.\nEon:<color=\"blue\">\"Sorry I did something stupid. But everyone acts stupid sometimes, right?\"</color>\nStranger:<color=\"red\">\"Okay, okay. No worries kid. Well, then we'll skip your riddle and move on to consequences.\"</color>\n[[Eagle|Consequences]]",
+            "links": [
+                {
+                    "name": "Eagle|Consequences",
+                    "link": "Eagle|Consequences",
+                    "broken": true
+                }
+            ],
+            "name": "Calm down",
+            "pid": "27",
+            "position": {
+                "x": "1760",
+                "y": "2364"
+            }
+        },
         {
-          "linkText": "Eagle | Train",
-          "passageName": "Eagle | Train",
-          "original": "[[Eagle | Train]]"
-        }
-      ],
-      "cleanText": "Stranger: I am impressed my friend. Really impressed. @eon_approve_eagle\nThe train is approaching the station finally. @sfx_train\nStranger: You are free to go now. It was a pleasure to challenge you my friend."
-    },
-    {
-      "name": " Train",
-      "tags": "",
-      "id": "48",
-      "text": "The train arrives.  @eon_hi_eagle\nEon: This was the longest wait I ever had.\nShe jumps on the train. \nStranger: Take care my friend!\nEon waves at the stranger as the train took off. @end",
-      "links": [],
-      "cleanText": "The train arrives.  @eon_hi_eagle\nEon: This was the longest wait I ever had.\nShe jumps on the train. \nStranger: Take care my friend!\nEon waves at the stranger as the train took off. @end"
-    },
-    {
-      "name": "Blue Orange",
-      "tags": "",
-      "id": "49",
-      "text": "Stranger: Thank you for remembering my name. Not many people do anymore. I'd like to present you this rare blue flower as a gift.\nEon picks the blue orange. @eon_approve_eagle\nStranger: Now, it is time for the riddle...\n[[Eagle |Riddle]]",
-      "links": [
+            "text": "**std\nEon is thinking. @eon_think_human\nEon:<color=\"blue\"><i>I feel like STD's fits this definition perfectly. You still keep them after you give it to someone. Dang...</i></color>\n[[Human|Guess STD]]\n[[Ox|Repeat]]\n[[Eagle|Word]]",
+            "links": [
+                {
+                    "name": "Human|Guess STD",
+                    "link": "Human|Guess STD",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Repeat",
+                    "link": "Ox|Repeat",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Word",
+                    "link": "Eagle|Word",
+                    "broken": true
+                }
+            ],
+            "name": "STD",
+            "pid": "28",
+            "position": {
+                "x": "1762",
+                "y": "1744.3333333333335"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
         {
-          "linkText": "Eagle |Riddle",
-          "passageName": "Eagle |Riddle",
-          "original": "[[Eagle |Riddle]]"
-        }
-      ],
-      "cleanText": "Stranger: Thank you for remembering my name. Not many people do anymore. I'd like to present you this rare blue flower as a gift.\nEon picks the blue orange. @eon_approve_eagle\nStranger: Now, it is time for the riddle..."
-    },
-    {
-      "name": "Consequences",
-      "tags": "",
-      "id": "50",
-      "text": "Stranger: (text-colour: \"red\")[Anyway, you failed! You'll face the consequences.] \nAnd the stranger disappears, boom!\n[[Ox |Announcement ]]",
-      "links": [
+            "text": "**thumbDown\nEon:<color=\"blue\">\"Okay, I think it's STD's!\"</color> @eon_think_human\nThe stranger looks surprised. \nStranger:<color=\"red\">\"Ehmm...\"</color>\nEon:<color=\"blue\">\"What? You give them and still keep them.\"</color>\nStranger:<color=\"red\">\"I guess that's true...but that was not the answer I expected. So, I'll ask another now.\"</color>\n[[Human|Cheating]]",
+            "links": [
+                {
+                    "name": "Human|Cheating",
+                    "link": "Human|Cheating",
+                    "broken": true
+                }
+            ],
+            "name": "Guess STD",
+            "pid": "29",
+            "position": {
+                "x": "1750.6666666666667",
+                "y": "1874.6666666666667"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
         {
-          "linkText": "Ox |Announcement",
-          "passageName": "Ox |Announcement",
-          "original": "[[Ox |Announcement ]]"
-        }
-      ],
-      "cleanText": "Stranger: (text-colour: \"red\")[Anyway, you failed! You'll face the consequences.] \nAnd the stranger disappears, boom!"
-    },
-    {
-      "name": " Train arrives",
-      "tags": "Eagle",
-      "id": "51",
-      "text": "Train arrives at the station finally.\nEon: Okay, sorry but I need to go. I am late. @eon_walk_eagle\nStranger: WHAT? Where do you think you are going?\nEon: To home! I gotto get up early tomorrow.\nShe calmly walks toward the train. \n[[Eagle|Train full]]",
-      "links": [
+            "text": "**thumbDown\nStranger:<color=\"red\">\"Oooh, aren't you a sweetheart, it almost breaks my heart.</color>\nStranger:<color=\"red\">\"But that's just not true. You can totally love and then open up to someone. And lose it afterwards because they are actually a piece of shit!\"</color> @eon_surprised_ox\nEon:<color=\"blue\">\"Argh, sounds like you have some shit going on.\"</color>\n[[Ox|Consequences]]",
+            "links": [
+                {
+                    "name": "Ox|Consequences",
+                    "link": "Ox|Consequences",
+                    "broken": true
+                }
+            ],
+            "name": "Love sucks",
+            "pid": "30",
+            "position": {
+                "x": "1940",
+                "y": "2117.6666666666665"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
         {
-          "linkText": "Eagle|Train full",
-          "passageName": "Eagle|Train full",
-          "original": "[[Eagle|Train full]]"
-        }
-      ],
-      "cleanText": "Train arrives at the station finally.\nEon: Okay, sorry but I need to go. I am late. @eon_walk_eagle\nStranger: WHAT? Where do you think you are going?\nEon: To home! I gotto get up early tomorrow.\nShe calmly walks toward the train."
-    },
-    {
-      "name": "Train full",
-      "tags": "Eagle",
-      "id": "52",
-      "text": "As the doors open, she feels a very intense heat coming from inside. @eon_surprised_eagle\nThe train is on fire. And full of Turnips. \nTurnips: HELP! HELP IT IS SO HOT IN HERE!\nEon: What the fuck... \nTurnips: PLEASE! WE SHOULDN'T BE ROASTED.\nSTranger: Hmm, my favorite.\n[[Eagle|No train]]",
-      "links": [
+            "text": "**eyes\nEon is shaking. Holy shit, what's gonna happen now? @eon_panic_ox\nThen she hears speakers turned on. \n<color=\"red\">\"TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.\"</color>\nEon looks back in confusion.\n[[Ox|Unexpected]]\n[[Eagle|Waiting]]",
+            "links": [
+                {
+                    "name": "Ox|Unexpected",
+                    "link": "Ox|Unexpected",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Waiting",
+                    "link": "Eagle|Waiting",
+                    "broken": true
+                }
+            ],
+            "name": "Announcements",
+            "pid": "31",
+            "position": {
+                "x": "1939",
+                "y": "2254"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
         {
-          "linkText": "Eagle|No train",
-          "passageName": "Eagle|No train",
-          "original": "[[Eagle|No train]]"
-        }
-      ],
-      "cleanText": "As the doors open, she feels a very intense heat coming from inside. @eon_surprised_eagle\nThe train is on fire. And full of Turnips. \nTurnips: HELP! HELP IT IS SO HOT IN HERE!\nEon: What the fuck... \nTurnips: PLEASE! WE SHOULDN'T BE ROASTED.\nSTranger: Hmm, my favorite."
-    },
-    {
-      "name": "No train",
-      "tags": "",
-      "id": "53",
-      "text": "Stranger: As you see, it's a turnip hell. So, I'd advise not to get on. @eon_scared_eagle\nThe train takes off with the screaming turnips.\nEon is silent. \nStranger: So, is your stomach ready yet?\n[[Ox| Ox Turnip 1]]",
-      "links": [
+            "text": "**turnip\nAnd that's not what she expected.@eon_surprised_ox\nShe sees a giant turnip covering the exit door.\nEon:<color=\"blue\">\"Holy shit, that's definitely a surprise.\"</color>\nStranger:<color=\"red\">\"AND IT'S A BITTER ONE. HAHAHA.\"</color>\n[[Ox|Bitter]]",
+            "links": [
+                {
+                    "name": "Ox|Bitter",
+                    "link": "Ox|Bitter",
+                    "broken": true
+                }
+            ],
+            "name": "Unexpected",
+            "pid": "32",
+            "position": {
+                "x": "1756",
+                "y": "2505.3333333333335"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
         {
-          "linkText": "Ox| Ox Turnip 1",
-          "passageName": "Ox| Ox Turnip 1",
-          "original": "[[Ox| Ox Turnip 1]]"
-        }
-      ],
-      "cleanText": "Stranger: As you see, it's a turnip hell. So, I'd advise not to get on. @eon_scared_eagle\nThe train takes off with the screaming turnips.\nEon is silent. \nStranger: So, is your stomach ready yet?"
-    },
-    {
-      "name": "Turnip Hell",
-      "tags": "",
-      "id": "54",
-      "text": "The train stops. Eon hears screams coming from inside. @eon_panic_ox\nAs the doors open, she feels a very intense heat coming from inside.\nThe train is on fire. And full of Turnips. \nTurnips: HELP! HELP IT IS SO HOT IN HERE!\nEon: Oh my God, oh my God, OH MY GOD!\nTurnips: PLEASE! WE ARE GETTING ROASTED. AND WE ARE TURNIPS!\nStranger: Hmm, delicious!\n[[Ox|Last Chance]]",
-      "links": [
+            "text": "**turnip\nEon:<color=\"blue\"><i>Okay, I can eat turnip. Whatever.</i></color>\nShe bites the turnip. @eon_eat_ox \n@sfx_bite\nEon:<color=\"blue\"><i>It is hard, and bitter just like he said.</i></color>\n[[Ox |Bloathing]]",
+            "links": [
+                {
+                    "name": "Ox |Bloathing",
+                    "link": "Ox |Bloathing",
+                    "broken": true
+                }
+            ],
+            "name": "Bitter",
+            "pid": "33",
+            "position": {
+                "x": "1811.6666666666667",
+                "y": "2640"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
         {
-          "linkText": "Ox|Last Chance",
-          "passageName": "Ox|Last Chance",
-          "original": "[[Ox|Last Chance]]"
-        }
-      ],
-      "cleanText": "The train stops. Eon hears screams coming from inside. @eon_panic_ox\nAs the doors open, she feels a very intense heat coming from inside.\nThe train is on fire. And full of Turnips. \nTurnips: HELP! HELP IT IS SO HOT IN HERE!\nEon: Oh my God, oh my God, OH MY GOD!\nTurnips: PLEASE! WE ARE GETTING ROASTED. AND WE ARE TURNIPS!\nStranger: Hmm, delicious!"
-    },
-    {
-      "name": "Last Chance",
-      "tags": "",
-      "id": "55",
-      "text": "Eon: Please mister, please! I'll anything. Please! @eon_panic_ox\nStranger: Well, you have to be more convincing.\nEon: Well I'm not a turnip in the first place.\nTurnips: ARGHHH!!!! OUCH!!!\nStranger: Okay, one last chance for you then. But you need to do as I say.\nEon: Anything sir. Anything!\nThe train takes off.\n[[Ox|Your task]]",
-      "links": [
+            "text": "**turnip\nAs Eon keeps eating it, her chewing get slower and slower. @eon_eat_ox\nShe feels her stomach bloathing.\nStranger:<color=\"red\">\"Yesss!!! Keep on going! You can do it!!!\"</color>\n[[Ox|Eating]]",
+            "links": [
+                {
+                    "name": "Ox|Eating",
+                    "link": "Ox|Eating",
+                    "broken": true
+                }
+            ],
+            "name": "Bloathing",
+            "pid": "34",
+            "position": {
+                "x": "1794",
+                "y": "2779.6666666666665"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
         {
-          "linkText": "Ox|Your task",
-          "passageName": "Ox|Your task",
-          "original": "[[Ox|Your task]]"
-        }
-      ],
-      "cleanText": "Eon: Please mister, please! I'll anything. Please! @eon_panic_ox\nStranger: Well, you have to be more convincing.\nEon: Well I'm not a turnip in the first place.\nTurnips: ARGHHH!!!! OUCH!!!\nStranger: Okay, one last chance for you then. But you need to do as I say.\nEon: Anything sir. Anything!\nThe train takes off."
-    },
-    {
-      "name": "Your task",
-      "tags": "",
-      "id": "56",
-      "text": "Eon is shaking. Holy shit, what's gonna happen now?  @eon_panic_ox\nThen she hears speakers turned on. \n(text-colour: \"red\")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.]\nEon looks back in confusion. \n[[Ox | Ox Turnip 1]]",
-      "links": [
+            "text": "**turnip\nEon:<color=\"blue\">\"This is really stupid. I am not trying to get out. I'm waiting to get on my train!\"@eon_think_eagle\n<i>I should just pretend to eat it until my train arrives, which can be any minute.</i></color> @eon_eat_eagle\nStranger:<color=\"red\">\"GO AHEAD!\"</color> Stranger keeps talking.\n[[Eagle|Small bite]]",
+            "links": [
+                {
+                    "name": "Eagle|Small bite",
+                    "link": "Eagle|Small bite",
+                    "broken": true
+                }
+            ],
+            "name": "Waiting",
+            "pid": "35",
+            "position": {
+                "x": "1953",
+                "y": "2367.3333333333335"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
         {
-          "linkText": "Ox | Ox Turnip 1",
-          "passageName": "Ox | Ox Turnip 1",
-          "original": "[[Ox | Ox Turnip 1]]"
-        }
-      ],
-      "cleanText": "Eon is shaking. Holy shit, what's gonna happen now?  @eon_panic_ox\nThen she hears speakers turned on. \n(text-colour: \"red\")[TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.]\nEon looks back in confusion."
-    },
-    {
-      "name": "Eating",
-      "tags": "",
-      "id": "57",
-      "text": "Eon keep eating.@eon_eat_ox\nEating.\nEating.\nEating.\nEating.\nEating.\nFor hours.\n[[Ox|Last bite]]",
-      "links": [
+            "text": "**turnip\nEon takes a very small bite of the turnip. \nStranger:<color=\"red\">\"WOW YOU ARE A SLOW EATER\"</color>\nEon:<color=\"blue\">\"I am so full, I think I need a break.\"</color> @eon_tired_eagle\n[[Eagle|Train]]",
+            "links": [
+                {
+                    "name": "Eagle|Train",
+                    "link": "Eagle|Train",
+                    "broken": true
+                }
+            ],
+            "name": "Small bite",
+            "pid": "36",
+            "position": {
+                "x": "1961",
+                "y": "2503"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
         {
-          "linkText": "Ox|Last bite",
-          "passageName": "Ox|Last bite",
-          "original": "[[Ox|Last bite]]"
-        }
-      ],
-      "cleanText": "Eon keep eating.@eon_eat_ox\nEating.\nEating.\nEating.\nEating.\nEating.\nFor hours."
-    },
-    {
-      "name": "Last bite",
-      "tags": "",
-      "id": "58",
-      "text": "And finally it is the last bite. @eon_tired_ox\nAs she is chewing, she feels her stomach is on fire.\nShe feels nauseous. \nConfettis explode on top of her head.\nStranger: You did it gurl! Congratulations!\n[[Ox|Vomit]]",
-      "links": [
+            "text": "**eyes\nAs she hears the train approaching, she gets back to eating again. @eon_eat_eagle\nStranger:<color=\"red\">\"GOTTA EAT FASTER!\"</color>\n[[Eagle|Train here]]",
+            "links": [
+                {
+                    "name": "Eagle|Train here",
+                    "link": "Eagle|Train here",
+                    "broken": true
+                }
+            ],
+            "name": "Train",
+            "pid": "37",
+            "position": {
+                "x": "1955.3333333333335",
+                "y": "2782"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
         {
-          "linkText": "Ox|Vomit",
-          "passageName": "Ox|Vomit",
-          "original": "[[Ox|Vomit]]"
-        }
-      ],
-      "cleanText": "And finally it is the last bite. @eon_tired_ox\nAs she is chewing, she feels her stomach is on fire.\nShe feels nauseous. \nConfettis explode on top of her head.\nStranger: You did it gurl! Congratulations!"
-    },
-    {
-      "name": "Vomit",
-      "tags": "",
-      "id": "59",
-      "text": "Eon starts to vomit. Everywhere. @eon_vomit_ox\nStranger: Arghh, this doesn't look good.\nShe vomits through the door, on the floor, all over herself.\nStranger: Okay, help is on the way!\nAmbulance sirens are coming from the railway.\n[[Ox|Ambulance]]",
-      "links": [
+            "text": "**dialog\nEon: <color=\"blue\">\"Why do you talk to me like that? What do you want?\"</color>@eon_confused_eagle\nStranger: <color=\"red\">\"I have a riddle for you. I want you to make a guess. If you guess right, you'll be fine. If not, there will be...</color>\nStranger: <color=\"red\">consequences.\"</color>\n[[Eagle|Surprise]]\n[[Ox|Get Away]]\n[[Human|What Is A Riddle]]",
+            "links": [
+                {
+                    "name": "Eagle|Surprise",
+                    "link": "Eagle|Surprise",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Get Away",
+                    "link": "Ox|Get Away",
+                    "broken": true
+                },
+                {
+                    "name": "Human|What Is A Riddle",
+                    "link": "Human|What Is A Riddle",
+                    "broken": true
+                }
+            ],
+            "name": "Why",
+            "pid": "38",
+            "position": {
+                "x": "1506",
+                "y": "891"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
         {
-          "linkText": "Ox|Ambulance",
-          "passageName": "Ox|Ambulance",
-          "original": "[[Ox|Ambulance]]"
-        }
-      ],
-      "cleanText": "Eon starts to vomit. Everywhere. @eon_vomit_ox\nStranger: Arghh, this doesn't look good.\nShe vomits through the door, on the floor, all over herself.\nStranger: Okay, help is on the way!\nAmbulance sirens are coming from the railway."
-    },
-    {
-      "name": "Ambulance",
-      "tags": "",
-      "id": "60",
-      "text": "Eon passes out vomiting as the ambulance train arrives. @eon_passedOut_ox\n2 turnips come out carrying a stretcher.\nStranger: Hi Danny, hi Bo! Thank you for coming so fast.\nThey seem annoyed. They lift off Eon and put her on the stretcher.\nDanny: Man...You really need to reconsider you way of interacting with people. This can't go on like this.\nStranger: You know, I am ancient. It is not easy to change habits. Still, sorry for the mess. \nTurnips just sigh.\n[[Ox|End]]",
-      "links": [
+            "text": "**dialog\nEon:<color=\"blue\">\"What if I say no?\"</color> @eon_think_eagle\nStranger:<color=\"red\">\"Then you'll lose by default and face the consequences.\"</color>\nEon:<color=\"blue\">\"And what are those?\"</color>\nStranger:<color=\"red\">\"I cannot tell, that's a surprise.\"</color>\n[[Ox|Ready]]\n[[Human|What Is A Riddle]]\n[[Eagle|Who]]\n[[Lion|What]]",
+            "links": [
+                {
+                    "name": "Ox|Ready",
+                    "link": "Ox|Ready",
+                    "broken": true
+                },
+                {
+                    "name": "Human|What Is A Riddle",
+                    "link": "Human|What Is A Riddle",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Who",
+                    "link": "Eagle|Who",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|What",
+                    "link": "Lion|What",
+                    "broken": true
+                }
+            ],
+            "name": "Surprise",
+            "pid": "39",
+            "position": {
+                "x": "1569",
+                "y": "996"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
         {
-          "linkText": "Ox|End",
-          "passageName": "Ox|End",
-          "original": "[[Ox|End]]"
+            "text": "**exxMark\nEon:<color=\"blue\">\"And may I ask who you are?\"</color> @eon_confused_eagle\nStrangers smile grows deeper.\nStranger:<color=\"red\">\"I am the riddle master. I am ancient.\"</color>\nEon:<color=\"blue\">\"I think I know who you are.\"</color>\nStranger:<color=\"red\">\"Is that so? Then tell me my name!\"</color>\n[[Eagle|Syphinx]]",
+            "links": [
+                {
+                    "name": "Eagle|Syphinx",
+                    "link": "Eagle|Syphinx",
+                    "broken": true
+                }
+            ],
+            "name": "Who",
+            "pid": "40",
+            "position": {
+                "x": "1412",
+                "y": "999"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**syphinx\nEon:<color=\"blue\">\"I believe you are Syphinx, master of riddles and father of terror.\"</color>@eon_think_eagle\nStranger:<color=\"red\">\"I have to admit, no one called me by that in a very long time. You impressed me girl.\"</color>\nEon:<color=\"blue\">\"And I guess you'll eat me if I guess incorrectly?\"</color>@eon_anxious_eagle\nStranger:<color=\"red\">\"No, not anymore. I developed reflux over the years. But I have other methods of terror. Anyway, as you know by now there is no other option for you to answer my riddle. Are you ready?\"</color>\n[[Eagle|My Name]]",
+            "links": [
+                {
+                    "name": "Eagle|My Name",
+                    "link": "Eagle|My Name",
+                    "broken": true
+                }
+            ],
+            "name": "Syphinx",
+            "pid": "41",
+            "position": {
+                "x": "1536",
+                "y": "1113"
+            },
+            "tags": [
+                "flower",
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**think\nEon:<color=\"blue\">\"Interesting... Multiple things come to mind.\"</color>@eon_think_eagle\n[[Ox|Repeat]]\n[[Human|STD]]\n[[Eagle|Word]]",
+            "links": [
+                {
+                    "name": "Ox|Repeat",
+                    "link": "Ox|Repeat",
+                    "broken": true
+                },
+                {
+                    "name": "Human|STD",
+                    "link": "Human|STD",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Word",
+                    "link": "Eagle|Word",
+                    "broken": true
+                }
+            ],
+            "name": "Think",
+            "pid": "42",
+            "position": {
+                "x": "1521.6666666666667",
+                "y": "1457"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**word\nEon is thinking. @eon_think_eagle\nEon:<color=\"blue\"><i>It can be an advice or word, but technically you don't need to keep any of those after giving them.</i></color>\n[[Human|STD]]\n[[Ox|Repeat]]\n[[Eagle|More words]]",
+            "links": [
+                {
+                    "name": "Human|STD",
+                    "link": "Human|STD",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Repeat",
+                    "link": "Ox|Repeat",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|More words",
+                    "link": "Eagle|More words",
+                    "broken": true
+                }
+            ],
+            "name": "Word",
+            "pid": "43",
+            "position": {
+                "x": "1606.6666666666667",
+                "y": "1579.3333333333333"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "Eon:<color=\"blue\"><i>This dude must be super old. It makes sense that it's a lame word play.</i></color> @eon_think_eagle\nEon:<color=\"blue\"><i>Words are expected to be kept. I don't think that's true for advice.</color></i>\nEon:<color=\"blue\"><i>I'll go for word, that makes the most sense. And he won't be eating me anyway.</i></color>\n[[Eagle|Guess words]]",
+            "links": [
+                {
+                    "name": "Eagle|Guess words",
+                    "link": "Eagle|Guess words",
+                    "broken": true
+                }
+            ],
+            "name": "More words",
+            "pid": "44",
+            "position": {
+                "x": "1566.6666666666667",
+                "y": "1712.3333333333333"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "Eon:<color=\"blue\">\"Okay, here I go. Answer to you riddle is, I believe, word. When you give your word to someone, you get to keep it!\"</color> @eon_anxious_eagle\nThe Stranger smiles wide.\n[[Eagle|Thank you]]",
+            "links": [
+                {
+                    "name": "Eagle|Thank you",
+                    "link": "Eagle|Thank you",
+                    "broken": true
+                }
+            ],
+            "name": "Guess words",
+            "pid": "45",
+            "position": {
+                "x": "1565.6666666666667",
+                "y": "1837.3333333333333"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "Stranger:<color=\"red\">\"I am impressed my friend. Really impressed.\"</color>@eon_happy_eagle\nThe train is approaching the station finally. @sfx_train\nStranger:<color=\"red\">\"You are free to go now. It was a pleasure to challenge you my friend.\"</color>\n[[Eagle|Train Arrives]]",
+            "links": [
+                {
+                    "name": "Eagle|Train Arrives",
+                    "link": "Eagle|Train Arrives",
+                    "broken": true
+                }
+            ],
+            "name": "Thank you",
+            "pid": "46",
+            "position": {
+                "x": "1586.3333333333335",
+                "y": "2019.3333333333333"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**blueOrange\n~~\nStranger:<color=\"red\">\"Thank you for remembering my name. Not many people do anymore. I'd like to present you this rare blue flower as a gift.\"</color>\nEon picks the blue orange. @eon_approve_eagle\nStranger:<color=\"red\">\"Now, it is time for the riddle...\"</color>\n[[Eagle|Riddle]]",
+            "links": [
+                {
+                    "name": "Eagle|Riddle",
+                    "link": "Eagle|Riddle",
+                    "broken": true
+                }
+            ],
+            "name": "My Name",
+            "pid": "47",
+            "position": {
+                "x": "1441.3333333333335",
+                "y": "1224"
+            }
+        },
+        {
+            "text": "**thumbDown\nStranger:<color=\"red\">\"Anyway, you failed! You'll face the consequences.\"</color>@eon_anxious_ox\nAnd the stranger disappears, boom!\n[[Ox|Announcements]]",
+            "links": [
+                {
+                    "name": "Ox|Announcements",
+                    "link": "Ox|Announcements",
+                    "broken": true
+                }
+            ],
+            "name": "Consequences",
+            "pid": "48",
+            "position": {
+                "x": "1421.3333333333333",
+                "y": "2132.6666666666665"
+            }
+        },
+        {
+            "text": "**fire\nAs the doors open, she feels a very intense heat coming from inside. @eon_surprised_eagle\nThe train is on fire. And full of Turnips. The turnips are screaming, \"HELP! HELP IT IS SO HOT IN HERE!\"\nEon: <color=\"blue\">\"What the fuck...\"</color>\n\"PLEASE! WE SHOULDN'T BE ROASTED,\" yelped the turnips.\nSTranger:<color=\"red\">\"Hmm, my favorite.\"</color>\n[[Eagle|No train]]",
+            "links": [
+                {
+                    "name": "Eagle|No train",
+                    "link": "Eagle|No train",
+                    "broken": true
+                }
+            ],
+            "name": "Full",
+            "pid": "49",
+            "position": {
+                "x": "1972.6666666666667",
+                "y": "2983.3333333333335"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**turnip\nStranger:<color=\"red\">\"As you see, it's a turnip hell. So, I'd advise not to get on.\"</color? @eon_scared_eagle\nThe train takes off with the screaming turnips.\nEon is silent. \nStranger:<color=\"red\">\"So, is your stomach ready yet?\"</color>\n[[Ox|Unexpected]]",
+            "links": [
+                {
+                    "name": "Ox|Unexpected",
+                    "link": "Ox|Unexpected",
+                    "broken": true
+                }
+            ],
+            "name": "No train",
+            "pid": "50",
+            "position": {
+                "x": "1967.6666666666667",
+                "y": "2635.3333333333335"
+            }
+        },
+        {
+            "text": "**turnip\nThe train stops. Eon hears screams coming from inside. @eon_panic_ox\nAs the doors open, she feels a very intense heat coming from inside.\nThe train is on fire. And full of screaming turnips. \n\"HELP! HELP IT IS SO HOT IN HERE!\" the turnips scream.\nEon:<color=\"blue\">\"Oh my God, oh my God, OH MY GOD!\"</color>\n\"PLEASE!\" the turnips continue to yell, \"WE ARE GETTING ROASTED. AND WE ARE TURNIPS!\"\nStranger:<color=\"red\">\"Hmm, delicious!</color>\n[[Ox|Last Chance]]",
+            "links": [
+                {
+                    "name": "Ox|Last Chance",
+                    "link": "Ox|Last Chance",
+                    "broken": true
+                }
+            ],
+            "name": "Turnip Hell",
+            "pid": "51",
+            "position": {
+                "x": "1658.6666666666665",
+                "y": "2639.666666666667"
+            }
+        },
+        {
+            "text": "**cry\nEon:<color=\"blue\">\"Please mister, please! I'll do anything. Please!\"</color>@eon_panic_ox\nStranger:<color=\"red\">\"Well, you have to be more convincing.\"</color>\nEon:<color=\"blue\">\"Well I'm not a turnip in the first place.\"</color>\nThe turnips start to scream, \"ARGHHH!!!! OUCH!!!\"\nStranger:<color=\"red\">\"Okay, one last chance for you then, but you need to do as I say.\"</color>\nEon:<color=\"blue\">\"Anything sir. Anything!\"</color>\nThe train takes off.\n[[Ox|Your task]]",
+            "links": [
+                {
+                    "name": "Ox|Your task",
+                    "link": "Ox|Your task",
+                    "broken": true
+                }
+            ],
+            "name": "Last Chance",
+            "pid": "52",
+            "position": {
+                "x": "1492",
+                "y": "2507"
+            }
+        },
+        {
+            "text": "**exxQuestion\nEon is shaking. Holy shit, what's gonna happen now?  @eon_panic_ox\nThen she hears speakers turned on. \nStranger:<color=\"red\">\"TO GET OUT YOU GOTTA EAT THE WHOLE EXIT DOOR. DON'T TRY TO CHEAT, IT WON'T WORK.\"</color>\nEon looks back in confusion. \n[[Ox|Unexpected]]",
+            "links": [
+                {
+                    "name": "Ox|Unexpected",
+                    "link": "Ox|Unexpected",
+                    "broken": true
+                }
+            ],
+            "name": "Your task",
+            "pid": "53",
+            "position": {
+                "x": "1618",
+                "y": "2502"
+            }
+        },
+        {
+            "text": "**turnip\nEon keep eating.@eon_eat_ox\nEating.\nEating.\nEating.\nEating.\nEating.\nFor hours.\n[[Ox|Last bite]]",
+            "links": [
+                {
+                    "name": "Ox|Last bite",
+                    "link": "Ox|Last bite",
+                    "broken": true
+                }
+            ],
+            "name": "Eating",
+            "pid": "54",
+            "position": {
+                "x": "1843.3333333333335",
+                "y": "2993.3333333333335"
+            }
+        },
+        {
+            "text": "**tick\nAnd finally it is the last bite. @eon_tired_ox\nAs she is chewing, she feels her stomach is on fire.\nShe feels nauseous. \nStranger:<color=\"red\">\"You did it girl! Congratulations!\"</color>\n[[Ox|Vomit]]",
+            "links": [
+                {
+                    "name": "Ox|Vomit",
+                    "link": "Ox|Vomit",
+                    "broken": true
+                }
+            ],
+            "name": "Last bite",
+            "pid": "55",
+            "position": {
+                "x": "1845.3333333333335",
+                "y": "3128.3333333333335"
+            }
+        },
+        {
+            "text": "**explosion\nEon starts to vomit. Everywhere. @eon_vomit_ox\nStranger:<color=\"red\">\"Arghh, this doesn't look good.\"</color>\nShe vomits through the door, on the floor, all over herself.\nStranger:<color=\"red\">\"Okay, help is on the way!\"</color>\nAmbulance sirens are coming from the railway.\n[[Ox|Ambulance]]",
+            "links": [
+                {
+                    "name": "Ox|Ambulance",
+                    "link": "Ox|Ambulance",
+                    "broken": true
+                }
+            ],
+            "name": "Vomit",
+            "pid": "56",
+            "position": {
+                "x": "1851.3333333333335",
+                "y": "3246.3333333333335"
+            }
+        },
+        {
+            "text": "**medPlus\nEon passes out vomiting as the ambulance train arrives. @eon_passedOut_ox\n2 turnips come out carrying a stretcher.\nStranger:<color=\"red\">\"Hi Danny, hi Bo! Thank you for coming so fast.\"</color>\nThey seem annoyed. They lift off Eon and put her on the stretcher.\n\"Man...You really need to reconsider you way of interacting with people. This can't go on like this,\" complains Danny.\nStranger:<color=\"red\">\"You know, I am ancient. It is not easy to change habits. Still, sorry for the mess. \"</color>\nTurnips just sigh.\n[[Ox|End]]",
+            "links": [
+                {
+                    "name": "Ox|End",
+                    "link": "Ox|End",
+                    "broken": true
+                }
+            ],
+            "name": "Ambulance",
+            "pid": "57",
+            "position": {
+                "x": "1840.6666666666667",
+                "y": "3383"
+            }
+        },
+        {
+            "text": "**end\n\"We'll make sure she makes safely to home,\" says Danny. @eon_passedOut_ox\nStranger:<color=\"red\">\"Thank you Danny! Bo! See you next time!\"</color>\nAs the train takes off Stranger speaks to himself silently.\nStranger:<color=\"red\">\"One day, I'll find someone who likes turnips as much as I do. And it is close. I feel it in my bones.\"</color>\n@end",
+            "name": "End",
+            "pid": "58",
+            "position": {
+                "x": "1877.6666666666667",
+                "y": "3526"
+            }
+        },
+        {
+            "text": "The train arrives.  @eon_hi_eagle\nEon:<color=\"blue\">\"This was the longest wait I ever had.\"</color>\nShe jumps on the train. \nStranger:<color=\"red\">\"Take care my friend!\"</color>\nEon waves at the stranger as the train took off. @end",
+            "name": "Train Arrives",
+            "pid": "59",
+            "position": {
+                "x": "1578.0000000000002",
+                "y": "2149.333333333333"
+            }
+        },
+        {
+            "text": "**cry\nEon:<color=\"blue\">\"NO!NO! PLEASE DON'T HURT ME!\"</color>@eon_panic_ox\nStranger:<color=\"red\">\"SHOULD I SEND YOU TO TURNIP HELL? SHOULD I?\"</color>\nEon:<color=\"blue\">\"Oh God, oh God. Please mister, please forgive me. Please...\"/color>\nStranger:<color=\"red\">\"I'LL SHOW YOU NOW...\"</color>\nThe train approaches the station.\n[[Ox|Turnip Hell]]",
+            "links": [
+                {
+                    "name": "Ox|Turnip Hell",
+                    "link": "Ox|Turnip Hell",
+                    "broken": true
+                }
+            ],
+            "name": "Begging",
+            "pid": "60",
+            "position": {
+                "x": "1341.3333333333333",
+                "y": "2499.0000000000005"
+            }
+        },
+        {
+            "text": "**dialog\nTrain arrives at the station finally.\nEon:<colore=\"blue\">\"Okay, sorry but I need to go. I am late.\"</color> @eon_walk_eagle\nStranger:<color=\"red\">\"WHAT? Where do you think you are going?\"</color>\nEon:<color=\"blue\">\"To home! I gotta get up early tomorrow.\"</color>\nShe calmly walks toward the train. \n[[Eagle|Full]]",
+            "links": [
+                {
+                    "name": "Eagle|Full",
+                    "link": "Eagle|Full",
+                    "broken": true
+                }
+            ],
+            "name": "Train here",
+            "pid": "61",
+            "position": {
+                "x": "1981",
+                "y": "3117"
+            }
         }
-      ],
-      "cleanText": "Eon passes out vomiting as the ambulance train arrives. @eon_passedOut_ox\n2 turnips come out carrying a stretcher.\nStranger: Hi Danny, hi Bo! Thank you for coming so fast.\nThey seem annoyed. They lift off Eon and put her on the stretcher.\nDanny: Man...You really need to reconsider you way of interacting with people. This can't go on like this.\nStranger: You know, I am ancient. It is not easy to change habits. Still, sorry for the mess. \nTurnips just sigh."
-    },
-    {
-      "name": "End",
-      "tags": "",
-      "id": "61",
-      "text": "Danny: We'll make sure she makes safely to home. @eon_passedOut_ox\nStranger: Thank you Danny! Bo! See you next time!\nAs the train takes off Stranger speaks to himself silently.\nStranger: One day, I'll find someone who likes turnips as much as I do. And it is close. I feel it in my bones.\n@end",
-      "links": [],
-      "cleanText": "Danny: We'll make sure she makes safely to home. @eon_passedOut_ox\nStranger: Thank you Danny! Bo! See you next time!\nAs the train takes off Stranger speaks to himself silently.\nStranger: One day, I'll find someone who likes turnips as much as I do. And it is close. I feel it in my bones.\n@end"
-    }
-  ]
+    ],
+    "name": "TWC-Story1 - Eagle",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.15",
+    "ifid": "A8F8ECB6-06FA-457E-B0BF-5A123B25AFE9"
 }
+

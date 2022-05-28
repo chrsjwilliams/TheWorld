@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 8cde9af586b54461890beec1831c47c0, type: 2}
+    - {fileID: 11400000, guid: ae825c4686a3c4572a3ff7f2f096bed8, type: 2}
     - {fileID: 11400000, guid: 036c98d19df954e23b6eb215387db784, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -74,28 +74,29 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Love
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Strangers looks disappointed. He repeats rolling his eyes.
+    line: Stranges looks disappointed. He repeats rolling his eyes,
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")[What is something that you get to keep after you
-      give it to someone?]'
+    line: <color="red">"What is something that you get to keep after you give it
+      to someone?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Yes yes. I just need to think a little. '
+    line: '<color="blue">"Yes yes. I just need to think a little.</color> '
     lineActions:
-    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
+    - {fileID: 11400000, guid: 2faf0f7811c8e43e4a7e2cc6b5ae29c9, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' It sounds like, hmm, love probably. You gotta have love to be able to
-      give it someone. The more you give, the more you have? I mean, that''s what
-      they say...'
+    line: <color="blue">"It sounds like, hmm, love probably. You gotta have love
+      to be able to give it someone. The more you give, the more you have? I mean,
+      that's what they say..."</color>
     lineActions: []
     Notes: 
   Notes: 

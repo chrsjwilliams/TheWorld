@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: a77d6b931579e46ba83593af490a509a, type: 2}
+    - {fileID: 11400000, guid: 755f5c29a80544514aa3248a51173103, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,12 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: ccee760f17bba44db8c18a3cb7347376, type: 3}
   NodeTitle: No train
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' As you see, it''s a turnip hell. So, I''d advise not to get on. '
+    line: '<color="red">"As you see, it''s a turnip hell. So, I''d advise not to
+      get on."</color? '
     lineActions:
     - {fileID: 11400000, guid: b7826469fb8544d1fb3e56c452c95614, type: 2}
     Notes: 
@@ -79,7 +81,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' So, is your stomach ready yet?'
+    line: <color="red">"So, is your stomach ready yet?"</color>
     lineActions: []
     Notes: 
   Notes: 

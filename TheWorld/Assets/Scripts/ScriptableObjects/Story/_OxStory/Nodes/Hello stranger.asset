@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Hello stranger
@@ -82,7 +83,7 @@ MonoBehaviour:
     line: 'The footsteps stops next to her. '
     lineActions:
     - {fileID: 11400000, guid: 2b4a4df38af824958b647dddd661f8cf, type: 2}
-    - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
+    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: With the corner of her eye, she sees the torn out sneakers and the jeans.
@@ -93,7 +94,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' (text-colour: "red")["Hello stranger."] '
+    line: ' <color="red">"Hello stranger."</color>'
     lineActions: []
     Notes: 
   Notes: 

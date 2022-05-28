@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: c7f5ff6b26f94428987195eabfa5dd7d, type: 2}
+    - {fileID: 11400000, guid: f2fd15fb01d48459bb4c6084a768cfa1, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,8 +61,9 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 8d6eccef6874642d4bd9e199e03f59b4, type: 3}
   NodeTitle: Slowly
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -70,7 +71,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' This must be contemporary one...'
+    line: <color="red">"This must be contemporary one..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

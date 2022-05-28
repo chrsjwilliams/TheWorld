@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: 587c11bda75024ec689e46e1fee69db4, type: 2}
-    - {fileID: 11400000, guid: 2dd67fc539f2247f5a4e937ea57b24be, type: 2}
+    - {fileID: 11400000, guid: 832ed51cf41b44b3090d17212d102e8f, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -74,17 +74,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Angry
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Just fucking let me go! '
+    line: '<color="blue">"Just fucking let me go!"</color> '
     lineActions:
     - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' If I were you, I''d listen to me or there would be consequences.'
+    line: <color="red">"If I were you, I'd listen to me or there would be consequences."</color>
     lineActions: []
     Notes: 
   Notes: 

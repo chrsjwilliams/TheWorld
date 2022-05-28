@@ -10,6 +10,7 @@ using Sirenix.OdinInspector;
 public class DialogNode : SerializedScriptableObject, IAction
 {
     [SerializeField] public bool hasSecretItem;
+    [SerializeField] public bool oxNodeAbility;
     [SerializeField] public PersonalityChoice nodeType;
     [SerializeField] public Sprite nodeSprite;
     [SerializeField] public string NodeTitle;
@@ -26,6 +27,7 @@ public class DialogNode : SerializedScriptableObject, IAction
     {
         foreach (KeyValuePair<PersonalityChoice, DialogNode> entry in nextNodes)
         {
+            Debug.Log("NODE: " + entry.Value.name);
             entry.Value.nodeType = entry.Key;
         }
     }

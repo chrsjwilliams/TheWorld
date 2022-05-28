@@ -61,25 +61,26 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: e887dd723aa164086af7925ebb3afd7b, type: 3}
   NodeTitle: Begging
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' NO!NO! PLEASE DON''T HURT ME! '
+    line: <color="blue">"NO!NO! PLEASE DON'T HURT ME!"</color>
     lineActions:
     - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' SHOULD I SEND YOU TO TURNIP HELL? SHOULD I?'
+    line: <color="red">"SHOULD I SEND YOU TO TURNIP HELL? SHOULD I?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Oh God, oh God. Please mister, please forgive me. Please...'
+    line: <color="blue">"Oh God, oh God. Please mister, please forgive me. Please..."/color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' I''LL SHOW YOU NOW...'
+    line: <color="red">"I'LL SHOW YOU NOW..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

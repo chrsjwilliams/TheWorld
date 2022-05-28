@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Word
@@ -97,8 +98,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' It can be an advise or word. But technically you don''t need to keep
-      any of those after giving them.'
+    line: <color="blue"><i>It can be an advice or word, but technically you don't
+      need to keep any of those after giving them.</i></color>
     lineActions: []
     Notes: 
   Notes: 

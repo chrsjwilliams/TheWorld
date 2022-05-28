@@ -87,17 +87,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: STD
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon is thinking.
-    lineActions: []
+    line: 'Eon is thinking. '
+    lineActions:
+    - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I feel like STD''s fits this definition perfectly. You still keep them
-      after you give it to someone. Dang...'
+    line: <color="blue"><i>I feel like STD's fits this definition perfectly. You
+      still keep them after you give it to someone. Dang...</i></color>
     lineActions: []
     Notes: 
   Notes: 

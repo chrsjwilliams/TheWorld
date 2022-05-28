@@ -15,7 +15,8 @@ MonoBehaviour:
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
-    ReferencedUnityObjects: []
+    ReferencedUnityObjects:
+    - {fileID: 11400000, guid: 73d907001dbff41399f866aeb312b021, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -40,7 +41,19 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
+      Data: 1
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 10
       Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
     - Name: 
       Entry: 13
       Data: 
@@ -48,31 +61,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: f7904cfe4043d4c5e8ebe84d0917463b, type: 3}
   NodeTitle: Train
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'The train arrives.  '
+    line: 'As she hears the train approaching, she gets back to eating again. '
     lineActions:
-    - {fileID: 11400000, guid: db843c48570334768af0e4fcd8d28620, type: 2}
-    Notes: 
-  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' This was the longest wait I ever had.'
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'She jumps on the train. '
-    lineActions: []
+    - {fileID: 11400000, guid: b0d4bd6441b0948bc9d7f74adc925f22, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Take care my friend!'
+    line: <color="red">"GOTTA EAT FASTER!"</color>
     lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Eon waves at the stranger as the train took off. '
-    lineActions:
-    - {fileID: 0}
     Notes: 
   Notes: 
   lineActions: []

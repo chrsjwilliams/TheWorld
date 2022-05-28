@@ -61,8 +61,9 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: ccee760f17bba44db8c18a3cb7347376, type: 3}
   NodeTitle: Turnip Hell
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -75,23 +76,24 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'The train is on fire. And full of Turnips. '
+    line: 'The train is on fire. And full of screaming turnips. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' HELP! HELP IT IS SO HOT IN HERE!'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: '"HELP! HELP IT IS SO HOT IN HERE!" the turnips scream.'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Oh my God, oh my God, OH MY GOD!'
+    line: <color="blue">"Oh my God, oh my God, OH MY GOD!"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' PLEASE! WE ARE GETTING ROASTED. AND WE ARE TURNIPS!'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: '"PLEASE!" the turnips continue to yell, "WE ARE GETTING ROASTED. AND WE
+      ARE TURNIPS!"'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Hmm, delicious!'
+    line: <color="red">"Hmm, delicious!</color>
     lineActions: []
     Notes: 
   Notes: 

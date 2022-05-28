@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 61107a878896a4b88b7d66da41874cd3, type: 2}
+    - {fileID: 11400000, guid: 1e202813ee41244a2b2a2919ec852310, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -61,14 +61,15 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Thank you
   speakingLines:
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' I am impressed my friend. Really impressed. '
+    line: <color="red">"I am impressed my friend. Really impressed."</color>
     lineActions:
-    - {fileID: 11400000, guid: 7c2b3c141dc994895bf73d7a663b2e91, type: 2}
+    - {fileID: 11400000, guid: 0b3a0f01f2fbf4f0790b33c919eba782, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The train is approaching the station finally. '
@@ -76,7 +77,8 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e9ab47d39b15f4e659b8187293c84ab6, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' You are free to go now. It was a pleasure to challenge you my friend.'
+    line: <color="red">"You are free to go now. It was a pleasure to challenge you
+      my friend."</color>
     lineActions: []
     Notes: 
   Notes: 

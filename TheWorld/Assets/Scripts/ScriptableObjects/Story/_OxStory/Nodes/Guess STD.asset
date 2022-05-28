@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Guess STD
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Okay, I think it''s STD''s '
+    line: '<color="blue">"Okay, I think it''s STD''s!"</color> '
     lineActions:
     - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
     Notes: 
@@ -75,16 +76,16 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: '(text-colour: "red")["Ehmm..."]'
+    line: <color="red">"Ehmm..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What? You give them and still keep them.'
+    line: <color="blue">"What? You give them and still keep them."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: '(text-colour: "red")["I guess that''s true"]  (text-colour: "red")["But
-      that was not the answer I expected. So, I''ll ask another now."]'
+    line: <color="red">"I guess that's true...but that was not the answer I expected.
+      So, I'll ask another now."</color>
     lineActions: []
     Notes: 
   Notes: 

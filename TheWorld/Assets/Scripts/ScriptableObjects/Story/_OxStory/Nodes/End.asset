@@ -48,17 +48,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 4ab2bb83b686648f9bb6d4c06fe1934c, type: 3}
   NodeTitle: End
   speakingLines:
-  - speaker: {fileID: 11400000, guid: dc7cdd2a23f2a4842998924b28e01da2, type: 2}
-    line: ' We''ll make sure she makes safely to home. '
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: '"We''ll make sure she makes safely to home," says Danny. '
     lineActions:
     - {fileID: 11400000, guid: 6e6befd03fd084d5780084504c54ceb0, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Thank you Danny! Bo! See you next time!'
+    line: <color="red">"Thank you Danny! Bo! See you next time!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -66,8 +67,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' One day, I''ll find someone who likes turnips as much as I do. And it
-      is close. I feel it in my bones.'
+    line: <color="red">"One day, I'll find someone who likes turnips as much as I
+      do. And it is close. I feel it in my bones."</color>
     lineActions: []
     Notes: 
   Notes: 

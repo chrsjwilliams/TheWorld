@@ -61,17 +61,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 1091f0cc306784de7b20c3b97cafe6c3, type: 3}
   NodeTitle: Station
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Eon is waiting for the last train. '
+    line: 'Eon is waiting at the train station. '
     lineActions:
     - {fileID: 11400000, guid: 4d3a5a579b3264791a0c32ae8b96c437, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: It seems like she is the only one.
+    line: It seems like there is no one else around.
     lineActions: []
     Notes: 
   Notes: 

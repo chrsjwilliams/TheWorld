@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Ambulance
@@ -75,21 +76,21 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Hi Danny, hi Bo! Thank you for coming so fast.'
+    line: <color="red">"Hi Danny, hi Bo! Thank you for coming so fast."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: They seem annoyed. They lift off Eon and put her on the stretcher.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 11400000, guid: dc7cdd2a23f2a4842998924b28e01da2, type: 2}
-    line: ' Man...You really need to reconsider you way of interacting with people.
-      This can''t go on like this.'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: '"Man...You really need to reconsider you way of interacting with people.
+      This can''t go on like this," complains Danny.'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' You know, I am ancient. It is not easy to change habits. Still, sorry
-      for the mess. '
+    line: <color="red">"You know, I am ancient. It is not easy to change habits.
+      Still, sorry for the mess. "</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

@@ -61,33 +61,35 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: e887dd723aa164086af7925ebb3afd7b, type: 3}
   NodeTitle: Last Chance
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Please mister, please! I''ll anything. Please! '
+    line: <color="blue">"Please mister, please! I'll do anything. Please!"</color>
     lineActions:
     - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Well, you have to be more convincing.'
+    line: <color="red">"Well, you have to be more convincing."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Well I''m not a turnip in the first place.'
+    line: <color="blue">"Well I'm not a turnip in the first place."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' ARGHHH!!!! OUCH!!!'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: The turnips start to scream, "ARGHHH!!!! OUCH!!!"
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
-    line: ' Okay, one last chance for you then. But you need to do as I say.'
+    line: <color="red">"Okay, one last chance for you then, but you need to do as
+      I say."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Anything sir. Anything!'
+    line: <color="blue">"Anything sir. Anything!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
