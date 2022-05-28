@@ -61,26 +61,27 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Fraud
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "She also tells people that you cancelled the retreat because you used
-      the money to buy groceries for office and take them home." '
+    line: '<color="blue">"She also tells people that you cancelled the retreat because
+      you used the money to buy groceries for office and take them home."</color> '
     lineActions:
     - {fileID: 11400000, guid: bbe267ae0a25845a0b18d4e0adaf0a23, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Nooo...No, she can''t."'
+    line: <color="green">"Nooo...No, she can't."</color>
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: ' Eon in full satisfaction, <color="blue">"Yup, she did."</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Yup, she did."'
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 0}
-    line: ' "But...She told me to cancel it to fix our finances!"'
+    line: <color="green">"But...She told me to cancel it to fix our finances!"</color>
     lineActions: []
     Notes: 
   Notes: 

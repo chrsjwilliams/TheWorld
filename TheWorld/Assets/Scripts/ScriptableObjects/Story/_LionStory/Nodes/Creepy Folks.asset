@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: f7904cfe4043d4c5e8ebe84d0917463b, type: 3}
   NodeTitle: Creepy Folks
@@ -88,8 +89,8 @@ MonoBehaviour:
     lineActions:
     - {fileID: 11400000, guid: a110b770510894cd1860a6f21eb7f22a, type: 2}
     Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: '"What the hell?!" '
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: '<color"blue">"What the hell?!"</color> '
     lineActions:
     - {fileID: 11400000, guid: 7fdf76af5df1b4429844e15c604fdcfe, type: 2}
     Notes: 

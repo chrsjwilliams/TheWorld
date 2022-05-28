@@ -61,23 +61,24 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Snatch
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "I don''t want to be a snatch. You know I am a team player..."'
+    line: <color="blue">"I don't want to be a snatch. You know I am a team player..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "SPEAK WOMAN!" '
+    line: '<color="green">"SPEAK WOMAN!"</color> '
     lineActions:
     - {fileID: 11400000, guid: bbe267ae0a25845a0b18d4e0adaf0a23, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "It''s Birch. Telling everyone that you steal our toast from kitchen
-      and take it home. She says that is why we are always short on bread, because
-      you take all the extra supply. "'
+    line: <color="blue">"It's Birch. Telling everyone that you steal our toast from
+      kitchen and take it home. She says that is why we are always short on bread,
+      because you take all the extra supply."</color>
     lineActions: []
     Notes: 
   Notes: 

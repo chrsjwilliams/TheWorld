@@ -61,22 +61,23 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Hi!
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Hi Birch! How goes? '
+    line: '<color="blue">"Hi Birch! How goes?"</color> '
     lineActions:
     - {fileID: 11400000, guid: 262ffb24d6fac4171ad35df58648d110, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Good, good...Look, I need your help with some work stuff.'
+    line: <color=#FF6AE4>"Good, good...Look, I need your help with some work stuff."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Ehhh...Well I am quite busy myself...I don''t think I have the time to
-      do that.'
+    line: <color="blue">"Ehhh...Well I am quite busy myself...I don't think I have
+      the time to do that."</color>
     lineActions: []
     Notes: 
   Notes: 

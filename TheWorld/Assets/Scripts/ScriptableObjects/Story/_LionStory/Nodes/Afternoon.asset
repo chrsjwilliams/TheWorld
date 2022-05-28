@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: e583ad730c32b42059ca7a5ad8c501f2, type: 3}
   NodeTitle: Afternoon
@@ -72,11 +73,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 206500138c3da46439619c1f527e6115, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: People are still full of hatred. But Eon doesn't care.
+    line: People are still full of hatred, but Eon doesn't care.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "This looks good. Let''s see who is the real player Ms. Birch!" '
+    line: <color="blue">"This looks good. Let's see who is the real player Ms. Birch!"</color>
     lineActions:
     - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
     Notes: 

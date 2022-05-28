@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Punished
@@ -76,12 +77,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I am being punished for my feelings! That''s just not fair.'
+    line: <color="blue">"I am being punished for my feelings! That's just not fair."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Sorry beautiful, life is not fair. You''ll find a place that deserve
-      you more than us. It''s not you it''s us. Good luck!'
+    line: <color="green">"Sorry beautiful, life is not fair. You'll find a place
+      that deserve you more than us. It's not you it's us. Good luck!"</color>
     lineActions: []
     Notes: 
   Notes: 

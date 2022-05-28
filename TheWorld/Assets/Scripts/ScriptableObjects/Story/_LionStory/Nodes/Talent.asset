@@ -74,18 +74,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Talent
   speakingLines:
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Why would you be stressed even? You are so talented! You''re always on
-      top of things. '
+    line: <color=#FF6AE4>"Why would you be stressed even? You are so talented! You're
+      always on top of things. "</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Yes, yes. But, I don''t really know your case and then there is a lot
-      to be done already. You know what I mean? '
+    line: '<color="blue">"Yes, yes. But, I don''t really know your case and then
+      there is a lot to be done already. You know what I mean?"</color> '
     lineActions:
     - {fileID: 11400000, guid: 035ac9942a1144401bd26c2de9907af5, type: 2}
     Notes: 

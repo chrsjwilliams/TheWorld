@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Boss Office
@@ -71,18 +72,18 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 63b13747b8ab146e8a597307b00ee455, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Boss, you''ve been so kind and caring to each one of us. I feel extremely
-      lucky to be part of this team."'
+    line: <color="blue">"Boss, you've been so kind and caring to each one of us.
+      I feel extremely lucky to be part of this team."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "And you are a great addition to the team as well! Tell me, what can
-      I do for you?"'
+    line: <color="green">"And you are a great addition to the team as well! Tell
+      me, what can I do for you?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: '"Oh, you''ve already done too much! So, I am asking myself the question,
-      what can I do for YOU?"'
+    line: <color="blue">"Oh, you've already done too much! So, I am asking myself
+      the question, what can I do for YOU?"</color>
     lineActions: []
     Notes: 
   Notes: 

@@ -61,13 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Last Insult
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Unlike you, some of us have dignity. You listen to everything your little
-      minion Birch says and you call me an ass kisser?"'
+    line: <color="blue">"Unlike you, some of us have dignity. You listen to everything
+      your little minion Birch says and you call me an ass kisser?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,9 +80,9 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Also, everyone in the office knows that you sneak out our office bread.
-      You have a tremendous salary already whereas we work like slaves. Isn''t your
-      stomach just full yet?"'
+    line: <color="blue">"Also, everyone in the office knows that you sneak out our
+      office bread. You have a tremendous salary already whereas we work like slaves.
+      Isn't your stomach just full yet?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

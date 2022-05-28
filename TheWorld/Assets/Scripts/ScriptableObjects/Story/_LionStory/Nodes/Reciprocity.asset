@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c936ff015fdbb44fba78a54923bf43d6, type: 3}
   NodeTitle: Reciprocity
@@ -88,7 +89,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Well, I think you are very attractive too."'
+    line: <color="green">"Well, I think you are very attractive too."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

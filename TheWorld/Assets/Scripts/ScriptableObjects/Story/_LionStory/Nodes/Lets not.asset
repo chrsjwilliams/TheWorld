@@ -61,13 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 2ee522f13ae7e4ba4a35f95a7bfb7742, type: 3}
   NodeTitle: Lets not
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Boss, we can''t do this. You know, it''ll only create a mess for both
-      of us." '
+    line: '<color="blue">"Boss, we can''t do this. You know, it''ll only create a
+      mess for both of us."</color> '
     lineActions:
     - {fileID: 11400000, guid: 7d5c5235c4cc14e8ea72d81aba403584, type: 2}
     Notes: 
@@ -76,13 +77,14 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "I think you are right. We just need to bury our chemistry in the ground
-      an move on."'
+    line: <color="green">"I think you are right. We just need to bury our chemistry
+      in the ground an move on."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Yes. But, I do care about you a lot. That''s why, there is something
-      I need to tell you. Someone in the office talking nonsense behind your back."'
+    line: <color="blue">"Yes. But, I do care about you a lot. That's why, there is
+      something I need to tell you. Someone in the office talking nonsense behind
+      your back."</color>
     lineActions: []
     Notes: 
   Notes: 

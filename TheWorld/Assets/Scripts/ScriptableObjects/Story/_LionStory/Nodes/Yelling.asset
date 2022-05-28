@@ -61,13 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Yelling
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What is your problem? What is wrong with everyone? Just mind your of
-      business!'
+    line: <color="blue">"What is your problem? What is wrong with everyone? Just
+      mind your business!"</color>
     lineActions:
     - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 

@@ -48,13 +48,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Satisfaction
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'Victory comes soon after. Birch comes out from the Boss'' office with
-      a lemon face. '
+      a sour face. '
     lineActions:
     - {fileID: 11400000, guid: 206500138c3da46439619c1f527e6115, type: 2}
     Notes: 
@@ -63,9 +64,10 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "This is how you do it Birch." '
+    line: '<color="blue">"This is how you do it Birch."</color> '
     lineActions:
     - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 0}

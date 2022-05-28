@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 9d3178e77316e4092b7245254cd992db, type: 3}
   NodeTitle: Birch coming
@@ -88,7 +89,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Argh...I bet she''ll try to pass her work on to me.'
+    line: <color="blue"><i>Argh...I bet she'll try to pass her work on to me.</i></color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -96,7 +97,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Hi, Eon.'
+    line: <color=#FF6AE4>"Hi, Eon."</color>
     lineActions: []
     Notes: 
   Notes: 

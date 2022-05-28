@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 337b950b9192a4a92a9d24052a40f88f, type: 3}
   NodeTitle: Dangerous Waters
@@ -97,17 +98,17 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 07cf6ec4549c841819a9e44da20055ca, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Ehem... I am not sure what you mean by that. But I hope you are not
-      swimming in dangerous waters."'
+    line: <color="green">"Ehem... I am not sure what you mean by that. But I hope
+      you are not swimming in dangerous waters."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "I''m sorry?"'
+    line: <color="blue">"I'm sorry?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "You know, ehem, peaches... And eggplants. I really appreciate your work,
-      I don''t need anything more than that."'
+    line: <color="green">"You know, ehem, peaches... And eggplants. I really appreciate
+      your work, I don't need anything more than that."</color>
     lineActions: []
     Notes: 
   Notes: 

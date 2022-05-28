@@ -74,18 +74,20 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Begging
   speakingLines:
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Come ooon! Please, I''m begging you. I really need you to work on this
-      today.'
+    line: <color=#FF6AE4>"Come ooon! Please, I'm begging you. I really need you to
+      work on this today."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But I already told you I can''t...Please just stop asking. eon_scared_ox'
-    lineActions: []
+    line: '<color="blue">"But I already told you I can''t...Please just stop asking."</color> '
+    lineActions:
+    - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 
   Notes: 
   lineActions: []

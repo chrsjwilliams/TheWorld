@@ -61,17 +61,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Wow
   speakingLines:
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: 'A tiny favor for your coworker. '
+    line: '<color=#FF6AE4>"A tiny favor for your coworker."</color> '
     lineActions:
     - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Wow...Just wow! I am really amazed by how spiness you are! Good for you! '
+    line: <color="blue">"Wow...Just wow! I am really amazed by how spiness you are!
+      Good for you!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,9 +81,9 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' That''s definitely a skill in corporate world. Why don''t you walk around
-      to find someone else to convince into doing your work so that wou can get paid
-      to dine in middle class wanna be restaurants.'
+    line: <color="blue">"That's definitely a skill in corporate world. Why don't
+      you walk around to find someone else to convince into doing your work so that
+      wou can get paid to dine in middle class wanna be restaurants."</color>
     lineActions: []
     Notes: 
   Notes: 

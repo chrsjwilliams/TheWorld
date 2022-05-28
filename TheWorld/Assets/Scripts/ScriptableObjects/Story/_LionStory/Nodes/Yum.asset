@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: ccee760f17bba44db8c18a3cb7347376, type: 3}
   NodeTitle: Yum
@@ -75,11 +76,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Ah, this was yummy."'
+    line: <color=#59CBE5>"Ah, this was yummy."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "I know. Now it''s time to tell me what''s going on."'
+    line: <color="blue">"I know. Now it's time to tell me what's going on."</color>
     lineActions: []
     Notes: 
   Notes: 

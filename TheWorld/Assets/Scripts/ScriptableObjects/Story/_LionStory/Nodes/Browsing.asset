@@ -61,12 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Browsing
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Let''s see...Who can tell me what''s happening? Who is the weakling? '
+    line: '<color="blue">"Let''s see...Who can tell me what''s happening? Who is
+      the weakling?"</color> '
     lineActions:
     - {fileID: 11400000, guid: 6b8b535f8a0254eba9446e309f291059, type: 2}
     Notes: 
@@ -75,7 +77,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Damn, he fuckin'' hates me.'
+    line: <color="blue"><i>Damn, he fuckin' hates me.</i></color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -83,7 +85,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' No, nope. Not them. No.'
+    line: <color="blue">"No, nope. Not them. No."</color>
     lineActions: []
     Notes: 
   Notes: 

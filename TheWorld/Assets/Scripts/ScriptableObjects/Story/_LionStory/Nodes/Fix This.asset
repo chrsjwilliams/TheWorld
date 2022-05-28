@@ -74,22 +74,25 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Fix This
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Listen to me. You''ll tell everyone it was a misunderstanding. YOU''LL
-      FIX THIS!" '
+    line: '<color="blue">"Listen to me. You''ll tell everyone it was a misunderstanding.
+      YOU''LL FIX THIS!"</color> '
     lineActions:
     - {fileID: 11400000, guid: a5ba374ad256542378efe59c382415af, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' "Or what? I am not afraid of you. And I am not telling anyone anything."'
+    line: <color=#FF6AE4>"Or what? I am not afraid of you. And I am not telling anyone
+      anything."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' "I hope your day is as pleasant as you''ve made mine."'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: Then she bends over to Eon and whispers <color=#FF6AE4>"I hope your day
+      is as pleasant as you've made mine."</color>
     lineActions: []
     Notes: 
   Notes: 

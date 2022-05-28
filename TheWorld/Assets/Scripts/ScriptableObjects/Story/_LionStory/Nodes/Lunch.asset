@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: dfc517d222bd047a88cff7ff7f5f7471, type: 3}
   NodeTitle: Lunch
@@ -73,12 +74,12 @@ MonoBehaviour:
     line: 'Rest of the office goes out for lunch. Noone asked Eon if she wanted to
       join. '
     lineActions:
-    - {fileID: 11400000, guid: 0cb4a171e4ed54080aa288970bc51a11, type: 2}
-    - {fileID: 11400000, guid: 59630711b1bc04d12a04c2142a9eaa0b, type: 2}
+    - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: She slowly approaches Bingo.
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 59630711b1bc04d12a04c2142a9eaa0b, type: 2}

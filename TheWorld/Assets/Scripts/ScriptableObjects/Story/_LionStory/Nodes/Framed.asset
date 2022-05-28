@@ -74,21 +74,22 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: d01d6e36eb92648bab5e5c405f844dc2, type: 3}
   NodeTitle: Framed
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "What? But I didn''t say that. I didn''t even know." '
+    line: <color="blue">"What? But I didn't say that. I didn't even know."</coor>
     lineActions:
     - {fileID: 11400000, guid: e0662a9cd4fdf4ebb80db3b7ccd700fc, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "But that''s what everyone is talking about."'
+    line: <color=#59CBE5>"But that's what everyone is talking about."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "So that bitch just framed me huh?"'
+    line: <color="blue">"So that bitch just framed me huh?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -96,7 +97,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Are we done here?"'
+    line: <color=#59CBE5>"Are we done here?"</color>
     lineActions: []
     Notes: 
   Notes: 

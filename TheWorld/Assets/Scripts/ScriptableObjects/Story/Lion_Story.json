@@ -1,1172 +1,1339 @@
 {
-  "uuid": "2E9D1A79-DDD7-4ED6-A719-C5E700580426",
-  "name": "TWC-StoryLion-Office",
-  "creator": "Twine",
-  "creatorVersion": "2.3.1",
-  "schemaName": "Twine to JSON",
-  "schemaVersion": "0.0.6",
-  "createdAtMs": 1652472352475,
-  "passages": [
-    {
-      "name": "Office",
-      "tags": "START Lion",
-      "id": "1",
-      "text": "**laptop\nA usual day at work.\nEon is extremely busy. @eon_working_lion\nIt is always like this, and she is exhausted.\n[[Lion|Birch coming]]",
-      "links": [
+    "passages": [
         {
-          "linkText": "Lion|Birch coming",
-          "passageName": "Lion|Birch coming",
-          "original": "[[Lion|Birch coming]]"
-        }
-      ],
-      "cleanText": "**laptop\nA usual day at work.\nEon is extremely busy. @eon_working_lion\nIt is always like this, and she is exhausted."
-    },
-    {
-      "name": "Birch coming",
-      "tags": "",
-      "id": "2",
-      "text": "**footsteps\nWith the corner of her eye, Eon sees Birch approaching to her desk.  @eon_working_lion\nBirch is a coworker she dislikes a lot. She is nasty and a little scary.\nEon: Argh...I bet she'll try to pass her work on to me.\nBirch arrives with a big smile.\nBirch: Hi, Eon.\n[[Lion|Busy]]\n[[Ox|Hi!]]",
-      "links": [
-        {
-          "linkText": "Lion|Busy",
-          "passageName": "Lion|Busy",
-          "original": "[[Lion|Busy]]"
+            "text": "**laptop\nA usual day at work.\nEon is extremely busy. @eon_working_lion\nIt is always like this, and she is exhausted.\n[[Lion|Birch coming]]",
+            "links": [
+                {
+                    "name": "Lion|Birch coming",
+                    "link": "Lion|Birch coming",
+                    "broken": true
+                }
+            ],
+            "name": "Office",
+            "pid": "1",
+            "position": {
+                "x": "1937.3333333333335",
+                "y": "119.33333333333333"
+            },
+            "tags": [
+                "START",
+                "Lion"
+            ]
         },
         {
-          "linkText": "Ox|Hi!",
-          "passageName": "Ox|Hi!",
-          "original": "[[Ox|Hi!]]"
-        }
-      ],
-      "cleanText": "**footsteps\nWith the corner of her eye, Eon sees Birch approaching to her desk.  @eon_working_lion\nBirch is a coworker she dislikes a lot. She is nasty and a little scary.\nEon: Argh...I bet she'll try to pass her work on to me.\nBirch arrives with a big smile.\nBirch: Hi, Eon."
-    },
-    {
-      "name": "Busy",
-      "tags": "",
-      "id": "3",
-      "text": "**dialog\nEon barely looks up. @eon_working_lion\nEon: Hi...I am quite busy as you can see.\nBirch: Oh of course. But you are the best at your job! I'm sure you'll be done in no time.\nEon doesn't say anything back.\nBirch: Look, I am not gonna take much of your time. But I really need you help with something.\n[[Lion|Said]]\n[[Ox|Favor]]",
-      "links": [
-        {
-          "linkText": "Lion|Said",
-          "passageName": "Lion|Said",
-          "original": "[[Lion|Said]]"
+            "text": "**footsteps\nWith the corner of her eye, Eon sees Birch approaching to her desk.  @eon_working_lion\nBirch is a coworker she dislikes a lot. She is nasty and a little scary.\nEon:<color=\"blue\"><i>Argh...I bet she'll try to pass her work on to me.</i></color>\nBirch arrives with a big smile.\nBirch:<color=#FF6AE4>\"Hi, Eon.\"</color>\n[[Lion|Busy]]\n[[Ox|Hi!]]",
+            "links": [
+                {
+                    "name": "Lion|Busy",
+                    "link": "Lion|Busy",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Hi!",
+                    "link": "Ox|Hi!",
+                    "broken": true
+                }
+            ],
+            "name": "Birch coming",
+            "pid": "2",
+            "position": {
+                "x": "1942.6666666666667",
+                "y": "228.33333333333334"
+            }
         },
         {
-          "linkText": "Ox|Favor",
-          "passageName": "Ox|Favor",
-          "original": "[[Ox|Favor]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon barely looks up. @eon_working_lion\nEon: Hi...I am quite busy as you can see.\nBirch: Oh of course. But you are the best at your job! I'm sure you'll be done in no time.\nEon doesn't say anything back.\nBirch: Look, I am not gonna take much of your time. But I really need you help with something."
-    },
-    {
-      "name": "Hi!",
-      "tags": "",
-      "id": "4",
-      "text": "**dialog\nEon: Hi Birch! How goes? @eon_hi_ox\nBirch: Good, good...Look, I need your help with some work stuff.\nEon: Ehhh...Well I am quite busy myself...I don't think I have the time to do that.\n[[Ox|Favor]]",
-      "links": [
-        {
-          "linkText": "Ox|Favor",
-          "passageName": "Ox|Favor",
-          "original": "[[Ox|Favor]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: Hi Birch! How goes? @eon_hi_ox\nBirch: Good, good...Look, I need your help with some work stuff.\nEon: Ehhh...Well I am quite busy myself...I don't think I have the time to do that."
-    },
-    {
-      "name": "Said",
-      "tags": "",
-      "id": "5",
-      "text": "**dialog\nEon: As I said, I am busy. @eon_unhappy_lion\nBirch: It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning?\n[[Lion|Wow]]",
-      "links": [
-        {
-          "linkText": "Lion|Wow",
-          "passageName": "Lion|Wow",
-          "original": "[[Lion|Wow]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: As I said, I am busy. @eon_unhappy_lion\nBirch: It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning?"
-    },
-    {
-      "name": "Favor",
-      "tags": "",
-      "id": "6",
-      "text": "**dialog\nBirch: It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning? @eon_think_ox\nEon: But that's like... Hours of work...\nBirch rolls their eyes.\nEon: Also, that's not even a case I work on?\n[[Ox|Date]]",
-      "links": [
-        {
-          "linkText": "Ox|Date",
-          "passageName": "Ox|Date",
-          "original": "[[Ox|Date]]"
-        }
-      ],
-      "cleanText": "**dialog\nBirch: It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning? @eon_think_ox\nEon: But that's like... Hours of work...\nBirch rolls their eyes.\nEon: Also, that's not even a case I work on?"
-    },
-    {
-      "name": "Date",
-      "tags": "",
-      "id": "7",
-      "text": "**dialog\nBirch: Come ooon! Don't be so anal, just help a coworker out. I have a date tonight. You know for how long I've been chasing this handsome?\nOx: Look, normally I would. You know me. But I am already stressed with my deadline tomorrow. @eon_tired_ox\n[[Ox|Talent]]\n[[Lion|Wow]]",
-      "links": [
-        {
-          "linkText": "Ox|Talent",
-          "passageName": "Ox|Talent",
-          "original": "[[Ox|Talent]]"
+            "text": "**dialog\nEon barely looks up. @eon_working_lion\nEon:<color=\"blue\">\"Hi...I am quite busy as you can see.\"</color>\nBirch:<color=#FF6AE4>\"Oh of course. But you are the best at your job! I'm sure you'll be done in no time.\"</color>\nEon doesn't say anything back.\nBirch:<color=#FF6AE4>\"Look, I am not gonna take much of your time. But I really need you help with something.\"</color>\n[[Lion|Cannot]]\n[[Ox|Favor]]",
+            "links": [
+                {
+                    "name": "Lion|Cannot",
+                    "link": "Lion|Cannot",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Favor",
+                    "link": "Ox|Favor",
+                    "broken": true
+                }
+            ],
+            "name": "Busy",
+            "pid": "3",
+            "position": {
+                "x": "1832",
+                "y": "222.66666666666666"
+            }
         },
         {
-          "linkText": "Lion|Wow",
-          "passageName": "Lion|Wow",
-          "original": "[[Lion|Wow]]"
-        }
-      ],
-      "cleanText": "**dialog\nBirch: Come ooon! Don't be so anal, just help a coworker out. I have a date tonight. You know for how long I've been chasing this handsome?\nOx: Look, normally I would. You know me. But I am already stressed with my deadline tomorrow. @eon_tired_ox"
-    },
-    {
-      "name": "Talent",
-      "tags": "",
-      "id": "8",
-      "text": "**dialog\nBirch: Why would you be stressed even? You are so talented! You're always on top of things. \nEon: Yes, yes. But, I don't really know your case and then there is a lot to be done already. You know what I mean? @eon_confused_ox\n[[Ox|Begging]]\n[[Lion|Wow]]",
-      "links": [
-        {
-          "linkText": "Ox|Begging",
-          "passageName": "Ox|Begging",
-          "original": "[[Ox|Begging]]"
+            "text": "**dialog\nEon:<color=\"blue\">\"Hi Birch! How goes?\"</color> @eon_hi_ox\nBirch:<color=#FF6AE4>\"Good, good...Look, I need your help with some work stuff.\"</color>\nEon:<color=\"blue\">\"Ehhh...Well I am quite busy myself...I don't think I have the time to do that.\"</color>\n[[Ox|Favor]]",
+            "links": [
+                {
+                    "name": "Ox|Favor",
+                    "link": "Ox|Favor",
+                    "broken": true
+                }
+            ],
+            "name": "Hi!",
+            "pid": "4",
+            "position": {
+                "x": "2052.3333333333335",
+                "y": "226.99999999999997"
+            }
         },
         {
-          "linkText": "Lion|Wow",
-          "passageName": "Lion|Wow",
-          "original": "[[Lion|Wow]]"
-        }
-      ],
-      "cleanText": "**dialog\nBirch: Why would you be stressed even? You are so talented! You're always on top of things. \nEon: Yes, yes. But, I don't really know your case and then there is a lot to be done already. You know what I mean? @eon_confused_ox"
-    },
-    {
-      "name": "Begging",
-      "tags": "",
-      "id": "9",
-      "text": "**dialog\nBirch: Come ooon! Please, I'm begging you. I really need you to work on this today.\nEon: But I already told you I can't...Please just stop asking. eon_scared_ox\n[[Ox|Pressure]]\n[[Lion|Wow]]",
-      "links": [
-        {
-          "linkText": "Ox|Pressure",
-          "passageName": "Ox|Pressure",
-          "original": "[[Ox|Pressure]]"
+            "text": "**dialog\nEon:<color=\"blue\">\"As I said, I am busy.\"</color> @eon_unhappy_lion\nBirch:<color=#FF6AE4>\"It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning?\"</color>\n[[Lion|Wow]]",
+            "links": [
+                {
+                    "name": "Lion|Wow",
+                    "link": "Lion|Wow",
+                    "broken": true
+                }
+            ],
+            "name": "Cannot",
+            "pid": "5",
+            "position": {
+                "x": "1892",
+                "y": "335"
+            }
         },
         {
-          "linkText": "Lion|Wow",
-          "passageName": "Lion|Wow",
-          "original": "[[Lion|Wow]]"
-        }
-      ],
-      "cleanText": "**dialog\nBirch: Come ooon! Please, I'm begging you. I really need you to work on this today.\nEon: But I already told you I can't...Please just stop asking. eon_scared_ox"
-    },
-    {
-      "name": "Pressure",
-      "tags": "",
-      "id": "10",
-      "text": "**dialog\nBirch: You know, I thought we were friends. I thought we got each other's back.\nEon: Yes we are friends! Please don't say that. It is nothing personal, I just don't have the time today. @eon_surprised_ox\n[[Lion|Wow]]\n[[Ox|No]]",
-      "links": [
-        {
-          "linkText": "Lion|Wow",
-          "passageName": "Lion|Wow",
-          "original": "[[Lion|Wow]]"
+            "text": "**dialog\nBirch:<color=#FF6AE4>\"It's nothing much, just a little favor. Can you please handle the with the Turnip transportation risk calculations and pass it to boss by morning?\"</color> @eon_think_ox\nEon:<color=\"blue\">\"But that's like... Hours of work...\"</color>\nBirch rolls their eyes.\nEon:<color=\"blue\">\"Also, that's not even a case I work on?\"</color>\n[[Ox|Date]]\n",
+            "links": [
+                {
+                    "name": "Ox|Date",
+                    "link": "Ox|Date",
+                    "broken": true
+                }
+            ],
+            "name": "Favor",
+            "pid": "6",
+            "position": {
+                "x": "1999.3333333333335",
+                "y": "338.33333333333337"
+            }
         },
         {
-          "linkText": "Ox|No",
-          "passageName": "Ox|No",
-          "original": "[[Ox|No]]"
-        }
-      ],
-      "cleanText": "**dialog\nBirch: You know, I thought we were friends. I thought we got each other's back.\nEon: Yes we are friends! Please don't say that. It is nothing personal, I just don't have the time today. @eon_surprised_ox"
-    },
-    {
-      "name": "Wow",
-      "tags": "",
-      "id": "11",
-      "text": "**explosion\nBirch:A tiny favor for your coworker. @eon_angry_lion\nEon: Wow...Just wow! I am really amazed by how spiness you are! Good for you! \nBirch looks unhappy.\nEon: That's definitely a skill in corporate world. Why don't you walk around to find someone else to convince into doing your work so that wou can get paid to dine in middle class wanna be restaurants.\n[[Lion|Bye]]",
-      "links": [
-        {
-          "linkText": "Lion|Bye",
-          "passageName": "Lion|Bye",
-          "original": "[[Lion|Bye]]"
-        }
-      ],
-      "cleanText": "**explosion\nBirch:A tiny favor for your coworker. @eon_angry_lion\nEon: Wow...Just wow! I am really amazed by how spiness you are! Good for you! \nBirch looks unhappy.\nEon: That's definitely a skill in corporate world. Why don't you walk around to find someone else to convince into doing your work so that wou can get paid to dine in middle class wanna be restaurants."
-    },
-    {
-      "name": "Bye",
-      "tags": "",
-      "id": "12",
-      "text": "**explosion\nThere is a very uncomfortable silence for a moment. @eon_unhappy_lion\nBirch: Okay than. I'll just leave.\nEon: Fuckin' bitch. Who does she think she is.\n[[Lion|Next Day]]",
-      "links": [
-        {
-          "linkText": "Lion|Next Day",
-          "passageName": "Lion|Next Day",
-          "original": "[[Lion|Next Day]]"
-        }
-      ],
-      "cleanText": "**explosion\nThere is a very uncomfortable silence for a moment. @eon_unhappy_lion\nBirch: Okay than. I'll just leave.\nEon: Fuckin' bitch. Who does she think she is."
-    },
-    {
-      "name": "Next Day",
-      "tags": "",
-      "id": "13",
-      "text": "**coffee\nNext day is no different than the day before. @eon_working_lion\nEon is just working hard. As usual.\nEon: Gosh, I am already tired. When is Friday again? \nShe decides to go get some coffee.\n[[Lion|Kitchen]]",
-      "links": [
-        {
-          "linkText": "Lion|Kitchen",
-          "passageName": "Lion|Kitchen",
-          "original": "[[Lion|Kitchen]]"
-        }
-      ],
-      "cleanText": "**coffee\nNext day is no different than the day before. @eon_working_lion\nEon is just working hard. As usual.\nEon: Gosh, I am already tired. When is Friday again? \nShe decides to go get some coffee."
-    },
-    {
-      "name": "Kitchen",
-      "tags": "",
-      "id": "14",
-      "text": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon: Hey, what's up? @eon_walk_lion\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon: What are you all acting so mysterious?\nShe turns back and no one is there any more. @sfx_evilLaughter\n[[Lion|Rude]]\n[[Ox|Awkward]]\n[[Human|Suspicious]]",
-      "links": [
-        {
-          "linkText": "Lion|Rude",
-          "passageName": "Lion|Rude",
-          "original": "[[Lion|Rude]]"
+            "text": "**dialog\nBirch:<color=#FF6AE4>\"Come ooon! Don't be so anal, just help a coworker out. I have a date tonight. You know for how long I've been chasing this handsome?\"\nOx:<color=\"blue\">\"Look, normally I would. You know me. But I am already stressed with my deadline tomorrow.\"</color> @eon_tired_ox\n[[Ox|Talent]]\n[[Lion|Wow]]",
+            "links": [
+                {
+                    "name": "Ox|Talent",
+                    "link": "Ox|Talent",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Wow",
+                    "link": "Lion|Wow",
+                    "broken": true
+                }
+            ],
+            "name": "Date",
+            "pid": "7",
+            "position": {
+                "x": "1995",
+                "y": "448"
+            }
         },
         {
-          "linkText": "Ox|Awkward",
-          "passageName": "Ox|Awkward",
-          "original": "[[Ox|Awkward]]"
+            "text": "**dialog\nBirch:<color=#FF6AE4>\"Why would you be stressed even? You are so talented! You're always on top of things. \"</color>\nEon:<color=\"blue\">\"Yes, yes. But, I don't really know your case and then there is a lot to be done already. You know what I mean?\"</color> @eon_confused_ox\n[[Ox|Begging]]\n[[Lion|Wow]]",
+            "links": [
+                {
+                    "name": "Ox|Begging",
+                    "link": "Ox|Begging",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Wow",
+                    "link": "Lion|Wow",
+                    "broken": true
+                }
+            ],
+            "name": "Talent",
+            "pid": "8",
+            "position": {
+                "x": "1996.6666666666667",
+                "y": "566.6666666666666"
+            }
         },
         {
-          "linkText": "Human|Suspicious",
-          "passageName": "Human|Suspicious",
-          "original": "[[Human|Suspicious]]"
-        }
-      ],
-      "cleanText": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon: Hey, what's up? @eon_walk_lion\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon: What are you all acting so mysterious?\nShe turns back and no one is there any more. @sfx_evilLaughter"
-    },
-    {
-      "name": "Rude",
-      "tags": "Lion",
-      "id": "15",
-      "text": "**exxMark\nEon: Omg, these people are just fuckin' rude! I hate this place, just hate it! @eon_unhappy_lion\nShe walks back to her desk. \n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
-      "links": [
-        {
-          "linkText": "Ox|Anxiety",
-          "passageName": "Ox|Anxiety",
-          "original": "[[Ox|Anxiety]]"
+            "text": "**dialog\nBirch:<color=#FF6AE4>\"Come ooon! Please, I'm begging you. I really need you to work on this today.\"</color>\nEon:<color=\"blue\">\"But I already told you I can't...Please just stop asking.\"</color> @eon_scared_ox\n[[Ox|Pressure]]\n[[Lion|Wow]]",
+            "links": [
+                {
+                    "name": "Ox|Pressure",
+                    "link": "Ox|Pressure",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Wow",
+                    "link": "Lion|Wow",
+                    "broken": true
+                }
+            ],
+            "name": "Begging",
+            "pid": "9",
+            "position": {
+                "x": "2000",
+                "y": "691.6666666666666"
+            }
         },
         {
-          "linkText": "Human|Gossip",
-          "passageName": "Human|Gossip",
-          "original": "[[Human|Gossip]]"
+            "text": "**dialog\nBirch:<color=#FF6AE4>\"You know, I thought we were friends. I thought we got each other's back.\"</color>\nEon:<color=\"blue\">\"Yes we are friends! Please don't say that. It is nothing personal, I just don't have the time today.\"</color>@eon_surprised_ox\n[[Lion|Wow]]\n[[Ox|No]]",
+            "links": [
+                {
+                    "name": "Lion|Wow",
+                    "link": "Lion|Wow",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|No",
+                    "link": "Ox|No",
+                    "broken": true
+                }
+            ],
+            "name": "Pressure",
+            "pid": "10",
+            "position": {
+                "x": "2059",
+                "y": "801"
+            }
         },
         {
-          "linkText": "Lion|Anger",
-          "passageName": "Lion|Anger",
-          "original": "[[Lion|Anger]]"
-        }
-      ],
-      "cleanText": "**exxMark\nEon: Omg, these people are just fuckin' rude! I hate this place, just hate it! @eon_unhappy_lion\nShe walks back to her desk."
-    },
-    {
-      "name": "Awkward",
-      "tags": "Ox",
-      "id": "16",
-      "text": "**exxQuestion\nEon: That was extremely awkward...I wonder if it is about me?\nShe walks back to her desk. @eon_confused_ox\n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
-      "links": [
-        {
-          "linkText": "Ox|Anxiety",
-          "passageName": "Ox|Anxiety",
-          "original": "[[Ox|Anxiety]]"
+            "text": "**explosion\nBirch:<color=#FF6AE4>\"A tiny favor for your coworker.\"</color> @eon_angry_lion\nEon:<color=\"blue\">\"Wow...Just wow! I am really amazed by how spiness you are! Good for you!\"</color>\nBirch looks unhappy.\nEon:<color=\"blue\">\"That's definitely a skill in corporate world. Why don't you walk around to find someone else to convince into doing your work so that wou can get paid to dine in middle class wanna be restaurants.\"</color>\n[[Lion|Bye]]",
+            "links": [
+                {
+                    "name": "Lion|Bye",
+                    "link": "Lion|Bye",
+                    "broken": true
+                }
+            ],
+            "name": "Wow",
+            "pid": "11",
+            "position": {
+                "x": "1877.666666666667",
+                "y": "447.66666666666663"
+            }
         },
         {
-          "linkText": "Human|Gossip",
-          "passageName": "Human|Gossip",
-          "original": "[[Human|Gossip]]"
+            "text": "**explosion\nThere is a very uncomfortable silence for a moment. @eon_unhappy_lion\nBirch:<color=#FF6AE4>\"Okay than. I'll just leave.</color>\nEon:<color=\"blue\">\"Fuckin' bitch! Who does she think she is!?\"</color>\n[[Lion|Next Day]]",
+            "links": [
+                {
+                    "name": "Lion|Next Day",
+                    "link": "Lion|Next Day",
+                    "broken": true
+                }
+            ],
+            "name": "Bye",
+            "pid": "12",
+            "position": {
+                "x": "1874.3333333333335",
+                "y": "569.9999999999999"
+            }
         },
         {
-          "linkText": "Lion|Anger",
-          "passageName": "Lion|Anger",
-          "original": "[[Lion|Anger]]"
-        }
-      ],
-      "cleanText": "**exxQuestion\nEon: That was extremely awkward...I wonder if it is about me?\nShe walks back to her desk. @eon_confused_ox"
-    },
-    {
-      "name": "Suspicious",
-      "tags": "Human",
-      "id": "17",
-      "text": "**questionMark\nEon: Okay, that was sketchy. I bet they were talking about me. But I don't get it, what did I do? @eon_confused_human\nShe walks towards her desk.\n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
-      "links": [
-        {
-          "linkText": "Ox|Anxiety",
-          "passageName": "Ox|Anxiety",
-          "original": "[[Ox|Anxiety]]"
+            "text": "**coffee\nNext day is no different than the day before. @eon_working_lion\nEon is just working hard. As usual.\nEon:<color=\"blue\">\"Gosh, I am already tired. When is Friday again?\"</color>\nShe decides to go get some coffee.\n[[Lion|Kitchen]]",
+            "links": [
+                {
+                    "name": "Lion|Kitchen",
+                    "link": "Lion|Kitchen",
+                    "broken": true
+                }
+            ],
+            "name": "Next Day",
+            "pid": "13",
+            "position": {
+                "x": "1861.0000000000002",
+                "y": "688.3333333333334"
+            }
         },
         {
-          "linkText": "Human|Gossip",
-          "passageName": "Human|Gossip",
-          "original": "[[Human|Gossip]]"
+            "text": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon:<color=\"blue\">\"Hey, what's up?\"</color> @eon_walk_lion\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon:<color=\"blue\">\"What are you all acting so mysterious?\"</color>\nShe turns back and no one is there any more. @sfx_evilLaughter\n[[Lion|Rude]]\n[[Ox|Awkward]]\n[[Human|Suspicious]]\n",
+            "links": [
+                {
+                    "name": "Lion|Rude",
+                    "link": "Lion|Rude",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Awkward",
+                    "link": "Ox|Awkward",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Suspicious",
+                    "link": "Human|Suspicious",
+                    "broken": true
+                }
+            ],
+            "name": "Kitchen",
+            "pid": "14",
+            "position": {
+                "x": "1794.666666666667",
+                "y": "809.3333333333333"
+            }
         },
         {
-          "linkText": "Lion|Anger",
-          "passageName": "Lion|Anger",
-          "original": "[[Lion|Anger]]"
-        }
-      ],
-      "cleanText": "**questionMark\nEon: Okay, that was sketchy. I bet they were talking about me. But I don't get it, what did I do? @eon_confused_human\nShe walks towards her desk."
-    },
-    {
-      "name": "Anger",
-      "tags": "Lion",
-      "id": "18",
-      "text": "**fire\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_lion\nShe feels the fire rising in her body.\nShe catches eye contact with one finally.\n[[Lion|Yelling]]",
-      "links": [
-        {
-          "linkText": "Lion|Yelling",
-          "passageName": "Lion|Yelling",
-          "original": "[[Lion|Yelling]]"
-        }
-      ],
-      "cleanText": "**fire\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_lion\nShe feels the fire rising in her body.\nShe catches eye contact with one finally."
-    },
-    {
-      "name": "Anxiety",
-      "tags": "Ox",
-      "id": "19",
-      "text": "**ear\nEon senses that collegues are staring at her as she is walking. @eon_walkUnhappy_ox\nEon: This is very uncomfortable. I feel very anxious.\nShe hears whispers behind her. She knows people are talking about her.\nEon: What have I done? I don't understand.\nShe arrives to her desk.\n[[Ox|Cry]]\n[[Lion|Yelling]]",
-      "links": [
-        {
-          "linkText": "Ox|Cry",
-          "passageName": "Ox|Cry",
-          "original": "[[Ox|Cry]]"
+            "text": "**exxMark\nEon:<color=\"blue\">\"Omg, these people are just fuckin' rude! I hate this place, just hate it!\"</color> @eon_unhappy_lion\nShe walks back to her desk. \n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
+            "links": [
+                {
+                    "name": "Ox|Anxiety",
+                    "link": "Ox|Anxiety",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Gossip",
+                    "link": "Human|Gossip",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Anger",
+                    "link": "Lion|Anger",
+                    "broken": true
+                }
+            ],
+            "name": "Rude",
+            "pid": "15",
+            "position": {
+                "x": "1784.3333333333335",
+                "y": "1035"
+            },
+            "tags": [
+                "Lion"
+            ]
         },
         {
-          "linkText": "Lion|Yelling",
-          "passageName": "Lion|Yelling",
-          "original": "[[Lion|Yelling]]"
-        }
-      ],
-      "cleanText": "**ear\nEon senses that collegues are staring at her as she is walking. @eon_walkUnhappy_ox\nEon: This is very uncomfortable. I feel very anxious.\nShe hears whispers behind her. She knows people are talking about her.\nEon: What have I done? I don't understand.\nShe arrives to her desk."
-    },
-    {
-      "name": "Gossip",
-      "tags": "Human",
-      "id": "20",
-      "text": "**ear\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_human\nEon: Okay, I am sure now that they were talking about me 100%.\nShe can hear whispers behind her. They are gossiping. About her.\nEon: I just need to figure out what happened.\nShe arrives to her desk.\n[[Human|Browsing]]",
-      "links": [
-        {
-          "linkText": "Human|Browsing",
-          "passageName": "Human|Browsing",
-          "original": "[[Human|Browsing]]"
-        }
-      ],
-      "cleanText": "**ear\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_human\nEon: Okay, I am sure now that they were talking about me 100%.\nShe can hear whispers behind her. They are gossiping. About her.\nEon: I just need to figure out what happened.\nShe arrives to her desk."
-    },
-    {
-      "name": "Yelling",
-      "tags": "",
-      "id": "21",
-      "text": "**explosion\nEon: What is your problem? What is wrong with everyone? Just mind your of business!@eon_angry_lion\nShe is shaking at her desk.\n[[Lion|Calm Down]]",
-      "links": [
-        {
-          "linkText": "Lion|Calm Down",
-          "passageName": "Lion|Calm Down",
-          "original": "[[Lion|Calm Down]]"
-        }
-      ],
-      "cleanText": "**explosion\nEon: What is your problem? What is wrong with everyone? Just mind your of business!@eon_angry_lion\nShe is shaking at her desk."
-    },
-    {
-      "name": "No",
-      "tags": "",
-      "id": "22",
-      "text": "**fire\nEon: I am sorry, but I just can't. Can I please go back to work? @eon_working_ox\nEon sees fire in Birch's eyes. She says nothing, and just walks away.\nEon: Pff, she is very insistent!\n[[Ox|Tomorrow]]",
-      "links": [
-        {
-          "linkText": "Ox|Tomorrow",
-          "passageName": "Ox|Tomorrow",
-          "original": "[[Ox|Tomorrow]]"
-        }
-      ],
-      "cleanText": "**fire\nEon: I am sorry, but I just can't. Can I please go back to work? @eon_working_ox\nEon sees fire in Birch's eyes. She says nothing, and just walks away.\nEon: Pff, she is very insistent!"
-    },
-    {
-      "name": "Tomorrow",
-      "tags": "",
-      "id": "23",
-      "text": "**coffee\nNext day is no different than the day before. @eon_working_ox\nEon is just working hard. As usual.\nEon: Gosh, I am already tired. When is Friday again? \nShe decides to go get some coffee.\n[[Ox|At Kitchen]]",
-      "links": [
-        {
-          "linkText": "Ox|At Kitchen",
-          "passageName": "Ox|At Kitchen",
-          "original": "[[Ox|At Kitchen]]"
-        }
-      ],
-      "cleanText": "**coffee\nNext day is no different than the day before. @eon_working_ox\nEon is just working hard. As usual.\nEon: Gosh, I am already tired. When is Friday again? \nShe decides to go get some coffee."
-    },
-    {
-      "name": "At Kitchen",
-      "tags": "",
-      "id": "24",
-      "text": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon: Hey, what's up? @eon_walk_ox\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon: What are you all acting so mysterious?\nShe turns back and no one is there any more.\n[[Lion|Rude]]\n[[Ox|Awkward]]\n[[Human|Suspicious]]",
-      "links": [
-        {
-          "linkText": "Lion|Rude",
-          "passageName": "Lion|Rude",
-          "original": "[[Lion|Rude]]"
+            "text": "**exxQuestion\nEon:<color=\"blue\">\"That was extremely awkward...I wonder if it is about me?\"</color>\nShe walks back to her desk. @eon_confused_ox\n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
+            "links": [
+                {
+                    "name": "Ox|Anxiety",
+                    "link": "Ox|Anxiety",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Gossip",
+                    "link": "Human|Gossip",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Anger",
+                    "link": "Lion|Anger",
+                    "broken": true
+                }
+            ],
+            "name": "Awkward",
+            "pid": "16",
+            "position": {
+                "x": "1918.3333333333335",
+                "y": "1027"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Ox|Awkward",
-          "passageName": "Ox|Awkward",
-          "original": "[[Ox|Awkward]]"
+            "text": "**questionMark\nEon:<color=\"blue\"><i>Okay, that was sketchy. I bet they were talking about me. But I don't get it, what did I do?</i></color> @eon_confused_human\nShe walks towards her desk.\n[[Ox|Anxiety]]\n[[Human|Gossip]]\n[[Lion|Anger]]",
+            "links": [
+                {
+                    "name": "Ox|Anxiety",
+                    "link": "Ox|Anxiety",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Gossip",
+                    "link": "Human|Gossip",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Anger",
+                    "link": "Lion|Anger",
+                    "broken": true
+                }
+            ],
+            "name": "Suspicious",
+            "pid": "17",
+            "position": {
+                "x": "2071.666666666667",
+                "y": "1030"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Human|Suspicious",
-          "passageName": "Human|Suspicious",
-          "original": "[[Human|Suspicious]]"
-        }
-      ],
-      "cleanText": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon: Hey, what's up? @eon_walk_ox\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon: What are you all acting so mysterious?\nShe turns back and no one is there any more."
-    },
-    {
-      "name": "Browsing",
-      "tags": "",
-      "id": "25",
-      "text": "**questionMark\nEon: Let's see...Who can tell me what's happening? Who is the weakling? @eon_think_human\nShe is looking around the office, tracing every single face.\nEon: Damn, he fuckin' hates me.\nShe keeps looking, looking.\nEon: No, nope. Not them. No.\n[[Human|Weakling]]",
-      "links": [
-        {
-          "linkText": "Human|Weakling",
-          "passageName": "Human|Weakling",
-          "original": "[[Human|Weakling]]"
-        }
-      ],
-      "cleanText": "**questionMark\nEon: Let's see...Who can tell me what's happening? Who is the weakling? @eon_think_human\nShe is looking around the office, tracing every single face.\nEon: Damn, he fuckin' hates me.\nShe keeps looking, looking.\nEon: No, nope. Not them. No."
-    },
-    {
-      "name": "Weakling",
-      "tags": "",
-      "id": "26",
-      "text": "**exxMark\nFinally her eyes spot a tiny person at the very far corner.@eon_approve_human\nEon: Bingo! I need to catch her at the lunch.\n[[Human|Lunch]]",
-      "links": [
-        {
-          "linkText": "Human|Lunch",
-          "passageName": "Human|Lunch",
-          "original": "[[Human|Lunch]]"
-        }
-      ],
-      "cleanText": "**exxMark\nFinally her eyes spot a tiny person at the very far corner.@eon_approve_human\nEon: Bingo! I need to catch her at the lunch."
-    },
-    {
-      "name": "Cry",
-      "tags": "",
-      "id": "27",
-      "text": "**cry\nShe just can't. Eon starts crying. @eon_cry_ox\nShe wants to keep it quiet but that seems not possible. She bursts into tears.  Leaning on her desk, she covers her tears.\n\"What have I done? I don't understand.\"\n[[Ox|Creepy Folks]]",
-      "links": [
-        {
-          "linkText": "Ox|Creepy Folks",
-          "passageName": "Ox|Creepy Folks",
-          "original": "[[Ox|Creepy Folks]]"
-        }
-      ],
-      "cleanText": "**cry\nShe just can't. Eon starts crying. @eon_cry_ox\nShe wants to keep it quiet but that seems not possible. She bursts into tears.  Leaning on her desk, she covers her tears.\n\"What have I done? I don't understand.\""
-    },
-    {
-      "name": "Lunch",
-      "tags": "",
-      "id": "28",
-      "text": "**lunchBag\nAt lunch time, Eon is following her pray. Bingo always eats at his desk.\nRest of the office goes out for lunch. Noone asked Eon if she wanted to join. @sfx_evilLaughter @eon_walk_human\nShe slowly approaches Bingo.\n[[Human|Bon Appetite]]",
-      "links": [
-        {
-          "linkText": "Human|Bon Appetite",
-          "passageName": "Human|Bon Appetite",
-          "original": "[[Human|Bon Appetite]]"
-        }
-      ],
-      "cleanText": "**lunchBag\nAt lunch time, Eon is following her pray. Bingo always eats at his desk.\nRest of the office goes out for lunch. Noone asked Eon if she wanted to join. @sfx_evilLaughter @eon_walk_human\nShe slowly approaches Bingo."
-    },
-    {
-      "name": "Creepy Folks",
-      "tags": "",
-      "id": "29",
-      "text": "**eyes\nEon suddenly gets this awkward feeling as if someone is staring at her.\nAs she moves her head up, she sees all her coworkers gathered around her desk. Staring at her. Not saying a word. @eon_scared_ox \n\"What the hell?!\" @sfx_scream\n[[Ox|Run]]\n[[Lion|Yelling]]",
-      "links": [
-        {
-          "linkText": "Ox|Run",
-          "passageName": "Ox|Run",
-          "original": "[[Ox|Run]]"
+            "text": "**fire\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_lion\nShe feels the fire rising in her body.\nShe catches eye contact with one finally.\n[[Lion|Yelling]]",
+            "links": [
+                {
+                    "name": "Lion|Yelling",
+                    "link": "Lion|Yelling",
+                    "broken": true
+                }
+            ],
+            "name": "Anger",
+            "pid": "18",
+            "position": {
+                "x": "1772.6666666666667",
+                "y": "1146.6666666666667"
+            },
+            "tags": [
+                "Lion"
+            ]
         },
         {
-          "linkText": "Lion|Yelling",
-          "passageName": "Lion|Yelling",
-          "original": "[[Lion|Yelling]]"
-        }
-      ],
-      "cleanText": "**eyes\nEon suddenly gets this awkward feeling as if someone is staring at her.\nAs she moves her head up, she sees all her coworkers gathered around her desk. Staring at her. Not saying a word. @eon_scared_ox \n\"What the hell?!\" @sfx_scream"
-    },
-    {
-      "name": "Run",
-      "tags": "",
-      "id": "30",
-      "text": "**eyes\nEon:\"What is wrong with you all?\" @eon_scared_ox\nThey don't say a word. Just stare.\nEon:\"Okay, you know what, I am fucking done with this.\" @eon_run_ox\nShe quicky grabs her bag and runs towards the door.\n[[Ox|Mobbing]]",
-      "links": [
-        {
-          "linkText": "Ox|Mobbing",
-          "passageName": "Ox|Mobbing",
-          "original": "[[Ox|Mobbing]]"
-        }
-      ],
-      "cleanText": "**eyes\nEon:\"What is wrong with you all?\" @eon_scared_ox\nThey don't say a word. Just stare.\nEon:\"Okay, you know what, I am fucking done with this.\" @eon_run_ox\nShe quicky grabs her bag and runs towards the door."
-    },
-    {
-      "name": "Calm Down",
-      "tags": "",
-      "id": "31",
-      "text": "**questionMark\nFinally she is alone. @eon_unhappy_lion\nEon:\"Where is all this nonsense coming from?\"\nShe hears a laughter from the back corner of the office. @sfx_evilLaughter\nShe recognized the voice. It's Birch.\n[[Lion|Wtf]]\n[[Human|Browsing]]",
-      "links": [
-        {
-          "linkText": "Lion|Wtf",
-          "passageName": "Lion|Wtf",
-          "original": "[[Lion|Wtf]]"
+            "text": "**ear\nEon senses that collegues are staring at her as she is walking. @eon_walkUnhappy_ox\nEon:<color=\"blue\">\"This is very uncomfortable. I feel very anxious.\"</color>\nShe hears whispers behind her. She knows people are talking about her.\nEon:<color=\"blue\">\"What have I done? I don't understand.\"</color>\nShe arrives to her desk.\n[[Ox|Cry]]\n[[Lion|Yelling]]",
+            "links": [
+                {
+                    "name": "Ox|Cry",
+                    "link": "Ox|Cry",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Yelling",
+                    "link": "Lion|Yelling",
+                    "broken": true
+                }
+            ],
+            "name": "Anxiety",
+            "pid": "19",
+            "position": {
+                "x": "1909.3333333333335",
+                "y": "1141.6666666666667"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Human|Browsing",
-          "passageName": "Human|Browsing",
-          "original": "[[Human|Browsing]]"
-        }
-      ],
-      "cleanText": "**questionMark\nFinally she is alone. @eon_unhappy_lion\nEon:\"Where is all this nonsense coming from?\"\nShe hears a laughter from the back corner of the office. @sfx_evilLaughter\nShe recognized the voice. It's Birch."
-    },
-    {
-      "name": "Mobbing",
-      "tags": "",
-      "id": "32",
-      "text": "**exit\nBirch, watching Eon as she is running through the door, smiling. @eon_cry_ox\nBirch:\"What a shame...Another victim of mobbing.\" @sfx_evilLaughter\nThat was Eon's last day at work.\n@end",
-      "links": [],
-      "cleanText": "**exit\nBirch, watching Eon as she is running through the door, smiling. @eon_cry_ox\nBirch:\"What a shame...Another victim of mobbing.\" @sfx_evilLaughter\nThat was Eon's last day at work.\n@end"
-    },
-    {
-      "name": "Wtf",
-      "tags": "",
-      "id": "33",
-      "text": "**dialog\n@eon_walkUnhappy_lion\nAs Eon is approaching Birch, she turns towards her with a sinister smile on her face.\nEon: \"What did you tell them?\"\nBirch: \"Hmm, I don't think I understand what you're talking about.\"\n[[Lion|Stop]]",
-      "links": [
-        {
-          "linkText": "Lion|Stop",
-          "passageName": "Lion|Stop",
-          "original": "[[Lion|Stop]]"
-        }
-      ],
-      "cleanText": "**dialog\n@eon_walkUnhappy_lion\nAs Eon is approaching Birch, she turns towards her with a sinister smile on her face.\nEon: \"What did you tell them?\"\nBirch: \"Hmm, I don't think I understand what you're talking about.\""
-    },
-    {
-      "name": "Stop",
-      "tags": "",
-      "id": "34",
-      "text": "**explosion\n@eon_angry_lion\nEon: \"WHAT DID YOU TELL THEM? I KNOW IT IS YOU, STOP PLAYING GAMES WITH ME\"\nBirch: \"I think you need to chill.\" @sfx_evilLaughter\n[[Lion|Fix This]]",
-      "links": [
-        {
-          "linkText": "Lion|Fix This",
-          "passageName": "Lion|Fix This",
-          "original": "[[Lion|Fix This]]"
-        }
-      ],
-      "cleanText": "**explosion\n@eon_angry_lion\nEon: \"WHAT DID YOU TELL THEM? I KNOW IT IS YOU, STOP PLAYING GAMES WITH ME\"\nBirch: \"I think you need to chill.\" @sfx_evilLaughter"
-    },
-    {
-      "name": "Bon Appetite",
-      "tags": "",
-      "id": "35",
-      "text": "**dialog\nEon:\"Bon Appetite, Bingo\"  @eon_hi_human\nBingo slowly turns his head towards Eon.\nHis mouth moves but nothing audible. @sfx_mumble\nEon: \"Yeah bro...\"\n[[Human|Why]]",
-      "links": [
-        {
-          "linkText": "Human|Why",
-          "passageName": "Human|Why",
-          "original": "[[Human|Why]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon:\"Bon Appetite, Bingo\"  @eon_hi_human\nBingo slowly turns his head towards Eon.\nHis mouth moves but nothing audible. @sfx_mumble\nEon: \"Yeah bro...\""
-    },
-    {
-      "name": "Why",
-      "tags": "",
-      "id": "36",
-      "text": "**dialog\nEon: \"So, I need your input on something. I think people are talking about me. What happened?\" @eon_talk_human\nBingo: \"Mmrphgg...\" @sfx_mumble\nEon: \"Look, i understand you wanna play Switzerland in this game. But, I really need to know why this is happening.\"\nBingo doesn't say anything. Not a word.\n[[Lion|Talk]]\n[[Human|Turnip]]",
-      "links": [
-        {
-          "linkText": "Lion|Talk",
-          "passageName": "Lion|Talk",
-          "original": "[[Lion|Talk]]"
+            "text": "**ear\nEon senses that collegues are staring at her as whe is walking. @eon_walkUnhappy_human\nEon:<color=\"blue\"><i>Okay, I am sure now that they were talking about me 100%.</i></color>\nShe can hear whispers behind her. They are gossiping. About her.\nEon:<color=\"blue\"><i>I just need to figure out what happened.</i></color>\nShe arrives to her desk.\n[[Human|Browsing]]",
+            "links": [
+                {
+                    "name": "Human|Browsing",
+                    "link": "Human|Browsing",
+                    "broken": true
+                }
+            ],
+            "name": "Gossip",
+            "pid": "20",
+            "position": {
+                "x": "2072.666666666667",
+                "y": "1153.6666666666667"
+            },
+            "tags": [
+                "Human"
+            ]
         },
         {
-          "linkText": "Human|Turnip",
-          "passageName": "Human|Turnip",
-          "original": "[[Human|Turnip]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"So, I need your input on something. I think people are talking about me. What happened?\" @eon_talk_human\nBingo: \"Mmrphgg...\" @sfx_mumble\nEon: \"Look, i understand you wanna play Switzerland in this game. But, I really need to know why this is happening.\"\nBingo doesn't say anything. Not a word."
-    },
-    {
-      "name": "Yum",
-      "tags": "",
-      "id": "37",
-      "text": "**turnip\nBingo swallows the whole turnip. @sfx_eat\nHe seems happy, rubbing his tummy.\nBingo: \"Ah, this was yummy.\"\nEon: \"I know. Now it's time to tell me what's going on.\"\n@eon_idle_human\n[[Human|Retreat]]",
-      "links": [
-        {
-          "linkText": "Human|Retreat",
-          "passageName": "Human|Retreat",
-          "original": "[[Human|Retreat]]"
-        }
-      ],
-      "cleanText": "**turnip\nBingo swallows the whole turnip. @sfx_eat\nHe seems happy, rubbing his tummy.\nBingo: \"Ah, this was yummy.\"\nEon: \"I know. Now it's time to tell me what's going on.\"\n@eon_idle_human"
-    },
-    {
-      "name": "Retreat",
-      "tags": "",
-      "id": "38",
-      "text": "**dialog\n Bingo: \"Okay. So you know everyone was so excited for the retreat. And I don't really understand why.\"  @eon_think_human\n Eon sighs.\n Bingo: \"Well, that's on the fence now. Apparently our revenue is not as expected. So they are talking about budget cuts.\"\n Eon: \"That sucks.\"\n Bingo: \"And Birch told everyone you suggested the boss that we cancel the retreat.\" @sfx_evilLaughter\n [[Human|Framed]]\n [[Lion|Show Her]]",
-      "links": [
-        {
-          "linkText": "Human|Framed",
-          "passageName": "Human|Framed",
-          "original": "[[Human|Framed]]"
+            "text": "**explosion\nEon:<color=\"blue\">\"What is your problem? What is wrong with everyone? Just mind your business!\"</color>@eon_angry_lion\nShe is shaking at her desk.\n[[Lion|Calm Down]]",
+            "links": [
+                {
+                    "name": "Lion|Calm Down",
+                    "link": "Lion|Calm Down",
+                    "broken": true
+                }
+            ],
+            "name": "Yelling",
+            "pid": "21",
+            "position": {
+                "x": "1773.6666666666667",
+                "y": "1264.3333333333335"
+            }
         },
         {
-          "linkText": "Lion|Show Her",
-          "passageName": "Lion|Show Her",
-          "original": "[[Lion|Show Her]]"
-        }
-      ],
-      "cleanText": "**dialog\n Bingo: \"Okay. So you know everyone was so excited for the retreat. And I don't really understand why.\"  @eon_think_human\n Eon sighs.\n Bingo: \"Well, that's on the fence now. Apparently our revenue is not as expected. So they are talking about budget cuts.\"\n Eon: \"That sucks.\"\n Bingo: \"And Birch told everyone you suggested the boss that we cancel the retreat.\" @sfx_evilLaughter"
-    },
-    {
-      "name": "Framed",
-      "tags": "",
-      "id": "39",
-      "text": "**exxQuestion\nEon: \"What? But I didn't say that. I didn't even know.\" @eon_surprised_human\nBingo: \"But that's what everyone is talking about.\"\nEon: \"So that bitch just framed me huh?\"\nBingo is not impressed at all.\nBingo: \"Are we done here?\"\n[[Human|Plans]]\n[[Ox|Wait]]",
-      "links": [
-        {
-          "linkText": "Human|Plans",
-          "passageName": "Human|Plans",
-          "original": "[[Human|Plans]]"
+            "text": "**fire\nEon:<color=\"blue\">\"I am sorry, but I just can't. Can I please go back to work?\"</color> @eon_working_ox\nEon sees fire in Birch's eyes. She says nothing, and just walks away.\nEon:<color=\"blue\"><i>Pff, she is very insistent!</i></color>\n[[Ox|Tomorrow]]",
+            "links": [
+                {
+                    "name": "Ox|Tomorrow",
+                    "link": "Ox|Tomorrow",
+                    "broken": true
+                }
+            ],
+            "name": "No",
+            "pid": "22",
+            "position": {
+                "x": "1994.0000000000002",
+                "y": "919.9999999999999"
+            }
         },
         {
-          "linkText": "Ox|Wait",
-          "passageName": "Ox|Wait",
-          "original": "[[Ox|Wait]]"
-        }
-      ],
-      "cleanText": "**exxQuestion\nEon: \"What? But I didn't say that. I didn't even know.\" @eon_surprised_human\nBingo: \"But that's what everyone is talking about.\"\nEon: \"So that bitch just framed me huh?\"\nBingo is not impressed at all.\nBingo: \"Are we done here?\""
-    },
-    {
-      "name": "Plans",
-      "tags": "",
-      "id": "40",
-      "text": "**fire\nEon: \"That fuckin' Birch... This is not over.\" @eon_unhappy_human\nShe goes back to her desk.\nEon: \"I'll show you what it means to mess with me.\"\n[[Human|Afternoon]]",
-      "links": [
-        {
-          "linkText": "Human|Afternoon",
-          "passageName": "Human|Afternoon",
-          "original": "[[Human|Afternoon]]"
-        }
-      ],
-      "cleanText": "**fire\nEon: \"That fuckin' Birch... This is not over.\" @eon_unhappy_human\nShe goes back to her desk.\nEon: \"I'll show you what it means to mess with me.\""
-    },
-    {
-      "name": "Wait",
-      "tags": "",
-      "id": "41",
-      "text": "Eon: \"That is just horrible. What a horrible person is Birch.\" @eon_scared_ox\nShe feels exhausted.\nEon: \"Okay. I just need to talk to people when they get back from lunch.\"\nBut that wait felt just like forever.\n[[Ox|Avoided]]",
-      "links": [
-        {
-          "linkText": "Ox|Avoided",
-          "passageName": "Ox|Avoided",
-          "original": "[[Ox|Avoided]]"
-        }
-      ],
-      "cleanText": "Eon: \"That is just horrible. What a horrible person is Birch.\" @eon_scared_ox\nShe feels exhausted.\nEon: \"Okay. I just need to talk to people when they get back from lunch.\"\nBut that wait felt just like forever."
-    },
-    {
-      "name": "Avoided",
-      "tags": "",
-      "id": "42",
-      "text": "Eon starts walking around the office trying to talk to people. \n@eon_anxious_ox\nThey all just avoid her as she is apporaching.\nEon:\"Hey!...Oh hi!...Hmmm...Ah, hi...\"\nNo one bothers to listen to her. They don't even look at her place.\nEon finally grab someone's arm.\n[[Ox|Not welcomed]]",
-      "links": [
-        {
-          "linkText": "Ox|Not welcomed",
-          "passageName": "Ox|Not welcomed",
-          "original": "[[Ox|Not welcomed]]"
-        }
-      ],
-      "cleanText": "Eon starts walking around the office trying to talk to people. \n@eon_anxious_ox\nThey all just avoid her as she is apporaching.\nEon:\"Hey!...Oh hi!...Hmmm...Ah, hi...\"\nNo one bothers to listen to her. They don't even look at her place.\nEon finally grab someone's arm."
-    },
-    {
-      "name": "Not welcomed",
-      "tags": "",
-      "id": "43",
-      "text": "Coworker: \"What are you doing? Let go of me immediately.\" @eon_anxious_ox\nEon: \"Please just listen to me. I am not the reason the retreat is cancelled. It has nothing to do with me!\"\nCoworker: \"Yeah yeah... You fuckin' minion! I don't wanna talk to you. No one in here does. You are not welcomed here.\"\nEon stays frozen for a second. How did things escaleted so fast?\nShe goes back to her desk.\n[[Ox|Cry]]",
-      "links": [
-        {
-          "linkText": "Ox|Cry",
-          "passageName": "Ox|Cry",
-          "original": "[[Ox|Cry]]"
-        }
-      ],
-      "cleanText": "Coworker: \"What are you doing? Let go of me immediately.\" @eon_anxious_ox\nEon: \"Please just listen to me. I am not the reason the retreat is cancelled. It has nothing to do with me!\"\nCoworker: \"Yeah yeah... You fuckin' minion! I don't wanna talk to you. No one in here does. You are not welcomed here.\"\nEon stays frozen for a second. How did things escaleted so fast?\nShe goes back to her desk."
-    },
-    {
-      "name": "Afternoon",
-      "tags": "",
-      "id": "44",
-      "text": "**fire\nThe whole afternoon she spends writing into her notebook. Calculating. Planning. @eon_sinister_human\nPeople are still full of hatred. But Eon doesn't care.\nEon: \"This looks good. Let's see who is the real player Ms. Birch!\" @sfx_evilLaughter\n[[Human|Boss Office]]",
-      "links": [
-        {
-          "linkText": "Human|Boss Office",
-          "passageName": "Human|Boss Office",
-          "original": "[[Human|Boss Office]]"
-        }
-      ],
-      "cleanText": "**fire\nThe whole afternoon she spends writing into her notebook. Calculating. Planning. @eon_sinister_human\nPeople are still full of hatred. But Eon doesn't care.\nEon: \"This looks good. Let's see who is the real player Ms. Birch!\" @sfx_evilLaughter"
-    },
-    {
-      "name": "Show Her",
-      "tags": "",
-      "id": "45",
-      "text": "**explosion\n@eon_walkUnhappy_lion\nEon: \"WHAT!? I'LL KILL THAT BIRCH!\"\nShe hears people coming back to the office. Birch is with them.\nEon sprints towards Birch.\n[[Lion|Stop]]",
-      "links": [
-        {
-          "linkText": "Lion|Stop",
-          "passageName": "Lion|Stop",
-          "original": "[[Lion|Stop]]"
-        }
-      ],
-      "cleanText": "**explosion\n@eon_walkUnhappy_lion\nEon: \"WHAT!? I'LL KILL THAT BIRCH!\"\nShe hears people coming back to the office. Birch is with them.\nEon sprints towards Birch."
-    },
-    {
-      "name": "Fix This",
-      "tags": "",
-      "id": "46",
-      "text": "**exxMark\nEon: \"Listen to me. You'll tell everyone it was a misunderstanding. YOU'LL FIX THIS!\" @eon_angry_lion\nBirch: \"Or what? I am not afraid of you. And I am not telling anyone anything.\"\nThen she bends over to Eon and whispers: \"I hope your day is as pleasant as you've made mine.\"\n[[Lion|Attack]]\n[[Human|Plans]]",
-      "links": [
-        {
-          "linkText": "Lion|Attack",
-          "passageName": "Lion|Attack",
-          "original": "[[Lion|Attack]]"
+            "text": "**coffee\nNext day is no different than the day before. @eon_working_ox\nEon is just working hard. As usual.\nEon:<color=\"blue\">\"Gosh, I am already tired. When is Friday again?\"</color>\nShe decides to go get some coffee.\n[[Ox|At Kitchen]]\n",
+            "links": [
+                {
+                    "name": "Ox|At Kitchen",
+                    "link": "Ox|At Kitchen",
+                    "broken": true
+                }
+            ],
+            "name": "Tomorrow",
+            "pid": "23",
+            "position": {
+                "x": "1923",
+                "y": "807"
+            }
         },
         {
-          "linkText": "Human|Plans",
-          "passageName": "Human|Plans",
-          "original": "[[Human|Plans]]"
-        }
-      ],
-      "cleanText": "**exxMark\nEon: \"Listen to me. You'll tell everyone it was a misunderstanding. YOU'LL FIX THIS!\" @eon_angry_lion\nBirch: \"Or what? I am not afraid of you. And I am not telling anyone anything.\"\nThen she bends over to Eon and whispers: \"I hope your day is as pleasant as you've made mine.\""
-    },
-    {
-      "name": "Attack",
-      "tags": "",
-      "id": "47",
-      "text": "**explosion\nEon grabs Birch's hair and crashes her face into the wall. @sfx_scream @eon_angry_lion\nPeople gather around to seperate them.\nBirch is crying. \"She attacked me. She is just mad. MAD!\"\nPeople are holding Eon. She is a burning fire. @sfx_roar\n[[Lion|Fired]]",
-      "links": [
-        {
-          "linkText": "Lion|Fired",
-          "passageName": "Lion|Fired",
-          "original": "[[Lion|Fired]]"
-        }
-      ],
-      "cleanText": "**explosion\nEon grabs Birch's hair and crashes her face into the wall. @sfx_scream @eon_angry_lion\nPeople gather around to seperate them.\nBirch is crying. \"She attacked me. She is just mad. MAD!\"\nPeople are holding Eon. She is a burning fire. @sfx_roar"
-    },
-    {
-      "name": "Fired",
-      "tags": "",
-      "id": "48",
-      "text": "**exit\nIt doesn't take long for Eon to find out she is fired. @eon_unhappy_lion\nShe comes in next day to pack her stuff. Noone talks to her. It seems like they are scared.\nEon just wants to leave asap.\n[[Lion|Goodbye]]",
-      "links": [
-        {
-          "linkText": "Lion|Goodbye",
-          "passageName": "Lion|Goodbye",
-          "original": "[[Lion|Goodbye]]"
-        }
-      ],
-      "cleanText": "**exit\nIt doesn't take long for Eon to find out she is fired. @eon_unhappy_lion\nShe comes in next day to pack her stuff. Noone talks to her. It seems like they are scared.\nEon just wants to leave asap."
-    },
-    {
-      "name": "Goodbye",
-      "tags": "",
-      "id": "49",
-      "text": "**exit\nBirch is standing at the door with her disgusting smile. @eon_unhappy_lion\nAs Eon is stepping out the door she whispers again.\n\"There you go. It's the triumph of sugar over diabetes.\"\n@end",
-      "links": [],
-      "cleanText": "**exit\nBirch is standing at the door with her disgusting smile. @eon_unhappy_lion\nAs Eon is stepping out the door she whispers again.\n\"There you go. It's the triumph of sugar over diabetes.\"\n@end"
-    },
-    {
-      "name": "Boss Office",
-      "tags": "",
-      "id": "50",
-      "text": "**dialog\nNext day, Eon is at the Boss' office early in the morning. @eon_happy_human\nEon: \"Boss, you've been so kind and caring to each one of us. I feel extremely lucky to be part of this team.\"\nBoss: \"And you are a great addition to the team as well! Tell me, what can I do for you?\"\nEon:\"Oh, you've already done too much! So, I am asking myself the question, what can I do for YOU?\"\n[[Human|Dangerous Waters]]",
-      "links": [
-        {
-          "linkText": "Human|Dangerous Waters",
-          "passageName": "Human|Dangerous Waters",
-          "original": "[[Human|Dangerous Waters]]"
-        }
-      ],
-      "cleanText": "**dialog\nNext day, Eon is at the Boss' office early in the morning. @eon_happy_human\nEon: \"Boss, you've been so kind and caring to each one of us. I feel extremely lucky to be part of this team.\"\nBoss: \"And you are a great addition to the team as well! Tell me, what can I do for you?\"\nEon:\"Oh, you've already done too much! So, I am asking myself the question, what can I do for YOU?\""
-    },
-    {
-      "name": "Dangerous Waters",
-      "tags": "",
-      "id": "51",
-      "text": "**peach\nBoss seems a little uncomfortable. @eon_confused_human\nBoss: \"Ehem... I am not sure what you mean by that. But I hope you are not swimming in dangerous waters.\"\nEon: \"I'm sorry?\"\nBoss: \"You know, ehem, peaches... And eggplants. I really appreciate your work, I don't need anything more than that.\"\n[[Human|Warning]]\n[[Lion|How dare]]\n[[Eagle|Appropriate]]",
-      "links": [
-        {
-          "linkText": "Human|Warning",
-          "passageName": "Human|Warning",
-          "original": "[[Human|Warning]]"
+            "text": "**eyes\nAs she is walking towards the kitchen she sees a crowd talking silently. \nEon:<color=\"blue\">\"Hey, what's up?\"</color> @eon_walk_ox\nThey all stop talking at the same time. \nEon goes to the coffee machine. \nEon:<color=\"blue\">\"Why are you all acting so mysterious?\"</color>\nShe turns back and no one is there any more.\n[[Lion|Rude]]\n[[Ox|Awkward]]\n[[Human|Suspicious]]\n",
+            "links": [
+                {
+                    "name": "Lion|Rude",
+                    "link": "Lion|Rude",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Awkward",
+                    "link": "Ox|Awkward",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Suspicious",
+                    "link": "Human|Suspicious",
+                    "broken": true
+                }
+            ],
+            "name": "At Kitchen",
+            "pid": "24",
+            "position": {
+                "x": "1849.6666666666667",
+                "y": "917.3333333333333"
+            }
         },
         {
-          "linkText": "Lion|How dare",
-          "passageName": "Lion|How dare",
-          "original": "[[Lion|How dare]]"
+            "text": "**questionMark\nEon:<color=\"blue\">\"Let's see...Who can tell me what's happening? Who is the weakling?\"</color> @eon_think_human\nShe is looking around the office, tracing every single face.\nEon:<color=\"blue\"><i>Damn, he fuckin' hates me.</i></color>\nShe keeps looking, looking.\nEon:<color=\"blue\">\"No, nope. Not them. No.\"</color>\n[[Human|Weakling]]",
+            "links": [
+                {
+                    "name": "Human|Weakling",
+                    "link": "Human|Weakling",
+                    "broken": true
+                }
+            ],
+            "name": "Browsing",
+            "pid": "25",
+            "position": {
+                "x": "2071",
+                "y": "1269"
+            }
         },
         {
-          "linkText": "Eagle|Appropriate",
-          "passageName": "Eagle|Appropriate",
-          "original": "[[Eagle|Appropriate]]"
-        }
-      ],
-      "cleanText": "**peach\nBoss seems a little uncomfortable. @eon_confused_human\nBoss: \"Ehem... I am not sure what you mean by that. But I hope you are not swimming in dangerous waters.\"\nEon: \"I'm sorry?\"\nBoss: \"You know, ehem, peaches... And eggplants. I really appreciate your work, I don't need anything more than that.\""
-    },
-    {
-      "name": "Warning",
-      "tags": "",
-      "id": "52",
-      "text": "**dialog\nEon: \"Oh, I see...No boss, I am not really into vegetables. I just wanted to say, you are such a giving and caring person. And I am not sure if everyone appreciates it the same way.\" @eon_surprised_human\nBoss gets serious. \"What do you mean?\"\nEon: \"Ehem...There someone in the team talking behind you. In a disgraceful way.\"\nBoss: \"Who is that and what do they say?\"\n[[Human|Snatch]]",
-      "links": [
-        {
-          "linkText": "Human|Snatch",
-          "passageName": "Human|Snatch",
-          "original": "[[Human|Snatch]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"Oh, I see...No boss, I am not really into vegetables. I just wanted to say, you are such a giving and caring person. And I am not sure if everyone appreciates it the same way.\" @eon_surprised_human\nBoss gets serious. \"What do you mean?\"\nEon: \"Ehem...There someone in the team talking behind you. In a disgraceful way.\"\nBoss: \"Who is that and what do they say?\""
-    },
-    {
-      "name": "Snatch",
-      "tags": "",
-      "id": "53",
-      "text": "**bread\nEon: \"I don't want to be a snatch. You know I am a team player...\"\nBoss: \"SPEAK WOMAN!\" @eon_unhappy_human\nEon: \"It's Birch. Telling everyone that you steal our toast from kitchen and take it home. She says that is why we are always short on bread, because you take all the extra supply. \"\n[[Human|One Time]]",
-      "links": [
-        {
-          "linkText": "Human|One Time",
-          "passageName": "Human|One Time",
-          "original": "[[Human|One Time]]"
-        }
-      ],
-      "cleanText": "**bread\nEon: \"I don't want to be a snatch. You know I am a team player...\"\nBoss: \"SPEAK WOMAN!\" @eon_unhappy_human\nEon: \"It's Birch. Telling everyone that you steal our toast from kitchen and take it home. She says that is why we are always short on bread, because you take all the extra supply. \""
-    },
-    {
-      "name": "One Time",
-      "tags": "",
-      "id": "54",
-      "text": "**bread\nBoss: \"What? What a nonsense! That was only one time!\" @eon_sinister_human\nEon: \"If you ask me, take as many as you want. You deserve all the bread in the world.\"\nIt seems like the bread thing really touched the Boss' heart.\nEon: \"Unfortunately, there is more.\"\n[[Eon|Fraud]]",
-      "links": [
-        {
-          "linkText": "Eon|Fraud",
-          "passageName": "Eon|Fraud",
-          "original": "[[Eon|Fraud]]"
-        }
-      ],
-      "cleanText": "**bread\nBoss: \"What? What a nonsense! That was only one time!\" @eon_sinister_human\nEon: \"If you ask me, take as many as you want. You deserve all the bread in the world.\"\nIt seems like the bread thing really touched the Boss' heart.\nEon: \"Unfortunately, there is more.\""
-    },
-    {
-      "name": "Banana",
-      "tags": "",
-      "id": "55",
-      "text": "~~\n**bananaBlue\nJust before Eon leaves the room, she notices a blue banana on the table.\nEon: \"Hey Boss, can I take this banana?\" @eon_approve_human\nBoss: \"Yes, go for it. It is a special fruit. You can't find this anywhere else.\"\n[[Eon|Satisfaction]]",
-      "links": [
-        {
-          "linkText": "Eon|Satisfaction",
-          "passageName": "Eon|Satisfaction",
-          "original": "[[Eon|Satisfaction]]"
-        }
-      ],
-      "cleanText": "~~\n**bananaBlue\nJust before Eon leaves the room, she notices a blue banana on the table.\nEon: \"Hey Boss, can I take this banana?\" @eon_approve_human\nBoss: \"Yes, go for it. It is a special fruit. You can't find this anywhere else.\""
-    },
-    {
-      "name": "Satisfaction",
-      "tags": "",
-      "id": "56",
-      "text": "**trophy\nVictory comes soon after. Birch comes out from the Boss' office with a lemon face. @eon_sinister_human\nShe looks at Eon with full of hatred.\nEon: \"This is how you do it Birch.\" @sfx_evilLaughter",
-      "links": [],
-      "cleanText": "**trophy\nVictory comes soon after. Birch comes out from the Boss' office with a lemon face. @eon_sinister_human\nShe looks at Eon with full of hatred.\nEon: \"This is how you do it Birch.\" @sfx_evilLaughter"
-    },
-    {
-      "name": "Turnip",
-      "tags": "",
-      "id": "57",
-      "text": "**turnip\nEon grabs a big juicy turnip from her pocket. Bingo's eyes grow huge.\nEon: \"I brought you this juicy peach. I am ready to pay for your efforts!\"\n@eon_approve_human\n[[Human|Yum]]",
-      "links": [
-        {
-          "linkText": "Human|Yum",
-          "passageName": "Human|Yum",
-          "original": "[[Human|Yum]]"
-        }
-      ],
-      "cleanText": "**turnip\nEon grabs a big juicy turnip from her pocket. Bingo's eyes grow huge.\nEon: \"I brought you this juicy peach. I am ready to pay for your efforts!\"\n@eon_approve_human"
-    },
-    {
-      "name": "Talk",
-      "tags": "",
-      "id": "58",
-      "text": "**explosion\nEon: \"Just tell me! NOW!\" @eon_angry_lion\nBingo doesn't respond.\nEon grabs Bingo from shoulders and starts shaking him.\nEon: \"SPEAK! NOW!\"\nBingo is choking: \"Orghmnnn...\"\n[[Lion|Interruption]]",
-      "links": [
-        {
-          "linkText": "Lion|Interruption",
-          "passageName": "Lion|Interruption",
-          "original": "[[Lion|Interruption]]"
-        }
-      ],
-      "cleanText": "**explosion\nEon: \"Just tell me! NOW!\" @eon_angry_lion\nBingo doesn't respond.\nEon grabs Bingo from shoulders and starts shaking him.\nEon: \"SPEAK! NOW!\"\nBingo is choking: \"Orghmnnn...\""
-    },
-    {
-      "name": "Interruption",
-      "tags": "",
-      "id": "59",
-      "text": "**fire\nEon hears Birch's voice.\nBirch: \"Oh my god, this girl is nuts! Hold her!\"\nEon throws Bingo away and turns towards Birch.\nShe is losing it.\n[[Lion|Stop]]",
-      "links": [
-        {
-          "linkText": "Lion|Stop",
-          "passageName": "Lion|Stop",
-          "original": "[[Lion|Stop]]"
-        }
-      ],
-      "cleanText": "**fire\nEon hears Birch's voice.\nBirch: \"Oh my god, this girl is nuts! Hold her!\"\nEon throws Bingo away and turns towards Birch.\nShe is losing it."
-    },
-    {
-      "name": "Fraud",
-      "tags": "",
-      "id": "60",
-      "text": "**dialog\nEon: \"She also tells people that you cancelled the retreat because you used the money to buy groceries for office and take them home.\" @eon_unhappy_human\nBoss: \"Nooo...No, she can't.\"\nEon in full satisfaction: \"Yup, she did.\"\nBoss: \"But...She told me to cancel it to fix our finances!\"\n[[Human|Take over]]",
-      "links": [
-        {
-          "linkText": "Human|Take over",
-          "passageName": "Human|Take over",
-          "original": "[[Human|Take over]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"She also tells people that you cancelled the retreat because you used the money to buy groceries for office and take them home.\" @eon_unhappy_human\nBoss: \"Nooo...No, she can't.\"\nEon in full satisfaction: \"Yup, she did.\"\nBoss: \"But...She told me to cancel it to fix our finances!\""
-    },
-    {
-      "name": "Take over",
-      "tags": "",
-      "id": "61",
-      "text": "**exxMark\nEon: \"I think she just wants to take you down boss.\" @eon_disagree_human\nBoss: \"Well, we'll see who is taking over whom! Go find her, send her here!\"\n[[Human|Banana]]",
-      "links": [
-        {
-          "linkText": "Human|Banana",
-          "passageName": "Human|Banana",
-          "original": "[[Human|Banana]]"
-        }
-      ],
-      "cleanText": "**exxMark\nEon: \"I think she just wants to take you down boss.\" @eon_disagree_human\nBoss: \"Well, we'll see who is taking over whom! Go find her, send her here!\""
-    },
-    {
-      "name": "How dare",
-      "tags": "",
-      "id": "62",
-      "text": "**explosion\nThis is absolutely offensive. eon_unhappy_lion\nEon: \"How can you think I'd be offering you peaches and eggplants? How dare you talk to me like that!\"\nNow the boss is mad too.\nBoss: \"You come inside, kissing ass, what did you expect me to think?\" \n[[Lion|Last Insult]]",
-      "links": [
-        {
-          "linkText": "Lion|Last Insult",
-          "passageName": "Lion|Last Insult",
-          "original": "[[Lion|Last Insult]]"
-        }
-      ],
-      "cleanText": "**explosion\nThis is absolutely offensive. eon_unhappy_lion\nEon: \"How can you think I'd be offering you peaches and eggplants? How dare you talk to me like that!\"\nNow the boss is mad too.\nBoss: \"You come inside, kissing ass, what did you expect me to think?\""
-    },
-    {
-      "name": "Last Insult",
-      "tags": "",
-      "id": "63",
-      "text": "**explosion\n@eon_angry_lion\nEon: \"Unlike you, some of us have dignity. You listen to everything your little minion Birch says and you call me an ass kisser?\"\nBoss is in shock, he doesn't say a word.\nEon goes to the door.\nEon: \"Also, everyone in the office knows that you sneak out our office bread. You have a tremendous salary already whereas we work like slaves. Isn't your stomach just full yet?\"\nShe slams the door leaving the room. @sfx_doorSlam\n[[Lion|Fired]]",
-      "links": [
-        {
-          "linkText": "Lion|Fired",
-          "passageName": "Lion|Fired",
-          "original": "[[Lion|Fired]]"
-        }
-      ],
-      "cleanText": "**explosion\n@eon_angry_lion\nEon: \"Unlike you, some of us have dignity. You listen to everything your little minion Birch says and you call me an ass kisser?\"\nBoss is in shock, he doesn't say a word.\nEon goes to the door.\nEon: \"Also, everyone in the office knows that you sneak out our office bread. You have a tremendous salary already whereas we work like slaves. Isn't your stomach just full yet?\"\nShe slams the door leaving the room. @sfx_doorSlam"
-    },
-    {
-      "name": "Appropriate",
-      "tags": "",
-      "id": "64",
-      "text": "**dialog\nEon: \"Oh, I don't think this is an appropriate conversation\" @eon_think_eagle\nBoss seems quite uncomfortable now.\nBoss: \"Well you are the one bringing that up!\"\nEon: \"You are the one who brought up peaches and eggplants. You know, I can report you for harassment.\"\nBoss: \"To whom? I am the boss. And this is not a corporate company.\"\n[[Eagle|Help]]\n[[Ox|Attractive]]",
-      "links": [
-        {
-          "linkText": "Eagle|Help",
-          "passageName": "Eagle|Help",
-          "original": "[[Eagle|Help]]"
+            "text": "**exxMark\nFinally her eyes spot a tiny person at the very far corner.@eon_approve_human\nEon:<color=\"blue\">\"Bingo! I need to catch her at the lunch.\"</color>\n[[Human|Lunch]]",
+            "links": [
+                {
+                    "name": "Human|Lunch",
+                    "link": "Human|Lunch",
+                    "broken": true
+                }
+            ],
+            "name": "Weakling",
+            "pid": "26",
+            "position": {
+                "x": "1979",
+                "y": "1378.6666666666665"
+            }
         },
         {
-          "linkText": "Ox|Attractive",
-          "passageName": "Ox|Attractive",
-          "original": "[[Ox|Attractive]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"Oh, I don't think this is an appropriate conversation\" @eon_think_eagle\nBoss seems quite uncomfortable now.\nBoss: \"Well you are the one bringing that up!\"\nEon: \"You are the one who brought up peaches and eggplants. You know, I can report you for harassment.\"\nBoss: \"To whom? I am the boss. And this is not a corporate company.\""
-    },
-    {
-      "name": "Help",
-      "tags": "",
-      "id": "65",
-      "text": "**dialog\nEon: \"That is a good point. So in that case, a good suggestion would be to help you design a process to overcome harassment at work.\" @eon_think_eagle\nBoss: \"What are you talking about?\"\nEon: \"I'd image you'd like your company to be a corporate at some point. So, you need to work on employee safety, anti-harassment policies etc.\"\n[[Eagle|Good idea]]",
-      "links": [
-        {
-          "linkText": "Eagle|Good idea",
-          "passageName": "Eagle|Good idea",
-          "original": "[[Eagle|Good idea]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"That is a good point. So in that case, a good suggestion would be to help you design a process to overcome harassment at work.\" @eon_think_eagle\nBoss: \"What are you talking about?\"\nEon: \"I'd image you'd like your company to be a corporate at some point. So, you need to work on employee safety, anti-harassment policies etc.\""
-    },
-    {
-      "name": "Attractive",
-      "tags": "",
-      "id": "66",
-      "text": "**dialog\nEon: \"But I wouldn't anyway. Boss, I have a confession. I've always find you really attractive.\" @eon_flirting_human\nBoss is surprised. But he smiles with flattery.\nBoss: \"Really? Well, ehem, I know for some I have an irresistable charm.\"\nEon: \"So please forgive me for coming on to you. I just couldn't help myself.\"\n[[Ox|Reciprocity]]",
-      "links": [
-        {
-          "linkText": "Ox|Reciprocity",
-          "passageName": "Ox|Reciprocity",
-          "original": "[[Ox|Reciprocity]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: \"But I wouldn't anyway. Boss, I have a confession. I've always find you really attractive.\" @eon_flirting_human\nBoss is surprised. But he smiles with flattery.\nBoss: \"Really? Well, ehem, I know for some I have an irresistable charm.\"\nEon: \"So please forgive me for coming on to you. I just couldn't help myself.\""
-    },
-    {
-      "name": "Good idea",
-      "tags": "",
-      "id": "67",
-      "text": "**tick\nBoss: \"I like that idea. Good thinking Eon. Go now and come back to me with a timeline.\" @eon_approve_eagle\nEon: \"Thanks Boss! I am happy that we're taking this first step together.\"\nEon leaves the office. \n[[Human|Shit]]",
-      "links": [
-        {
-          "linkText": "Human|Shit",
-          "passageName": "Human|Shit",
-          "original": "[[Human|Shit]]"
-        }
-      ],
-      "cleanText": "**tick\nBoss: \"I like that idea. Good thinking Eon. Go now and come back to me with a timeline.\" @eon_approve_eagle\nEon: \"Thanks Boss! I am happy that we're taking this first step together.\"\nEon leaves the office."
-    },
-    {
-      "name": "Shit",
-      "tags": "",
-      "id": "68",
-      "text": "**exxMark\nAs soon as Eon steps out the door, she realizes she forgot something really important. Her plan to destroy Birch. @eon_confused_human\nEon: \"Shit. I got distracted so easily. Where is my mind?\"\nShe knocks on the door and comes back.\n[[Human|What now]]",
-      "links": [
-        {
-          "linkText": "Human|What now",
-          "passageName": "Human|What now",
-          "original": "[[Human|What now]]"
-        }
-      ],
-      "cleanText": "**exxMark\nAs soon as Eon steps out the door, she realizes she forgot something really important. Her plan to destroy Birch. @eon_confused_human\nEon: \"Shit. I got distracted so easily. Where is my mind?\"\nShe knocks on the door and comes back."
-    },
-    {
-      "name": "What now",
-      "tags": "",
-      "id": "69",
-      "text": "**dialog\nBoss: \"Okay, what now?\"\nEon closes the door. @eon_sinister_human\nEon: \"There is something important I need to tell you. It is for your own good boss. There is someone in the office talking nonsense behind your back.\"\n[[Human|Snatch]]",
-      "links": [
-        {
-          "linkText": "Human|Snatch",
-          "passageName": "Human|Snatch",
-          "original": "[[Human|Snatch]]"
-        }
-      ],
-      "cleanText": "**dialog\nBoss: \"Okay, what now?\"\nEon closes the door. @eon_sinister_human\nEon: \"There is something important I need to tell you. It is for your own good boss. There is someone in the office talking nonsense behind your back.\""
-    },
-    {
-      "name": "Reciprocity",
-      "tags": "",
-      "id": "70",
-      "text": "**heart\nBoss gets up and slowly walks towards Eon. @eon_flirting_human\nHe has a flirty look on his face.\nBoss: \"Well, I think you are very attractive too.\"\nTheir faces are so close now they hear each other breathing.\n[[Ox|Kiss]]\n[[Human|Lets not]]",
-      "links": [
-        {
-          "linkText": "Ox|Kiss",
-          "passageName": "Ox|Kiss",
-          "original": "[[Ox|Kiss]]"
+            "text": "**cry\nShe just can't. Eon starts crying. @eon_cry_ox\nShe wants to keep it quiet but that seems not possible. She bursts into tears.  Leaning on her desk, she covers her tears.\nEon:<color=\"blue\">\"What have I done? I don't understand.\"</color>\n[[Ox|Creepy Folks]]",
+            "links": [
+                {
+                    "name": "Ox|Creepy Folks",
+                    "link": "Ox|Creepy Folks",
+                    "broken": true
+                }
+            ],
+            "name": "Cry",
+            "pid": "27",
+            "position": {
+                "x": "1909.666666666667",
+                "y": "1256.3333333333333"
+            }
         },
         {
-          "linkText": "Human|Lets not",
-          "passageName": "Human|Lets not",
-          "original": "[[Human|Lets not]]"
-        }
-      ],
-      "cleanText": "**heart\nBoss gets up and slowly walks towards Eon. @eon_flirting_human\nHe has a flirty look on his face.\nBoss: \"Well, I think you are very attractive too.\"\nTheir faces are so close now they hear each other breathing."
-    },
-    {
-      "name": "Kiss",
-      "tags": "",
-      "id": "71",
-      "text": "**heart\nAnd just like that they start kissing. @eon_makeLove_ox\nEon: Wow, boss is a really passionate. \nThings get steamy pretty fast. Eon pulls Boss' jacket down. Boss grabs Eon's ass. Tongues exchanged.\n[[Ox|Scandalous]]",
-      "links": [
+            "text": "**lunchBag\nAt lunch time, Eon is following her pray. Bingo always eats at his desk.\nRest of the office goes out for lunch. Noone asked Eon if she wanted to join. @sfx_evilLaughter\n@eon_walk_human\nShe slowly approaches Bingo.\n[[Human|Bon Appetite]]",
+            "links": [
+                {
+                    "name": "Human|Bon Appetite",
+                    "link": "Human|Bon Appetite",
+                    "broken": true
+                }
+            ],
+            "name": "Lunch",
+            "pid": "28",
+            "position": {
+                "x": "2047.666666666667",
+                "y": "1492"
+            }
+        },
         {
-          "linkText": "Ox|Scandalous",
-          "passageName": "Ox|Scandalous",
-          "original": "[[Ox|Scandalous]]"
-        }
-      ],
-      "cleanText": "**heart\nAnd just like that they start kissing. @eon_makeLove_ox\nEon: Wow, boss is a really passionate. \nThings get steamy pretty fast. Eon pulls Boss' jacket down. Boss grabs Eon's ass. Tongues exchanged."
-    },
-    {
-      "name": "Lets not",
-      "tags": "",
-      "id": "72",
-      "text": "**notAllowed\nEon: \"Boss, we can't do this. You know, it'll only create a mess for both of us.\" @eon_disagree_eagle\nBoss pauses for a second. \nBoss: \"I think you are right. We just need to bury our chemistry in the ground an move on.\"\nEon: \"Yes. But, I do care about you a lot. That's why, there is something I need to tell you. Someone in the office talking nonsense behind your back.\"\n[[Human|Snatch]]",
-      "links": [
+            "text": "**eyes\nEon suddenly gets this awkward feeling as if someone is staring at her.\nAs she moves her head up, she sees all her coworkers gathered around her desk. Staring at her. Not saying a word. @eon_scared_ox \nEon:<color\"blue\">\"What the hell?!\"</color> @sfx_scream\n[[Ox|Run]]\n[[Lion|Yelling]]",
+            "links": [
+                {
+                    "name": "Ox|Run",
+                    "link": "Ox|Run",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Yelling",
+                    "link": "Lion|Yelling",
+                    "broken": true
+                }
+            ],
+            "name": "Creepy Folks",
+            "pid": "29",
+            "position": {
+                "x": "1832.6666666666667",
+                "y": "1377.6666666666667"
+            }
+        },
         {
-          "linkText": "Human|Snatch",
-          "passageName": "Human|Snatch",
-          "original": "[[Human|Snatch]]"
-        }
-      ],
-      "cleanText": "**notAllowed\nEon: \"Boss, we can't do this. You know, it'll only create a mess for both of us.\" @eon_disagree_eagle\nBoss pauses for a second. \nBoss: \"I think you are right. We just need to bury our chemistry in the ground an move on.\"\nEon: \"Yes. But, I do care about you a lot. That's why, there is something I need to tell you. Someone in the office talking nonsense behind your back.\""
-    },
-    {
-      "name": "Scandalous",
-      "tags": "",
-      "id": "73",
-      "text": "**exxMark\nThe door opens suddenly as they were climbing on top of each other. @eon_surprised_ox\nIt is no one but Birch at the door.\nBirch: That's what I'd call SCANDALOUS!\nEon and Boss whisper simultaneosly.\nEon: Shit...\n[[Ox|Punished]]",
-      "links": [
+            "text": "**eyes\nEon:<color=\"blue\">\"What is wrong with you all?\"</color>@eon_scared_ox\nThey don't say a word. Just stare.\nEon:<color=\"blue\">\"Okay, you know what, I am fucking done with this.\"</color>@eon_run_ox\nShe quicky grabs her bag and runs towards the door.\n[[Ox|Mobbing]]",
+            "links": [
+                {
+                    "name": "Ox|Mobbing",
+                    "link": "Ox|Mobbing",
+                    "broken": true
+                }
+            ],
+            "name": "Run",
+            "pid": "30",
+            "position": {
+                "x": "1900",
+                "y": "1498"
+            }
+        },
         {
-          "linkText": "Ox|Punished",
-          "passageName": "Ox|Punished",
-          "original": "[[Ox|Punished]]"
-        }
-      ],
-      "cleanText": "**exxMark\nThe door opens suddenly as they were climbing on top of each other. @eon_surprised_ox\nIt is no one but Birch at the door.\nBirch: That's what I'd call SCANDALOUS!\nEon and Boss whisper simultaneosly.\nEon: Shit..."
-    },
-    {
-      "name": "Punished",
-      "tags": "",
-      "id": "74",
-      "text": "**brokenHeart\nBoss' solution was what you can expect from someone who steals bread from their employees. @eon_cry_ox\nEon has to go.\nEon: I am being punished for my feelings! That's just not fair.\nBoss: Sorry beautiful, life is not fair. You'll find a place that deserve you more than us. It's not you it's us. Good luck!\n[[Ox|Leaving]]",
-      "links": [
+            "text": "**questionMark\nFinally she is alone. @eon_unhappy_lion\nEon:<color=\"blue\">\"Where is all this nonsense coming from?\"</color>\nShe hears a laughter from the back corner of the office. @sfx_evilLaughter\nShe recognized the voice. It's Birch.\n[[Lion|Wtf]]\n[[Human|Browsing]]",
+            "links": [
+                {
+                    "name": "Lion|Wtf",
+                    "link": "Lion|Wtf",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Browsing",
+                    "link": "Human|Browsing",
+                    "broken": true
+                }
+            ],
+            "name": "Calm Down",
+            "pid": "31",
+            "position": {
+                "x": "1668.666666666667",
+                "y": "1386"
+            }
+        },
         {
-          "linkText": "Ox|Leaving",
-          "passageName": "Ox|Leaving",
-          "original": "[[Ox|Leaving]]"
+            "text": "**exit\nBirch, watching Eon as she is running through the door, smiling. @eon_cry_ox\nBirch:<color=#FF6AE4>\"What a shame...Another victim of mobbing.\"</color>@sfx_evilLaughter\nThat was Eon's last day at work.\n@end",
+            "name": "Mobbing",
+            "pid": "32",
+            "position": {
+                "x": "1837",
+                "y": "1617.3333333333333"
+            }
+        },
+        {
+            "text": "**dialog\n@eon_walkUnhappy_lion\nAs Eon is approaching Birch, she turns towards her with a sinister smile on her face.\nEon:<color=\"blue\">\"What did you tell them?\"</color>\nBirch:<color=#FF6AE4>\"Hmm, I don't think I understand what you're talking about.\"</color>\n[[Lion|Stop]]",
+            "links": [
+                {
+                    "name": "Lion|Stop",
+                    "link": "Lion|Stop",
+                    "broken": true
+                }
+            ],
+            "name": "Wtf",
+            "pid": "33",
+            "position": {
+                "x": "1742",
+                "y": "1498.6666666666667"
+            }
+        },
+        {
+            "text": "**explosion\n@eon_angry_lion\nEon:<color=\"blue\">\"WHAT DID YOU TELL THEM? I KNOW IT IS YOU, STOP PLAYING GAMES WITH ME!\"</color>\nBirch:<color=#FF6AE4>\"I think you need to chill.\"</color>@sfx_evilLaughter\n[[Lion|Fix This]]",
+            "links": [
+                {
+                    "name": "Lion|Fix This",
+                    "link": "Lion|Fix This",
+                    "broken": true
+                }
+            ],
+            "name": "Stop",
+            "pid": "34",
+            "position": {
+                "x": "1880.6666666666667",
+                "y": "1724"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"Bon Appetite, Bingo\"</color> @eon_hi_human\nBingo slowly turns his head towards Eon.\nHis mouth moves but nothing audible. @sfx_mumble\nEon:<color=\"blue\">\"Yeah bro...\"</color>\n[[Human|Why]]",
+            "links": [
+                {
+                    "name": "Human|Why",
+                    "link": "Human|Why",
+                    "broken": true
+                }
+            ],
+            "name": "Bon Appetite",
+            "pid": "35",
+            "position": {
+                "x": "1961.6666666666667",
+                "y": "1612.3333333333333"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"So, I need your input on something. I think people are talking about me. What happened?\"</color>@eon_talk_human\nBingo:<color=#59CBE5>\"Mmrphgg...\"</color>@sfx_mumble\nEon:<color=\"blue\">\"Look, i understand you wanna play Switzerland in this game. But, I really need to know why this is happening.\"</color>\nBingo doesn't say anything. Not a word.\n[[Lion|Talk]]\n[[Human|Turnip]]",
+            "links": [
+                {
+                    "name": "Lion|Talk",
+                    "link": "Lion|Talk",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Turnip",
+                    "link": "Human|Turnip",
+                    "broken": true
+                }
+            ],
+            "name": "Why",
+            "pid": "36",
+            "position": {
+                "x": "2023.0000000000002",
+                "y": "1727.3333333333333"
+            }
+        },
+        {
+            "text": "**turnip\nBingo swallows the whole turnip. @sfx_eat\nHe seems happy, rubbing his tummy.\nBingo:<color=#59CBE5>\"Ah, this was yummy.\"</color>\nEon:<color=\"blue\">\"I know. Now it's time to tell me what's going on.\"</color>\n@eon_idle_human\n[[Human|Retreat]]",
+            "links": [
+                {
+                    "name": "Human|Retreat",
+                    "link": "Human|Retreat",
+                    "broken": true
+                }
+            ],
+            "name": "Yum",
+            "pid": "37",
+            "position": {
+                "x": "1970.6666666666667",
+                "y": "1968.3333333333335"
+            }
+        },
+        {
+            "text": " **dialog\nBingo:<color=#59CBE5>\"Okay. So you know everyone was so excited for the retreat. And I don't really understand why.\"</color> @eon_think_human\nEon sighs.\nBingo:<color=#59CBE5>\"Well, that's on the fence now. Apparently our revenue is not as expected. So they are talking about budget cuts.\"</color>\nEon:<color=\"blue\">\"That sucks.\"</color>\nBingo:<color=#59CBE5>\"And Birch told everyone you suggested the boss that we cancel the retreat.\"</color>@sfx_evilLaughter\n[[Human|Framed]]\n[[Lion|Show Her]]",
+            "links": [
+                {
+                    "name": "Human|Framed",
+                    "link": "Human|Framed",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Show Her",
+                    "link": "Lion|Show Her",
+                    "broken": true
+                }
+            ],
+            "name": "Retreat",
+            "pid": "38",
+            "position": {
+                "x": "1956.3333333333335",
+                "y": "2097.6666666666665"
+            }
+        },
+        {
+            "text": "**exxQuestion\nEon:<color=\"blue\">\"What? But I didn't say that. I didn't even know.\"</coor>@eon_surprised_human\nBingo:<color=#59CBE5>\"But that's what everyone is talking about.\"</color>\nEon:<color=\"blue\">\"So that bitch just framed me huh?\"</color>\nBingo is not impressed at all.\nBingo:<color=#59CBE5>\"Are we done here?\"</color>\n[[Human|Plans]]\n[[Ox|Wait]]",
+            "links": [
+                {
+                    "name": "Human|Plans",
+                    "link": "Human|Plans",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Wait",
+                    "link": "Ox|Wait",
+                    "broken": true
+                }
+            ],
+            "name": "Framed",
+            "pid": "39",
+            "position": {
+                "x": "2095.0000000000005",
+                "y": "2241.9999999999995"
+            }
+        },
+        {
+            "text": "**fire\nEon:<color=\"blue\">\"That fuckin' Birch... This is not over.\"</color> @eon_unhappy_human\nShe goes back to her desk.\nEon:<color=\"blue\">\"I'll show you what it means to mess with me.\"</color>\n[[Human|Afternoon]]",
+            "links": [
+                {
+                    "name": "Human|Afternoon",
+                    "link": "Human|Afternoon",
+                    "broken": true
+                }
+            ],
+            "name": "Plans",
+            "pid": "40",
+            "position": {
+                "x": "1949.3333333333335",
+                "y": "2224.9999999999995"
+            }
+        },
+        {
+            "text": "Eon:<color=\"blue\">\"That is just horrible. What a horrible person is Birch.\"</color>@eon_scared_ox\nShe feels exhausted.\nEon:<color=\"blue\">\"Okay. I just need to talk to people when they get back from lunch.\"</color>\nBut that wait felt just like forever.\n[[Ox|Avoided]]",
+            "links": [
+                {
+                    "name": "Ox|Avoided",
+                    "link": "Ox|Avoided",
+                    "broken": true
+                }
+            ],
+            "name": "Wait",
+            "pid": "41",
+            "position": {
+                "x": "2124.666666666667",
+                "y": "1835.3333333333333"
+            }
+        },
+        {
+            "text": "Eon starts walking around the office trying to talk to people. \n@eon_anxious_ox\nThey all just avoid her as she is apporaching.\nEon:<color=\"blue\">\"Hey!...Oh hi!...Hmmm...Ah, hi...\"</color>\nNo one bothers to listen to her. They don't even look at her face.\nEon finally grab someone's arm.\n[[Ox|Not welcomed]]",
+            "links": [
+                {
+                    "name": "Ox|Not welcomed",
+                    "link": "Ox|Not welcomed",
+                    "broken": true
+                }
+            ],
+            "name": "Avoided",
+            "pid": "42",
+            "position": {
+                "x": "2159.3333333333335",
+                "y": "1612.6666666666667"
+            }
+        },
+        {
+            "text": "Coworker: \"What are you doing? Let go of me immediately.\" @eon_anxious_ox\nEon:<color=\"blue\">\"Please just listen to me. I am not the reason the retreat is cancelled. It has nothing to do with me!\"</color>\nCoworker: \"Yeah yeah... You fuckin' minion! I don't wanna talk to you. No one in here does. You are not welcomed here.\"\nEon stays frozen for a second. How did things escaleted so fast?\nShe goes back to her desk.\n[[Ox|Cry]]",
+            "links": [
+                {
+                    "name": "Ox|Cry",
+                    "link": "Ox|Cry",
+                    "broken": true
+                }
+            ],
+            "name": "Not welcomed",
+            "pid": "43",
+            "position": {
+                "x": "2122",
+                "y": "1382"
+            }
+        },
+        {
+            "text": "**fire\nThe whole afternoon she spends writing into her notebook. Calculating. Planning. @eon_sinister_human\nPeople are still full of hatred, but Eon doesn't care.\nEon:<color=\"blue\">\"This looks good. Let's see who is the real player Ms. Birch!\"</color>@sfx_evilLaughter\n[[Human|Boss Office]]",
+            "links": [
+                {
+                    "name": "Human|Boss Office",
+                    "link": "Human|Boss Office",
+                    "broken": true
+                }
+            ],
+            "name": "Afternoon",
+            "pid": "44",
+            "position": {
+                "x": "1980",
+                "y": "2352.3333333333335"
+            }
+        },
+        {
+            "text": "**explosion\n@eon_walkUnhappy_lion\nEon:<color=\"blue\">\"WHAT!? I'LL KILL THAT BIRCH!\"</color>\nShe hears people coming back to the office. Birch is with them. Eon sprints towards Birch.\n[[Lion|Stop]]\n",
+            "links": [
+                {
+                    "name": "Lion|Stop",
+                    "link": "Lion|Stop",
+                    "broken": true
+                }
+            ],
+            "name": "Show Her",
+            "pid": "45",
+            "position": {
+                "x": "1837",
+                "y": "1845.3333333333335"
+            }
+        },
+        {
+            "text": "**exxMark\nEon:<color=\"blue\">\"Listen to me. You'll tell everyone it was a misunderstanding. YOU'LL FIX THIS!\"</color> @eon_angry_lion\nBirch:<color=#FF6AE4>\"Or what? I am not afraid of you. And I am not telling anyone anything.\"</color>\nThen she bends over to Eon and whispers <color=#FF6AE4>\"I hope your day is as pleasant as you've made mine.\"</color>\n[[Lion|Attack]]\n[[Human|Plans]]",
+            "links": [
+                {
+                    "name": "Lion|Attack",
+                    "link": "Lion|Attack",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Plans",
+                    "link": "Human|Plans",
+                    "broken": true
+                }
+            ],
+            "name": "Fix This",
+            "pid": "46",
+            "position": {
+                "x": "1683.6666666666667",
+                "y": "1843"
+            }
+        },
+        {
+            "text": "**explosion\nEon grabs Birch's hair and crashes her face into the wall. @sfx_scream @eon_angry_lion\nPeople gather around to seperate them.\nBirch: Birch is crying. <color=#FF6AE4>\"She attacked me. She is just mad. MAD!\"</color>\nPeople are holding Eon. She is a burning fire. @sfx_roar\n[[Lion|Fired]]",
+            "links": [
+                {
+                    "name": "Lion|Fired",
+                    "link": "Lion|Fired",
+                    "broken": true
+                }
+            ],
+            "name": "Attack",
+            "pid": "47",
+            "position": {
+                "x": "1824.3333333333335",
+                "y": "1965.9999999999998"
+            }
+        },
+        {
+            "text": "**exit\nIt doesn't take long for Eon to find out she is fired. @eon_unhappy_lion\nShe comes in next day to pack her stuff. Noone talks to her. It seems like they are scared.\nEon just wants to leave asap.\n[[Lion|Goodbye]]",
+            "links": [
+                {
+                    "name": "Lion|Goodbye",
+                    "link": "Lion|Goodbye",
+                    "broken": true
+                }
+            ],
+            "name": "Fired",
+            "pid": "48",
+            "position": {
+                "x": "1810.3333333333333",
+                "y": "2095.3333333333335"
+            }
+        },
+        {
+            "text": "**exit\nBirch is standing at the door with her disgusting smile. @eon_unhappy_lion\nAs Eon is stepping out the door she whispers again.\nEon:<color=\"blue\">\"There you go. It's the triumph of sugar over diabetes.\"</color>\n@end",
+            "name": "Goodbye",
+            "pid": "49",
+            "position": {
+                "x": "1678.3333333333335",
+                "y": "2236.333333333333"
+            }
+        },
+        {
+            "text": "**dialog\nNext day, Eon is at the Boss' office early in the morning. @eon_happy_human\nEon:<color=\"blue\">\"Boss, you've been so kind and caring to each one of us. I feel extremely lucky to be part of this team.\"</color>\nBoss:<color=\"green\">\"And you are a great addition to the team as well! Tell me, what can I do for you?\"</color>\nEon:<color=\"blue\">\"Oh, you've already done too much! So, I am asking myself the question, what can I do for YOU?\"</color>\n[[Human|Dangerous Waters]]",
+            "links": [
+                {
+                    "name": "Human|Dangerous Waters",
+                    "link": "Human|Dangerous Waters",
+                    "broken": true
+                }
+            ],
+            "name": "Boss Office",
+            "pid": "50",
+            "position": {
+                "x": "1978.666666666667",
+                "y": "2470.3333333333335"
+            }
+        },
+        {
+            "text": "**peach\nBoss seems a little uncomfortable. @eon_confused_human\nBoss:<color=\"green\">\"Ehem... I am not sure what you mean by that. But I hope you are not swimming in dangerous waters.\"</color>\nEon:<color=\"blue\">\"I'm sorry?\"</color>\nBoss:<color=\"green\">\"You know, ehem, peaches... And eggplants. I really appreciate your work, I don't need anything more than that.\"</color>\n[[Human|Warning]]\n[[Lion|How dare]]\n[[Eagle|Appropriate]]",
+            "links": [
+                {
+                    "name": "Human|Warning",
+                    "link": "Human|Warning",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|How dare",
+                    "link": "Lion|How dare",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Appropriate",
+                    "link": "Eagle|Appropriate",
+                    "broken": true
+                }
+            ],
+            "name": "Dangerous Waters",
+            "pid": "51",
+            "position": {
+                "x": "1816.6666666666667",
+                "y": "2488.3333333333335"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"Oh, I see...No boss, I am not really into vegetables. I just wanted to say, you are such a giving and caring person. And I am not sure if everyone appreciates it the same way.\"</color>@eon_surprised_human\nBoss: Boss gets serious.<color=\"green\">\"What do you mean?\"</color>\nEon:<color=\"blue\">\"Ehem...There someone in the team talking behind you. In a disgraceful way.\"</color>\nBoss:<color=\"green\">\"Who is that and what do they say?\"</color>\n[[Human|Snatch]]",
+            "links": [
+                {
+                    "name": "Human|Snatch",
+                    "link": "Human|Snatch",
+                    "broken": true
+                }
+            ],
+            "name": "Warning",
+            "pid": "52",
+            "position": {
+                "x": "2249",
+                "y": "2735"
+            }
+        },
+        {
+            "text": "**bread\nEon:<color=\"blue\">\"I don't want to be a snatch. You know I am a team player...\"</color>\nBoss:<color=\"green\">\"SPEAK WOMAN!\"</color> @eon_unhappy_human\nEon:<color=\"blue\">\"It's Birch. Telling everyone that you steal our toast from kitchen and take it home. She says that is why we are always short on bread, because you take all the extra supply.\"</color>\n[[Human|One Time]]",
+            "links": [
+                {
+                    "name": "Human|One Time",
+                    "link": "Human|One Time",
+                    "broken": true
+                }
+            ],
+            "name": "Snatch",
+            "pid": "53",
+            "position": {
+                "x": "2061",
+                "y": "2720"
+            }
+        },
+        {
+            "text": "**bread\nBoss:<color=\"green\">\"What? What a nonsense! That was only one time!\"</color> @eon_sinister_human\nEon:<color=\"blue\">\"If you ask me, take as many as you want. You deserve all the bread in the world.\"</color>\nIt seems like the bread thing really touched the Boss' heart.\nEon:<color=\"blue\">\"Unfortunately, there is more.\"</color>\n[[Eon|Fraud]]",
+            "links": [
+                {
+                    "name": "Eon|Fraud",
+                    "link": "Eon|Fraud",
+                    "broken": true
+                }
+            ],
+            "name": "One Time",
+            "pid": "54",
+            "position": {
+                "x": "2134.666666666667",
+                "y": "2860.3333333333335"
+            }
+        },
+        {
+            "text": "~~\n**bananaBlue\nJust before Eon leaves the room, she notices a blue banana on the table.\nEon:<color=\"blue\">\"Hey Boss, can I take this banana?\"</color> @eon_approve_human\nBoss:<color=\"green\">\"Yes, go for it. It is a special fruit. You can't find this anywhere else.\"</color>\n[[Eon|Satisfaction]]",
+            "links": [
+                {
+                    "name": "Eon|Satisfaction",
+                    "link": "Eon|Satisfaction",
+                    "broken": true
+                }
+            ],
+            "name": "Banana",
+            "pid": "55",
+            "position": {
+                "x": "1766",
+                "y": "3122"
+            }
+        },
+        {
+            "text": "**trophy\nVictory comes soon after. Birch comes out from the Boss' office with a sour face. @eon_sinister_human\nShe looks at Eon with full of hatred.\nEon:<color=\"blue\">\"This is how you do it Birch.\"</color> @sfx_evilLaughter\n@end",
+            "name": "Satisfaction",
+            "pid": "56",
+            "position": {
+                "x": "1862",
+                "y": "3334.6666666666665"
+            }
+        },
+        {
+            "text": "**turnip\nEon grabs a big juicy turnip from her pocket. Bingo's eyes grow huge.\nEon:<color=\"blue\">\"I brought you this juicy peach. I am ready to pay for your efforts!\"</color>\n@eon_approve_human\n[[Human|Yum]]",
+            "links": [
+                {
+                    "name": "Human|Yum",
+                    "link": "Human|Yum",
+                    "broken": true
+                }
+            ],
+            "name": "Turnip",
+            "pid": "57",
+            "position": {
+                "x": "1975.6666666666665",
+                "y": "1848.3333333333335"
+            }
+        },
+        {
+            "text": "**explosion\nEon:<color=\"blue\">\"Just tell me! NOW!\"</color>@eon_angry_lion\nBingo doesn't respond.\nEon grabs Bingo from shoulders and starts shaking him.\nEon:<color=\"blue\">\"SPEAK! NOW!\"</color>\nBingo is choking!\n[[Lion|Interruption]]",
+            "links": [
+                {
+                    "name": "Lion|Interruption",
+                    "link": "Lion|Interruption",
+                    "broken": true
+                }
+            ],
+            "name": "Talk",
+            "pid": "58",
+            "position": {
+                "x": "1695.666666666667",
+                "y": "1610"
+            }
+        },
+        {
+            "text": "**fire\nEon hears Birch's voice.\nBirch:<color=#FF6AE4>\"Oh my god, this girl is nuts! Hold her!\"</color>\nEon throws Bingo away and turns towards Birch.\nShe is losing it.\n[[Lion|Stop]]",
+            "links": [
+                {
+                    "name": "Lion|Stop",
+                    "link": "Lion|Stop",
+                    "broken": true
+                }
+            ],
+            "name": "Interruption",
+            "pid": "59",
+            "position": {
+                "x": "1740.666666666667",
+                "y": "1720.3333333333335"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"She also tells people that you cancelled the retreat because you used the money to buy groceries for office and take them home.\"</color> @eon_unhappy_human\nBoss:<color=\"green\">\"Nooo...No, she can't.\"</color>\nEon: Eon in full satisfaction, <color=\"blue\">\"Yup, she did.\"</color>\nBoss:<color=\"green\">\"But...She told me to cancel it to fix our finances!\"</color>\n[[Human|Take over]]",
+            "links": [
+                {
+                    "name": "Human|Take over",
+                    "link": "Human|Take over",
+                    "broken": true
+                }
+            ],
+            "name": "Fraud",
+            "pid": "60",
+            "position": {
+                "x": "2038.6666666666667",
+                "y": "2987.333333333333"
+            }
+        },
+        {
+            "text": "**exxMark\nEon:<color=\"blue\">\"I think she just wants to take you down boss.\"</color> @eon_disagree_human\nBoss:<color=\"green\">\"Well, we'll see who is taking over whom! Go find her, send her here!\"</color>\n[[Human|Banana]]",
+            "links": [
+                {
+                    "name": "Human|Banana",
+                    "link": "Human|Banana",
+                    "broken": true
+                }
+            ],
+            "name": "Take over",
+            "pid": "61",
+            "position": {
+                "x": "1957.6666666666667",
+                "y": "3121.6666666666665"
+            }
+        },
+        {
+            "text": "**explosion\nThis is absolutely offensive. @eon_unhappy_lion\nEon:<color=\"blue\">\"How can you think I'd be offering you peaches and eggplants? How dare you talk to me like that!\"</color>\nNow the boss is mad too.\nBoss:<color=\"green\">\"You come inside, kissing ass, what did you expect me to think?\"</color>\n[[Lion|Last Insult]]",
+            "links": [
+                {
+                    "name": "Lion|Last Insult",
+                    "link": "Lion|Last Insult",
+                    "broken": true
+                }
+            ],
+            "name": "How dare",
+            "pid": "62",
+            "position": {
+                "x": "1829.3333333333335",
+                "y": "2345"
+            }
+        },
+        {
+            "text": "**explosion\n@eon_angry_lion\nEon:<color=\"blue\">\"Unlike you, some of us have dignity. You listen to everything your little minion Birch says and you call me an ass kisser?\"</color>\nBoss is in shock, he doesn't say a word.\nEon goes to the door.\nEon:<color=\"blue\">\"Also, everyone in the office knows that you sneak out our office bread. You have a tremendous salary already whereas we work like slaves. Isn't your stomach just full yet?\"</color>\nShe slams the door leaving the room. @sfx_doorSlam\n[[Lion|Fired]]",
+            "links": [
+                {
+                    "name": "Lion|Fired",
+                    "link": "Lion|Fired",
+                    "broken": true
+                }
+            ],
+            "name": "Last Insult",
+            "pid": "63",
+            "position": {
+                "x": "1818.3333333333333",
+                "y": "2225"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"Oh, I don't think this is an appropriate conversation\"</color> @eon_think_eagle\nBoss seems quite uncomfortable now.\nBoss:<color=\"green\">\"Well you are the one bringing that up!\"</color>\nEon:<color=\"blue\">\"You are the one who brought up peaches and eggplants. You know, I can report you for harassment.\"</color>\nBoss:<color=\"green\">\"To whom? I am the boss. And this is not a corporate company.\"</color>\n[[Eagle|Help]]\n[[Ox|Attractive]]",
+            "links": [
+                {
+                    "name": "Eagle|Help",
+                    "link": "Eagle|Help",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Attractive",
+                    "link": "Ox|Attractive",
+                    "broken": true
+                }
+            ],
+            "name": "Appropriate",
+            "pid": "64",
+            "position": {
+                "x": "2152",
+                "y": "2597.333333333333"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"That is a good point. So in that case, a good suggestion would be to help you design a process to overcome harassment at work.\"</color>@eon_think_eagle\nBoss:<color=\"green\">\"What are you talking about?\"</color>\nEon:<color=\"blue\">\"I'd image you'd like your company to be a corporate at some point. So, you need to work on employee safety, anti-harassment policies etc.\"</color>\n[[Eagle|Good idea]]",
+            "links": [
+                {
+                    "name": "Eagle|Good idea",
+                    "link": "Eagle|Good idea",
+                    "broken": true
+                }
+            ],
+            "name": "Help",
+            "pid": "65",
+            "position": {
+                "x": "1913.3333333333335",
+                "y": "2718"
+            }
+        },
+        {
+            "text": "**dialog\nEon:<color=\"blue\">\"But I wouldn't anyway. Boss, I have a confession. I've always find you really attractive.\"</color>@eon_flirting_human\nBoss is surprised. But he smiles with flattery.\nBoss:<color=\"green\">\"Really? Well, ehem, I know for some I have an irresistable charm.\"</color>\nEon:<color=\"blue\">\"So please forgive me for coming on to you. I just couldn't help myself.\"</color>\n[[Ox|Reciprocity]]",
+            "links": [
+                {
+                    "name": "Ox|Reciprocity",
+                    "link": "Ox|Reciprocity",
+                    "broken": true
+                }
+            ],
+            "name": "Attractive",
+            "pid": "66",
+            "position": {
+                "x": "1784",
+                "y": "2716"
+            }
+        },
+        {
+            "text": "**tick\nBoss:<color=\"green\">\"I like that idea. Good thinking Eon. Go now and come back to me with a timeline.\"</color> @eon_approve_eagle\nEon:<color=\"blue\">\"Thanks Boss! I am happy that we're taking this first step together.\"</color>\nEon leaves the office. \n[[Human|Shit]]",
+            "links": [
+                {
+                    "name": "Human|Shit",
+                    "link": "Human|Shit",
+                    "broken": true
+                }
+            ],
+            "name": "Good idea",
+            "pid": "67",
+            "position": {
+                "x": "1988.0000000000002",
+                "y": "2853"
+            }
+        },
+        {
+            "text": "**exxMark\nAs soon as Eon steps out the door, she realizes she forgot something really important. Her plan to destroy Birch. @eon_confused_human\nEon:<color=\"blue\">\"Shit. I got distracted so easily. Where is my mind?\"</color>\nShe knocks on the door and comes back.\n[[Human|What now]]",
+            "links": [
+                {
+                    "name": "Human|What now",
+                    "link": "Human|What now",
+                    "broken": true
+                }
+            ],
+            "name": "Shit",
+            "pid": "68",
+            "position": {
+                "x": "1876.3333333333335",
+                "y": "2989.3333333333335"
+            }
+        },
+        {
+            "text": "**dialog\nBoss:<color=\"green\">\"Okay, what now?\"</color>\nEon closes the door. @eon_sinister_human\nEon:<color=\"blue\">\"There is something important I need to tell you. It is for your own good boss. There is someone in the office talking nonsense behind your back.\"</color>\n[[Human|Snatch]]",
+            "links": [
+                {
+                    "name": "Human|Snatch",
+                    "link": "Human|Snatch",
+                    "broken": true
+                }
+            ],
+            "name": "What now",
+            "pid": "69",
+            "position": {
+                "x": "1644.3333333333335",
+                "y": "2972.6666666666665"
+            }
+        },
+        {
+            "text": "**heart\nBoss gets up and slowly walks towards Eon. @eon_flirting_human\nHe has a flirty look on his face.\nBoss:<color=\"green\">\"Well, I think you are very attractive too.\"</color>\nTheir faces are so close now they hear each other breathing.\n[[Ox|Kiss]]\n[[Human|Lets not]]",
+            "links": [
+                {
+                    "name": "Ox|Kiss",
+                    "link": "Ox|Kiss",
+                    "broken": true
+                },
+                {
+                    "name": "Human|Lets not",
+                    "link": "Human|Lets not",
+                    "broken": true
+                }
+            ],
+            "name": "Reciprocity",
+            "pid": "70",
+            "position": {
+                "x": "1699.3333333333335",
+                "y": "2843.3333333333335"
+            }
+        },
+        {
+            "text": "**heart\nAnd just like that they start kissing. @eon_makeLove_ox\nEon:<color=\"blue\"><i>Wow, boss is a really passionate.</i></color>\nThings get steamy pretty fast. Eon pulls Boss' jacket down. Boss grabs Eon's ass. Tongues exchanged.\n[[Ox|Scandalous]]",
+            "links": [
+                {
+                    "name": "Ox|Scandalous",
+                    "link": "Ox|Scandalous",
+                    "broken": true
+                }
+            ],
+            "name": "Kiss",
+            "pid": "71",
+            "position": {
+                "x": "1549.3333333333335",
+                "y": "2847.333333333333"
+            }
+        },
+        {
+            "text": "**notAllowed\nEon:<color=\"blue\">\"Boss, we can't do this. You know, it'll only create a mess for both of us.\"</color> @eon_disagree_eagle\nBoss pauses for a second. \nBoss:<color=\"green\">\"I think you are right. We just need to bury our chemistry in the ground an move on.\"</color>\nEon:<color=\"blue\">\"Yes. But, I do care about you a lot. That's why, there is something I need to tell you. Someone in the office talking nonsense behind your back.\"</color>\n[[Human|Snatch]]",
+            "links": [
+                {
+                    "name": "Human|Snatch",
+                    "link": "Human|Snatch",
+                    "broken": true
+                }
+            ],
+            "name": "Lets not",
+            "pid": "72",
+            "position": {
+                "x": "1838.3333333333335",
+                "y": "2844.3333333333335"
+            }
+        },
+        {
+            "text": "**exxMark\nThe door opens suddenly as they were climbing on top of each other. @eon_surprised_ox\nIt is no one but Birch at the door.\nBirch:<color=#FF6AE4>That's what I'd call SCANDALOUS!</color>\nEon and Boss whisper simultaneosly.\nEon: <color=\"blue\">Shit...</color>\n[[Ox|Punished]]",
+            "links": [
+                {
+                    "name": "Ox|Punished",
+                    "link": "Ox|Punished",
+                    "broken": true
+                }
+            ],
+            "name": "Scandalous",
+            "pid": "73",
+            "position": {
+                "x": "1650",
+                "y": "2714.6666666666665"
+            }
+        },
+        {
+            "text": "**brokenHeart\nBoss' solution was what you can expect from someone who steals bread from their employees. @eon_cry_ox\nEon has to go.\nEon:<color=\"blue\">\"I am being punished for my feelings! That's just not fair.\"</color>\nBoss:<color=\"green\">\"Sorry beautiful, life is not fair. You'll find a place that deserve you more than us. It's not you it's us. Good luck!\"</color>\n[[Ox|Leaving]]",
+            "links": [
+                {
+                    "name": "Ox|Leaving",
+                    "link": "Ox|Leaving",
+                    "broken": true
+                }
+            ],
+            "name": "Punished",
+            "pid": "74",
+            "position": {
+                "x": "1755",
+                "y": "2596"
+            }
+        },
+        {
+            "text": "**exit\nAs Eon is stepping out the door, Birch is standing at the door with her disgusting smile. @eon_cry_ox\nShe whispers with an evil joy,\nEon:<color=\"blue\">\"There you go. It's the triumph of sugar over diabetes.\"</color>\n@end",
+            "name": "Leaving",
+            "pid": "75",
+            "position": {
+                "x": "1921.3333333333337",
+                "y": "2592.3333333333335"
+            }
         }
-      ],
-      "cleanText": "**brokenHeart\nBoss' solution was what you can expect from someone who steals bread from their employees. @eon_cry_ox\nEon has to go.\nEon: I am being punished for my feelings! That's just not fair.\nBoss: Sorry beautiful, life is not fair. You'll find a place that deserve you more than us. It's not you it's us. Good luck!"
-    },
-    {
-      "name": "Leaving",
-      "tags": "",
-      "id": "75",
-      "text": "**exit\nAs Eon is stepping out the door, Birch is standing at the door with her disgusting smile. @eon_cry_ox\nShe whispers with an evil joy.\n\"There you go. It's the triumph of sugar over diabetes.\"\n@end",
-      "links": [],
-      "cleanText": "**exit\nAs Eon is stepping out the door, Birch is standing at the door with her disgusting smile. @eon_cry_ox\nShe whispers with an evil joy.\n\"There you go. It's the triumph of sugar over diabetes.\"\n@end"
-    }
-  ]
+    ],
+    "name": "TWC-StoryLion-Office",
+    "startnode": "1",
+    "creator": "Twine",
+    "creator-version": "2.3.15",
+    "ifid": "2E9D1A79-DDD7-4ED6-A719-C5E700580426"
 }
+

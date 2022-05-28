@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: What now
   speakingLines:
   - speaker: {fileID: 0}
-    line: ' "Okay, what now?"'
+    line: <color="green">"Okay, what now?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -75,8 +76,9 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 206500138c3da46439619c1f527e6115, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "There is something important I need to tell you. It is for your own
-      good boss. There is someone in the office talking nonsense behind your back."'
+    line: <color="blue">"There is something important I need to tell you. It is for
+      your own good boss. There is someone in the office talking nonsense behind
+      your back."</color>
     lineActions: []
     Notes: 
   Notes: 

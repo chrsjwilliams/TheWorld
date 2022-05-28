@@ -61,18 +61,20 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 6eb24d004d6c24429a448382c1193fe3, type: 3}
   NodeTitle: Good idea
   speakingLines:
   - speaker: {fileID: 0}
-    line: ' "I like that idea. Good thinking Eon. Go now and come back to me with
-      a timeline." '
+    line: '<color="green">"I like that idea. Good thinking Eon. Go now and come back
+      to me with a timeline."</color> '
     lineActions:
     - {fileID: 11400000, guid: 7c2b3c141dc994895bf73d7a663b2e91, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Thanks Boss! I am happy that we''re taking this first step together."'
+    line: <color="blue">"Thanks Boss! I am happy that we're taking this first step
+      together."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

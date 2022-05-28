@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 6db50cd73f9644c53b0546bf4b60d1e7, type: 3}
   NodeTitle: Anxiety
@@ -84,7 +85,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 1ec7f47afd2674e28bcd2356c1195e10, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' This is very uncomfortable. I feel very anxious.'
+    line: <color="blue">"This is very uncomfortable. I feel very anxious."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -92,7 +93,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' What have I done? I don''t understand.'
+    line: <color="blue">"What have I done? I don't understand."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

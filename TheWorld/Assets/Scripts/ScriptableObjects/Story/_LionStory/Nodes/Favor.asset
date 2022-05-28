@@ -61,18 +61,20 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Favor
   speakingLines:
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' It''s nothing much, just a little favor. Can you please handle the with
-      the Turnip transportation risk calculations and pass it to boss by morning? '
+    line: '<color=#FF6AE4>"It''s nothing much, just a little favor. Can you please
+      handle the with the Turnip transportation risk calculations and pass it to
+      boss by morning?"</color> '
     lineActions:
     - {fileID: 11400000, guid: 2faf0f7811c8e43e4a7e2cc6b5ae29c9, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' But that''s like... Hours of work...'
+    line: <color="blue">"But that's like... Hours of work..."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -80,7 +82,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Also, that''s not even a case I work on?'
+    line: <color="blue">"Also, that's not even a case I work on?"</color>
     lineActions: []
     Notes: 
   Notes: 

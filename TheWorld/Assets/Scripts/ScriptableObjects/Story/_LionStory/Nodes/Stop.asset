@@ -61,16 +61,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Stop
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "WHAT DID YOU TELL THEM? I KNOW IT IS YOU, STOP PLAYING GAMES WITH ME"'
+    line: <color="blue">"WHAT DID YOU TELL THEM? I KNOW IT IS YOU, STOP PLAYING GAMES
+      WITH ME!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' "I think you need to chill." '
+    line: <color=#FF6AE4>"I think you need to chill."</color>
     lineActions:
     - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
     Notes: 

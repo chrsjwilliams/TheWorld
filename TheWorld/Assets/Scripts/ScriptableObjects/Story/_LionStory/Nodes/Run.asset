@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: f7904cfe4043d4c5e8ebe84d0917463b, type: 3}
   NodeTitle: Run
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: '"What is wrong with you all?" '
+    line: <color="blue">"What is wrong with you all?"</color>
     lineActions:
     - {fileID: 11400000, guid: 8da17aa70917d4c06b785e411365e23e, type: 2}
     Notes: 
@@ -75,7 +76,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: '"Okay, you know what, I am fucking done with this." '
+    line: <color="blue">"Okay, you know what, I am fucking done with this."</color>
     lineActions:
     - {fileID: 11400000, guid: d2c4e9f5368cb4882bed43329900626c, type: 2}
     Notes: 

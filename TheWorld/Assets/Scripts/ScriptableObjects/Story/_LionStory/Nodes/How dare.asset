@@ -61,17 +61,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: How dare
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: This is absolutely offensive. eon_unhappy_lion
-    lineActions: []
+    line: 'This is absolutely offensive. '
+    lineActions:
+    - {fileID: 11400000, guid: 37dda55bb27af4a2c83ade41967d567e, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "How can you think I''d be offering you peaches and eggplants? How dare
-      you talk to me like that!"'
+    line: <color="blue">"How can you think I'd be offering you peaches and eggplants?
+      How dare you talk to me like that!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,7 +81,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "You come inside, kissing ass, what did you expect me to think?" '
+    line: <color="green">"You come inside, kissing ass, what did you expect me to
+      think?"</color>
     lineActions: []
     Notes: 
   Notes: 

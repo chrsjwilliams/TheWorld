@@ -61,23 +61,24 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Help
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "That is a good point. So in that case, a good suggestion would be to
-      help you design a process to overcome harassment at work." '
+    line: <color="blue">"That is a good point. So in that case, a good suggestion
+      would be to help you design a process to overcome harassment at work."</color>
     lineActions:
     - {fileID: 11400000, guid: dc0946aa8f0e943a0a96a0bb6cd98184, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "What are you talking about?"'
+    line: <color="green">"What are you talking about?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "I''d image you''d like your company to be a corporate at some point.
-      So, you need to work on employee safety, anti-harassment policies etc."'
+    line: <color="blue">"I'd image you'd like your company to be a corporate at some
+      point. So, you need to work on employee safety, anti-harassment policies etc."</color>
     lineActions: []
     Notes: 
   Notes: 

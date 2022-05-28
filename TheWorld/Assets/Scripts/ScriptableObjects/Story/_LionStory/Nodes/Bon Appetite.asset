@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Bon Appetite
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: '"Bon Appetite, Bingo"  '
+    line: '<color="blue">"Bon Appetite, Bingo"</color> '
     lineActions:
     - {fileID: 11400000, guid: 41b104602a21c444fb58bb80acab1fe3, type: 2}
     Notes: 
@@ -80,7 +81,7 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 5ab2fbc0a458b45c1a682c7b95c4db97, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Yeah bro..."'
+    line: <color="blue">"Yeah bro..."</color>
     lineActions: []
     Notes: 
   Notes: 

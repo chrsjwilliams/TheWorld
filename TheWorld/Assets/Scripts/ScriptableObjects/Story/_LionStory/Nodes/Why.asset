@@ -74,24 +74,25 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Why
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "So, I need your input on something. I think people are talking about
-      me. What happened?" '
+    line: <color="blue">"So, I need your input on something. I think people are talking
+      about me. What happened?"</color>
     lineActions:
     - {fileID: 11400000, guid: 43ae4265cb20041199ea49831d49483f, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Mmrphgg..." '
+    line: <color=#59CBE5>"Mmrphgg..."</color>
     lineActions:
     - {fileID: 11400000, guid: 5ab2fbc0a458b45c1a682c7b95c4db97, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Look, i understand you wanna play Switzerland in this game. But, I really
-      need to know why this is happening."'
+    line: <color="blue">"Look, i understand you wanna play Switzerland in this game.
+      But, I really need to know why this is happening."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

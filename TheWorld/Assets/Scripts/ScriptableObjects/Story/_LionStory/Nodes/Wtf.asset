@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Wtf
@@ -71,11 +72,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "What did you tell them?"'
+    line: <color="blue">"What did you tell them?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' "Hmm, I don''t think I understand what you''re talking about."'
+    line: <color=#FF6AE4>"Hmm, I don't think I understand what you're talking about."</color>
     lineActions: []
     Notes: 
   Notes: 

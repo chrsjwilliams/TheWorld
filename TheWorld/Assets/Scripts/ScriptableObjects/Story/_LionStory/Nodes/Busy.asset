@@ -16,7 +16,7 @@ MonoBehaviour:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: 04d4955a869124fb391dbc80b1cffa59, type: 2}
+    - {fileID: 11400000, guid: cbfa430239e96421996f6859fe71efd4, type: 2}
     - {fileID: 11400000, guid: 8c03e30a611e14057a808c6ddedeba6a, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Busy
@@ -84,12 +85,12 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 7f070a004e5a84616920f3635a031fca, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Hi...I am quite busy as you can see.'
+    line: <color="blue">"Hi...I am quite busy as you can see."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Oh of course. But you are the best at your job! I''m sure you''ll be
-      done in no time.'
+    line: <color=#FF6AE4>"Oh of course. But you are the best at your job! I'm sure
+      you'll be done in no time."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -97,8 +98,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Look, I am not gonna take much of your time. But I really need you help
-      with something.'
+    line: <color=#FF6AE4>"Look, I am not gonna take much of your time. But I really
+      need you help with something."</color>
     lineActions: []
     Notes: 
   Notes: 

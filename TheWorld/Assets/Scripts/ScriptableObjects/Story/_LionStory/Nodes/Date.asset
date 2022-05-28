@@ -74,18 +74,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Date
   speakingLines:
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' Come ooon! Don''t be so anal, just help a coworker out. I have a date
-      tonight. You know for how long I''ve been chasing this handsome?'
+    line: <color=#FF6AE4>"Come ooon! Don't be so anal, just help a coworker out.
+      I have a date tonight. You know for how long I've been chasing this handsome?"
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' Look, normally I would. You know me. But I am already stressed with my
-      deadline tomorrow. '
+    line: '<color="blue">"Look, normally I would. You know me. But I am already stressed
+      with my deadline tomorrow."</color> '
     lineActions:
     - {fileID: 11400000, guid: 8665daa8131d3469bb5932a71e4f8c2f, type: 2}
     Notes: 

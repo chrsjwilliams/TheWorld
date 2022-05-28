@@ -61,17 +61,19 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Take over
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "I think she just wants to take you down boss." '
+    line: '<color="blue">"I think she just wants to take you down boss."</color> '
     lineActions:
     - {fileID: 11400000, guid: f2878792d1dd8426da04930a51597c3a, type: 2}
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Well, we''ll see who is taking over whom! Go find her, send her here!"'
+    line: <color="green">"Well, we'll see who is taking over whom! Go find her, send
+      her here!"</color>
     lineActions: []
     Notes: 
   Notes: 

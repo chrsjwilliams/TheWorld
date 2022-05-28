@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
-  m_Name: Said
+  m_Name: Cannot
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
@@ -61,18 +61,20 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
-  NodeTitle: Said
+  NodeTitle: Cannot
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' As I said, I am busy. '
+    line: '<color="blue">"As I said, I am busy."</color> '
     lineActions:
     - {fileID: 11400000, guid: 37dda55bb27af4a2c83ade41967d567e, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: 62cab4463ab2c4901a8fe758e59c93f1, type: 2}
-    line: ' It''s nothing much, just a little favor. Can you please handle the with
-      the Turnip transportation risk calculations and pass it to boss by morning?'
+    line: <color=#FF6AE4>"It's nothing much, just a little favor. Can you please
+      handle the with the Turnip transportation risk calculations and pass it to
+      boss by morning?"</color>
     lineActions: []
     Notes: 
   Notes: 

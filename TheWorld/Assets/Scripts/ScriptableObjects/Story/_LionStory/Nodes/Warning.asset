@@ -61,28 +61,29 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Warning
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Oh, I see...No boss, I am not really into vegetables. I just wanted
-      to say, you are such a giving and caring person. And I am not sure if everyone
-      appreciates it the same way." '
+    line: <color="blue">"Oh, I see...No boss, I am not really into vegetables. I
+      just wanted to say, you are such a giving and caring person. And I am not sure
+      if everyone appreciates it the same way."</color>
     lineActions:
     - {fileID: 11400000, guid: e0662a9cd4fdf4ebb80db3b7ccd700fc, type: 2}
     Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Boss gets serious. "What do you mean?"
+  - speaker: {fileID: 0}
+    line: ' Boss gets serious.<color="green">"What do you mean?"</color>'
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' "Ehem...There someone in the team talking behind you. In a disgraceful
-      way."'
+    line: <color="blue">"Ehem...There someone in the team talking behind you. In
+      a disgraceful way."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 0}
-    line: ' "Who is that and what do they say?"'
+    line: <color="green">"Who is that and what do they say?"</color>
     lineActions: []
     Notes: 
   Notes: 
