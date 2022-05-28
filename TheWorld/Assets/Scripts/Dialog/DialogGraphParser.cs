@@ -391,6 +391,8 @@ public class DialogGraphParser : MonoBehaviour
         string nodetext = "";
         Sprite npcImage = null;
         onlyNarratorDialog = true;
+        hasNPCDialog = false;
+
         foreach (DialogLine line in currentNode.speakingLines)
         {
             if(line.speaker != narrator && line.speaker != player)
@@ -403,6 +405,7 @@ public class DialogGraphParser : MonoBehaviour
             else if(line.speaker != narrator)
             {
                 onlyNarratorDialog = false;
+                hasNPCDialog = false;
             }
 
             if (line.line.Contains(COLOR_TAG) || line.line.Contains(COLOUR_TAG))
