@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 65d4a154e8c9e4f1e941dd6f47a82ecd, type: 3}
   NodeTitle: Loops
@@ -100,4 +101,5 @@ MonoBehaviour:
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 08de0cf66de5846769eb544f933e55e5, type: 2}
+  - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}
+  - {fileID: 11400000, guid: 7ff3f3fb7f395491793e184bc739afb2, type: 2}

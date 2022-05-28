@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Bent
@@ -83,12 +84,9 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: The ground lights up. It becomes so bright that she goes blind.
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Her feels her mind is opening up. She is feeling emotions she never felt
-      before. She knows now that dad lied to her.
+    line: The ground lights up. It becomes so bright that she goes blind.Her feels
+      her mind is opening up. She is feeling emotions she never felt before. She
+      knows now that dad lied to her.
     lineActions: []
     Notes: 
   Notes: 

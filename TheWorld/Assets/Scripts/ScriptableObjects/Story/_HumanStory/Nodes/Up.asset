@@ -61,16 +61,17 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: f7904cfe4043d4c5e8ebe84d0917463b, type: 3}
   NodeTitle: Up
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: <color = "blue">"Can you please reveal yourself? You are making me anxious."</color>
+    line: <color="blue">"Can you please reveal yourself? You are making me anxious."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "red">"Oh, that is the last thing I'd like to do!"</color>
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color ="red">"Oh, that is the last thing I'd like to do!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -78,8 +79,8 @@ MonoBehaviour:
       never heard before follows. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "red">"Look up you fool!"</color>
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color="red">"Look up you fool!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

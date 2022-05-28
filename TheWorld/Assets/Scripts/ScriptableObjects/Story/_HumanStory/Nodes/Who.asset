@@ -74,22 +74,23 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Who
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon didn't expect anyone else to be around. And she doesn't recognize the
+    line: Eon didn't expect anyone else to be around, and she doesn't recognize the
       voice.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">Who is it?</color>'
+    line: <color="blue">"Who is it?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' <color="red">Just someone who is bored of watching the same silly routine
-      every morning.</color>'
+    line: <color="red">"Just someone who is bored of watching the same silly routine
+      every morning."</color>
     lineActions: []
     Notes: 
   Notes: 

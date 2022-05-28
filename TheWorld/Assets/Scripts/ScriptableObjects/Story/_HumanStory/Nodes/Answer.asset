@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 65d4a154e8c9e4f1e941dd6f47a82ecd, type: 3}
   NodeTitle: Answer
@@ -76,16 +77,16 @@ MonoBehaviour:
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: She realizes that she was actually stuck in a loop just like the Serpent
-      said. Forever. Waking up into the same day over and over again. So, it was
-      possible they missed each other.
+      said. Forever. Waking up into the same day over and over again, so it was possible
+      they missed each other.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Adam's smile is full of compassion.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color="firebrick">"I think you know the answer."</color>
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"I think you know the answer."</color>
     lineActions: []
     Notes: 
   Notes: 

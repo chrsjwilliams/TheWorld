@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Same
@@ -70,8 +71,8 @@ MonoBehaviour:
     lineActions:
     - {fileID: 11400000, guid: 06f4d3a6cba3a49e5ba4ce74614cf08c, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Did you come from the Garden as well?"</color>'
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"Did you come from the Garden as well?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -79,11 +80,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"Yes...But how did you know that?"</color>'
+    line: <color="blue">"Yes...But how did you know that?"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Well...That''s also where I came from."</color>'
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"Well...That's also where I came from."</color>
     lineActions: []
     Notes: 
   Notes: 

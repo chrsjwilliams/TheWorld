@@ -48,25 +48,26 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 337b950b9192a4a92a9d24052a40f88f, type: 3}
   NodeTitle: Gift
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: <color = "blue">"But what was his crime?"</color>
+    line: <color="blue">"But what was his crime?"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "deeppink">"Don't bother yourself with these details right now.
-      You already had an exhausting day."</color>
+  - speaker: {fileID: 11400000, guid: 6917fa3b4a5b4418db208420083f240e, type: 2}
+    line: <color=#ff1493>"Don't bother yourself with these details right now. You
+      already had an exhausting day."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: They grab a peach from the tree and throw it to Eon.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "deeppink">"Here, have something to eat. You must be starving."</color>
+  - speaker: {fileID: 11400000, guid: 6917fa3b4a5b4418db208420083f240e, type: 2}
+    line: <color=#ff1493>"Here, have something to eat. You must be starving."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -80,5 +81,6 @@ MonoBehaviour:
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 3e4ec5bf9af104de699e866bfdb21d6d, type: 2}
+  - {fileID: 11400000, guid: 50aff7d41eb44462497fb12c20dfee59, type: 2}
+  - {fileID: 11400000, guid: e7f2fa7b27e5a474f91130e4b75b2220, type: 2}
   - {fileID: 0}

@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Lying
@@ -87,20 +88,20 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"That is not true. You are lying!"</color>'
+    line: <color="blue">"That is not true. You are lying!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: <color = "red">"I'm not. Why would I do that?"</color>
+    line: <color="red">"I'm not. Why would I do that?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color = "blue">"I don''t see why they would care to stage this in the
-      first place."</color>'
+    line: <color="blue">"I don't see why they would care to stage this in the first
+      place."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: ' <color = "red">"Because they don''t want you to taste the apple."</color>'
+    line: <color="red">"Because they don't want you to taste the apple."</color>
     lineActions: []
     Notes: 
   Notes: 

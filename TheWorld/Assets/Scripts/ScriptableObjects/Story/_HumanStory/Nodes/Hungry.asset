@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 1
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 0}
   NodeTitle: Hungry
@@ -76,21 +77,21 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 035ac9942a1144401bd26c2de9907af5, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"Where are we? This is the middle of nowhere!"</color>'
+    line: <color="blue">"Where are we? This is the middle of nowhere!"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Don''t panic! There is a small lake nearby where
-      we can rest, have some water and food."</color>'
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"Don't panic! There is a small lake nearby where we can
+      rest, have some water and food."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Eon's stomach grumbles as Adam is speaking.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Oh, you must be hungry! Here, I have another apple
-      for you."</color>'
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"Oh, you must be hungry! Here, I have another apple for
+      you."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

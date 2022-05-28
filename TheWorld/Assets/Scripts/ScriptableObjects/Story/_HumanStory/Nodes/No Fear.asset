@@ -61,17 +61,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: No Fear
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color = "blue">"I have no fear of you or what you can tell me. Just
-      come out and show me your face!"</color>'
+    line: <color="blue">"I have no fear of you or what you can tell me. Just come
+      out and show me your face!"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "red">"Okay. You asked for it."</color>
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color="red">"Okay. You asked for it."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

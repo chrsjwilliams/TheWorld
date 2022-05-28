@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Cherubs
@@ -73,19 +74,20 @@ MonoBehaviour:
     line: <color="red">"Oh man, not again..."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color="deeppink">"Well, I agree! You gotta stop coming back in. You don't
+  - speaker: {fileID: 11400000, guid: 6917fa3b4a5b4418db208420083f240e, type: 2}
+    line: <color=#ff1493>"Well, I agree! You gotta stop coming back in. You don't
       belong here."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color="forestgreen">"Hey, I think you're good here so I'm just gonna go."</color>
+  - speaker: {fileID: 11400000, guid: 06f54cc90447e4168abe08c5ee1d227e, type: 2}
+    line: <color=#228b22>"Hey, I think you're good here so I'm just gonna go."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color="deeppink">"Okay man, no worries."</color>
+  - speaker: {fileID: 11400000, guid: 6917fa3b4a5b4418db208420083f240e, type: 2}
+    line: <color=#ff1493>"Okay man, no worries."</color>
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 401fcb63a879e4ffd872577fc6269ec8, type: 2}
+  - {fileID: 11400000, guid: 580684c056b2a4efea91424798fa9445, type: 2}
+  - {fileID: 11400000, guid: e1e04a5e4090f4301b5b1e8c319f0542, type: 2}

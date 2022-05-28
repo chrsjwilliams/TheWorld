@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: ef9069fd588a44e4fa73b2ad0a0cc302, type: 3}
   NodeTitle: Where
@@ -96,12 +97,12 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"Who is talking to me? Where are you?"</color>'
+    line: <color="blue">"Who is talking to me? Where are you?"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="red">"Just a friendly stranger who is notorious to stand up against
-      injustice."</color>'
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color="red">"Just a friendly stranger who is notorious to stand up against
+      injustice."</color>
     lineActions: []
     Notes: 
   Notes: 

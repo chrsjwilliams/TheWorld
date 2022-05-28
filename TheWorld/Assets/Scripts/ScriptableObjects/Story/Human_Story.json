@@ -1,7 +1,7 @@
 {
     "passages": [
         {
-            "text": "**sun\n@eon_wakeUp_human @sfx_yawn\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon: <color=\"blue\">\"What a lovely day to spend at the garden!\"</color>\nShe wakes up saying the same thing every morning.\n[[Human|Breakfast]]",
+            "text": "**sun\n@eon_wakeUp_human\n@sfx_yawn\nSun is rising, birds chirping already calling for the new day.\nEon slowly opened her eyes to a shiny morning.\nEon:<color=\"blue\">\"What a lovely day to spend at the garden!\"</color>\nShe wakes up saying the same thing every morning.\n[[Human|Breakfast]]",
             "links": [
                 {
                     "name": "Human|Breakfast",
@@ -12,12 +12,12 @@
             "name": "In The Garden",
             "pid": "1",
             "position": {
-                "x": "1227",
-                "y": "197"
+                "x": "1948.6666666666667",
+                "y": "192"
             }
         },
         {
-            "text": "**sun\n@eon_walk_human @sfx_whistle\nEon: <color=\"blue\">\"A good day starts with good breakfast!\"</color>\nShe walks through the garden browsing the fruit trees.\nEon: <color=\"blue\">\"Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?\"</color>\n[[Human|Peach]]",
+            "text": "**sun\n@eon_walk_human\n@sfx_whistle\nEon:<color=\"blue\">\"A good day starts with good breakfast!\"</color>\nShe walks through the garden browsing the fruit trees.\nEon:<color=\"blue\">\"Hmm, what shall I eat this morning? Pears or oranges? Or maybe some apricots?\"</color>\n[[Human|Peach]]",
             "links": [
                 {
                     "name": "Human|Peach",
@@ -28,12 +28,12 @@
             "name": "Breakfast",
             "pid": "2",
             "position": {
-                "x": "1230",
-                "y": "349"
+                "x": "1947.6666666666665",
+                "y": "304.6666666666667"
             }
         },
         {
-            "text": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach. @sfx_snake\nEon: <color=\"blue\">\"On, here is my breakfast!\"</color>\nAs she is reaching to grab it, a mysterious voice confronts her.\nVoice: <color=\"red\">\"Arghh, same ridiculous routine every morning. Aren't you bored yet?\"</color> \n[[Lion|Come Out]]\n[[Ox| Who]]\n[[Human|Where]]",
+            "text": "**peach\n@eon_happy_lion\nHer search stops when her eyes spotted a juicy peach. @sfx_snake\nEon:<color=\"blue\">\"On, here is my breakfast!\"</color>\nAs she is reaching to grab it, a mysterious voice confronts her.\nVoice:<color=\"red\">\"Arghh, same ridiculous routine every morning. Aren't you bored yet?\"</color> \n[[Lion|Come Out]]\n[[Ox|Who]]\n[[Human|Where]]",
             "links": [
                 {
                     "name": "Lion|Come Out",
@@ -41,8 +41,8 @@
                     "broken": true
                 },
                 {
-                    "name": "Ox| Who",
-                    "link": "Ox| Who",
+                    "name": "Ox|Who",
+                    "link": "Ox|Who",
                     "broken": true
                 },
                 {
@@ -54,8 +54,8 @@
             "name": "Peach",
             "pid": "3",
             "position": {
-                "x": "1233",
-                "y": "500"
+                "x": "1948",
+                "y": "411.6666666666667"
             }
         },
         {
@@ -70,15 +70,15 @@
             "name": "Come Out",
             "pid": "4",
             "position": {
-                "x": "975",
-                "y": "648"
+                "x": "1816.6666666666667",
+                "y": "521.3333333333334"
             },
             "tags": [
                 "Lion"
             ]
         },
         {
-            "text": "**questionMark\n@eon_anxious_ox\nEon didn't expect anyone else to be around. And she doesn't recognize the voice.\nEon: <color=\"blue\">Who is it?</color>\nSerpent: <color=\"red\">Just someone who is bored of watching the same silly routine every morning.</color>\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+            "text": "**questionMark\n@eon_anxious_ox\nEon didn't expect anyone else to be around, and she doesn't recognize the voice.\nEon:<color=\"blue\">\"Who is it?\"</color>\nSerpent:<color=\"red\">\"Just someone who is bored of watching the same silly routine every morning.\"</color>\n[[Ox|Explain]]\n[[Lion|Anxious]]",
             "links": [
                 {
                     "name": "Ox|Explain",
@@ -91,18 +91,18 @@
                     "broken": true
                 }
             ],
-            "name": " Who",
+            "name": "Who",
             "pid": "5",
             "position": {
-                "x": "1293",
-                "y": "646"
+                "x": "1926.3333333333333",
+                "y": "519.3333333333333"
             },
             "tags": [
                 "Ox"
             ]
         },
         {
-            "text": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon:<color = \"blue\">\"What do you mean?\"</color>\nVoice:<color = \"red\">\"Ah, poor child...Every morning, you get up, thinking it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.\"</color>\n[[Ox|Please]]",
+            "text": "**dialog\n@eon_lookAround_ox\nShe is looking around but seeing no one.\nEon:<color=\"blue\">\"What do you mean?\"</color>\nVoice:<color = \"red\">\"Ah, poor child...Every morning, you get up, thinking it's the perfect day to spend in the garden. Then you try to decide between fruits for your breakfast, and end up grabbing a peach.\"</color>\n[[Ox|Please]]",
             "links": [
                 {
                     "name": "Ox|Please",
@@ -113,15 +113,15 @@
             "name": "Explain",
             "pid": "6",
             "position": {
-                "x": "1302",
-                "y": "796"
+                "x": "2003.6666666666667",
+                "y": "626"
             },
             "tags": [
                 "Ox"
             ]
         },
         {
-            "text": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon: <color = \"blue\">\"That is not true, I just had an apple yesterday.\"</color>\nThe voice laughs hysterically. sfx_evilLaughter\nVoice:<color = \"red\">\"Oh, it only breaks my heart to see you like this. What a silly child you are!\"</color>\n[[Ox|Up]]",
+            "text": "**dialog\n@eon_lookAround_ox\nEon is still searching for the owner of the mysterious voice.\nEon:<color=\"blue\">\"That is not true, I just had an apple yesterday.\"</color>\nThe voice laughs hysterically. @sfx_evilLaughter\nVoice:<color=\"red\">\"Oh, it only breaks my heart to see you like this. What a silly child you are!\"</color>\n[[Ox|Up]]",
             "links": [
                 {
                     "name": "Ox|Up",
@@ -132,12 +132,12 @@
             "name": "Please",
             "pid": "7",
             "position": {
-                "x": "1300",
-                "y": "931"
+                "x": "1933.3333333333335",
+                "y": "734.3333333333334"
             }
         },
         {
-            "text": "**eyes\n@eon_lookAround_ox\nEon:<color = \"blue\">\"Can you please reveal yourself? You are making me anxious.\"</color>\nVoice:<color = \"red\">\"Oh, that is the last thing I'd like to do!\"</color>\nEon hears a slow crouching sound first. Then an uneasy, deep sound she never heard before follows. \nVoice:<color = \"red\">\"Look up you fool!\"</color>\nAs Eon moves her gaze upwards, she sees two bright eyes in between leaves.\nThe eyes slowly slide down around the tree's trunk.\n[[Ox|Serpent]]",
+            "text": "**eyes\n@eon_lookAround_ox\nEon:<color=\"blue\">\"Can you please reveal yourself? You are making me anxious.\"</color>\nVoice:<color =\"red\">\"Oh, that is the last thing I'd like to do!\"</color>\nEon hears a slow crouching sound first. Then an uneasy, deep sound she never heard before follows. \nVoice:<color=\"red\">\"Look up you fool!\"</color>\nAs Eon moves her gaze upwards, she sees two bright eyes in between leaves.\nThe eyes slowly slide down around the tree's trunk.\n[[Ox|Serpent]]",
             "links": [
                 {
                     "name": "Ox|Serpent",
@@ -148,12 +148,12 @@
             "name": "Up",
             "pid": "8",
             "position": {
-                "x": "1299",
-                "y": "1076"
+                "x": "2020.666666666667",
+                "y": "861"
             }
         },
         {
-            "text": "**serpent\n@eon_surprised_ox @sfx_snake\nEon has never seen something like this before.\nEon:<color = \"blue\">\"What are you? You look nothing like me or any creature I've seen before.\"</color>\nSerpent:<color = \"red\">\"I am the Serpent. I've been living here in the shadows, observing you and your fake routine every day.\"</color>\n[[Ox|Why]]",
+            "text": "**serpent\n@eon_surprised_ox\n@sfx_snake\nEon has never seen something like this before.\nEon:<color=\"blue\">\"What are you? You look nothing like me or any creature I've seen before.\"</color>\nSerpent:<color=\"red\">\"I am the Serpent. I've been living here in the shadows, observing you and your fake routine every day.\"</color>\n[[Ox|Why]]",
             "links": [
                 {
                     "name": "Ox|Why",
@@ -164,12 +164,12 @@
             "name": "Serpent",
             "pid": "9",
             "position": {
-                "x": "1300",
-                "y": "1242"
+                "x": "1931.6666666666667",
+                "y": "975.3333333333333"
             }
         },
         {
-            "text": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone around.\nVoice: <color=\"red\">\"You don't need to be anxious, kid!\"</color>\nEon:<color=\"blue\">\"I am not anxious! But it seems like you are since you're hiding yourself from my sight.\"</color> \nVoice: <color=\"red\">\"Well, I need to warn you. If I come out, you'll need to face the bare truth. Do you think you're ready for that?\"</color>\n[[Lion|No Fear]]\n[[Ox|Explain]]",
+            "text": "**dialogue\n@eon_lookAround_lion\nEon is searching for a face but can't see anyone around.\nVoice: <color=\"red\">\"You don't need to be anxious, kid!\"</color>\nEon:<color=\"blue\">\"I am not anxious! But it seems like you are since you're hiding yourself from my sight.\"</color> \nVoice:<color=\"red\">\"Well, I need to warn you. If I come out, you'll need to face the bare truth. Do you think you're ready for that?\"</color>\n[[Lion|No Fear]]\n[[Ox|Explain]]",
             "links": [
                 {
                     "name": "Lion|No Fear",
@@ -185,12 +185,12 @@
             "name": "Anxious",
             "pid": "10",
             "position": {
-                "x": "974",
-                "y": "798"
+                "x": "1869",
+                "y": "626.3333333333333"
             }
         },
         {
-            "text": "**dialogue\n@eon_angry_lion\nEon: <color = \"blue\">\"I have no fear of you or what you can tell me. Just come out and show me your face!\"</color>\nVoice:<color = \"red\">\"Okay. You asked for it.\"</color>\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake\n[[Lion|Hi]]",
+            "text": "**dialogue\n@eon_angry_lion\nEon:<color=\"blue\">\"I have no fear of you or what you can tell me. Just come out and show me your face!\"</color>\nVoice:<color=\"red\">\"Okay. You asked for it.\"</color>\nEon hears a slow crouching sound first. Then a subtle deep sound. @sfx_snake\n[[Lion|Hi]]",
             "links": [
                 {
                     "name": "Lion|Hi",
@@ -201,12 +201,12 @@
             "name": "No Fear",
             "pid": "11",
             "position": {
-                "x": "974",
-                "y": "948"
+                "x": "1794",
+                "y": "741.3333333333333"
             }
         },
         {
-            "text": "**serpent\n@eon_surprised_lion\nA long and narrow body slowly slides down on the tree's truck.\nEon has never seen a creature like this before.\nEon:<color = \"blue\">\"What are you exactly?\"</color>\nSerpent:<color = \"red\">\"Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.\"</color>\n[[Lion|Straight]]\n[[Ox|Why]]",
+            "text": "**serpent\n@eon_surprised_lion\nA long and narrow body slowly slides down on the tree's truck. Eon has never seen a creature like this before.\nEon:<color=\"blue\">\"What are you exactly?\"</color>\nSerpent:<color=\"red\">\"Hi kid, I am the Serpent. And I am here to wake you up from this ridiculous dream.\"</color>\n[[Lion|Straight]]\n[[Ox|Why]]",
             "links": [
                 {
                     "name": "Lion|Straight",
@@ -222,12 +222,12 @@
             "name": "Hi",
             "pid": "12",
             "position": {
-                "x": "972",
-                "y": "1099"
+                "x": "1867",
+                "y": "854"
             }
         },
         {
-            "text": "**dialog\n@eon_confused_ox\nEon: <color = \"blue\">\"But I don't understand. You don't know me. Why do you care?\"</color>\nSerpent has a suspicious spark in his eyes.\nSerpent:<color = \"red\">\"Because they have been lying to you. And I believe you deserve better than that.\"</color>\n[[Ox|About]]\n[[Eagle|Deserve]]\n",
+            "text": "**dialog\n@eon_confused_ox\nEon:<color=\"blue\">\"But I don't understand. You don't know me. Why do you care?\"</color>\nSerpent has a suspicious spark in his eyes.\nSerpent:<color=\"red\">\"Because they have been lying to you. And I believe you deserve better than that.\"</color>\n[[Ox|About]]\n[[Eagle|Deserve]]\n",
             "links": [
                 {
                     "name": "Ox|About",
@@ -243,12 +243,12 @@
             "name": "Why",
             "pid": "13",
             "position": {
-                "x": "1303",
-                "y": "1403"
+                "x": "2006.3333333333333",
+                "y": "1091.3333333333335"
             }
         },
         {
-            "text": "**dialog\nEon feels chills on her body.\nEon:<color = \"blue\">\"What are they lying about?\"</color>\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes. \nSerpent:<color = \"red\">\"Your whole life.\"</color>\n[[Ox|No]]",
+            "text": "**dialog\nEon feels chills on her body.\nEon:<color=\"blue\">\"What are they lying about?\"</color>\nSerpent pauses for a moment. He seems to enjoy this conversation though. \nHe whispers in devilous tunes. \nSerpent:<color=\"red\">\"Your whole life.\"</color>\n[[Ox|No]]",
             "links": [
                 {
                     "name": "Ox|No",
@@ -259,15 +259,15 @@
             "name": "About",
             "pid": "14",
             "position": {
-                "x": "1437",
-                "y": "1536"
+                "x": "2080.3333333333335",
+                "y": "1209.3333333333333"
             },
             "tags": [
                 "Ox"
             ]
         },
         {
-            "text": "**recycle\n@eon_think_ox\nEon:<color = \"blue\">\"How do you know I deserve better? Again, YOU DON'T KNOW ME.\"</color>\nSerpent:<color = \"red\">\"You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. You are trapped in this prison forever!\"</color>\n[[Eagle|Tell me]]\n[[Ox|No]]",
+            "text": "**recycle\n@eon_think_ox\nEon:<color =\"blue\">\"How do you know I deserve better? Again, YOU DON'T KNOW ME.\"</color>\nSerpent:<color=\"red\">\"You are smart kid. I like that. That's true, but I know your father. I know his intentions. He is making you live the same day over and over again. You are trapped in this prison forever!\"</color>\n[[Eagle|Tell me]]\n[[Ox|No]]",
             "links": [
                 {
                     "name": "Eagle|Tell me",
@@ -283,8 +283,8 @@
             "name": "Deserve",
             "pid": "15",
             "position": {
-                "x": "1143",
-                "y": "1501"
+                "x": "1924.6666666666667",
+                "y": "1197.6666666666667"
             }
         },
         {
@@ -299,12 +299,12 @@
             "name": "Tell me",
             "pid": "16",
             "position": {
-                "x": "1045",
-                "y": "1700"
+                "x": "1920",
+                "y": "1315"
             }
         },
         {
-            "text": "**dialog\nThis sounds just too horrible to be true. @eon_disagree_ox\nEon: <color=\"blue\">\"No! He wouldn't do that! He loves me!\"</color>\nThe serpent rolls his eyes.\nSerpent:<color=\"red\">\"Ah, the things we do for love... Though, I think that expressions if for a different context.\"</color>\n[[Ox||Loops]]",
+            "text": "**dialog\nThis sounds just too horrible to be true. @eon_disagree_ox\nEon:<color=\"blue\">\"No! He wouldn't do that! He loves me!\"</color>\nThe serpent rolls his eyes.\nSerpent:<color=\"red\">\"Ah, the things we do for love... Though, I think that expressions if for a different context.\"</color>\n[[Ox||Loops]]",
             "links": [
                 {
                     "name": "Ox||Loops",
@@ -315,15 +315,15 @@
             "name": "No",
             "pid": "17",
             "position": {
-                "x": "1261",
-                "y": "1649"
+                "x": "2082.666666666667",
+                "y": "1330.6666666666665"
             },
             "tags": [
                 "Ox"
             ]
         },
         {
-            "text": "**recycle\n@eon_disappointed_lion\nEon:<color = \"blue\">\"I am tired of your games. Just tell me what's happening.\"</color>\nSerpent seems to enjoy Eon's impatience.\nSerpent:<color = \"red\">\"It breaks my heart to say this, but your whole life here has been a lie. You made believe that time is linear and moving forwards. Every day is a new one, they made you think. But in reality, you've been waking up to the same morning every day, going through the same sequence of events, over and over again. Like that peach you picked today. You've been eating a peach for breakfast since you were born.\"</color>\n[[Lion|Lying]]\n[[Eagle|Tell me]]",
+            "text": "**recycle\n@eon_disappointed_lion\nEon:<color=\"blue\">\"I am tired of your games. Just tell me what's happening.\"</color>\nSerpent seems to enjoy Eon's impatience.\nSerpent:<color=\"red\">\"It breaks my heart to say this, but your whole life here has been a lie. You made believe that time is linear and moving forwards. Every day is a new one, they made you think. But in reality, you've been waking up to the same morning every day, going through the same sequence of events, over and over again. Like that peach you picked today. You've been eating a peach for breakfast since you were born.\"</color>\n[[Lion|Lying]]\n[[Eagle|Tell me]]",
             "links": [
                 {
                     "name": "Lion|Lying",
@@ -339,12 +339,12 @@
             "name": "Straight",
             "pid": "18",
             "position": {
-                "x": "876",
-                "y": "1226"
+                "x": "1812.6666666666665",
+                "y": "971"
             }
         },
         {
-            "text": "*apple\n@eon_angry_lion\nEon feels a rising fire inside.\nEon: <color=\"blue\">\"That is not true. You are lying!\"</color>\nSerpent:<color = \"red\">\"I'm not. Why would I do that?\"</color>\nEon: <color = \"blue\">\"I don't see why they would care to stage this in the first place.\"</color>\nSerpent: <color = \"red\">\"Because they don't want you to taste the apple.\"</color>\n[[Lion|Away]]\n[[Eagle|Apple]]",
+            "text": "*apple\n@eon_angry_lion\nEon feels a rising fire inside.\nEon:<color=\"blue\">\"That is not true. You are lying!\"</color>\nSerpent:<color=\"red\">\"I'm not. Why would I do that?\"</color>\nEon:<color=\"blue\">\"I don't see why they would care to stage this in the first place.\"</color>\nSerpent:<color=\"red\">\"Because they don't want you to taste the apple.\"</color>\n[[Lion|Away]]\n[[Eagle|Apple]]",
             "links": [
                 {
                     "name": "Lion|Away",
@@ -360,12 +360,12 @@
             "name": "Lying",
             "pid": "19",
             "position": {
-                "x": "874",
-                "y": "1375"
+                "x": "1855.6666666666667",
+                "y": "1083.3333333333333"
             }
         },
         {
-            "text": "**dialog\n@eon_disappointed_lion\nEon: <color = \"blue\">\"Just go away, I can't deal with your nonsense anymore.\"</color>\nSerpent looks uncomfortable.\nSerpent:<color = \"red\">\"It's not nonsense! I am telling you the truth! I am trying to save you!\"</color>\n[[Lion|Walk]]\n[[Eagle|Warning]]",
+            "text": "**dialog\n@eon_disappointed_lion\nEon: <color=\"blue\">\"Just go away, I can't deal with your nonsense anymore.\"</color>\nSerpent looks uncomfortable.\nSerpent:<color=\"red\">\"It's not nonsense! I am telling you the truth! I am trying to save you!\"</color>\n[[Lion|Walk]]\n[[Eagle|Warning]]",
             "links": [
                 {
                     "name": "Lion|Walk",
@@ -381,8 +381,8 @@
             "name": "Away",
             "pid": "20",
             "position": {
-                "x": "733",
-                "y": "1545"
+                "x": "1781.3333333333335",
+                "y": "1193.3333333333333"
             }
         },
         {
@@ -407,12 +407,12 @@
             "name": "Apple",
             "pid": "21",
             "position": {
-                "x": "968",
-                "y": "1838"
+                "x": "1923",
+                "y": "1439.6666666666665"
             }
         },
         {
-            "text": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon: <color=\"blue\">\"Who is talking to me? Where are you?\"</color>\nVoice: <color=\"red\">\"Just a friendly stranger who is notorious to stand up against injustice.\"</color>\n[[Human|Face]]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
+            "text": "**questionMark\n@eon_confused_human\nThis was quite unexpected.\nEon:<color=\"blue\">\"Who is talking to me? Where are you?\"</color>\nVoice:<color=\"red\">\"Just a friendly stranger who is notorious to stand up against injustice.\"</color>\n[[Human|Face]]\n[[Ox|Explain]]\n[[Lion|Anxious]]",
             "links": [
                 {
                     "name": "Human|Face",
@@ -433,15 +433,15 @@
             "name": "Where",
             "pid": "22",
             "position": {
-                "x": "1456",
-                "y": "661"
+                "x": "2051",
+                "y": "512.6666666666666"
             },
             "tags": [
                 "Human"
             ]
         },
         {
-            "text": "**dialog\n@eon_lookAround_human\nSerpent:<color = \"red\">\"So, you wanna see my face. Very well. I'm coming down.\"</color>\nAs Eon is scanning every corner in sight, she hears leaves rustling on the peach tree. She looks up, sees a long and thin creature crawling down around the trunk of the tree.\nSerpent:<color = \"red\">\"Hello Eon. Nice to meet you.\"</color>\n[[Human|Hello]]\n[[Ox|Serpent]]",
+            "text": "**dialog\n@eon_lookAround_human\nSerpent:<color=\"red\">\"So, you wanna see my face. Very well. I'm coming down.\"</color>\nAs Eon is scanning every corner in sight, she hears leaves rustling on the peach tree. She looks up, sees a long and thin creature crawling down around the trunk of the tree.\nSerpent:<color=\"red\">\"Hello Eon. Nice to meet you.\"</color>\n[[Human|Hello]]\n[[Ox|Serpent]]",
             "links": [
                 {
                     "name": "Human|Hello",
@@ -457,12 +457,12 @@
             "name": "Face",
             "pid": "23",
             "position": {
-                "x": "1497",
-                "y": "1004"
+                "x": "2100.3333333333335",
+                "y": "734"
             }
         },
         {
-            "text": "**serpent\n@eon_confused_human @sfx_snake\nEon: <color = \"blue\">\"Hello...But...Who are you?\"</color>\nEon's eyes are examining every inch on the Serpent's body.\nSerpent:<color = \"red\">\"I am the Serpent, child. No need to worry. I am your friend. And I am here to end the game played to you.\"</color>\nEon:<color = \"blue\">\"Game?\"</color>\nSerpent:<color = \"blue\">\"You've been living a lie this whole time.\"</color>\n[[Lion|Straight]]\n[[Ox|Why]]",
+            "text": "**serpent\n@eon_confused_human\n@sfx_snake\nEon:<color=\"blue\">\"Hello...But...Who are you?\"</color>\nEon's eyes are examining every inch on the Serpent's body.\nSerpent:<color=\"red\">\"I am the Serpent, child. No need to worry. I am your friend. And I am here to end the game played to you.\"</color>\nEon:<color=\"blue\">\"Game?\"</color>\nSerpent:<color=\"red\">\"You've been living a lie this whole time.\"</color>\n[[Lion|Straight]]\n[[Ox|Why]]",
             "links": [
                 {
                     "name": "Lion|Straight",
@@ -478,8 +478,8 @@
             "name": "Hello",
             "pid": "24",
             "position": {
-                "x": "1600",
-                "y": "1242"
+                "x": "2098.333333333333",
+                "y": "971.3333333333335"
             }
         },
         {
@@ -494,12 +494,12 @@
             "name": "Before",
             "pid": "25",
             "position": {
-                "x": "969",
-                "y": "1985"
+                "x": "1932.3333333333335",
+                "y": "1553.3333333333333"
             }
         },
         {
-            "text": "**dialog\n@eon_think_eagle\nEon:<color=\"blue\">\"Did you have it before?\"</color>\nSerpent: <color=\"red\">\"Yes, that's why I am here now telling you the truth.\"</color>\nEon:<color=\"blue\">\"Why were you hiding in the tree?\"</color>\nSerpent lowers his voice.\nSerpent:<color=\"red\">\"Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.\"</color>\n[[Eagle|Trick]]",
+            "text": "**dialog\n@eon_think_eagle\nEon:<color=\"blue\">\"Did you have it before?\"</color>\nSerpent:<color=\"red\">\"Yes, that's why I am here now telling you the truth.\"</color>\nEon:<color=\"blue\">\"Why were you hiding in the tree?\"</color>\nSerpent lowers his voice.\nSerpent:<color=\"red\">\"Because I am actually not allowed to be here. They kicked me out after I disobeyed him and ate the apple.\"</color>\n[[Eagle|Trick]]",
             "links": [
                 {
                     "name": "Eagle|Trick",
@@ -510,8 +510,8 @@
             "name": "Outcast",
             "pid": "26",
             "position": {
-                "x": "968",
-                "y": "2127"
+                "x": "1936",
+                "y": "1676.3333333333333"
             }
         },
         {
@@ -531,12 +531,12 @@
             "name": "Trick",
             "pid": "27",
             "position": {
-                "x": "968",
-                "y": "2277"
+                "x": "1919.6666666666667",
+                "y": "1811.9999999999998"
             }
         },
         {
-            "text": "**warning\n@eon_anxious_eagle\nEon: <color=\"blue\">\"Guards!\"</color>\nSerpent looks to Eon in shock. \nSerpent:<color=\"red\">\"What the...\"</color>\nEon:<color=\"blue\">\"Sorry pal, but I warned you.\"</color>\n[[Eagle|Cherubs]]",
+            "text": "**warning\n@eon_anxious_eagle\nEon:<color=\"blue\">\"Guards!\"</color>\nSerpent looks to Eon in shock. \nSerpent:<color=\"red\">\"What the...\"</color>\nEon:<color=\"blue\">\"Sorry pal, but I warned you.\"</color>\n[[Eagle|Cherubs]]",
             "links": [
                 {
                     "name": "Eagle|Cherubs",
@@ -547,12 +547,12 @@
             "name": "Guards",
             "pid": "28",
             "position": {
-                "x": "968",
-                "y": "2469"
+                "x": "1836.3333333333335",
+                "y": "2045.6666666666665"
             }
         },
         {
-            "text": "**nightstick\n@eon_disappointed_eagle @sfx_flute\nTwo cherubs appear next to the Serpent.\nSerpent:<color=\"red\">\"Oh man, not again...\"</color>\nCherub1:<color=\"deeppink\">\"Well, I agree! You gotta stop coming back in. You don't belong here.\"</color>\nCherub2:<color=\"forestgreen\">\"Hey, I think you're good here so I'm just gonna go.\"</color>\nCherub1:<color=\"deeppink\">\"Okay man, no worries.\"</color>\n[[Eagle|Bye]]",
+            "text": "**nightstick\n@eon_disappointed_eagle\n@sfx_flute\nTwo cherubs appear next to the Serpent.\nSerpent:<color=\"red\">\"Oh man, not again...\"</color>\nCherub1:<color=#ff1493>\"Well, I agree! You gotta stop coming back in. You don't belong here.\"</color>\nCherub2:<color=#228b22>\"Hey, I think you're good here so I'm just gonna go.\"</color>\nCherub1:<color=#ff1493>\"Okay man, no worries.\"</color>\n[[Eagle|Bye]]",
             "links": [
                 {
                     "name": "Eagle|Bye",
@@ -563,12 +563,12 @@
             "name": "Cherubs",
             "pid": "29",
             "position": {
-                "x": "969",
-                "y": "2619"
+                "x": "1842.3333333333335",
+                "y": "2159"
             }
         },
         {
-            "text": "**exxMark\n@eon_disappointed_eagle\nOne of the cherubs grabs the serpent. \nCherub1:<color=\"deeppink\">\"Thank you for calling us. I hope he didn't disturb you much with his nonsense.\"</color>\nEon:<color=\"blue\">\"I'm okay. Thank you for coming.\"</color>\nThe Serpent screams as they take him away.\nSerpent:<color=\"red\">\"THIS IS NOT OVER YET!\"</color>\n[[Eagle|Worm]]",
+            "text": "**exxMark\n@eon_disappointed_eagle\nOne of the cherubs grabs the serpent. \nCherub1:<color=#ff1493>\"Thank you for calling us. I hope he didn't disturb you much with his nonsense.\"</color>\nEon:<color=\"blue\">\"I'm okay. Thank you for coming.\"</color>\nThe Serpent screams as they take him away.\nSerpent:<color=\"red\">\"THIS IS NOT OVER YET!\"</color>\n[[Eagle|Worm]]",
             "links": [
                 {
                     "name": "Eagle|Worm",
@@ -579,8 +579,8 @@
             "name": "Bye",
             "pid": "30",
             "position": {
-                "x": "969",
-                "y": "2780"
+                "x": "1760.6666666666667",
+                "y": "2283.3333333333335"
             }
         },
         {
@@ -600,21 +600,21 @@
             "name": "Worm",
             "pid": "31",
             "position": {
-                "x": "967",
-                "y": "2942"
+                "x": "1822",
+                "y": "2405.3333333333335"
             }
         },
         {
-            "text": "**peach\n@eon_nah_eagle @sfx_whoosh\nEon:<color=\"blue\">\"Nah!\"</color>\nAnd she throws the apple away.\nEon:<color=\"blue\">\"I'll just have a peach instead.\"</color>\nSo, she lived in the garden, forever, happily ever after.\n@end",
+            "text": "**peach\n@eon_nah_eagle\n@sfx_whoosh\nEon:<color=\"blue\">\"Nah!\"</color>\nAnd she throws the apple away.\nEon:<color=\"blue\">\"I'll just have a peach instead.\"</color>\nSo, she lived in the garden, forever, happily ever after.\n@end",
             "name": "Nah",
             "pid": "32",
             "position": {
-                "x": "966",
-                "y": "3089"
+                "x": "1837.6666666666667",
+                "y": "2534"
             }
         },
         {
-            "text": "**exxMark\nEon:<color=\"blue\">\"You are lying! I don't believe a single thing you say!\"</color> @sfx_shortOfBreath @eon_anxious_ox\nThe serpent seems very confident. \nSerpent:<color=\"red\">\"If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.\"</color>\nEon is panthing. She can't decide. She knows it's a lie, but she is scared at the same time.\n[[Ox|Okay]]\n[[Eagle|Before]]\n[[Lion|Walk]]",
+            "text": "**exxMark\nEon:<color=\"blue\">\"You are lying! I don't believe a single thing you say!\"</color> @sfx_shortOfBreath\n@eon_anxious_ox\nThe serpent seems very confident. \nSerpent:<color=\"red\">\"If you are so sure, then prove it. Just take a bite from the apple, and we'll see who is lying.\"</color>\nEon is panting. She can't decide. She knows it's a lie, but she is scared at the same time.\n[[Ox|Okay]]\n[[Eagle|Before]]\n[[Lion|Walk]]",
             "links": [
                 {
                     "name": "Ox|Okay",
@@ -635,12 +635,12 @@
             "name": "Prove",
             "pid": "33",
             "position": {
-                "x": "1262",
-                "y": "1912"
+                "x": "2095.3333333333335",
+                "y": "1573.6666666666665"
             }
         },
         {
-            "text": "**recycle\n@sfx_snake @eon_dance_ox\nSerpent:<color=\"red\">\"Listen to me, kiddo. You are stuck in a loop. Living the same day forever. And all this nonsense exists to keep you away from the apple. Because if you eat the apple, you'll be aware. And you'll be free from this pretty prison.\"</color>\n[[Ox|Prove]]\n[[Eagle|Apple]]\n[[Lion|Away]]",
+            "text": "**recycle\n@sfx_snake\n@eon_dance_ox\nSerpent:<color=\"red\">\"Listen to me, kiddo. You are stuck in a loop. Living the same day forever. And all this nonsense exists to keep you away from the apple. Because if you eat the apple, you'll be aware. And you'll be free from this pretty prison.\"</color>\n[[Ox|Prove]]\n[[Eagle|Apple]]\n[[Lion|Away]]",
             "links": [
                 {
                     "name": "Ox|Prove",
@@ -661,8 +661,8 @@
             "name": "Loops",
             "pid": "34",
             "position": {
-                "x": "1260",
-                "y": "1777"
+                "x": "2085",
+                "y": "1452"
             }
         },
         {
@@ -677,15 +677,15 @@
             "name": "Okay",
             "pid": "35",
             "position": {
-                "x": "1265",
-                "y": "2052"
+                "x": "2106.666666666667",
+                "y": "1688.6666666666665"
             },
             "tags": [
                 "Ox"
             ]
         },
         {
-            "text": "**exxMark\n@eon_walk_lion\nEon:<color = \"blue\">\"We're done here.\"</color>\nThe serpent panics as Eon walks away.\nSerpent:<color = \"red\">\"No, no! Wait!\"</color> \nHe jumps and grabs Eon's leg.\n[[Lion|Scream]]",
+            "text": "**exxMark\n@eon_walk_lion\nEon:<color=\"blue\">\"We're done here.\"</color>\nThe serpent panics as Eon walks away.\nSerpent:<color=\"red\">\"No, no! Wait!\"</color> \nHe jumps and grabs Eon's leg.\n[[Lion|Scream]]",
             "links": [
                 {
                     "name": "Lion|Scream",
@@ -696,8 +696,8 @@
             "name": "Walk",
             "pid": "36",
             "position": {
-                "x": "552",
-                "y": "1700"
+                "x": "1770.3333333333335",
+                "y": "1299.9999999999998"
             }
         },
         {
@@ -712,12 +712,12 @@
             "name": "Warning",
             "pid": "37",
             "position": {
-                "x": "753",
-                "y": "2375"
+                "x": "1763.0000000000002",
+                "y": "1935"
             }
         },
         {
-            "text": "**explosion\n@eon_scared_lion @sfx_fluteBroken\nEon is scared as hell. She stars screaming. @sfx_scream\nEon:<color = \"blue\">\"GET AWAY FROM ME!!!\"</color>\nIn panic, she kicks on the Serpent's head. Multiple times.\nSerpent:<color = \"red\">\"ARGHHHHH!!!\"</color>\n[[Lion|Sorry]]",
+            "text": "**explosion\n@eon_scared_lion\n@sfx_fluteBroken\nEon is scared as hell. She stars screaming. @sfx_scream\nEon:<color=\"blue\">\"GET AWAY FROM ME!!!\"</color>\nIn panic, she kicks the Serpent's head multiple times.\nSerpent:<color=\"red\">\"ARGHHHHH!!!\"</color>\n[[Lion|Sorry]]",
             "links": [
                 {
                     "name": "Lion|Sorry",
@@ -728,12 +728,12 @@
             "name": "Scream",
             "pid": "38",
             "position": {
-                "x": "554",
-                "y": "1851"
+                "x": "1752.3333333333335",
+                "y": "1415.9999999999998"
             }
         },
         {
-            "text": "**dead\n@eon_surprised_lion @sfx_fluteBroken\nPoor Serpent's head is smashed.\nEon looks at him in shock. \nEon:<color = \"blue\">\"Omg...Omg! I am so sorry. I didn't mean to...\"</color>\nEon realizes there was nothing else to do. In shock, she calls the guards.\n[[Lion|Criminal]]",
+            "text": "**dead\n@eon_surprised_lion\n@sfx_fluteBroken\nPoor Serpent's head is smashed.\nEon looks at him in shock. \nEon:<color=\"blue\">\"Omg...Omg! I am so sorry. I didn't mean to...\"</color>\nEon realizes there was nothing else to do. In shock, she calls the guards.\n[[Lion|Criminal]]",
             "links": [
                 {
                     "name": "Lion|Criminal",
@@ -744,12 +744,12 @@
             "name": "Sorry",
             "pid": "39",
             "position": {
-                "x": "554",
-                "y": "1998"
+                "x": "1760.6666666666667",
+                "y": "1552.9999999999998"
             }
         },
         {
-            "text": "**cry\n@eon_cry_lion @sfx_whistleFlute\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief:<color = \"deeppink\">\"It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.\"</color>\nEon is in tears.\n[[Lion|Gift]]",
+            "text": "**cry\n@eon_cry_lion\n@sfx_whistleFlute\nThe cherubs take the Serpent's body away as the chief consolates Eon.\nChief:<color=#ff1493>\"It's not your fault. Stop blaming yourself. And you should know that he is an unwelcomed guest we've been looking for everywhere. You actually helped us.\"</color>\nEon is in tears.\n[[Lion|Gift]]",
             "links": [
                 {
                     "name": "Lion|Gift",
@@ -760,17 +760,17 @@
             "name": "Criminal",
             "pid": "40",
             "position": {
-                "x": "553",
-                "y": "2151"
+                "x": "1758.0000000000002",
+                "y": "1680.9999999999998"
             }
         },
         {
-            "text": "**peach\n@eon_eat_lion @sfx_bite\nEon:<color = \"blue\">\"But what was his crime?\"</color>\nCherub1:<color = \"deeppink\">\"Don't bother yourself with these details right now. You already had an exhausting day.\"</color>\nThey grab a peach from the tree and throw it to Eon.\nCherub1:<color = \"deeppink\">\"Here, have something to eat. You must be starving.\"</color>\nEon looks at the peach. It reminds him of the dead serpent now. Why did he had to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end",
+            "text": "**peach\n@eon_eat_lion\n@sfx_bite\nEon:<color=\"blue\">\"But what was his crime?\"</color>\nCherub1:<color=#ff1493>\"Don't bother yourself with these details right now. You already had an exhausting day.\"</color>\nThey grab a peach from the tree and throw it to Eon.\nCherub1:<color=#ff1493>\"Here, have something to eat. You must be starving.\"</color>\nEon looks at the peach. It reminds him of the dead serpent now. Why did he had to attack her like that.\nThen she takes a bite and the juice makes her forget everything.\n@end",
             "name": "Gift",
             "pid": "41",
             "position": {
-                "x": "558",
-                "y": "2283"
+                "x": "1746.3333333333335",
+                "y": "1801.3333333333333"
             }
         },
         {
@@ -790,8 +790,8 @@
             "name": "Decide",
             "pid": "42",
             "position": {
-                "x": "1264",
-                "y": "2202"
+                "x": "2114",
+                "y": "1810.333333333333"
             }
         },
         {
@@ -806,8 +806,8 @@
             "name": "Dare",
             "pid": "43",
             "position": {
-                "x": "1400",
-                "y": "2348"
+                "x": "2120",
+                "y": "1939.6666666666667"
             }
         },
         {
@@ -827,12 +827,12 @@
             "name": "Logic",
             "pid": "44",
             "position": {
-                "x": "1195",
-                "y": "2352"
+                "x": "1908.3333333333333",
+                "y": "1930.3333333333333"
             }
         },
         {
-            "text": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox @sfx_explosion\nEon:<color=\"blue\">\"ARGHHHHH!!!\"</color>\n[[Ox|Bent]]",
+            "text": "**explosion\nFirst she thinks that it's the most beautiful taste she ever sensed.\nThen she gets a very sudden headache. As if there were a thousand bombs exploding in her head all at the same time.\nShe starts screaming. @eon_scared_ox\n@sfx_explosion\nEon:<color=\"blue\">\"ARGHHHHH!!!\"</color>\n[[Ox|Bent]]",
             "links": [
                 {
                     "name": "Ox|Bent",
@@ -843,12 +843,12 @@
             "name": "Hit",
             "pid": "45",
             "position": {
-                "x": "1401",
-                "y": "2500"
+                "x": "1989.3333333333335",
+                "y": "2038.3333333333333"
             }
         },
         {
-            "text": "**explosion\nThe colors and shapes started to bend. She freaks out and screams louder.\nShe feels like falling in void. @eon_fall_ox\nShe loses sense of time. \nFalling for an indefinite time, she finally lands on ground. \nThe ground lights up. It becomes so bright that she goes blind.\nHer feels her mind is opening up. She is feeling emotions she never felt before. She knows now that dad lied to her.\n[[Ox|Crashing]]",
+            "text": "**explosion\nThe colors and shapes started to bend. She freaks out and screams louder.\nShe feels like falling in void. @eon_fall_ox\nShe loses sense of time. \nFalling for an indefinite time, she finally lands on ground. \nThe ground lights up. It becomes so bright that she goes blind.Her feels her mind is opening up. She is feeling emotions she never felt before. She knows now that dad lied to her.\n[[Ox|Crashing]]",
             "links": [
                 {
                     "name": "Ox|Crashing",
@@ -859,12 +859,12 @@
             "name": "Bent",
             "pid": "46",
             "position": {
-                "x": "1400",
-                "y": "2650"
+                "x": "1988.3333333333335",
+                "y": "2150"
             }
         },
         {
-            "text": "**explosion\nShe kept crashing into rocks, waves, flowers and spiders. @eon_passedOut_ox\nLast thing she saw was a grave of her own. And she didn't know they existed before. \nSo, she opens up her eyes again as a different person.\n[[Ox|Dizzy]]",
+            "text": "**explosion\nShe kept crashing into rocks, waves, flowers and spiders. @eon_passedOut_ox\nLast thing she saw was a grave of her own, and she didn't know they existed before. \nSo, she opens up her eyes again as a different person.\n[[Ox|Dizzy]]",
             "links": [
                 {
                     "name": "Ox|Dizzy",
@@ -875,12 +875,12 @@
             "name": "Crashing",
             "pid": "47",
             "position": {
-                "x": "1400",
-                "y": "2799"
+                "x": "2088.3333333333335",
+                "y": "2295.666666666667"
             }
         },
         {
-            "text": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon: Oh, my head! It hurts.\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam:<color=\"firebrick\">\"Hey? Are you okay?\"</color>\n[[Ox|Adam]]",
+            "text": "**exxQuestion\nHer head is filled up with so many things that she didn't know existed before. @eon_dizzy_ox\nEon:<color=\"blue\">\"Oh, my head! It hurts.\"</color>\nAs she is trying to get herself up, she realizes the ground is all sand.\nThen a soft voice from her back speaks to her.\nAdam:<color=#b22222>\"Hey? Are you okay?\"</color>\n[[Ox|Adam]]",
             "links": [
                 {
                     "name": "Ox|Adam",
@@ -891,12 +891,12 @@
             "name": "Dizzy",
             "pid": "48",
             "position": {
-                "x": "1400",
-                "y": "2949"
+                "x": "2015",
+                "y": "2403.9999999999995"
             }
         },
         {
-            "text": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon:<color=\"blue\">\"Who are you?\"</color>\nAdam:<color=\"firebrick\">\"Oh sorry, I am Adam.\"</color> \n[[Ox|Same]]",
+            "text": "**dialog\nShe looks back in confusion. @eon_confused_ox\nIt's another person, like her, and they have a comforting expression on his face.\nEon:<color=\"blue\">\"Who are you?\"</color>\nAdam:<color=#b22222>\"Oh sorry, I am Adam.\"</color> \n[[Ox|Same]]",
             "links": [
                 {
                     "name": "Ox|Same",
@@ -907,12 +907,12 @@
             "name": "Adam",
             "pid": "49",
             "position": {
-                "x": "1399",
-                "y": "3099"
+                "x": "1995.6666666666667",
+                "y": "2517.333333333333"
             }
         },
         {
-            "text": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam: <color=\"firebrick\">\"Did you come from the Garden as well?\"</color>\nThis question surprised Eon.\nEon: <color=\"blue\">\"Yes...But how did you know that?\"</color>\nAdam: <color=\"firebrick\">\"Well...That's also where I came from.\"</color>\n[[Ox|Answer]]",
+            "text": "**dialog\nAdam seems like a friendly person, Eon tells herself. @eon_surprised_ox\nAdam:<color=#b22222>\"Did you come from the Garden as well?\"</color>\nThis question surprised Eon.\nEon:<color=\"blue\">\"Yes...But how did you know that?\"</color>\nAdam:<color=#b22222>\"Well...That's also where I came from.\"</color>\n[[Ox|Answer]]",
             "links": [
                 {
                     "name": "Ox|Answer",
@@ -923,12 +923,12 @@
             "name": "Same",
             "pid": "50",
             "position": {
-                "x": "1400",
-                "y": "3251"
+                "x": "1913.6666666666667",
+                "y": "2654"
             }
         },
         {
-            "text": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon:<color=\"blue\">\"But...I've never seen you there. How is that possib...\"</color>\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again. So, it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam:<color=\"firebrick\">\"I think you know the answer.\"</color>\n[[Ox|Loneliness]]",
+            "text": "**recycle\nIs he telling the truth? That's hard for Eon to tell. @eon_think_ox\nEon:<color=\"blue\">\"But...I've never seen you there. How is that possib...\"</color>\nShe realizes that she was actually stuck in a loop just like the Serpent said. Forever. Waking up into the same day over and over again, so it was possible they missed each other.\nAdam's smile is full of compassion.\nAdam:<color=#b22222>\"I think you know the answer.\"</color>\n[[Ox|Loneliness]]",
             "links": [
                 {
                     "name": "Ox|Loneliness",
@@ -939,12 +939,12 @@
             "name": "Answer",
             "pid": "51",
             "position": {
-                "x": "1400",
-                "y": "3401"
+                "x": "1908",
+                "y": "2773.6666666666665"
             }
         },
         {
-            "text": "**apple\nAdam: <color=\"firebrick\">\"Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with.\"</color> @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam:<color=\"firebrick\">\"So, I've been walking around everyday to run into someone, somehow. And today is the day.\"</color>\n[[Ox|Hungry]]",
+            "text": "**apple\nAdam:<color=#b22222>\"Since I ate the apple, I started to feel emotions that I never had before. Loneliness, feeling alone, that's new and it was very hard to deal with.\"</color> @eon_think_ox\nEon doesn't understand how but she somehow knows what loneliness would be like.\nAdam:<color=#b22222>\"So, I've been walking around everyday to run into someone, somehow. And today is the day.\"</color>\n[[Ox|Hungry]]",
             "links": [
                 {
                     "name": "Ox|Hungry",
@@ -955,12 +955,12 @@
             "name": "Loneliness",
             "pid": "52",
             "position": {
-                "x": "1400",
-                "y": "3551"
+                "x": "1901.3333333333335",
+                "y": "2889.6666666666665"
             }
         },
         {
-            "text": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon: <color=\"blue\">\"Where are we? This is the middle of nowhere!\"</color>\nAdam: <color=\"firebrick\">\"Don't panic! There is a small lake nearby where we can rest, have some water and food.\"</color>\nEon's stomach grumbles as Adam is speaking.\nAdam: <color=\"firebrick\">\"Oh, you must be hungry! Here, I have another apple for you.\"</color>\nHe gives Eon a bright blue apple.\n[[Ox|Together]]",
+            "text": "**blueApple\n~~\nEon is thirsty. At that moment, she realizes they are in the middle of a desert. @eon_confused_ox\nEon:<color=\"blue\">\"Where are we? This is the middle of nowhere!\"</color>\nAdam:<color=#b22222>\"Don't panic! There is a small lake nearby where we can rest, have some water and food.\"</color>\nEon's stomach grumbles as Adam is speaking.\nAdam:<color=#b22222>\"Oh, you must be hungry! Here, I have another apple for you.\"</color>\nHe gives Eon a bright blue apple.\n[[Ox|Together]]",
             "links": [
                 {
                     "name": "Ox|Together",
@@ -971,21 +971,21 @@
             "name": "Hungry",
             "pid": "53",
             "position": {
-                "x": "1400",
-                "y": "3702"
+                "x": "1932.3333333333335",
+                "y": "3013"
             }
         },
         {
-            "text": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam: <color=\"firebrick\">\"Come on, hold on to me. And we'll make it there together.\"</color>\nEon gets up holding on to Adam. It suddenly feels really good to have someone around. \nThey walk together towards the horizon. They don't let go of each other's hands.\n@end",
+            "text": "**heart\nAdam holds Eon's hand. @eon_happy_ox\nAdam:<color=#b22222>\"Come on, hold on to me. And we'll make it there together.\"</color>\nEon gets up holding on to Adam. It suddenly feels really good to have someone around. \nThey walk together towards the horizon. They don't let go of each other's hands.\n@end",
             "name": "Together",
             "pid": "54",
             "position": {
-                "x": "1399",
-                "y": "3851"
+                "x": "1940",
+                "y": "3133.3333333333335"
             }
         },
         {
-            "text": "Serpent's words about the creator echoes in Eon's mind. \nEon knows that there is only one way to know if the Serpent was telling the truth.\nEon:<color=\"blue\">\"\"What's there to lose anyway?\"</color>\nSo, she bites the apple.\n[[Ox|Hit]]",
+            "text": "Serpent's words about the creator echoes in Eon's mind. \nEon knows that there is only one way to know if the Serpent was telling the truth.\nEon:<color=\"blue\">\"What's there to lose anyway?\"</color>\nSo, she bites the apple.\n[[Ox|Hit]]",
             "links": [
                 {
                     "name": "Ox|Hit",
@@ -996,12 +996,12 @@
             "name": "Only",
             "pid": "55",
             "position": {
-                "x": "1147",
-                "y": "2813"
+                "x": "1903.6666666666667",
+                "y": "2283"
             }
         }
     ],
-    "name": "TWC-StoryLion-Eden",
+    "name": "Human_Story_Garden",
     "startnode": "1",
     "creator": "Twine",
     "creator-version": "2.3.15",

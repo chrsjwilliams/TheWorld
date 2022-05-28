@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Come Out
@@ -69,7 +70,7 @@ MonoBehaviour:
     line: '<color="blue">"Who is dis? Show yourself!"</color> '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
     line: '<color="red">"I see you are a little stressed. Sorry for interrupting
       your lil'' boring breakfast routine."</color> '
     lineActions:

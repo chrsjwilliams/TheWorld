@@ -74,12 +74,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 7ff0f1767a9834816a4dd19a0628844c, type: 3}
   NodeTitle: Hello
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color = "blue">"Hello...But...Who are you?"</color>'
+    line: <color="blue">"Hello...But...Who are you?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -87,18 +88,19 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: <color = "red">"I am the Serpent, child. No need to worry. I am your friend.
+    line: <color="red">"I am the Serpent, child. No need to worry. I am your friend.
       And I am here to end the game played to you."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: <color = "blue">"Game?"</color>
+    line: <color="blue">"Game?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: <color = "blue">"You've been living a lie this whole time."</color>
+    line: <color="red">"You've been living a lie this whole time."</color>
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 646677b885205497b97663f1729b6e63, type: 2}
+  - {fileID: 11400000, guid: 07cf6ec4549c841819a9e44da20055ca, type: 2}
+  - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}

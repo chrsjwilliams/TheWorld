@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Please
@@ -70,16 +71,17 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color = "blue">"That is not true, I just had an apple yesterday."</color>'
+    line: <color="blue">"That is not true, I just had an apple yesterday."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: The voice laughs hysterically. sfx_evilLaughter
-    lineActions: []
+    line: 'The voice laughs hysterically. '
+    lineActions:
+    - {fileID: 11400000, guid: 79dbd3c6ba4c540fca3a9be15d5efa21, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color = "red">"Oh, it only breaks my heart to see you like this. What
-      a silly child you are!"</color>
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color="red">"Oh, it only breaks my heart to see you like this. What a
+      silly child you are!"</color>
     lineActions: []
     Notes: 
   Notes: 

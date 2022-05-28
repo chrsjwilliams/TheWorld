@@ -48,6 +48,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c936ff015fdbb44fba78a54923bf43d6, type: 3}
   NodeTitle: Together
@@ -57,9 +58,8 @@ MonoBehaviour:
     lineActions:
     - {fileID: 11400000, guid: 2ccd034d8b85c48269c1c5cce7495d08, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Come on, hold on to me. And we''ll make it there
-      together."</color>'
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"Come on, hold on to me. And we'll make it there together."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

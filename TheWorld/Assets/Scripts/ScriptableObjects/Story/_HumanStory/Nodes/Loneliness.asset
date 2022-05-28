@@ -61,14 +61,15 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 0}
   NodeTitle: Loneliness
   speakingLines:
-  - speaker: {fileID: 0}
-    line: ' <color="firebrick">"Since I ate the apple, I started to feel emotions
-      that I never had before. Loneliness, feeling alone, that''s new and it was
-      very hard to deal with."</color> '
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: '<color=#b22222>"Since I ate the apple, I started to feel emotions that
+      I never had before. Loneliness, feeling alone, that''s new and it was very
+      hard to deal with."</color> '
     lineActions:
     - {fileID: 11400000, guid: 2faf0f7811c8e43e4a7e2cc6b5ae29c9, type: 2}
     Notes: 
@@ -77,8 +78,8 @@ MonoBehaviour:
       be like.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: <color="firebrick">"So, I've been walking around everyday to run into someone,
+  - speaker: {fileID: 11400000, guid: 095e8256a1bcc401da5558aaec7b6214, type: 2}
+    line: <color=#b22222>"So, I've been walking around everyday to run into someone,
       somehow. And today is the day."</color>
     lineActions: []
     Notes: 

@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 337b950b9192a4a92a9d24052a40f88f, type: 3}
   NodeTitle: Peach
@@ -97,15 +98,15 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"On, here is my breakfast!"</color>'
+    line: <color="blue">"On, here is my breakfast!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: As she is reaching to grab it, a mysterious voice confronts her.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="red">"Arghh, same ridiculous routine every morning. Aren''t you
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: '<color="red">"Arghh, same ridiculous routine every morning. Aren''t you
       bored yet?"</color> '
     lineActions: []
     Notes: 

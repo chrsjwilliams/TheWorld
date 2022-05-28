@@ -48,6 +48,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 337b950b9192a4a92a9d24052a40f88f, type: 3}
   NodeTitle: Nah
@@ -70,5 +71,6 @@ MonoBehaviour:
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 3d6c8baee5b164654a8d445e9304d482, type: 2}
+  - {fileID: 11400000, guid: d1b94ea95066a41d1a193a5f23704ea1, type: 2}
+  - {fileID: 11400000, guid: 13757db06e9e64a68a350dbfbf540ebe, type: 2}
   - {fileID: 0}

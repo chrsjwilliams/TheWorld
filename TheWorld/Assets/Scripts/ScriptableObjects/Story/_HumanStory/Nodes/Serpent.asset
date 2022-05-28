@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 7ff0f1767a9834816a4dd19a0628844c, type: 3}
   NodeTitle: Serpent
@@ -70,15 +71,16 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: <color = "blue">"What are you? You look nothing like me or any creature
-      I've seen before."</color>
+    line: <color="blue">"What are you? You look nothing like me or any creature I've
+      seen before."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: f21d6699111464071940ed895bbb9287, type: 2}
-    line: <color = "red">"I am the Serpent. I've been living here in the shadows,
-      observing you and your fake routine every day."</color>
+    line: <color="red">"I am the Serpent. I've been living here in the shadows, observing
+      you and your fake routine every day."</color>
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 20ce7de3bae8546ee80d12d0bde4a900, type: 2}
+  - {fileID: 11400000, guid: 06f4d3a6cba3a49e5ba4ce74614cf08c, type: 2}
+  - {fileID: 11400000, guid: 31ce797cb433e4fa0881e2be34973d53, type: 2}

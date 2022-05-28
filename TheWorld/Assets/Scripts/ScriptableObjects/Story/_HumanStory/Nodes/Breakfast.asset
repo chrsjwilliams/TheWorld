@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 1cf74950d9e204f7e84a5089061024d9, type: 3}
   NodeTitle: Breakfast
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"A good day starts with good breakfast!"</color>'
+    line: <color="blue">"A good day starts with good breakfast!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -74,10 +75,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' <color="blue">"Hmm, what shall I eat this morning? Pears or oranges?
-      Or maybe some apricots?"</color>'
+    line: <color="blue">"Hmm, what shall I eat this morning? Pears or oranges? Or
+      maybe some apricots?"</color>
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 4826ae17f03bd4bec84459ddee04698a, type: 2}
+  - {fileID: 11400000, guid: 59630711b1bc04d12a04c2142a9eaa0b, type: 2}
+  - {fileID: 11400000, guid: 4729c50e37b894eb2b857e7d8fa37b21, type: 2}

@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Anxious
@@ -82,7 +83,7 @@ MonoBehaviour:
     line: Eon is searching for a face but can't see anyone around.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
     line: ' <color="red">"You don''t need to be anxious, kid!"</color>'
     lineActions: []
     Notes: 
@@ -91,9 +92,9 @@ MonoBehaviour:
       hiding yourself from my sight."</color> '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' <color="red">"Well, I need to warn you. If I come out, you''ll need to
-      face the bare truth. Do you think you''re ready for that?"</color>'
+  - speaker: {fileID: 11400000, guid: eb7159be6c405490383065de9cfe139b, type: 2}
+    line: <color="red">"Well, I need to warn you. If I come out, you'll need to face
+      the bare truth. Do you think you're ready for that?"</color>
     lineActions: []
     Notes: 
   Notes: 

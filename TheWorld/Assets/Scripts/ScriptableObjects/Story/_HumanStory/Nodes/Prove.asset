@@ -87,6 +87,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Prove
@@ -94,8 +95,7 @@ MonoBehaviour:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
     line: '<color="blue">"You are lying! I don''t believe a single thing you say!"</color> '
     lineActions:
-    - {fileID: 11400000, guid: 6f12543ddeb1b47dabf499d473061692, type: 2}
-    - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
+    - {fileID: 11400000, guid: 00862b0a34a5e45b3868b544a183f910, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: 'The serpent seems very confident. '
@@ -107,9 +107,10 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon is panthing. She can't decide. She knows it's a lie, but she is scared
+    line: Eon is panting. She can't decide. She knows it's a lie, but she is scared
       at the same time.
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
