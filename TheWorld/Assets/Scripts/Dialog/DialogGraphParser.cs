@@ -5,8 +5,6 @@ using UnityEngine;
 using TMPro;
 using Sirenix.OdinInspector;
 
-// ~TODO:   LION ABILITY
-
 public class DialogGraphParser : MonoBehaviour
 {
     [Header("Display all lines is not working yet, leave false for now")]
@@ -108,10 +106,7 @@ public class DialogGraphParser : MonoBehaviour
         backArrowCounter.text = backArrowCount + "";
 
         visitedNodes.RemoveAt(0);
-        // Go backa node
-        Debug.Log("~~~LEAVING TO NODE: " + currentNode.name);
         var prevNode = visitedNodes[0];
-        Debug.Log("~~~GOING TO NODE: " + currentNode.name);
         GoToVisitedNode(prevNode);
         if (backArrowCount < 1)
         {
@@ -220,6 +215,11 @@ public class DialogGraphParser : MonoBehaviour
             if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
             {
                 AllowPlayerCharacterInteraction?.Raise();
+            }
+
+            if(currentNode.nextNodes.Count == 0)
+            {
+                MadeSelection.value = true;
             }
         }
         else

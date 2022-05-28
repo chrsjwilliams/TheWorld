@@ -61,22 +61,24 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Ox Power
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'When you make certain choices you''ll find special prizes hidden for Eon. '
+    line: 'Some choices will take Eon to undesirable ends in the story. '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: The Ox can see the specific story block where the prize is hidden and show
-      it to you.
+    line: Ox can foresee these points in the story.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: You still need to figure out how to get there though.
+    line: Bitter ends are part of life. However, if you'd like to avoid them, you
+      can make use of Ox's special power.
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 4d3a5a579b3264791a0c32ae8b96c437, type: 2}

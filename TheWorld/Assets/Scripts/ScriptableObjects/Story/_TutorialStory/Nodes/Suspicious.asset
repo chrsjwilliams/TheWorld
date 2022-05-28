@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Suspicious
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' An apple? Thank you but I don''t eat food coming from strangers.'
+    line: <color="blue">"An apple? Thank you but I don't eat food coming from strangers."</color>
     lineActions: []
     Notes: 
   Notes: 

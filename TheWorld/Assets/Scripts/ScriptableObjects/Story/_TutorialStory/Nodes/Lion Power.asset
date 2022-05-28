@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Lion Power
@@ -71,4 +72,5 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 59144f07273c245a08ffa20c91033fca, type: 2}
