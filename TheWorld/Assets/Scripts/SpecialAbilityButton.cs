@@ -5,6 +5,7 @@ using UnityEngine.Events;
 using Sirenix.OdinInspector;
 using TMPro;
 using System;
+using System.Linq;
 
 public class SpecialAbilityButton : SerializedMonoBehaviour
 {
@@ -61,7 +62,7 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     public void ApplyAbility()
     {
         var personalityChoice = selectedCharacter.PersonalityChoice;
-        if(abilityDictionary.ContainsKey(personalityChoice))
+        if (abilityDictionary.ContainsKey(personalityChoice))
         {
             abilityDictionary[personalityChoice].action?.Invoke();
         }
@@ -75,7 +76,7 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
 
     public void ShowAbilityDescription(bool show)
     {
-        if(show)
+        if (show)
         {
             fadeInTweener?.Play();
             abilityTitle.text = abilityDictionary[selectedCharacter.PersonalityChoice].title;
@@ -92,7 +93,22 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
      */
     public void OxAbility()
     {
+        messageBoxAppear.Play();
+        List<DialogNode> importantNodes = dialogGraphParser.GetNodesForAbility(PersonalityChoice.OX);
+        string messageText;
+        string nodeText = nodeText = string.Join(", ", importantNodes.Select(x => x.name));
 
+        if (importantNodes.Count > 1)
+        {
+            messageText = "Important choices are found at these nodes: " + nodeText;
+        }
+        else
+        {
+            messageText = "Important choices are found at this node: " + nodeText;
+        }
+
+        messageBoxTitle.text = "Ox Ability";
+        messageBoxMessage.text = messageText;
     }
 
     /*
