@@ -1,526 +1,611 @@
 {
-  "uuid": "2F9AA967-DC9A-431F-818E-5C2306647763",
-  "name": "TWC-StoryEagle-Meteor",
-  "creator": "Twine",
-  "creatorVersion": "2.3.1",
-  "schemaName": "Twine to JSON",
-  "schemaVersion": "0.0.6",
-  "createdAtMs": 1652481034939,
-  "passages": [
-    {
-      "name": "Intro",
-      "tags": "",
-      "id": "1",
-      "text": "**space\nStars far ahead are shining bright. @eon_float_eagle\nSun is behind, but Eon can still feel it's warmth.\nShe thinks it's just a perfect day to float in the void.\n[[Eagle|Friend]]",
-      "links": [
+    "passages": [
         {
-          "linkText": "Eagle|Friend",
-          "passageName": "Eagle|Friend",
-          "original": "[[Eagle|Friend]]"
-        }
-      ],
-      "cleanText": "**space\nStars far ahead are shining bright. @eon_float_eagle\nSun is behind, but Eon can still feel it's warmth.\nShe thinks it's just a perfect day to float in the void."
-    },
-    {
-      "name": "Friend",
-      "tags": "",
-      "id": "2",
-      "text": "**hi\nShe spots a familiar face far ahead. @eon_hi_eagle\nEon: Hey! Hey! Omolon! Is that you?\nSilence for a moment. It takes a little bit for the sound waves to travel.\nOmolon: Yo! Eon! Good to see ya sister! How have you been?\n[[Eagle|Same]]",
-      "links": [
-        {
-          "linkText": "Eagle|Same",
-          "passageName": "Eagle|Same",
-          "original": "[[Eagle|Same]]"
-        }
-      ],
-      "cleanText": "**hi\nShe spots a familiar face far ahead. @eon_hi_eagle\nEon: Hey! Hey! Omolon! Is that you?\nSilence for a moment. It takes a little bit for the sound waves to travel.\nOmolon: Yo! Eon! Good to see ya sister! How have you been?"
-    },
-    {
-      "name": "Same",
-      "tags": "",
-      "id": "3",
-      "text": "**dialog\nEon: Ah, nothing much changed. Same old things. How about you? @eon_float_eagle\nSilence again.\nOmolon: Same! Just traveling here and there. It's been ages right? \nEon: Yes, I know. It sucks to be so much out of control sometimes.\n[[Eagle|News]]",
-      "links": [
-        {
-          "linkText": "Eagle|News",
-          "passageName": "Eagle|News",
-          "original": "[[Eagle|News]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon: Ah, nothing much changed. Same old things. How about you? @eon_float_eagle\nSilence again.\nOmolon: Same! Just traveling here and there. It's been ages right? \nEon: Yes, I know. It sucks to be so much out of control sometimes."
-    },
-    {
-      "name": "Wonderful",
-      "tags": "Ox",
-      "id": "4",
-      "text": "**heart\nEon: Oh yea, that would've been wonderful! @eon_happy_ox\nEon realizes that the silence inbetween the conversation is getting shorter. Omolon is getting closer to her.\nEon: Unfortunately it seems like we're going into opposite directions.\n[[Ox|Idea]]",
-      "links": [
-        {
-          "linkText": "Ox|Idea",
-          "passageName": "Ox|Idea",
-          "original": "[[Ox|Idea]]"
-        }
-      ],
-      "cleanText": "**heart\nEon: Oh yea, that would've been wonderful! @eon_happy_ox\nEon realizes that the silence inbetween the conversation is getting shorter. Omolon is getting closer to her.\nEon: Unfortunately it seems like we're going into opposite directions."
-    },
-    {
-      "name": "Unlikely",
-      "tags": "",
-      "id": "5",
-      "text": "**dialog\nEon acknowledges that they are lonely beings by existence.\nEon: Well, you know that is quite unlikely that we both travel to the same direction.\nSilence.\nOmolon: Yea, we are just slaves of the forces. Dang!\n[[Eagle|Farewell]]",
-      "links": [
-        {
-          "linkText": "Eagle|Farewell",
-          "passageName": "Eagle|Farewell",
-          "original": "[[Eagle|Farewell]]"
-        }
-      ],
-      "cleanText": "**dialog\nEon acknowledges that they are lonely beings by existence.\nEon: Well, you know that is quite unlikely that we both travel to the same direction.\nSilence.\nOmolon: Yea, we are just slaves of the forces. Dang!"
-    },
-    {
-      "name": "News",
-      "tags": "",
-      "id": "6",
-      "text": "**explosion\nEon: Well, we probably don't have much time. Anything new that I should be aware of? @eon_surprised_eagle\nOmolon: Oh yea, remember Jepara?\nEon: Yes. What about her?\nOmolon: Well, she crashed herself into a planet.\n[[Eagle|Restarters]]",
-      "links": [
-        {
-          "linkText": "Eagle|Restarters",
-          "passageName": "Eagle|Restarters",
-          "original": "[[Eagle|Restarters]]"
-        }
-      ],
-      "cleanText": "**explosion\nEon: Well, we probably don't have much time. Anything new that I should be aware of? @eon_surprised_eagle\nOmolon: Oh yea, remember Jepara?\nEon: Yes. What about her?\nOmolon: Well, she crashed herself into a planet."
-    },
-    {
-      "name": "Restarters",
-      "tags": "Eagle",
-      "id": "7",
-      "text": "**brokenHeart\nEon: Oh that sucks...You mean, she did that intentionally? @eon_confused_eagle\nOmolon: Yes. And no. I think she was influenced by the restarters movement.\nEon: You mean, the folks who believe that there is life after crashing on a planet.\nOmolon: Yes! She was exhausted by the constant dragging and floating. I mean, I can't blame her. But I'd say it sound kind of nonsensical to believe that she'll restart a new life by destroying herself.\n[[Eagle|Observing]]\n[[Ox|Similar]]",
-      "links": [
-        {
-          "linkText": "Eagle|Observing",
-          "passageName": "Eagle|Observing",
-          "original": "[[Eagle|Observing]]"
+            "text": "**space\nStars far ahead are shining bright. @eon_float_eagle\nEon passed by a sun while back, but she can still feel the warmth.\nFor some reason, it feels nice to float in the void.\n[[Eagle|Friend]]",
+            "links": [
+                {
+                    "name": "Eagle|Friend",
+                    "link": "Eagle|Friend",
+                    "broken": true
+                }
+            ],
+            "name": "Intro",
+            "pid": "1",
+            "position": {
+                "x": "1713",
+                "y": "168"
+            }
         },
         {
-          "linkText": "Ox|Similar",
-          "passageName": "Ox|Similar",
-          "original": "[[Ox|Similar]]"
-        }
-      ],
-      "cleanText": "**brokenHeart\nEon: Oh that sucks...You mean, she did that intentionally? @eon_confused_eagle\nOmolon: Yes. And no. I think she was influenced by the restarters movement.\nEon: You mean, the folks who believe that there is life after crashing on a planet.\nOmolon: Yes! She was exhausted by the constant dragging and floating. I mean, I can't blame her. But I'd say it sound kind of nonsensical to believe that she'll restart a new life by destroying herself."
-    },
-    {
-      "name": "Observing",
-      "tags": "",
-      "id": "8",
-      "text": "**questionMark\nEon is heartbroken but at the same time she is not really convinced that Jepara made a bad decision. @eon_disagree_eagle\nEon: I have to say, We don't really know if she is actually dead though, right? Because we can't really get close enough to a planet to observe whether her plan worked or not.\nOmolon has a suspicious look on her face.\nOmolon: So...You're saying they might be right?\n[[Eagle|Proof]]",
-      "links": [
-        {
-          "linkText": "Eagle|Proof",
-          "passageName": "Eagle|Proof",
-          "original": "[[Eagle|Proof]]"
-        }
-      ],
-      "cleanText": "**questionMark\nEon is heartbroken but at the same time she is not really convinced that Jepara made a bad decision. @eon_disagree_eagle\nEon: I have to say, We don't really know if she is actually dead though, right? Because we can't really get close enough to a planet to observe whether her plan worked or not.\nOmolon has a suspicious look on her face.\nOmolon: So...You're saying they might be right?"
-    },
-    {
-      "name": "Idea",
-      "tags": "",
-      "id": "9",
-      "text": "**questionMark\nOmolon: Yea... Hey, just putting it out there but... What if I'd go into that planet's orbit to turn back towards your direction? @eon_unhappy_ox\nEon doesn't like that idea at all.\nEon: I think it's just too risky. You might end up crashing the planet instead.\n[[Ox|Nah]]",
-      "links": [
-        {
-          "linkText": "Ox|Nah",
-          "passageName": "Ox|Nah",
-          "original": "[[Ox|Nah]]"
-        }
-      ],
-      "cleanText": "**questionMark\nOmolon: Yea... Hey, just putting it out there but... What if I'd go into that planet's orbit to turn back towards your direction? @eon_unhappy_ox\nEon doesn't like that idea at all.\nEon: I think it's just too risky. You might end up crashing the planet instead."
-    },
-    {
-      "name": "Nah",
-      "tags": "",
-      "id": "10",
-      "text": "**dialog\nOmolon: Nah, I think I'll be fine. Look at it, it's kinda small anyway. I doubt it has a powerful gravitational pull. @eon_anxious_ox\nEon feels the stress rising in her body.\nEon: That's really not necessary. We saw each other, we had a good conversation. I'm sure we'll run into each other soon.\n[[Ox|Try]]",
-      "links": [
-        {
-          "linkText": "Ox|Try",
-          "passageName": "Ox|Try",
-          "original": "[[Ox|Try]]"
-        }
-      ],
-      "cleanText": "**dialog\nOmolon: Nah, I think I'll be fine. Look at it, it's kinda small anyway. I doubt it has a powerful gravitational pull. @eon_anxious_ox\nEon feels the stress rising in her body.\nEon: That's really not necessary. We saw each other, we had a good conversation. I'm sure we'll run into each other soon."
-    },
-    {
-      "name": "Try",
-      "tags": "",
-      "id": "11",
-      "text": "**exxMark\nOmolon: Well, I'm doing it! Stop worrying, I'll be next to you soon. @eon_panic_ox\nAs she is getting further and further away, Eon is shouting behind her.\nEon: Please don't do this! I'm begging you!\nOmolon: Chillax! I'll be fine!\n[[Ox|Omolon]]",
-      "links": [
-        {
-          "linkText": "Ox|Omolon",
-          "passageName": "Ox|Omolon",
-          "original": "[[Ox|Omolon]]"
-        }
-      ],
-      "cleanText": "**exxMark\nOmolon: Well, I'm doing it! Stop worrying, I'll be next to you soon. @eon_panic_ox\nAs she is getting further and further away, Eon is shouting behind her.\nEon: Please don't do this! I'm begging you!\nOmolon: Chillax! I'll be fine!"
-    },
-    {
-      "name": "Proof",
-      "tags": "",
-      "id": "12",
-      "text": "**ellipsis\nEon: All I am saying is that we don't have any proof pro or against it. @eon_disagree_eagle\nThere is silence again. This time it is not the travel distance.\nEon realizes that made Omolon uncomfrotable.\n[[Eagle|Farewell]]",
-      "links": [
-        {
-          "linkText": "Eagle|Farewell",
-          "passageName": "Eagle|Farewell",
-          "original": "[[Eagle|Farewell]]"
-        }
-      ],
-      "cleanText": "**ellipsis\nEon: All I am saying is that we don't have any proof pro or against it. @eon_disagree_eagle\nThere is silence again. This time it is not the travel distance.\nEon realizes that made Omolon uncomfrotable."
-    },
-    {
-      "name": "Similar",
-      "tags": "Ox",
-      "id": "13",
-      "text": "**cry\nEon's heart is crushed by this news. @eon_cry_ox\nEon: Poor Jepara... I mean, it is just heartbreaking news. But I think I understand how she must have felt... I feel really lonely sometimes. I feel extremely lucky to run into you just now. You keep me company, even if it is for a short time. You know...\nOmolon: Likewise girl, likewise! I wish we can travel together for longer.\n[[Ox|Wonderful]]\n[[Eagle|Unlikely]]",
-      "links": [
-        {
-          "linkText": "Ox|Wonderful",
-          "passageName": "Ox|Wonderful",
-          "original": "[[Ox|Wonderful]]"
+            "text": "**hi\nShe spots a familiar face far ahead. @eon_hi_eagle\nEon:<color=\"blue\">\"Hey! Hey! Omolon! Is that you?\"</color>\nThere is a wait afterwards. It takes a bit time for the sound waves to travel.\nOmolon:<color=\"black\">\"Eon! Good to see ya sister! How have you been?\"</color>\n[[Eagle|Same]]",
+            "links": [
+                {
+                    "name": "Eagle|Same",
+                    "link": "Eagle|Same",
+                    "broken": true
+                }
+            ],
+            "name": "Friend",
+            "pid": "2",
+            "position": {
+                "x": "1709.3333333333333",
+                "y": "277"
+            }
         },
         {
-          "linkText": "Eagle|Unlikely",
-          "passageName": "Eagle|Unlikely",
-          "original": "[[Eagle|Unlikely]]"
-        }
-      ],
-      "cleanText": "**cry\nEon's heart is crushed by this news. @eon_cry_ox\nEon: Poor Jepara... I mean, it is just heartbreaking news. But I think I understand how she must have felt... I feel really lonely sometimes. I feel extremely lucky to run into you just now. You keep me company, even if it is for a short time. You know...\nOmolon: Likewise girl, likewise! I wish we can travel together for longer."
-    },
-    {
-      "name": "Omolon",
-      "tags": "",
-      "id": "14",
-      "text": "**eyes\nEon keeps looking back to see if Omolon is doing okay. @eon_anxious_ox\nEon: I hope she knows what she is doing. \nAs Omolon finally entering the orbit, Eon holds her breath.\n[[Ox|Crash]]",
-      "links": [
-        {
-          "linkText": "Ox|Crash",
-          "passageName": "Ox|Crash",
-          "original": "[[Ox|Crash]]"
-        }
-      ],
-      "cleanText": "**eyes\nEon keeps looking back to see if Omolon is doing okay. @eon_anxious_ox\nEon: I hope she knows what she is doing. \nAs Omolon finally entering the orbit, Eon holds her breath."
-    },
-    {
-      "name": "Crash",
-      "tags": "",
-      "id": "15",
-      "text": "**explosion\nAfter a little while, Eon sees a little bright dot appearing on the dark gray planet. @eon_panic_ox\nEon: Oh shit! Oh no. NO!\nA couple moments later, Omolon's unfortunate scream arrives to Eon's ears.\n[[Ox|Tears]]\n[[Lion|Grieving]]",
-      "links": [
-        {
-          "linkText": "Ox|Tears",
-          "passageName": "Ox|Tears",
-          "original": "[[Ox|Tears]]"
+            "text": "**dialog\nEon:<color=\"blue\">\"Ah, just the usual. Same old things. How about you?\"</color>@eon_float_eagle\nSilence again.\nOmolon:<color=\"black\">\"Same! Just traveling here and there. It's been ages right?\"</color> \nEon:<color=\"blue\">\"Yes, I know. It sucks to have so little control sometimes.\"</color>\n[[Eagle|News]]",
+            "links": [
+                {
+                    "name": "Eagle|News",
+                    "link": "Eagle|News",
+                    "broken": true
+                }
+            ],
+            "name": "Same",
+            "pid": "3",
+            "position": {
+                "x": "1710.3333333333333",
+                "y": "394"
+            }
         },
         {
-          "linkText": "Lion|Grieving",
-          "passageName": "Lion|Grieving",
-          "original": "[[Lion|Grieving]]"
-        }
-      ],
-      "cleanText": "**explosion\nAfter a little while, Eon sees a little bright dot appearing on the dark gray planet. @eon_panic_ox\nEon: Oh shit! Oh no. NO!\nA couple moments later, Omolon's unfortunate scream arrives to Eon's ears."
-    },
-    {
-      "name": "Tears",
-      "tags": "",
-      "id": "16",
-      "text": "**cry\nEon bursts into tears. @eon_cry_ox\nEon: I told her not to do it! I told her! Why didn't she listen to me? Why?\nIt feels so shitty when your friend just dies.\nEon cries for hours, days, or maybe years. Who knows, time works differently in empty space, I guess.\n[[Ox|Depression]]",
-      "links": [
-        {
-          "linkText": "Ox|Depression",
-          "passageName": "Ox|Depression",
-          "original": "[[Ox|Depression]]"
-        }
-      ],
-      "cleanText": "**cry\nEon bursts into tears. @eon_cry_ox\nEon: I told her not to do it! I told her! Why didn't she listen to me? Why?\nIt feels so shitty when your friend just dies.\nEon cries for hours, days, or maybe years. Who knows, time works differently in empty space, I guess."
-    },
-    {
-      "name": "Grieving",
-      "tags": "",
-      "id": "17",
-      "text": "**cry\nEon: Ah! The unfortunate thing happened. Poor Omolon! @eon_cry_lion\nShe feels sad at first.\nThen, after some grieving period, she starts to see things differently.\n[[Lion|Tried]]",
-      "links": [
-        {
-          "linkText": "Lion|Tried",
-          "passageName": "Lion|Tried",
-          "original": "[[Lion|Tried]]"
-        }
-      ],
-      "cleanText": "**cry\nEon: Ah! The unfortunate thing happened. Poor Omolon! @eon_cry_lion\nShe feels sad at first.\nThen, after some grieving period, she starts to see things differently."
-    },
-    {
-      "name": "Depression",
-      "tags": "",
-      "id": "18",
-      "text": "**ellipsis\nEon is pulled into depressive thoughts. @eon_depressed_ox\nShe starts questioning her existence. \nEon: Is there any point of me existing and drifting in the space? Where am I even going? What's my destination?\n[[Ox|Pain]]",
-      "links": [
-        {
-          "linkText": "Ox|Pain",
-          "passageName": "Ox|Pain",
-          "original": "[[Ox|Pain]]"
-        }
-      ],
-      "cleanText": "**ellipsis\nEon is pulled into depressive thoughts. @eon_depressed_ox\nShe starts questioning her existence. \nEon: Is there any point of me existing and drifting in the space? Where am I even going? What's my destination?"
-    },
-    {
-      "name": "Questioning",
-      "tags": "",
-      "id": "19",
-      "text": "**hourglass\nJepara's story triggers thoughts in Eon's mind. @eon_think_eagle\nShe questions the purpose of her existence, her loneliness, drifting forever, and things you'd consider only if you exist as a meteor.\nEon: I am only passing time. Counting days. And I don't even know how long the days are.\n[[Human|Dreaming]]\n[[Eagle|Dwelling]]",
-      "links": [
-        {
-          "linkText": "Human|Dreaming",
-          "passageName": "Human|Dreaming",
-          "original": "[[Human|Dreaming]]"
+            "text": "**heart\nEon:<color=\"blue\">\"Oh yea, that would've been wonderful!\"</color> @eon_happy_ox\nEon realizes that the silence inbetween the conversation is getting shorter. Omolon is getting closer to her.\nEon:<color=\"blue\">\"Unfortunately it seems like we're going into opposite directions.\"</color>\n[[Ox|Idea]]",
+            "links": [
+                {
+                    "name": "Ox|Idea",
+                    "link": "Ox|Idea",
+                    "broken": true
+                }
+            ],
+            "name": "Wonderful",
+            "pid": "4",
+            "position": {
+                "x": "1827.6666666666667",
+                "y": "504.33333333333337"
+            },
+            "tags": [
+                "Ox"
+            ]
         },
         {
-          "linkText": "Eagle|Dwelling",
-          "passageName": "Eagle|Dwelling",
-          "original": "[[Eagle|Dwelling]]"
-        }
-      ],
-      "cleanText": "**hourglass\nJepara's story triggers thoughts in Eon's mind. @eon_think_eagle\nShe questions the purpose of her existence, her loneliness, drifting forever, and things you'd consider only if you exist as a meteor.\nEon: I am only passing time. Counting days. And I don't even know how long the days are."
-    },
-    {
-      "name": "Dreaming",
-      "tags": "Human",
-      "id": "20",
-      "text": "**think\nShe starts dreaming of planets. What it would be like to exist on a planet, maybe having more freedom to choose destinations and goals. And maybe she wouldn't be as lonely.@eon_dream_human\nEon: I wonder is Jepara is still alive? If so, is she still a meteor or something else? Does she have a better life?\nBut there is even something more important than that.\nEon: I wonder if she has company on that planet.\n[[Human|Decision]]",
-      "links": [
-        {
-          "linkText": "Human|Decision",
-          "passageName": "Human|Decision",
-          "original": "[[Human|Decision]]"
-        }
-      ],
-      "cleanText": "**think\nShe starts dreaming of planets. What it would be like to exist on a planet, maybe having more freedom to choose destinations and goals. And maybe she wouldn't be as lonely.@eon_dream_human\nEon: I wonder is Jepara is still alive? If so, is she still a meteor or something else? Does she have a better life?\nBut there is even something more important than that.\nEon: I wonder if she has company on that planet."
-    },
-    {
-      "name": "Dwelling",
-      "tags": "Eagle",
-      "id": "21",
-      "text": "**hourglass\nSo Eon keeps drifting in space holding onto these disturbing ideas, until the day she finally forgets about what the meaning of life could be. @eon_depressed_eagle\n@end",
-      "links": [],
-      "cleanText": "**hourglass\nSo Eon keeps drifting in space holding onto these disturbing ideas, until the day she finally forgets about what the meaning of life could be. @eon_depressed_eagle\n@end"
-    },
-    {
-      "name": "Decision",
-      "tags": "",
-      "id": "22",
-      "text": "**bluePlanet\nSo at some point in time, she finally makes the decision to give it a try.\nEon: If I die, I'll be dying for my dream. And if not, a worthwhile life will be mine. eon_determined_human\nAfter some thinking she picks a pale blue planet.\n[[Human|Falling]]",
-      "links": [
-        {
-          "linkText": "Human|Falling",
-          "passageName": "Human|Falling",
-          "original": "[[Human|Falling]]"
-        }
-      ],
-      "cleanText": "**bluePlanet\nSo at some point in time, she finally makes the decision to give it a try.\nEon: If I die, I'll be dying for my dream. And if not, a worthwhile life will be mine. eon_determined_human\nAfter some thinking she picks a pale blue planet."
-    },
-    {
-      "name": "Falling",
-      "tags": "",
-      "id": "23",
-      "text": "**falling\nEon goes straight into the planet. @eon_falling_human\nHer stress level is rising fast. She is scared.\nAs she gets closer, she starts to question her decision.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she want to risk her existence?\nAs she is questioning further her decision, she gets to the point where beyond that she just can't go back anymore.\nEon: Okay, this is it. Should I keep going or go back?\n[[Human|Back]]\n[[Lion|Brave]]",
-      "links": [
-        {
-          "linkText": "Human|Back",
-          "passageName": "Human|Back",
-          "original": "[[Human|Back]]"
+            "text": "**dialog\nEon acknowledges that they are lonely beings by existence.\nEon:<color=\"blue\">\"Well, you know that is quite unlikely that we both travel to the same direction.\"</color>\nThis time, the silence is longer.\nOmolon: <color=\"black\">\"Yea, we are just slaves of the forces. Dang!\"</color>\n[[Eagle|Farewell]]",
+            "links": [
+                {
+                    "name": "Eagle|Farewell",
+                    "link": "Eagle|Farewell",
+                    "broken": true
+                }
+            ],
+            "name": "Unlikely",
+            "pid": "5",
+            "position": {
+                "x": "1704.6666666666667",
+                "y": "725.6666666666666"
+            }
         },
         {
-          "linkText": "Lion|Brave",
-          "passageName": "Lion|Brave",
-          "original": "[[Lion|Brave]]"
-        }
-      ],
-      "cleanText": "**falling\nEon goes straight into the planet. @eon_falling_human\nHer stress level is rising fast. She is scared.\nAs she gets closer, she starts to question her decision.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she want to risk her existence?\nAs she is questioning further her decision, she gets to the point where beyond that she just can't go back anymore.\nEon: Okay, this is it. Should I keep going or go back?"
-    },
-    {
-      "name": "Back",
-      "tags": "",
-      "id": "24",
-      "text": "**brokenHeart\nAt that moment it just doesn't make sense anymore. @eon_anxious_human\nShe pushes herself outside of the path with a rush.\nIf she had a heart, it would have beat so fast.\nAfter some moment of shaking and trembling, she is finally back into the endless void.\n[[Human|Forever]]",
-      "links": [
-        {
-          "linkText": "Human|Forever",
-          "passageName": "Human|Forever",
-          "original": "[[Human|Forever]]"
-        }
-      ],
-      "cleanText": "**brokenHeart\nAt that moment it just doesn't make sense anymore. @eon_anxious_human\nShe pushes herself outside of the path with a rush.\nIf she had a heart, it would have beat so fast.\nAfter some moment of shaking and trembling, she is finally back into the endless void."
-    },
-    {
-      "name": "Brave",
-      "tags": "",
-      "id": "25",
-      "text": "**exxMark\nEon: I put so much thinking into this decision and came all this way. Because I was unhappy and unsatisfied. There is nothing worthwhile for me to go back. I am quitting my miserable life. @eon_excited_lion\nShe passes the check point.\nAnd suddenly she just feels free.\nEon: Woo Hoo! For better or worse, here I come! Freedom!\n[[Lion|Surface]]",
-      "links": [
-        {
-          "linkText": "Lion|Surface",
-          "passageName": "Lion|Surface",
-          "original": "[[Lion|Surface]]"
-        }
-      ],
-      "cleanText": "**exxMark\nEon: I put so much thinking into this decision and came all this way. Because I was unhappy and unsatisfied. There is nothing worthwhile for me to go back. I am quitting my miserable life. @eon_excited_lion\nShe passes the check point.\nAnd suddenly she just feels free.\nEon: Woo Hoo! For better or worse, here I come! Freedom!"
-    },
-    {
-      "name": "Farewell",
-      "tags": "",
-      "id": "26",
-      "text": "**hi\nOmolon: Anyway friend, forces are against us as usual. It was really nice to see you! Take care until next time! @eon_float_eagle\nAnd she is driven away like that.\n[[Eagle|Questioning]]",
-      "links": [
-        {
-          "linkText": "Eagle|Questioning",
-          "passageName": "Eagle|Questioning",
-          "original": "[[Eagle|Questioning]]"
-        }
-      ],
-      "cleanText": "**hi\nOmolon: Anyway friend, forces are against us as usual. It was really nice to see you! Take care until next time! @eon_float_eagle\nAnd she is driven away like that."
-    },
-    {
-      "name": "Forever",
-      "tags": "",
-      "id": "27",
-      "text": "**hourglass\nEon keeps traveling the void for unknown ages, looking for some meaning or a friendly face. Once in a while she dreams of crushing into the planet and living a different life. @eon_depressed_human\nUncertainty can be very much alike to forever, right my friend?\nAnd if you look up on a clear night in the sky, maybe she is still traveling out there, dreaming of making a different decision that day.\n@end",
-      "links": [],
-      "cleanText": "**hourglass\nEon keeps traveling the void for unknown ages, looking for some meaning or a friendly face. Once in a while she dreams of crushing into the planet and living a different life. @eon_depressed_human\nUncertainty can be very much alike to forever, right my friend?\nAnd if you look up on a clear night in the sky, maybe she is still traveling out there, dreaming of making a different decision that day.\n@end"
-    },
-    {
-      "name": "Pain",
-      "tags": "",
-      "id": "28",
-      "text": "**hourglass\nThat is how she learned about pain, but she didn't know the name then. @eon_depressed_ox\nSo she drift into the void for ages, and maybe even today.\nTime doesn't heal, just makes her numb. Makes her forget.\nAnd she drifts until the day the forces will pull her to the end. Until that day, it's just counting days.\n@end",
-      "links": [],
-      "cleanText": "**hourglass\nThat is how she learned about pain, but she didn't know the name then. @eon_depressed_ox\nSo she drift into the void for ages, and maybe even today.\nTime doesn't heal, just makes her numb. Makes her forget.\nAnd she drifts until the day the forces will pull her to the end. Until that day, it's just counting days.\n@end"
-    },
-    {
-      "name": "Surface",
-      "tags": "",
-      "id": "29",
-      "text": "**fire\nAs she is approaching the surface, her body starts to burn. @eon_falling_lion\nShe gets smaller and smaller. \nEon: I am fine! I never felt so alive before!\nA part of her feels scared as she is getting closer to the surface, but she doesn't regret her decision. Not even a tiny bit.\n[[Lion|Hit]]",
-      "links": [
-        {
-          "linkText": "Lion|Hit",
-          "passageName": "Lion|Hit",
-          "original": "[[Lion|Hit]]"
-        }
-      ],
-      "cleanText": "**fire\nAs she is approaching the surface, her body starts to burn. @eon_falling_lion\nShe gets smaller and smaller. \nEon: I am fine! I never felt so alive before!\nA part of her feels scared as she is getting closer to the surface, but she doesn't regret her decision. Not even a tiny bit."
-    },
-    {
-      "name": "Hit",
-      "tags": "",
-      "id": "30",
-      "text": "**explosion\nForces of gravity keeps pulling her stronger and stronger. @eon_cheer_lion\nShe is screaming with joy.\nEon: Life! I am here! Take me in!\nSo she finally hits the ground. She feels her body exploding into pieces.\n[[Lion|Slow]]",
-      "links": [
-        {
-          "linkText": "Lion|Slow",
-          "passageName": "Lion|Slow",
-          "original": "[[Lion|Slow]]"
-        }
-      ],
-      "cleanText": "**explosion\nForces of gravity keeps pulling her stronger and stronger. @eon_cheer_lion\nShe is screaming with joy.\nEon: Life! I am here! Take me in!\nSo she finally hits the ground. She feels her body exploding into pieces."
-    },
-    {
-      "name": "Slow",
-      "tags": "",
-      "id": "31",
-      "text": "**heart\nEon was not dead. However, life didn't happened as fast as she expected. @eon_lookAround_lion\nShe remained patient. It started with molecules. Then slowly, she found herself exiting in unicellular organisms, then more complex ones in time. Reptiles, mammals, plants. And humans finally.\n[[Lion|Book]]",
-      "links": [
-        {
-          "linkText": "Lion|Book",
-          "passageName": "Lion|Book",
-          "original": "[[Lion|Book]]"
-        }
-      ],
-      "cleanText": "**heart\nEon was not dead. However, life didn't happened as fast as she expected. @eon_lookAround_lion\nShe remained patient. It started with molecules. Then slowly, she found herself exiting in unicellular organisms, then more complex ones in time. Reptiles, mammals, plants. And humans finally."
-    },
-    {
-      "name": "Book",
-      "tags": "",
-      "id": "32",
-      "text": "~~\n**blueFig\nToday, as Eon lies in her bed, eating a delicious rare blue fig, she is full of existential thoughts. @eon_happy_lion\nShe is just grateful for her decision back in the day.\nShe remembers a line she read in a book. \nThe beauty of a living thing is not the atoms that go into it, but the way those atoms are put together, she tells herself.\n@end",
-      "links": [],
-      "cleanText": "~~\n**blueFig\nToday, as Eon lies in her bed, eating a delicious rare blue fig, she is full of existential thoughts. @eon_happy_lion\nShe is just grateful for her decision back in the day.\nShe remembers a line she read in a book. \nThe beauty of a living thing is not the atoms that go into it, but the way those atoms are put together, she tells herself.\n@end"
-    },
-    {
-      "name": "Tried",
-      "tags": "Lion",
-      "id": "33",
-      "text": "**ellipsis\nEon: It is actually really impressive that she put the effort to change her life for better. That is quite inspiring. She died for something that was important to her. @eon_approve_lion\nSo, the death of Omolon and their last conversation starts to invade Eon's mind more and more.\n[[Lion|Unsure]]",
-      "links": [
-        {
-          "linkText": "Lion|Unsure",
-          "passageName": "Lion|Unsure",
-          "original": "[[Lion|Unsure]]"
-        }
-      ],
-      "cleanText": "**ellipsis\nEon: It is actually really impressive that she put the effort to change her life for better. That is quite inspiring. She died for something that was important to her. @eon_approve_lion\nSo, the death of Omolon and their last conversation starts to invade Eon's mind more and more."
-    },
-    {
-      "name": "Unsure",
-      "tags": "",
-      "id": "34",
-      "text": "**ellipsis\nEon: Maybe she is not death. Maybe she just turned into another being. Walking on a planet, enjoying company, free of gravitational prison. @eon_determined_lion\nThe idea that she is transformed into another form of existence seems more and more possible to Eon.\n[[Human|Dreaming]]\n[[Lion|Risk]]",
-      "links": [
-        {
-          "linkText": "Human|Dreaming",
-          "passageName": "Human|Dreaming",
-          "original": "[[Human|Dreaming]]"
+            "text": "**explosion\nEon:<color=\"blue\">\"Well, we probably don't have much time. Any news that I should be aware of?\"</color> @eon_surprised_eagle\n...\nOmolon:<color=\"black\">\"Oh yea, remember Jepara?\"</color>\nEon:<color=\"blue\">\"Yes, of course! What about her?\"</color>\n...\nOmolon:<color=\"black\">\"Well, she crashed herself into a planet.\"</color>\n[[Eagle|Restarters]]",
+            "links": [
+                {
+                    "name": "Eagle|Restarters",
+                    "link": "Eagle|Restarters",
+                    "broken": true
+                }
+            ],
+            "name": "News",
+            "pid": "6",
+            "position": {
+                "x": "1581.3333333333333",
+                "y": "507.33333333333337"
+            }
         },
         {
-          "linkText": "Lion|Risk",
-          "passageName": "Lion|Risk",
-          "original": "[[Lion|Risk]]"
-        }
-      ],
-      "cleanText": "**ellipsis\nEon: Maybe she is not death. Maybe she just turned into another being. Walking on a planet, enjoying company, free of gravitational prison. @eon_determined_lion\nThe idea that she is transformed into another form of existence seems more and more possible to Eon."
-    },
-    {
-      "name": "Risk",
-      "tags": "",
-      "id": "35",
-      "text": "**bluePlanet\nEon comes to a point that taking a risk to see it for herself seems worth it.\nIn the end, hers is not life. She is just a lonely meteor, drifting in the void with no purpose. All she does is waiting for something, but she doesn't even know what that is.\nSo one day, she finally makes the decision to crash herself into a planet.\nShe picks a pale blue dot as her target.\n[[Lion|Fall]]",
-      "links": [
-        {
-          "linkText": "Lion|Fall",
-          "passageName": "Lion|Fall",
-          "original": "[[Lion|Fall]]"
-        }
-      ],
-      "cleanText": "**bluePlanet\nEon comes to a point that taking a risk to see it for herself seems worth it.\nIn the end, hers is not life. She is just a lonely meteor, drifting in the void with no purpose. All she does is waiting for something, but she doesn't even know what that is.\nSo one day, she finally makes the decision to crash herself into a planet.\nShe picks a pale blue dot as her target."
-    },
-    {
-      "name": "Fall",
-      "tags": "",
-      "id": "36",
-      "text": "**falling\nEon goes straight into the planet. @eon_falling_lion\nHer stress level is rising fast. She is scared.\nAs she gets closer, she starts to question her decision.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she want to risk her existence?\nAs she is questioning further her decision, she gets to the point where beyond that she just can't go back anymore.\nEon: Okay, this is it. Should I keep going or go back?\n[[Human|Back]]\n[[Lion|Brave]]",
-      "links": [
-        {
-          "linkText": "Human|Back",
-          "passageName": "Human|Back",
-          "original": "[[Human|Back]]"
+            "text": "**brokenHeart\nEon:<color=\"blue\">\"Oh that sucks...You mean, she did that intentionally?\"</color> @eon_confused_eagle\n...\nOmolon:<color=\"black\">\"Yes. And no. I think she was influenced by the restarters movement.\"</color>\nEon:<color=\"blue\">\"You mean, the folks who believe that there is life after crashing on a planet.\"</color>\n...\nOmolon:<color=\"black\">\"Yes! I remember her telling me how exhausted she feels because of the constant dragging and floating. I mean, I can't blame her. But I'd say it sounds kind of irrational to believe that she'll start a new life by destroying herself.\"</color>\n[[Eagle|Observing]]\n[[Ox|Similar]]",
+            "links": [
+                {
+                    "name": "Eagle|Observing",
+                    "link": "Eagle|Observing",
+                    "broken": true
+                },
+                {
+                    "name": "Ox|Similar",
+                    "link": "Ox|Similar",
+                    "broken": true
+                }
+            ],
+            "name": "Restarters",
+            "pid": "7",
+            "position": {
+                "x": "1642.6666666666667",
+                "y": "616"
+            },
+            "tags": [
+                "Eagle"
+            ]
         },
         {
-          "linkText": "Lion|Brave",
-          "passageName": "Lion|Brave",
-          "original": "[[Lion|Brave]]"
+            "text": "**questionMark\nEon is heartbroken but at the same time she is not really convinced that Jepara made a bad decision. @eon_disagree_eagle\nEon:<color=\"blue\">\"I have to say though, we don't really know if she is actually dead though, right? I mean... We can't really get close enough to a planet to observe whether her plan worked or not.\"</color>\nSomething hints Eon that Omolon is not happy about where this conversation is headed.\nOmolon:<color=\"black\">\"So...You're saying they might be right?\"</color>\n[[Eagle|Proof]]",
+            "links": [
+                {
+                    "name": "Eagle|Proof",
+                    "link": "Eagle|Proof",
+                    "broken": true
+                }
+            ],
+            "name": "Observing",
+            "pid": "8",
+            "position": {
+                "x": "1574",
+                "y": "727"
+            }
+        },
+        {
+            "text": "**questionMark\nOmolon:<color=\"black\">\"Yea... Hey, just putting it out there but... What if I'd go into that planet's orbit to turn back towards your direction?\"</color> @eon_unhappy_ox\nIt sounds just too risky to Eon.\nEon:<color=\"blue\">\"I don't think that's a good idea. You might end up crashing the planet instead.\"</color>\n[[Ox|Nah]]",
+            "links": [
+                {
+                    "name": "Ox|Nah",
+                    "link": "Ox|Nah",
+                    "broken": true
+                }
+            ],
+            "name": "Idea",
+            "pid": "9",
+            "position": {
+                "x": "1771.3333333333335",
+                "y": "613"
+            }
+        },
+        {
+            "text": "**dialog\nOmolon:<color=\"black\">\"Nah, I think I'll be fine. Look at it, it's kinda small anyway. I doubt it'll have powerful gravitational pull.</color> @eon_anxious_ox\nEon feels the stress rising in her body.\nEon:<color=\"blue\">\"That's really not necessary. We saw each other, we had a good conversation. I'm sure we'll run into each other soon.\"</color>\n[[Ox|Try]]",
+            "links": [
+                {
+                    "name": "Ox|Try",
+                    "link": "Ox|Try",
+                    "broken": true
+                }
+            ],
+            "name": "Nah",
+            "pid": "10",
+            "position": {
+                "x": "1829",
+                "y": "725"
+            }
+        },
+        {
+            "text": "**exxMark\nOmolon:<color=\"black\">\"Stop it! I'll be fine. See you soon!\"</color> @eon_panic_ox\nAs she is getting further and further away, Eon is shouting behind her.\nEon:<color=\"blue\">\"Please don't do this! I'm begging you!\"</color>\nOmolon:<color=\"black\">\"Chillax! It's okay.\"</color>\n[[Ox|Omolon]]",
+            "links": [
+                {
+                    "name": "Ox|Omolon",
+                    "link": "Ox|Omolon",
+                    "broken": true
+                }
+            ],
+            "name": "Try",
+            "pid": "11",
+            "position": {
+                "x": "1765.3333333333333",
+                "y": "834"
+            }
+        },
+        {
+            "text": "**ellipsis\nEon:<color=\"blue\">\"All I am saying is that we don't have any proof pro or against it.\"</color> @eon_disagree_eagle\nThere is the awkward silence again. This time it is not the travel distance.\nEon realizes that she made Omolon uncomfrotable.\n[[Eagle|Farewell]]",
+            "links": [
+                {
+                    "name": "Eagle|Farewell",
+                    "link": "Eagle|Farewell",
+                    "broken": true
+                }
+            ],
+            "name": "Proof",
+            "pid": "12",
+            "position": {
+                "x": "1628.6666666666667",
+                "y": "833.3333333333333"
+            }
+        },
+        {
+            "text": "**cry\nEon's heart is crushed by this news. @eon_cry_ox\nEon:<color=\"blue\">\"Poor Jepara... I mean, it is just heartbreaking news. But I think I understand how she must have felt... I feel really lonely sometimes. I feel extremely lucky to run into you just now. You keep me company, even if it is for a short time. You know...\"</color>\n...\nOmolon:<color=\"black\">\"Likewise girl, likewise! I wish we can travel together for longer.\"</color>\n[[Ox|Wonderful]]\n[[Eagle|Unlikely]]",
+            "links": [
+                {
+                    "name": "Ox|Wonderful",
+                    "link": "Ox|Wonderful",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Unlikely",
+                    "link": "Eagle|Unlikely",
+                    "broken": true
+                }
+            ],
+            "name": "Similar",
+            "pid": "13",
+            "position": {
+                "x": "1707.3333333333333",
+                "y": "508.33333333333337"
+            },
+            "tags": [
+                "Ox"
+            ]
+        },
+        {
+            "text": "**eyes\n@sfx_heartbeat\nEon keeps looking back to see if Omolon is doing okay. @eon_anxious_ox\nEon:<color=\"blue\">\"I hope she knows what she is doing.\"</color>\nAs Omolon finally entering the orbit, Eon holds her non-existent breath.\n[[Ox|Crash]]",
+            "links": [
+                {
+                    "name": "Ox|Crash",
+                    "link": "Ox|Crash",
+                    "broken": true
+                }
+            ],
+            "name": "Omolon",
+            "pid": "14",
+            "position": {
+                "x": "1839.3333333333333",
+                "y": "950"
+            }
+        },
+        {
+            "text": "**explosion\nAfter a little while, Eon sees a little bright dot appearing on the dark gray planet. @eon_panic_ox\nEon:<color=\"blue\">\"Oh shit! Oh no...NO!\"</color>\nA couple moments later, Omolon's unfortunate scream arrives to Eon's ears. @sfx_explosion\n[[Ox|Tears]]\n[[Lion|Grieving]]",
+            "links": [
+                {
+                    "name": "Ox|Tears",
+                    "link": "Ox|Tears",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Grieving",
+                    "link": "Lion|Grieving",
+                    "broken": true
+                }
+            ],
+            "name": "Crash",
+            "pid": "15",
+            "position": {
+                "x": "1893.6666666666667",
+                "y": "1064"
+            }
+        },
+        {
+            "text": "**cry\n@sfx_cry\nEon bursts into tears. @eon_cry_ox\nEon:<color=\"blue\">\"I told her not to do it! I told her! Why didn't she listen to me? Why?\"</color>\nIt feels so shitty when your friend just dies.\nEon cries for hours, days, or maybe years. Who knows, time works differently in empty space, I guess.\n[[Ox|Depression]]",
+            "links": [
+                {
+                    "name": "Ox|Depression",
+                    "link": "Ox|Depression",
+                    "broken": true
+                }
+            ],
+            "name": "Tears",
+            "pid": "16",
+            "position": {
+                "x": "1821.6666666666665",
+                "y": "1170.6666666666667"
+            }
+        },
+        {
+            "text": "**cry\n@sfx_cry\nEon:<color=\"blue\">\"Ah! Why didn't she just listened to me? Poor Omolon!\"</color> @eon_cry_lion\nShe feels sad at first.\nThen, after some grieving period, she starts to see things differently.\nEon:<color=\"blue\">\"I guess, that was her choice after all. There wasn't much I could do...\"</color>\n[[Lion|Tried]]",
+            "links": [
+                {
+                    "name": "Lion|Tried",
+                    "link": "Lion|Tried",
+                    "broken": true
+                }
+            ],
+            "name": "Grieving",
+            "pid": "17",
+            "position": {
+                "x": "1750.6666666666667",
+                "y": "1066.3333333333333"
+            }
+        },
+        {
+            "text": "**ellipsis\nEon is pulled into depressive thoughts. @eon_depressed_ox\nShe starts questioning her existence. \nEon:<color=\"blue\">\"Is there any point of me existing and drifting in the space? Where am I even going? What's my destination?\"</color>\n[[Ox|Pain]]",
+            "links": [
+                {
+                    "name": "Ox|Pain",
+                    "link": "Ox|Pain",
+                    "broken": true
+                }
+            ],
+            "name": "Depression",
+            "pid": "18",
+            "position": {
+                "x": "1821",
+                "y": "1281"
+            }
+        },
+        {
+            "text": "**hourglass\nJepara's story triggers thoughts in Eon's mind. @eon_think_eagle\nShe questions the purpose of her existence, her loneliness, drifting forever, and things you'd consider only if you are a meteor.\nEon:<color=\"blue\">\"I am only passing time. Counting days. And I don't even know how long the days are.\"</color>\n[[Human|Dreaming]]\n[[Eagle|Dwelling]]",
+            "links": [
+                {
+                    "name": "Human|Dreaming",
+                    "link": "Human|Dreaming",
+                    "broken": true
+                },
+                {
+                    "name": "Eagle|Dwelling",
+                    "link": "Eagle|Dwelling",
+                    "broken": true
+                }
+            ],
+            "name": "Questioning",
+            "pid": "19",
+            "position": {
+                "x": "1508.3333333333335",
+                "y": "1048.3333333333333"
+            }
+        },
+        {
+            "text": "**think\nShe starts dreaming of planets. What it would be like to exist on a surface. Having more freedom to choose destinations and goals. And maybe she wouldn't be as lonely.@eon_dream_human\nEon:<color=\"blue\">\"I wonder is Jepara is still alive? If so, is she still a meteor or something else? Does she have a better life?\"</color>\nBut there is even something more important than that.\nEon:<color=\"blue\">\"I wonder if she has company on that planet.\"</color>\n[[Human|Decision]]",
+            "links": [
+                {
+                    "name": "Human|Decision",
+                    "link": "Human|Decision",
+                    "broken": true
+                }
+            ],
+            "name": "Dreaming",
+            "pid": "20",
+            "position": {
+                "x": "1686.3333333333333",
+                "y": "1167.6666666666665"
+            },
+            "tags": [
+                "Human"
+            ]
+        },
+        {
+            "text": "**hourglass\n@sfx_tiktok\nSo Eon keeps drifting in space suffocating in these disturbing thoughts, until the day she finally forgets about what the meaning of life could possibly be. @eon_depressed_eagle",
+            "name": "Dwelling",
+            "pid": "21",
+            "position": {
+                "x": "1569.6666666666667",
+                "y": "1173"
+            },
+            "tags": [
+                "Eagle"
+            ]
+        },
+        {
+            "text": "**bluePlanet\nSo at some point in time, she finally makes the decision to crash on a planet.\nEon:<color=\"blue\">\"If I die, I'll be dying for my dream. And if not, a worthwhile life will be mine.\"</color>eon_determined_human\nAfter some thinking, she picks a pale blue planet randomly.\n[[Human|Falling]]",
+            "links": [
+                {
+                    "name": "Human|Falling",
+                    "link": "Human|Falling",
+                    "broken": true
+                }
+            ],
+            "name": "Decision",
+            "pid": "22",
+            "position": {
+                "x": "1568",
+                "y": "1281.3333333333333"
+            }
+        },
+        {
+            "text": "**falling\n@sfx_siren\nEon goes straight into the planet. @eon_falling_human\nHer stress level is rising fast. She is scared.\nAs she gets closer, she starts to question her decision.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she want to risk her existence?\nAs she is questioning further her decision, she gets to the point where beyond that she just can't go back anymore.\nEon:<color=\"blue\">\"Okay, this is it. Should I keep going or go back?\"</color>\n[[Human|Back]]\n[[Lion|Brave]]",
+            "links": [
+                {
+                    "name": "Human|Back",
+                    "link": "Human|Back",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Brave",
+                    "link": "Lion|Brave",
+                    "broken": true
+                }
+            ],
+            "name": "Falling",
+            "pid": "23",
+            "position": {
+                "x": "1574.3333333333333",
+                "y": "1394.3333333333333"
+            }
+        },
+        {
+            "text": "**brokenHeart\nAt that moment, it just doesn't make sense anymore. @eon_anxious_human\nShe pushes herself outside of the path with last bit of her energy.\nIf she had a heart, it would have beat so fast.\nAfter some shaking and trembling, she is finally back into the soft, endless void.\n[[Human|Forever]]",
+            "links": [
+                {
+                    "name": "Human|Forever",
+                    "link": "Human|Forever",
+                    "broken": true
+                }
+            ],
+            "name": "Back",
+            "pid": "24",
+            "position": {
+                "x": "1631.3333333333333",
+                "y": "1516.3333333333333"
+            }
+        },
+        {
+            "text": "**exxMark\nEon:<color=\"blue\">\"I put so much thinking into this decision and came all this way. I was unhappy and unsatisfied. There is nothing worthwhile for me to go back. I am quitting my miserable life and I am doing this for myself!\"</color> @eon_falling_lion\nShe passes the check point.\nAnd suddenly she just feels free.\nEon:<color=\"blue\">\"Woo Hoo! For better or worse, here I come! Freedom!\"</color>\n[[Lion|Surface]]",
+            "links": [
+                {
+                    "name": "Lion|Surface",
+                    "link": "Lion|Surface",
+                    "broken": true
+                }
+            ],
+            "name": "Brave",
+            "pid": "25",
+            "position": {
+                "x": "1759.6666666666667",
+                "y": "1513"
+            }
+        },
+        {
+            "text": "**hi\nOmolon:<color=\"black\">\"Anyway friend, forces are against us as usual. It was really nice to see you! Take care until next time!\"</color> @eon_float_eagle\nSo she floats away quietly.\n[[Eagle|Questioning]]",
+            "links": [
+                {
+                    "name": "Eagle|Questioning",
+                    "link": "Eagle|Questioning",
+                    "broken": true
+                }
+            ],
+            "name": "Farewell",
+            "pid": "26",
+            "position": {
+                "x": "1570.6666666666667",
+                "y": "945"
+            }
+        },
+        {
+            "text": "**hourglass\nEon keeps traveling in the void for unknown ages, looking for some meaning or a friendly face. Once in a while, she dreams of crushing into the planet and living a different life. @eon_depressed_human\nUncertainty can be very much like to forever, right my friend?\nAnd if you look up on a clear night in the sky, maybe she is still traveling out there, dreaming of making a different decision that day.\n",
+            "name": "Forever",
+            "pid": "27",
+            "position": {
+                "x": "1637",
+                "y": "1628.3333333333333"
+            }
+        },
+        {
+            "text": "**hourglass\nThat is how she learned about pain, but she didn't know the name then. @eon_depressed_ox\nSo she drift into the void for ages, and maybe even today.\nTime doesn't heal, just makes her numb. Makes her forget.\nAnd she drifts until the day the forces will pull her to the end. Until that day, it's just counting days.",
+            "name": "Pain",
+            "pid": "28",
+            "position": {
+                "x": "1815.6666666666665",
+                "y": "1404.3333333333333"
+            }
+        },
+        {
+            "text": "**fire\nAs she is approaching the surface, her body starts to burn and fall into pieces. @eon_falling_lion\n@sfx_burn\nShe gets smaller and smaller. \nEon:<color=\"blue\">\"I am fine! I never felt so alive before!\"</color>\nA part of her feels scared as she is getting closer to the surface, but she doesn't regret her decision. Not even a tiny bit.\n[[Lion|Hit]]",
+            "links": [
+                {
+                    "name": "Lion|Hit",
+                    "link": "Lion|Hit",
+                    "broken": true
+                }
+            ],
+            "name": "Surface",
+            "pid": "29",
+            "position": {
+                "x": "1765",
+                "y": "1627.3333333333333"
+            }
+        },
+        {
+            "text": "**explosion\n@sfx_heartbeat\nForces of gravity keeps pulling her stronger and stronger. @eon_excited_lion\nShe is screaming with joy.\nEon:<color=\"blue\">\"Life! I am here! Take me in!\"</color>\nSo she finally hits the ground. She feels her body exploding into pieces.\n[[Lion|Slow]]",
+            "links": [
+                {
+                    "name": "Lion|Slow",
+                    "link": "Lion|Slow",
+                    "broken": true
+                }
+            ],
+            "name": "Hit",
+            "pid": "30",
+            "position": {
+                "x": "1686.6666666666667",
+                "y": "1742.3333333333333"
+            }
+        },
+        {
+            "text": "**heart\n@sfx_explosion\nEon was not dead. However, life didn't happened as fast as she expected. @eon_lookAround_lion\nShe remained patient. It started with molecules. Then slowly, she found herself exiting in unicellular organisms. Afterwards more complex ones in time. Reptiles, mammals, plants. And humans finally.\n[[Lion|Book]]",
+            "links": [
+                {
+                    "name": "Lion|Book",
+                    "link": "Lion|Book",
+                    "broken": true
+                }
+            ],
+            "name": "Slow",
+            "pid": "31",
+            "position": {
+                "x": "1690.6666666666667",
+                "y": "1858"
+            }
+        },
+        {
+            "text": "~~\n**blueFig\n@sfx_bite\nToday, as Eon lies in her bed, eating a delicious rare blue fig, she is full of existential thoughts. @eon_happy_lion\nShe is just grateful for her decision back in the day.\nShe remembers a line she read in a book. \nThe beauty of a living thing is not the atoms that go into it, but the way those atoms are put together, she tells herself.",
+            "name": "Book",
+            "pid": "32",
+            "position": {
+                "x": "1690.3333333333333",
+                "y": "1985.3333333333335"
+            }
+        },
+        {
+            "text": "**ellipsis\nEon:<color=\"blue\">\"It is actually really impressive that she put the effort to change her life for better. That is quite inspiring. She died for something that was important to her.\"</color> @eon_approve_lion\nSo, the death of Omolon and their last conversation starts to invade Eon's mind more and more.\n[[Lion|Unsure]]",
+            "links": [
+                {
+                    "name": "Lion|Unsure",
+                    "link": "Lion|Unsure",
+                    "broken": true
+                }
+            ],
+            "name": "Tried",
+            "pid": "33",
+            "position": {
+                "x": "1697.3333333333333",
+                "y": "947.6666666666667"
+            },
+            "tags": [
+                "Lion"
+            ]
+        },
+        {
+            "text": "**ellipsis\nEon:<color=\"blue\">\"Maybe she is not dead. Maybe she just turned into another being. Walking on a planet, enjoying actual company, free of the gravitational prison.\"</color> @eon_determined_lion\nThe idea that she is transformed into another form of existence seems more and more possible dream to Eon.\n[[Human|Dreaming]]\n[[Lion|Risk]]",
+            "links": [
+                {
+                    "name": "Human|Dreaming",
+                    "link": "Human|Dreaming",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Risk",
+                    "link": "Lion|Risk",
+                    "broken": true
+                }
+            ],
+            "name": "Unsure",
+            "pid": "34",
+            "position": {
+                "x": "1630.6666666666667",
+                "y": "1057.6666666666665"
+            }
+        },
+        {
+            "text": "**bluePlanet\nEon comes to a point that taking the risk to see it for herself seems more than worth it. @eon_float_lion\nIn the end, she decided hers is not a life. She is just a lonely meteor, drifting in the void with no purpose. All she does is waiting for something to happen. But she doesn't even know what that would be.\nSo one day, she finally makes the decision to crash herself into a planet.\nShe picks a pale blue dot as her target.\n[[Lion|Fall]]",
+            "links": [
+                {
+                    "name": "Lion|Fall",
+                    "link": "Lion|Fall",
+                    "broken": true
+                }
+            ],
+            "name": "Risk",
+            "pid": "35",
+            "position": {
+                "x": "1693.3333333333333",
+                "y": "1280"
+            }
+        },
+        {
+            "text": "**falling\nEon goes straight into the planet. @eon_falling_lion\nHer stress level keeps rising. She is really scared.\nEon starts to question her decisio, as she gets closer.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she really want to risk her existence?\nFinally she gets to the point where beyond that she just can't go back anymore.\nEon:<color=\"blue\">\"Okay, this is it. Should I keep going or go back?\"</color>\n[[Human|Back]]\n[[Lion|Brave]]",
+            "links": [
+                {
+                    "name": "Human|Back",
+                    "link": "Human|Back",
+                    "broken": true
+                },
+                {
+                    "name": "Lion|Brave",
+                    "link": "Lion|Brave",
+                    "broken": true
+                }
+            ],
+            "name": "Fall",
+            "pid": "36",
+            "position": {
+                "x": "1690.6666666666667",
+                "y": "1389"
+            }
         }
-      ],
-      "cleanText": "**falling\nEon goes straight into the planet. @eon_falling_lion\nHer stress level is rising fast. She is scared.\nAs she gets closer, she starts to question her decision.\nEon imagines the moment of hitting and just disappearing in pain.\nDoes she want to risk her existence?\nAs she is questioning further her decision, she gets to the point where beyond that she just can't go back anymore.\nEon: Okay, this is it. Should I keep going or go back?"
-    }
-  ]
+    ],
+    "name": "TWC-StoryEagle-Meteor",
+    "startnode": "36",
+    "creator": "Twine",
+    "creator-version": "2.3.15",
+    "ifid": "2F9AA967-DC9A-431F-818E-5C2306647763"
 }
+

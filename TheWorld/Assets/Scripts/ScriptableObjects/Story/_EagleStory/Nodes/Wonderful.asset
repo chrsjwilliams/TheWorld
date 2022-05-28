@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c936ff015fdbb44fba78a54923bf43d6, type: 3}
   NodeTitle: Wonderful
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Oh yea, that would''ve been wonderful! '
+    line: '<color="blue">"Oh yea, that would''ve been wonderful!"</color> '
     lineActions:
     - {fileID: 11400000, guid: 2ccd034d8b85c48269c1c5cce7495d08, type: 2}
     Notes: 
@@ -76,7 +77,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Unfortunately it seems like we''re going into opposite directions.'
+    line: <color="blue">"Unfortunately it seems like we're going into opposite directions."</color>
     lineActions: []
     Notes: 
   Notes: 

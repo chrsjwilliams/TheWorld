@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: Crash
@@ -85,12 +86,14 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Oh shit! Oh no. NO!'
+    line: <color="blue">"Oh shit! Oh no...NO!"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: A couple moments later, Omolon's unfortunate scream arrives to Eon's ears.
-    lineActions: []
+    line: 'A couple moments later, Omolon''s unfortunate scream arrives to Eon''s
+      ears. '
+    lineActions:
+    - {fileID: 11400000, guid: 7aa11a3d1b8864b33abf9899b80c07e9, type: 2}
     Notes: 
   Notes: 
   lineActions: []

@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c936ff015fdbb44fba78a54923bf43d6, type: 3}
   NodeTitle: Slow
@@ -72,9 +73,10 @@ MonoBehaviour:
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: She remained patient. It started with molecules. Then slowly, she found
-      herself exiting in unicellular organisms, then more complex ones in time. Reptiles,
-      mammals, plants. And humans finally.
+      herself exiting in unicellular organisms. Afterwards more complex ones in time.
+      Reptiles, mammals, plants. And humans finally.
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 7aa11a3d1b8864b33abf9899b80c07e9, type: 2}

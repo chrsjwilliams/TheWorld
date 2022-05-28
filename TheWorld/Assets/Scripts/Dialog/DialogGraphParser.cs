@@ -72,9 +72,6 @@ public class DialogGraphParser : MonoBehaviour
     [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
     [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
 
-    const string COLOUR_TAG = " (text-colour: ";
-    const string COLOR_TAG = " (text-color: ";
-
     ShuffleBag<int> intBag = new ShuffleBag<int>();
 
     public void FinishedAnimating(bool b)
@@ -408,31 +405,6 @@ public class DialogGraphParser : MonoBehaviour
                 hasNPCDialog = false;
             }
 
-            if (line.line.Contains(COLOR_TAG) || line.line.Contains(COLOUR_TAG))
-            {
-                npcProfileCanvasGroup.alpha = 1;
-
-                if (line.line.Contains(COLOR_TAG))
-                {
-                    line.line = line.line.Replace(COLOR_TAG, "<color=");
-                }
-                else
-                {
-                    line.line = line.line.Replace(COLOUR_TAG, "<color=");
-                }
-                line.line = line.line.Replace(")", ">");
-
-                line.line = line.line.Replace("[", "");
-                line.line = line.line.Replace("]", "");
-
-                line.line += "</color>";
-
-            }
-
-            if(line.line.Contains("<color=") && line.line.Contains("</color>"))
-            {
-                line.line += "</color>";
-            }
             nodetext += line.line + "\n";
             line.ExecuteTagActions(() => { });
         }

@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: e887dd723aa164086af7925ebb3afd7b, type: 3}
   NodeTitle: Grieving
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Ah! The unfortunate thing happened. Poor Omolon! '
+    line: '<color="blue">"Ah! Why didn''t she just listened to me? Poor Omolon!"</color> '
     lineActions:
     - {fileID: 11400000, guid: c48b5fce7785f4c19b628d0c0bd92a78, type: 2}
     Notes: 
@@ -78,5 +79,11 @@ MonoBehaviour:
     line: Then, after some grieving period, she starts to see things differently.
     lineActions: []
     Notes: 
+  - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
+    line: <color="blue">"I guess, that was her choice after all. There wasn't much
+      I could do..."</color>
+    lineActions: []
+    Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: 06479049bb54f499595c11d8152b9bea, type: 2}

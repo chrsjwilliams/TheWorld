@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: f7904cfe4043d4c5e8ebe84d0917463b, type: 3}
   NodeTitle: Omolon
@@ -71,12 +72,13 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I hope she knows what she is doing. '
+    line: <color="blue">"I hope she knows what she is doing."</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: As Omolon finally entering the orbit, Eon holds her breath.
+    line: As Omolon finally entering the orbit, Eon holds her non-existent breath.
     lineActions: []
     Notes: 
   Notes: 
-  lineActions: []
+  lineActions:
+  - {fileID: 11400000, guid: a01edc7b353c04911854362ad1e57e10, type: 2}

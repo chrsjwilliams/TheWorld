@@ -48,16 +48,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Dwelling
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'So Eon keeps drifting in space holding onto these disturbing ideas, until
-      the day she finally forgets about what the meaning of life could be. '
+    line: 'So Eon keeps drifting in space suffocating in these disturbing thoughts,
+      until the day she finally forgets about what the meaning of life could possibly
+      be. '
     lineActions:
     - {fileID: 11400000, guid: 43a9882f38a0a4ecc9a0fa51fc8437a8, type: 2}
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 0}
+  - {fileID: 11400000, guid: 21771953207b24f33ba30ab42f138f2f, type: 2}

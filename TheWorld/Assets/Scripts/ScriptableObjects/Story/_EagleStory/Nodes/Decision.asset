@@ -61,21 +61,23 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Decision
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: So at some point in time, she finally makes the decision to give it a try.
+    line: So at some point in time, she finally makes the decision to crash on a
+      planet.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' If I die, I''ll be dying for my dream. And if not, a worthwhile life
-      will be mine. eon_determined_human'
+    line: <color="blue">"If I die, I'll be dying for my dream. And if not, a worthwhile
+      life will be mine."</color>eon_determined_human
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: After some thinking she picks a pale blue planet.
+    line: After some thinking, she picks a pale blue planet randomly.
     lineActions: []
     Notes: 
   Notes: 

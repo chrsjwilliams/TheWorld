@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Same
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Ah, nothing much changed. Same old things. How about you? '
+    line: <color="blue">"Ah, just the usual. Same old things. How about you?"</color>
     lineActions:
     - {fileID: 11400000, guid: 66c5c37e8ee2043ffb444d77c1625c87, type: 2}
     Notes: 
@@ -74,12 +75,12 @@ MonoBehaviour:
     line: Silence again.
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' Same! Just traveling here and there. It''s been ages right? '
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: '<color="black">"Same! Just traveling here and there. It''s been ages right?"</color> '
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Yes, I know. It sucks to be so much out of control sometimes.'
+    line: <color="blue">"Yes, I know. It sucks to have so little control sometimes."</color>
     lineActions: []
     Notes: 
   Notes: 

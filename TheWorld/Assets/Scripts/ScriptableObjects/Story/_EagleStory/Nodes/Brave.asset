@@ -61,16 +61,17 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Brave
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' I put so much thinking into this decision and came all this way. Because
-      I was unhappy and unsatisfied. There is nothing worthwhile for me to go back.
-      I am quitting my miserable life. '
+    line: '<color="blue">"I put so much thinking into this decision and came all
+      this way. I was unhappy and unsatisfied. There is nothing worthwhile for me
+      to go back. I am quitting my miserable life and I am doing this for myself!"</color> '
     lineActions:
-    - {fileID: 11400000, guid: 57e327d9003de41879cfb9d401d061b9, type: 2}
+    - {fileID: 11400000, guid: e79a15c4d632443ab80a610c87a2870c, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: She passes the check point.
@@ -81,7 +82,7 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Woo Hoo! For better or worse, here I come! Freedom!'
+    line: <color="blue">"Woo Hoo! For better or worse, here I come! Freedom!"</color>
     lineActions: []
     Notes: 
   Notes: 

@@ -61,13 +61,14 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Nah
   speakingLines:
-  - speaker: {fileID: 0}
-    line: ' Nah, I think I''ll be fine. Look at it, it''s kinda small anyway. I doubt
-      it has a powerful gravitational pull. '
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: '<color="black">"Nah, I think I''ll be fine. Look at it, it''s kinda small
+      anyway. I doubt it''ll have powerful gravitational pull.</color> '
     lineActions:
     - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
     Notes: 
@@ -76,8 +77,8 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' That''s really not necessary. We saw each other, we had a good conversation.
-      I''m sure we''ll run into each other soon.'
+    line: <color="blue">"That's really not necessary. We saw each other, we had a
+      good conversation. I'm sure we'll run into each other soon."</color>
     lineActions: []
     Notes: 
   Notes: 

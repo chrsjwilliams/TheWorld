@@ -61,26 +61,35 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: c08077736f5b2427fb63548c4c07baee, type: 3}
   NodeTitle: News
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Well, we probably don''t have much time. Anything new that I should be
-      aware of? '
+    line: '<color="blue">"Well, we probably don''t have much time. Any news that
+      I should be aware of?"</color> '
     lineActions:
     - {fileID: 11400000, guid: 0c991f546440f4507b1bf988de3de7c4, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' Oh yea, remember Jepara?'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ...
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: <color="black">"Oh yea, remember Jepara?"</color>
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Yes. What about her?'
+    line: <color="blue">"Yes, of course! What about her?"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' Well, she crashed herself into a planet.'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ...
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: <color="black">"Well, she crashed herself into a planet."</color>
     lineActions: []
     Notes: 
   Notes: 

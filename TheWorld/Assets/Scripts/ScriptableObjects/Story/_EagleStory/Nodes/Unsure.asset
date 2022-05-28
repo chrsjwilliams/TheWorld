@@ -74,19 +74,21 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b6defd7771b00460a8d33fae5540bad0, type: 3}
   NodeTitle: Unsure
   speakingLines:
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Maybe she is not death. Maybe she just turned into another being. Walking
-      on a planet, enjoying company, free of gravitational prison. '
+    line: '<color="blue">"Maybe she is not dead. Maybe she just turned into another
+      being. Walking on a planet, enjoying actual company, free of the gravitational
+      prison."</color> '
     lineActions:
     - {fileID: 11400000, guid: a744057bb411e42518a6883a689ca24d, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: The idea that she is transformed into another form of existence seems more
-      and more possible to Eon.
+      and more possible dream to Eon.
     lineActions: []
     Notes: 
   Notes: 

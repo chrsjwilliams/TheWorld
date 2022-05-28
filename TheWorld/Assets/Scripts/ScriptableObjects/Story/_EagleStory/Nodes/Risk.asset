@@ -61,19 +61,21 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Risk
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Eon comes to a point that taking a risk to see it for herself seems worth
-      it.
-    lineActions: []
+    line: 'Eon comes to a point that taking the risk to see it for herself seems
+      more than worth it. '
+    lineActions:
+    - {fileID: 11400000, guid: 21e768560f58b4716bdef639a6c9c28f, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: In the end, hers is not life. She is just a lonely meteor, drifting in
-      the void with no purpose. All she does is waiting for something, but she doesn't
-      even know what that is.
+    line: In the end, she decided hers is not a life. She is just a lonely meteor,
+      drifting in the void with no purpose. All she does is waiting for something
+      to happen. But she doesn't even know what that would be.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

@@ -48,19 +48,20 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Forever
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: 'Eon keeps traveling the void for unknown ages, looking for some meaning
-      or a friendly face. Once in a while she dreams of crushing into the planet
+    line: 'Eon keeps traveling in the void for unknown ages, looking for some meaning
+      or a friendly face. Once in a while, she dreams of crushing into the planet
       and living a different life. '
     lineActions:
     - {fileID: 11400000, guid: 67795b300370d4e34aa524fbdf0690ef, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Uncertainty can be very much alike to forever, right my friend?
+    line: Uncertainty can be very much like to forever, right my friend?
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -69,5 +70,4 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   Notes: 
-  lineActions:
-  - {fileID: 0}
+  lineActions: []

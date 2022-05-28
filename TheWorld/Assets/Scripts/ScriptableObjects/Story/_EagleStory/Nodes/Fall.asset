@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Fall
@@ -84,11 +85,11 @@ MonoBehaviour:
     - {fileID: 11400000, guid: e79a15c4d632443ab80a610c87a2870c, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Her stress level is rising fast. She is scared.
+    line: Her stress level keeps rising. She is really scared.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: As she gets closer, she starts to question her decision.
+    line: Eon starts to question her decisio, as she gets closer.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -96,16 +97,16 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Does she want to risk her existence?
+    line: Does she really want to risk her existence?
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: As she is questioning further her decision, she gets to the point where
-      beyond that she just can't go back anymore.
+    line: Finally she gets to the point where beyond that she just can't go back
+      anymore.
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Okay, this is it. Should I keep going or go back?'
+    line: <color="blue">"Okay, this is it. Should I keep going or go back?"</color>
     lineActions: []
     Notes: 
   Notes: 

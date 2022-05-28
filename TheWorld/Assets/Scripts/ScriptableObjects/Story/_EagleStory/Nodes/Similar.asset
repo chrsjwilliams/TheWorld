@@ -74,6 +74,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: e887dd723aa164086af7925ebb3afd7b, type: 3}
   NodeTitle: Similar
@@ -84,14 +85,19 @@ MonoBehaviour:
     - {fileID: 11400000, guid: 234820537c9b94a29977e967cd0e2d5d, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Poor Jepara... I mean, it is just heartbreaking news. But I think I understand
-      how she must have felt... I feel really lonely sometimes. I feel extremely
-      lucky to run into you just now. You keep me company, even if it is for a short
-      time. You know...'
+    line: <color="blue">"Poor Jepara... I mean, it is just heartbreaking news. But
+      I think I understand how she must have felt... I feel really lonely sometimes.
+      I feel extremely lucky to run into you just now. You keep me company, even
+      if it is for a short time. You know..."</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' Likewise girl, likewise! I wish we can travel together for longer.'
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ...
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: <color="black">"Likewise girl, likewise! I wish we can travel together
+      for longer."</color>
     lineActions: []
     Notes: 
   Notes: 

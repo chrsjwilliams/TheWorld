@@ -61,12 +61,13 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: 589cce35909174fc8b57d920c4ae98bb, type: 3}
   NodeTitle: Try
   speakingLines:
-  - speaker: {fileID: 0}
-    line: ' Well, I''m doing it! Stop worrying, I''ll be next to you soon. '
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: '<color="black">"Stop it! I''ll be fine. See you soon!"</color> '
     lineActions:
     - {fileID: 11400000, guid: 4661a915158e1480c948db151ae0807f, type: 2}
     Notes: 
@@ -75,11 +76,11 @@ MonoBehaviour:
     lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: db04f8afe511a4dea9fbcbfab2450ce2, type: 2}
-    line: ' Please don''t do this! I''m begging you!'
+    line: <color="blue">"Please don't do this! I'm begging you!"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
-    line: ' Chillax! I''ll be fine!'
+  - speaker: {fileID: 11400000, guid: 173df67730bdb4784b86197e080beaf4, type: 2}
+    line: <color="black">"Chillax! It's okay."</color>
     lineActions: []
     Notes: 
   Notes: 
