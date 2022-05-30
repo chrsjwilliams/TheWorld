@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
+using Sirenix.OdinInspector;
 
-
-public class Scene<TTransitionData> : MonoBehaviour
+public class Scene<TTransitionData> : SerializedMonoBehaviour
 {
     private string sceneName;
     public string SceneName

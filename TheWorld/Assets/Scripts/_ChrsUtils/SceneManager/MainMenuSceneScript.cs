@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Sirenix.OdinInspector;
 
 public class MainMenuSceneScript : Scene<TransitionData>
 {
@@ -12,6 +13,8 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     TransitionData mainMenuData = new TransitionData();
 
+    [SerializeField] public Dictionary<PersonalityChoice, CanvasGroup> completionBadge;
+
 
     internal override void OnEnter(TransitionData data)
     {
@@ -20,16 +23,13 @@ public class MainMenuSceneScript : Scene<TransitionData>
         // maybe set default cast list to include only the narrator instead of null?
         Services.SetCurrentCast(null);
         StorySelectButtons.StorySelected += OnStorySelected;
-
-        /*
-        _tm.Do
-        (
-
-                        new WaitTask(SECONDS_TO_WAIT))
-               .Then(new LERPColor(title, white, fontColor, 0.5f))
-               .Then(new LERPColor(click, white, fontColor, 0.5f)
-        );
-        */
+        foreach(var entry in completionBadge)
+        {
+            bool completeted = Services.DataSaver.IsStoryFinished(entry.Key);
+            entry.Value.alpha = completeted ? 1 : 0;
+            entry.Value.blocksRaycasts = completeted;
+            entry.Value.interactable = completeted;
+        }
 
     }
 
@@ -49,6 +49,12 @@ public class MainMenuSceneScript : Scene<TransitionData>
     public void DeleteData()
     {
         Services.DataSaver.ResetGameData();
+        foreach(var entry in completionBadge)
+        {
+            entry.Value.alpha = 0;
+            entry.Value.blocksRaycasts = false;
+            entry.Value.interactable = false;
+        }
     }
 
     public void PressedStartGame()

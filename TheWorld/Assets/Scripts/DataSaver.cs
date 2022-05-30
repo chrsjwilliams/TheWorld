@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using Newtonsoft.Json;
 using UnityEngine;
 using System;
+using Sirenix.OdinInspector;
 
-public class DataSaver : MonoBehaviour
+public class DataSaver : SerializedMonoBehaviour
 {
 
-    [SerializeField] Dictionary<PersonalityChoice, bool> foundItem = new Dictionary<PersonalityChoice, bool>();
+    [SerializeField] Dictionary<PersonalityChoice, bool> foundItem;
 
     // Start is called before the first frame update
     void Start()
     {
-        if (Services.DataSaver)
-        {
-            Services.DataSaver = this;
-        }
+        Services.DataSaver = this;
+
+        foundItem = new Dictionary<PersonalityChoice, bool>();
         foreach (PersonalityChoice pc in Enum.GetValues(typeof(PersonalityChoice)))
         {
             foundItem.Add(pc, false);
@@ -33,7 +33,7 @@ public class DataSaver : MonoBehaviour
         if (PlayerPrefs.HasKey("SAVED_DATA"))
         {
             string JSONData = PlayerPrefs.GetString("SAVED_DATA");
-            var loadedData = JsonConvert.DeserializeObject(JSONData) as Dictionary<PersonalityChoice, bool>;
+            var loadedData = (Dictionary<PersonalityChoice, bool>)JsonConvert.DeserializeObject(JSONData, typeof(Dictionary<PersonalityChoice, bool>));
             foundItem = loadedData;
             return true;
         }
@@ -46,12 +46,20 @@ public class DataSaver : MonoBehaviour
     void SaveGame()
     {
         string JSONData = JsonConvert.SerializeObject(foundItem);
+        Debug.Log(JSONData);
         PlayerPrefs.SetString("SAVED_DATA", JSONData);
         PlayerPrefs.Save();
     }
 
     public void ResetGameData()
     {
+        foundItem = new Dictionary<PersonalityChoice, bool>();
+        foreach (PersonalityChoice pc in Enum.GetValues(typeof(PersonalityChoice)))
+        {
+            foundItem.Add(pc, false);
+        }
+
+        foundItem[PersonalityChoice.NEUTRAL] = true;
         string JSONData = JsonConvert.SerializeObject(foundItem);
         PlayerPrefs.SetString("SAVED_DATA", JSONData);
         PlayerPrefs.Save();
