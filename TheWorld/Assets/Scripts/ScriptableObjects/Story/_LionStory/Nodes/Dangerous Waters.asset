@@ -97,7 +97,7 @@ MonoBehaviour:
     lineActions:
     - {fileID: 11400000, guid: 07cf6ec4549c841819a9e44da20055ca, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 14d968d426d024a1cb9e1e2114b9da2f, type: 2}
     line: <color="green">"Ehem... I am not sure what you mean by that. But I hope
       you are not swimming in dangerous waters."</color>
     lineActions: []
@@ -106,7 +106,7 @@ MonoBehaviour:
     line: <color="blue">"I'm sorry?"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 14d968d426d024a1cb9e1e2114b9da2f, type: 2}
     line: <color="green">"You know, ehem, peaches... And eggplants. I really appreciate
       your work, I don't need anything more than that."</color>
     lineActions: []

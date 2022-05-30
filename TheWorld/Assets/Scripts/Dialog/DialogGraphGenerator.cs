@@ -86,7 +86,7 @@ public class DialogGraphGenerator : ScriptableObject
         foreach (string line in nodeText)
         {
             //  Skip lines with less that 2 characters
-            if (line.Length < 2) continue;
+            if (line.Length <= 2) continue;
             //  If a line is a comment, place it in the notes section of the node
             else if(CommentCheck(line))
             {
@@ -340,7 +340,7 @@ public class DialogGraphGenerator : ScriptableObject
     {
         foreach (CharacterData character in castList.Characters)
         {
-            if (name.ToUpper() == character.characterName.ToString().ToUpper())
+            if (name.ToUpper().Trim() == character.characterName.ToString().ToUpper())
             {
                 return character;
             }

@@ -3721,6 +3721,9 @@ MonoBehaviour:
     - Name: 
       Entry: 8
       Data: 
+    - Name: usedAbility
+      Entry: 6
+      Data: 
   abilityTitle: {fileID: 4389469757880649503}
   abilityDesctiption: {fileID: 7174061544203803564}
   nodeSelectionManager: {fileID: 1838390802550615577}
@@ -3732,6 +3735,10 @@ MonoBehaviour:
   messageBoxTitle: {fileID: 3202997565360538862}
   messageBoxMessage: {fileID: 8293010219399944285}
   messageBoxAppear: {fileID: 3901474971614805050}
+  AffirmSound: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
+  ErrorClick: {fileID: 11400000, guid: 4b4766191abe44ab9b31e2756729bf33, type: 2}
+  button: {fileID: 5682434931393057802}
+  abilityCount: 0
   nodes: []
 --- !u!114 &6053051117266284783
 MonoBehaviour:
@@ -3819,9 +3826,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 11400000, guid: 7e86be6c1d6794516a5e41256a9ca8f2, type: 2}
-        m_TargetAssemblyTypeName: SimpleEvent, Assembly-CSharp
-        m_MethodName: Raise
+      - m_Target: {fileID: 1747202671226971689}
+        m_TargetAssemblyTypeName: SpecialAbilityButton, Assembly-CSharp
+        m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

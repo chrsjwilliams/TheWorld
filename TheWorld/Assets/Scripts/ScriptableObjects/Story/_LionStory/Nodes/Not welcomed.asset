@@ -66,7 +66,7 @@ MonoBehaviour:
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Not welcomed
   speakingLines:
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: b16771e6960e044a0912a825681aa850, type: 2}
     line: ' "What are you doing? Let go of me immediately." '
     lineActions:
     - {fileID: 11400000, guid: 39613962b0e574788b1177eb19037025, type: 2}
@@ -76,7 +76,7 @@ MonoBehaviour:
       is cancelled. It has nothing to do with me!"</color>
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: b16771e6960e044a0912a825681aa850, type: 2}
     line: ' "Yeah yeah... You fuckin'' minion! I don''t wanna talk to you. No one
       in here does. You are not welcomed here."'
     lineActions: []

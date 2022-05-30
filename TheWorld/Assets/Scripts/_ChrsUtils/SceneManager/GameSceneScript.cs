@@ -45,12 +45,23 @@ public class GameSceneScript : Scene<TransitionData>
 
     public void BackToMainMenuScreen()
     {
-        Services.Scenes.Swap<MainMenuSceneScript>();
+        PersonalityChoice storyType = transitionData.selectedStory.storyType;
 
+        if (!Services.DataSaver.IsStoryFinished(storyType) && storyReader.foundItem)
+        {
+            Services.DataSaver.SaveFinishedStory(storyType);
+        }
+        Services.Scenes.Swap<MainMenuSceneScript>();
     }
 
     public void SwapScene()
     {
+        PersonalityChoice storyType = transitionData.selectedStory.storyType;
+
+        if (!Services.DataSaver.IsStoryFinished(storyType) && storyReader.foundItem)
+        {
+            Services.DataSaver.SaveFinishedStory(storyType);
+        }
         Services.AudioManager.SetVolume(1.0f);
         Services.Scenes.Swap<TitleSceneScript>();
     }

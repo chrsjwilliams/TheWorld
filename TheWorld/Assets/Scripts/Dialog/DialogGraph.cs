@@ -8,6 +8,7 @@ using Sirenix.OdinInspector;
 [System.Serializable]
 public class DialogGraph : SerializedScriptableObject
 {
+    public PersonalityChoice storyType;
     public bool MustMakeSelection;
     public BGM music;
 

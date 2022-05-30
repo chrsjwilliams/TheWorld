@@ -63,17 +63,9 @@ MonoBehaviour:
   hasSecretItem: 1
   oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 6af8b6a99e3ce4e1eae626793fe42dff, type: 3}
   NodeTitle: Banana
   speakingLines:
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ~~
-    lineActions: []
-    Notes: 
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: '**bananaBlue'
-    lineActions: []
-    Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: Just before Eon leaves the room, she notices a blue banana on the table.
     lineActions: []
@@ -83,7 +75,7 @@ MonoBehaviour:
     lineActions:
     - {fileID: 11400000, guid: 1d5a77412fad44ba2970f8ebf01527d5, type: 2}
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: 14d968d426d024a1cb9e1e2114b9da2f, type: 2}
     line: <color="green">"Yes, go for it. It is a special fruit. You can't find this
       anywhere else."</color>
     lineActions: []

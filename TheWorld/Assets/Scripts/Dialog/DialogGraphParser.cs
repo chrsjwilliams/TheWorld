@@ -72,6 +72,8 @@ public class DialogGraphParser : MonoBehaviour
 
     ShuffleBag<int> intBag = new ShuffleBag<int>();
 
+    public bool foundItem { get; set; }
+
     public void FinishedAnimating(bool b)
     {
         finishedAnimating = b;
@@ -121,6 +123,8 @@ public class DialogGraphParser : MonoBehaviour
         {
             intBag.Add(i);
         }
+
+        foundItem = false;
 
         dialogGraph = data.selectedStory;
         castList = data.selectedCastList;
@@ -207,6 +211,12 @@ public class DialogGraphParser : MonoBehaviour
             dialogLineIndex = 0;
             //  display dialog line
             DisplayNextDialogLine();
+
+            if(currentNode.hasSecretItem)
+            {
+                foundItem = true;
+            }
+
             if (dialogGraph.MustMakeSelection)
             {
                 MadeSelection.value = false;

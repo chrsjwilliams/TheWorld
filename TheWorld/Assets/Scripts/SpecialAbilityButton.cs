@@ -6,6 +6,7 @@ using Sirenix.OdinInspector;
 using TMPro;
 using System;
 using System.Linq;
+using UnityEngine.UI;
 
 public class SpecialAbilityButton : SerializedMonoBehaviour
 {
@@ -32,11 +33,25 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
     [SerializeField] TextMeshProUGUI messageBoxMessage;
     [SerializeField] MonoTweener messageBoxAppear;
 
+    [SerializeField] SimpleEvent AffirmSound;
+    [SerializeField] SimpleEvent ErrorClick;
+    [SerializeField] Button button;
+
+    [Space(25)]
+    [SerializeField] Dictionary<PersonalityChoice, bool> usedAbility = new Dictionary<PersonalityChoice, bool>();
+    [SerializeField] int abilityCount;
+    const int ABILITY_LIMIT_COUNT = 2; 
 
     // Start is called before the first frame update
     void Start()
     {
+        usedAbility = new Dictionary<PersonalityChoice, bool>();
+        abilityCount = 0;
         ShowAbilityDescription(false);
+        foreach (PersonalityChoice pc in Enum.GetValues(typeof(PersonalityChoice)))
+        {
+            usedAbility.Add(pc, false);
+        }
     }
 
     private void OnEnable()
@@ -59,16 +74,54 @@ public class SpecialAbilityButton : SerializedMonoBehaviour
         }
     }
 
-    public void ApplyAbility()
+    public void PlaySound()
     {
-        var personalityChoice = selectedCharacter.PersonalityChoice;
-        if (abilityDictionary.ContainsKey(personalityChoice))
+        if (abilityCount >= ABILITY_LIMIT_COUNT)
         {
-            abilityDictionary[personalityChoice].action?.Invoke();
+            ErrorClick.Raise();
         }
         else
         {
-            Debug.LogError("Choice " + personalityChoice.ToString() + " does not have a registered ability.");
+            AffirmSound.Raise();
+        }
+    }
+
+    private void Update()
+    {
+        if(abilityCount >= ABILITY_LIMIT_COUNT)
+        {
+            button.interactable = false;
+        }
+        else
+        {
+            button.interactable = true;
+        }
+    }
+
+    public void ApplyAbility()
+    {
+        var personalityChoice = selectedCharacter.PersonalityChoice;
+        if (abilityDictionary.ContainsKey(personalityChoice) &&
+            !usedAbility[personalityChoice])
+        {
+            if (abilityCount <= ABILITY_LIMIT_COUNT)
+            {
+                abilityDictionary[personalityChoice].action?.Invoke();
+                usedAbility[personalityChoice] = true;
+                abilityCount += 1;
+            }
+            else
+            {
+                messageBoxAppear.Play();
+                messageBoxTitle.text = "Cannot Use Ability";
+                messageBoxMessage.text = "Can only use 3 abilities per story";
+            }
+        }
+        else
+        {
+            messageBoxAppear.Play();
+            messageBoxTitle.text = personalityChoice + " Ability";
+            messageBoxMessage.text = "Already used " + personalityChoice + " Ability in this story.";
         }
     }
 

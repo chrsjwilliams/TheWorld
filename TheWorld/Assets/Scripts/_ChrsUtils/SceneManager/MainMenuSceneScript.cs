@@ -46,6 +46,11 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     }
 
+    public void DeleteData()
+    {
+        Services.DataSaver.ResetGameData();
+    }
+
     public void PressedStartGame()
     {
     }
