@@ -21,7 +21,12 @@ public class AnimationAction : TagAction
 
     public override void ExecuteAction()
     {
+
+        Debug.Log("CHARACTER: " + character.Model);
+        Debug.Log("ANIMATION: " + animationName);
+        Debug.Log(Services.CastList.GetCharacterModel(character.Model));
         var model = Services.CastList.GetCharacterModel(character.Model);
+        Debug.Log("MODEL: " + model);
         if(model == null)
         {
             Debug.LogError("Character " + character.characterName + " not found in selected cast list");

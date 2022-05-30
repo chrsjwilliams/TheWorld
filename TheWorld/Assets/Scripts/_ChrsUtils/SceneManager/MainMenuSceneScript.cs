@@ -19,7 +19,7 @@ public class MainMenuSceneScript : Scene<TransitionData>
     internal override void OnEnter(TransitionData data)
     {
         Services.AudioManager.PlayBGM(BGM.SILENCE);
-
+        //Services.CastList.ClearActiveCharactersModel();
         // maybe set default cast list to include only the narrator instead of null?
         Services.SetCurrentCast(null);
         StorySelectButtons.StorySelected += OnStorySelected;

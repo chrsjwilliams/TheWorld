@@ -25,6 +25,10 @@ public class GameSceneScript : Scene<TransitionData>
         
     }
 
+    private void OnDestroy()
+    {
+    }
+
     internal override void OnEnter(TransitionData data)
     {
         transitionData = data;
@@ -51,6 +55,7 @@ public class GameSceneScript : Scene<TransitionData>
         {
             Services.DataSaver.SaveFinishedStory(storyType);
         }
+
         Services.Scenes.Swap<MainMenuSceneScript>();
     }
 

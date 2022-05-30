@@ -23,6 +23,7 @@ public class CastList : SerializedScriptableObject
 
     public StoryCharacter GetCharacterModel(StoryCharacter data)
     {
+        Debug.Log("DATA: " + data.characterName);
         foreach(StoryCharacter d in activeCharacters)
         {
             if (d.characterName == data.characterName)

@@ -63,13 +63,9 @@ MonoBehaviour:
   hasSecretItem: 1
   oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 756a57d0152a44b9293689473ee4e7a6, type: 3}
   NodeTitle: My Name
   speakingLines:
-  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: ~~
-    lineActions: []
-    Notes: 
   - speaker: {fileID: 11400000, guid: 60a2c3f975f384ac09961f1beea2109d, type: 2}
     line: <color="red">"Thank you for remembering my name. Not many people do anymore.
       I'd like to present you this rare blue flower as a gift."</color>

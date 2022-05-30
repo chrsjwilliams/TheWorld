@@ -17,7 +17,7 @@ MonoBehaviour:
     SerializedBytes: 
     ReferencedUnityObjects:
     - {fileID: 11400000, guid: a9053c5e16fad4f92a484bfcb9967e25, type: 2}
-    - {fileID: 0}
+    - {fileID: 11400000, guid: 68739e8e6927f48c0a1e97ffd6131f3d, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -74,9 +74,9 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
-  oxNodeAbility: 1
+  oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: fa52f971f947a4d4ab27d811d21c188c, type: 3}
   NodeTitle: Falling
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}

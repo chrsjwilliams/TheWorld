@@ -86,6 +86,7 @@ public class Main : MonoBehaviour
         Services.AudioManager = GetComponent<AudioManager>();
         Services.Scenes = new GameSceneManager<TransitionData>(gameObject, Services.Prefabs.Scenes);
         Services.CastList = castList;
+        Services.CastList.ClearActiveCharactersModel();
     }
 
 }

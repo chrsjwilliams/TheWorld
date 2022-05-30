@@ -129,6 +129,12 @@ public class DialogGraphParser : MonoBehaviour
         dialogGraph = data.selectedStory;
         castList = data.selectedCastList;
         Services.SetCurrentCast(castList);
+        if (eon == null)
+        {
+            var player = Services.CastList.Player;
+            eon = Instantiate(player.Model);
+            Services.CastList.AddCharacterModel(eon);
+        }
 
         background.sprite = data.selectedStory.storyBackground;
         if (currentNode != null)
@@ -142,12 +148,7 @@ public class DialogGraphParser : MonoBehaviour
             MadeSelection.value = true;
         }
 
-        if (eon == null)
-        {
-            var player = Services.CastList.Player;
-            eon = Instantiate(player.Model);
-            Services.CastList.AddCharacterModel(eon);
-        }
+       
 
         currentNode = dialogGraph.startingNode;
         nodeNameText.text = currentNode.NodeTitle;

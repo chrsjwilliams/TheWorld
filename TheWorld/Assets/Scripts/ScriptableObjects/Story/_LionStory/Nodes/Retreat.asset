@@ -79,6 +79,10 @@ MonoBehaviour:
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Retreat
   speakingLines:
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: ' **dialog'
+    lineActions: []
+    Notes: 
   - speaker: {fileID: 11400000, guid: 1893e051f43404943bea8af427838545, type: 2}
     line: '<color=#59CBE5>"Okay. So you know everyone was so excited for the retreat.
       And I don''t really understand why."</color> '
