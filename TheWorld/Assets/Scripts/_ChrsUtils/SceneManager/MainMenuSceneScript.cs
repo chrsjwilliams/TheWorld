@@ -13,8 +13,10 @@ public class MainMenuSceneScript : Scene<TransitionData>
 
     TransitionData mainMenuData = new TransitionData();
 
+    [SerializeField] StorySelectButtons finalStory;
+    [SerializeField] CanvasGroup finalStoryBadge;
     [SerializeField] public Dictionary<PersonalityChoice, CanvasGroup> completionBadge;
-
+    bool finishedAllStories = true;
 
     internal override void OnEnter(TransitionData data)
     {
@@ -25,11 +27,19 @@ public class MainMenuSceneScript : Scene<TransitionData>
         StorySelectButtons.StorySelected += OnStorySelected;
         foreach(var entry in completionBadge)
         {
-            bool completeted = Services.DataSaver.IsStoryFinished(entry.Key);
+            bool completeted = Services.DataSaver.WasItemFound(entry.Key);
             entry.Value.alpha = completeted ? 1 : 0;
             entry.Value.blocksRaycasts = completeted;
             entry.Value.interactable = completeted;
+            if(!Services.DataSaver.IsStoryFinished(entry.Key))
+            {
+                finishedAllStories = false;
+                finalStoryBadge.alpha = 0;
+            }
+
         }
+
+        finalStory.LockStory(finishedAllStories);
 
     }
 

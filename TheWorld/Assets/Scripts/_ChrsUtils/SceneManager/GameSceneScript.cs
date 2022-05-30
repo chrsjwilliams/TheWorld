@@ -51,9 +51,9 @@ public class GameSceneScript : Scene<TransitionData>
     {
         PersonalityChoice storyType = transitionData.selectedStory.storyType;
 
-        if (!Services.DataSaver.IsStoryFinished(storyType) && storyReader.foundItem)
+        if (!Services.DataSaver.WasItemFound(storyType) && storyReader.foundItem)
         {
-            Services.DataSaver.SaveFinishedStory(storyType);
+            Services.DataSaver.SaveItemFound(storyType);
         }
 
         Services.Scenes.Swap<MainMenuSceneScript>();
@@ -63,9 +63,9 @@ public class GameSceneScript : Scene<TransitionData>
     {
         PersonalityChoice storyType = transitionData.selectedStory.storyType;
 
-        if (!Services.DataSaver.IsStoryFinished(storyType) && storyReader.foundItem)
+        if (!Services.DataSaver.WasItemFound(storyType) && storyReader.foundItem)
         {
-            Services.DataSaver.SaveFinishedStory(storyType);
+            Services.DataSaver.SaveItemFound(storyType);
         }
         Services.AudioManager.SetVolume(1.0f);
         Services.Scenes.Swap<TitleSceneScript>();

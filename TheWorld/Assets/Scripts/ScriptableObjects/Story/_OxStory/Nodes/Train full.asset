@@ -61,6 +61,7 @@ MonoBehaviour:
       Entry: 8
       Data: 
   hasSecretItem: 0
+  oxNodeAbility: 0
   nodeType: 0
   nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
   NodeTitle: Train full
@@ -74,7 +75,7 @@ MonoBehaviour:
     line: 'The train is on fire. And full of Turnips. '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' HELP! HELP IT IS SO HOT IN HERE!'
     lineActions: []
     Notes: 
@@ -82,7 +83,7 @@ MonoBehaviour:
     line: ' What the fuck... '
     lineActions: []
     Notes: 
-  - speaker: {fileID: 0}
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: ' PLEASE! WE SHOULDN''T BE ROASTED.'
     lineActions: []
     Notes: 

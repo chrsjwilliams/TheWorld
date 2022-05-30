@@ -7,20 +7,24 @@ using Sirenix.OdinInspector;
 
 public class DataSaver : SerializedMonoBehaviour
 {
+    const string FOUND_ITEM = "FOUND_ITEM";
+    const string STORY_PROGRESS = "STORY_PROGRESS";
 
     [SerializeField] Dictionary<PersonalityChoice, bool> foundItem;
-
+    [SerializeField] Dictionary<PersonalityChoice, bool> finishedStory;
     // Start is called before the first frame update
     void Start()
     {
         Services.DataSaver = this;
 
         foundItem = new Dictionary<PersonalityChoice, bool>();
+        finishedStory = new Dictionary<PersonalityChoice, bool>();
         foreach (PersonalityChoice pc in Enum.GetValues(typeof(PersonalityChoice)))
         {
             foundItem.Add(pc, false);
+            finishedStory.Add(pc, false);
         }
-
+        finishedStory[PersonalityChoice.NEUTRAL] = true;
         foundItem[PersonalityChoice.NEUTRAL] = true;
         if (!TryLoadData())
         {
@@ -30,11 +34,15 @@ public class DataSaver : SerializedMonoBehaviour
 
     public bool TryLoadData()
     {
-        if (PlayerPrefs.HasKey("SAVED_DATA"))
+        if (PlayerPrefs.HasKey(FOUND_ITEM) && PlayerPrefs.HasKey(STORY_PROGRESS))
         {
-            string JSONData = PlayerPrefs.GetString("SAVED_DATA");
-            var loadedData = (Dictionary<PersonalityChoice, bool>)JsonConvert.DeserializeObject(JSONData, typeof(Dictionary<PersonalityChoice, bool>));
-            foundItem = loadedData;
+            string itemJSONData = PlayerPrefs.GetString(FOUND_ITEM);
+            var loadedItemData = (Dictionary<PersonalityChoice, bool>)JsonConvert.DeserializeObject(itemJSONData, typeof(Dictionary<PersonalityChoice, bool>));
+            foundItem = loadedItemData;
+
+            string storyJSONData = PlayerPrefs.GetString(STORY_PROGRESS);
+            var loadedStoryData = (Dictionary<PersonalityChoice, bool>)JsonConvert.DeserializeObject(storyJSONData, typeof(Dictionary<PersonalityChoice, bool>));
+            finishedStory = loadedStoryData;
             return true;
         }
         else
@@ -45,35 +53,55 @@ public class DataSaver : SerializedMonoBehaviour
 
     void SaveGame()
     {
-        string JSONData = JsonConvert.SerializeObject(foundItem);
-        Debug.Log(JSONData);
-        PlayerPrefs.SetString("SAVED_DATA", JSONData);
+        string itemJSONData = JsonConvert.SerializeObject(foundItem);
+        string storyJSONDATA = JsonConvert.SerializeObject(finishedStory);
+
+        PlayerPrefs.SetString(FOUND_ITEM, itemJSONData);
+        PlayerPrefs.SetString(STORY_PROGRESS, storyJSONDATA);
         PlayerPrefs.Save();
     }
 
     public void ResetGameData()
     {
         foundItem = new Dictionary<PersonalityChoice, bool>();
+        finishedStory = new Dictionary<PersonalityChoice, bool>();
         foreach (PersonalityChoice pc in Enum.GetValues(typeof(PersonalityChoice)))
         {
             foundItem.Add(pc, false);
+            finishedStory.Add(pc, false);
         }
 
         foundItem[PersonalityChoice.NEUTRAL] = true;
-        string JSONData = JsonConvert.SerializeObject(foundItem);
-        PlayerPrefs.SetString("SAVED_DATA", JSONData);
+        finishedStory[PersonalityChoice.NEUTRAL] = true;
+
+        string itemJSONData = JsonConvert.SerializeObject(foundItem);
+        string storyJSONData = JsonConvert.SerializeObject(finishedStory);
+
+        PlayerPrefs.SetString(FOUND_ITEM, itemJSONData);
+        PlayerPrefs.SetString(STORY_PROGRESS, storyJSONData);
         PlayerPrefs.Save();
     }
 
-    public void SaveFinishedStory(PersonalityChoice choice)
+    public void SaveItemFound(PersonalityChoice choice)
     {
         foundItem[choice] = true;
         SaveGame();
     }
 
-    public bool IsStoryFinished(PersonalityChoice choice)
+    public void SaveStoryFinished(PersonalityChoice choice)
+    {
+        finishedStory[choice] = true;
+        SaveGame();
+    }
+
+    public bool WasItemFound(PersonalityChoice choice)
     {
         return foundItem[choice];
+    }
+
+    public bool IsStoryFinished(PersonalityChoice choice)
+    {
+        return finishedStory[choice];
     }
 
 }

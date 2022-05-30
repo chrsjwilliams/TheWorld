@@ -69,6 +69,7 @@ public class DialogGraphParser : MonoBehaviour
     [Space(25)]
     [SerializeField] SimpleEvent AllowPlayerCharacterInteraction;
     [SerializeField] SimpleEvent BlockPlayerCharacterInteraction;
+    [SerializeField] SimpleEvent PulseArrorws;
 
     ShuffleBag<int> intBag = new ShuffleBag<int>();
 
@@ -77,6 +78,18 @@ public class DialogGraphParser : MonoBehaviour
     public void FinishedAnimating(bool b)
     {
         finishedAnimating = b;
+        if (b)
+        {
+            if (currentNode.nextNodes.Count > 1)
+            {
+                AllowPlayerCharacterInteraction?.Raise();
+            }
+            else
+            {
+                PulseArrorws?.Raise();
+            }
+        }
+
     }
 
     public void NextButtonPressed()
@@ -85,7 +98,9 @@ public class DialogGraphParser : MonoBehaviour
         {
             if(currentNode.nextNodes.Count < 1)
             {
+
                 fadeInScreenCover?.Play();
+                Services.DataSaver.SaveStoryFinished(dialogGraph.storyType);
                 return;
             }
             MoveToNextNode();
@@ -225,7 +240,7 @@ public class DialogGraphParser : MonoBehaviour
             CanMakeSelection.value = true;
             if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
             {
-                AllowPlayerCharacterInteraction?.Raise();
+                //AllowPlayerCharacterInteraction?.Raise();
             }
 
             if(currentNode.nextNodes.Count == 0)
@@ -490,7 +505,7 @@ public class DialogGraphParser : MonoBehaviour
             CanMakeSelection.value = true;
             if (!currentNode.IsNeutralNode() && currentNode.nextNodes.Count > 1)
             {
-                AllowPlayerCharacterInteraction?.Raise();
+                //AllowPlayerCharacterInteraction?.Raise();
             }
             DisplayDialogChoices();
         }
