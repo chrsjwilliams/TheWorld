@@ -28,7 +28,15 @@ public class AudioManager : SerializedMonoBehaviour
 	void Start ()
     {
         audioSource = GetComponent<AudioSource>();
+        HubAPI.OnVolumeChanged += HubAPI_OnVolumeChanged;
+        audioSource.volume = HubAPI.SoundVolume;
+        bgmAudioSource.volume = HubAPI.MusicVolume;
+    }
 
+    private void HubAPI_OnVolumeChanged()
+    {
+        audioSource.volume = HubAPI.SoundVolume;
+        bgmAudioSource.volume = HubAPI.MusicVolume;
     }
 
     [Button]
@@ -78,12 +86,12 @@ public class AudioManager : SerializedMonoBehaviour
     public void PlayClipVaryPitch(SFX clip)
     {
         float pitch = Random.Range(0.8f, 1.2f);
-        PlayClip(clip, 1.0f, pitch);
+        PlayClip(clip, pitch);
     }
 
     public void PlayClip(SFX clip)
     {
-        PlayClip(clip, 1.0f, 1.0f);
+        PlayClip(clip, 1.0f);
     }
 
     public void PlayBGM(BGM bgm)
@@ -95,10 +103,10 @@ public class AudioManager : SerializedMonoBehaviour
         }
         bgmAudioSource.loop = true;
         bgmAudioSource.clip = bgmLibrary[bgm];
-        bgmAudioSource.PlayOneShot(bgmLibrary[bgm], 1);
+        bgmAudioSource.PlayOneShot(bgmLibrary[bgm], bgmAudioSource.volume);
     }
 
-    public void PlayClip(SFX clip, float volume, float pitch)
+    public void PlayClip(SFX clip, float pitch)
     {
         audioClip = audioLibrary[clip];
         if(audioClip == null)
@@ -108,7 +116,7 @@ public class AudioManager : SerializedMonoBehaviour
         }
 
         audioSource.pitch = pitch;
-        audioSource.PlayOneShot(audioClip, volume);
+        audioSource.PlayOneShot(audioClip, audioSource.volume);
     }
 
     public void StopClip()
