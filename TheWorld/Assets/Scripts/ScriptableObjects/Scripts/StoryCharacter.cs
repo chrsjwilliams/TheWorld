@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
+using UnityEngine.U2D.Animation;
 
 public class StoryCharacter : MonoBehaviour
 {
@@ -9,6 +10,10 @@ public class StoryCharacter : MonoBehaviour
     [SerializeField] Animator animator;
     [SerializeField] List<SpriteRenderer> allCharacterSprites;
     [SerializeField] GameObject character;
+
+    private void Awake()
+    {
+    }
 
     [Button]
     public void AddSprRenderers()
