@@ -12,7 +12,7 @@ using System.Text.RegularExpressions;
 [System.Serializable]
 public class DialogGraphGenerator : ScriptableObject
 {
-    
+ /*   
     [SerializeField] CastList castList;
     [SerializeField, TextArea] string DialogStoryPath = "Assets/Scripts/ScriptableObjects/Story/";
     [SerializeField, TextArea] string TagActionFilePath = "Assets/Scripts/ScriptableObjects/TagActions/";
@@ -377,7 +377,7 @@ public class DialogGraphGenerator : ScriptableObject
     {
         Debug.Log("[" + messageType + "]: " + message);
     }
-    
+    */
 }
 
 public enum NODE_PICTURE {  DEFAULT, CLOCK, DIALOG, END, EXIT, FOOTSTEPS, LOVE, STD,
