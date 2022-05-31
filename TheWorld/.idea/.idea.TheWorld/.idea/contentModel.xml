@@ -19,6 +19,9 @@
           </e>
           <e p="readme.txt" t="Include" />
         </e>
+        <e p="HubAPI" t="Include">
+          <e p="HubAPI.cs" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Febucci" t="Include">
             <e p="Text Animator" t="Include">
@@ -230,6 +233,7 @@
             <e p="UtilScript.cs" t="Include" />
           </e>
           <e p="CharacterSpawner.cs" t="Include" />
+          <e p="DataSaver.cs" t="Include" />
           <e p="Dialog" t="Include">
             <e p="AnimationAction.cs" t="Include" />
             <e p="CastList.cs" t="Include" />

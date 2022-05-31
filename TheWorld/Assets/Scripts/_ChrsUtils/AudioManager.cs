@@ -45,6 +45,7 @@ public class AudioManager : SerializedMonoBehaviour
         audioLibrary.Add(SFX.CLICK, Resources.Load<AudioClip>("Resources/sfx/click") as AudioClip);
         audioLibrary.Add(SFX.ERROR, Resources.Load<AudioClip>("sfx/error.mp3"));
         audioLibrary.Add(SFX.BITE, Resources.Load<AudioClip>("sfx/sfx_bite.mp3"));
+        audioLibrary.Add(SFX.BURN, Resources.Load<AudioClip>("sfx/sfx_burn.wav"));
         audioLibrary.Add(SFX.CRY, Resources.Load<AudioClip>("sfx/sfx_cry.wav"));
         audioLibrary.Add(SFX.CREEPYWHISPER, Resources.Load<AudioClip>("sfx/sfx_creepyWhisper.wav"));
         audioLibrary.Add(SFX.EVILLAUGHTER, Resources.Load<AudioClip>("sfx/sfx_evilLaughter.wav"));
@@ -64,7 +65,9 @@ public class AudioManager : SerializedMonoBehaviour
         audioLibrary.Add(SFX.WHOOSH, Resources.Load<AudioClip>("sfx/sfx_whoosh.wav"));
         audioLibrary.Add(SFX.YAWN, Resources.Load<AudioClip>("sfx/sfx_yawn.wav"));
         audioLibrary.Add(SFX.WHISTLE, Resources.Load<AudioClip>("sfx/sfx_whistle.wav"));
+        audioLibrary.Add(SFX.TIKTOK, Resources.Load<AudioClip>("sfx/sfx_tiktok.mp3"));
         audioLibrary.Add(SFX.TROMBONE, Resources.Load<AudioClip>("sfx/sfx_trombone.wav"));
+        audioLibrary.Add(SFX.THUNDER, Resources.Load<AudioClip>("sfx/sfx_thunder.mp3"));
 
 
         bgmLibrary.Add(BGM.GARDEN, Resources.Load<AudioClip>("music/bg-garden.mp3"));
