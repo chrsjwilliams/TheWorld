@@ -953,7 +953,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   castList: {fileID: 11400000, guid: 4239c74c26b3645bc87c62d9357fdbc8, type: 2}
-  story: {fileID: 0}
+  story: {fileID: 11400000, guid: ddb7a1a6ac62e4b9f918a4973a51ee68, type: 2}
   canvasGroup: {fileID: 2108458589436267071}
 --- !u!225 &2108458589436267071
 CanvasGroup:
@@ -1323,7 +1323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1cf74950d9e204f7e84a5089061024d9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d7f3d3a17ca14c5fbe132f948f60c2e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

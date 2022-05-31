@@ -1,0 +1,69 @@
+
+
+{
+  "passages": [
+    {
+      "text": "**end\n@eon_excited_lion\nThere you are, at the end of the game.\nIt was quite a journey.\n[[Lion|Sad]]",
+      "links": [
+        {
+          "name": "Lion|Sad",
+          "link": "Lion|Sad",
+          "broken": true
+        }
+      ],
+      "name": "End",
+      "pid": "1",
+      "position": {
+        "x": "412",
+        "y": "186"
+      }
+    },
+    {
+      "text": "**brokenHeart\n@eon_depressed_ox\nIt might be scary when things come to an end. \nEnds involve goodbye's. And they are hard.\n[[Ox|Gift]]",
+      "links": [
+        {
+          "name": "Ox|Gift",
+          "link": "Ox|Gift",
+          "broken": true
+        }
+      ],
+      "name": "Sad",
+      "pid": "2",
+      "position": {
+        "x": "412",
+        "y": "336"
+      }
+    },
+    {
+      "text": "**trophy\n@eon_flirting_human\nBut remember, it is the goodbye itself that makes everything itself worth.\nMaybe you collected all the special gifts. They'll stick with you forever.\nOr maybe, you missed opportunities. That's okay to. The journey was the main gift. \nAnd you had it. No one can take it away from you.\n[[Human|Bye]]",
+      "links": [
+        {
+          "name": "Human|Bye",
+          "link": "Human|Bye",
+          "broken": true
+        }
+      ],
+      "name": "Gift",
+      "pid": "3",
+      "position": {
+        "x": "412",
+        "y": "486"
+      }
+    },
+    {
+      "text": "**bluePlanet\n@eon_hi_eagle\nAnd as you say goodbye, remember that all that experience is uniquely yours.\nAs they say, \"No one else can feel it for you. Only you can let it in.\"\nFarewell visitor! Wishing you the greatest of adventures!",
+      "name": "Bye",
+      "pid": "4",
+      "position": {
+        "x": "412",
+        "y": "636"
+      }
+    }
+  ],
+  "name": "TWC-Final",
+  "startnode": "1",
+  "creator": "Twine",
+  "creator-version": "2.3.15",
+  "ifid": "D06078E1-FDB7-479F-8F73-E83A27DF7008"
+}
+

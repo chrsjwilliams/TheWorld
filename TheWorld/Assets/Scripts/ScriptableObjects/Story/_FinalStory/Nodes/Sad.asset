@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
-  m_Name: Hello
+  m_Name: Sad
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: d5a1c902f0d9b4ab494d9903e19125cc, type: 2}
+    - {fileID: 11400000, guid: 159a8decfa77f4b849755a50d1e62bf6, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -47,7 +47,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 0
+      Data: 4
     - Name: $v
       Entry: 10
       Data: 0
@@ -63,19 +63,17 @@ MonoBehaviour:
   hasSecretItem: 0
   oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
-  NodeTitle: Hello
+  nodeSprite: {fileID: 21300000, guid: 066a359f6f39344df956448f7c13a136, type: 3}
+  NodeTitle: Sad
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Dear spectator, it's a pleasure to have you here! Welcome!
-    lineActions:
-    - {fileID: 11400000, guid: dd46ccc1387df48eca5fc55cdfd49609, type: 2}
+    line: 'It might be scary when things come to an end. '
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Here, you will witness snippets from our hero's life and help them make
-      critical decisions.
+    line: Ends involve goodbye's. And they are hard.
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 83ab29ebaced445a2829ede951aaea51, type: 2}
+  - {fileID: 11400000, guid: b8113630e725c413b91c02bc76bcbf37, type: 2}

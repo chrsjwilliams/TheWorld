@@ -63,7 +63,7 @@ MonoBehaviour:
   hasSecretItem: 0
   oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
+  nodeSprite: {fileID: 21300000, guid: 7eefd7be5b3984aaeae2b2088d6f5157, type: 3}
   NodeTitle: Thunder
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
@@ -71,6 +71,7 @@ MonoBehaviour:
       subjects...Well, who knows the real cause? '
     lineActions:
     - {fileID: 11400000, guid: 2b823cfdfca2543a19219c9debdb5bc0, type: 2}
+    - {fileID: 11400000, guid: d93d069fb12b140a9b40e4ea295dc690, type: 2}
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
     line: That day, Eon was hit by a thunder and her personality was splitted into

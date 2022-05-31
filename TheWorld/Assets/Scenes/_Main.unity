@@ -1145,6 +1145,7 @@ MonoBehaviour:
     - {fileID: 8300000, guid: 604ad7f3c359640c89228ac9e0795443, type: 3}
     - {fileID: 8300000, guid: f9e522e4bc7a149aa8a8efe3fe675ad1, type: 3}
     - {fileID: 8300000, guid: 472b6726ad404455fb30d053b308401e, type: 3}
+    - {fileID: 8300000, guid: cd5bffe9f40bf470aac87c296aa4fa79, type: 3}
     - {fileID: 8300000, guid: d355f1b9b6904445195518087853134f, type: 3}
     - {fileID: 8300000, guid: 5baafe91d5de94a2fbbb5564a064c3b4, type: 3}
     - {fileID: 8300000, guid: 504167dc0b16b49d6aa023f35d638d60, type: 3}
@@ -1173,7 +1174,7 @@ MonoBehaviour:
       Data: 
     - Name: 
       Entry: 12
-      Data: 27
+      Data: 28
     - Name: 
       Entry: 7
       Data: 
@@ -1499,6 +1500,18 @@ MonoBehaviour:
       Entry: 8
       Data: 
     - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 5
+    - Name: $v
+      Entry: 10
+      Data: 27
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
       Entry: 13
       Data: 
     - Name: 
@@ -1532,7 +1545,7 @@ MonoBehaviour:
       Data: 1
     - Name: $v
       Entry: 10
-      Data: 27
+      Data: 28
     - Name: 
       Entry: 8
       Data: 
@@ -1544,7 +1557,7 @@ MonoBehaviour:
       Data: 2
     - Name: $v
       Entry: 10
-      Data: 28
+      Data: 29
     - Name: 
       Entry: 8
       Data: 
@@ -1568,7 +1581,7 @@ MonoBehaviour:
       Data: 3
     - Name: $v
       Entry: 10
-      Data: 29
+      Data: 30
     - Name: 
       Entry: 8
       Data: 
@@ -1580,7 +1593,7 @@ MonoBehaviour:
       Data: 4
     - Name: $v
       Entry: 10
-      Data: 30
+      Data: 31
     - Name: 
       Entry: 8
       Data: 
@@ -1766,6 +1779,9 @@ MonoBehaviour:
     PrefabModifications: []
     SerializationNodes:
     - Name: foundItem
+      Entry: 6
+      Data: 
+    - Name: finishedStory
       Entry: 6
       Data: 
 --- !u!224 &1969622726 stripped

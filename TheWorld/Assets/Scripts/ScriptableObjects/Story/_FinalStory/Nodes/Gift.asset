@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4a1647603b9664a29878c15e3747c0d5, type: 3}
-  m_Name: Hello
+  m_Name: Gift
   m_EditorClassIdentifier: 
   serializationData:
     SerializedFormat: 2
     SerializedBytes: 
     ReferencedUnityObjects:
-    - {fileID: 11400000, guid: d5a1c902f0d9b4ab494d9903e19125cc, type: 2}
+    - {fileID: 11400000, guid: 842bf3e3744c2419190c90149cfa60ce, type: 2}
     SerializedBytesString: 
     Prefab: {fileID: 0}
     PrefabModificationsReferencedUnityObjects: []
@@ -47,7 +47,7 @@ MonoBehaviour:
       Data: 
     - Name: $k
       Entry: 3
-      Data: 0
+      Data: 1
     - Name: $v
       Entry: 10
       Data: 0
@@ -63,19 +63,26 @@ MonoBehaviour:
   hasSecretItem: 0
   oxNodeAbility: 0
   nodeType: 0
-  nodeSprite: {fileID: 21300000, guid: b7c284351f85245d88fa8038cae3bfcc, type: 3}
-  NodeTitle: Hello
+  nodeSprite: {fileID: 21300000, guid: 0188ceaf16d1a487d9c6fa5dc8d3dd88, type: 3}
+  NodeTitle: Gift
   speakingLines:
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Dear spectator, it's a pleasure to have you here! Welcome!
-    lineActions:
-    - {fileID: 11400000, guid: dd46ccc1387df48eca5fc55cdfd49609, type: 2}
+    line: But remember, it is the goodbye itself that makes everything itself worth.
+    lineActions: []
     Notes: 
   - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
-    line: Here, you will witness snippets from our hero's life and help them make
-      critical decisions.
+    line: Maybe you collected all the special gifts. They'll stick with you forever.
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: 'Or maybe, you missed opportunities. That''s okay to. The journey was the
+      main gift. '
+    lineActions: []
+    Notes: 
+  - speaker: {fileID: 11400000, guid: ea98196cf69ba4a6db819a6cac2e1020, type: 2}
+    line: And you had it. No one can take it away from you.
     lineActions: []
     Notes: 
   Notes: 
   lineActions:
-  - {fileID: 11400000, guid: 83ab29ebaced445a2829ede951aaea51, type: 2}
+  - {fileID: 11400000, guid: b71730a55c5f642188087a8a0e4a5df2, type: 2}
